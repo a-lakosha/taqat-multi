@@ -33,6 +33,7 @@
     'images': [
         'static/description/indoqat_description.png',
         'static/description/indoqat_screenshot.png',
+        'theme_indoqat/static/src/imgs/HeroGroup.png'
     ],
     'assets': {
         'web.assets_frontend': [
