@@ -2,10 +2,10 @@
 <odoo>
     <data>
         <template id="aboutus_template" name="About Us">
-            <t t-set="additional_title" t-valuef="Hello World"/>
+            <t t-set="additional_title" t-valuef="About Us"/>
             <t t-call="website.layout">
                 <div id="wrap" class="oe_structure main__content-area-aboutus">
-                    <section class="p-lg-5 my-5">
+                    <section class="pt40 pb80">
                         <div class="container hero_container">
                             <h2 class="h4 text-primary mb24">About Idnoqat</h2>
                             <div class="row flex-column justify-content-between align-items-start gap-3  gap-lg-5">
@@ -63,12 +63,12 @@
                                 <h2 class="text-primary h4 mb24">Our Misson</h2>
 
                                 <div class="d-flex flex-column gap-4 col-lg-9  order-lg-1 order-2 misson-text">
-                                    <h3 class="txt-dark w-100 "
-                                        style="font-size:40px; font-weight:700; line-height:130%;">To lead the
+                                    <h3 class="txt-dark w-100 h2"
+                                        style="">To lead the
                                         development and management of comprehensive projects by covering planning,
                                         execution, and operation processes in an integrated manner
                                     </h3>
-                                    <p class="txt-dark h3 w-100" style=" font-weight:500; line-height:130%;">
+                                    <p class="txt-dark fs-3 w-100" style="">
                                         We strive to create innovative solutions that balance investment returns with
                                         societal value and strengthen
                                         Indoqat's reputation as a reliable partner in the Indonesian market
