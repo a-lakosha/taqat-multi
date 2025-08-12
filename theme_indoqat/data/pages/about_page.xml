@@ -160,7 +160,7 @@
                                 <div class="col-lg-6 row gx-0 gx-lg-3  justify-content-between gap-3 gap-lg-0">
                                     <!-- Card 1 -->
                                     <div class=" col-lg-6 ">
-                                        <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-5  justify-content-between ">
+                                        <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4   justify-content-between ">
                                             <div class="icon mb-3 icon-bg-dark p-3 ">
                                                 <svg width="40" height="34" viewBox="0 0 40 34" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -173,9 +173,8 @@
 
                                                 <h5 class="fw-bold h4 mb-3">Integrity</h5>
                                                 <p class="txt-dark small h5" style="font-weight:400;">We adhere to the
-                                                    highest standards of integrity and transparency in all our services
-                                                    and
-                                                    projects.
+                                                    highest standards
+                                                    of integrity and transparency in all our services and projects.
                                                 </p>
                                             </div>
                                         </div>
@@ -183,7 +182,7 @@
 
                                     <!-- Card 2 (highlighted red) -->
                                     <div class=" col-lg-6">
-                                        <div class="value-card gap-3 gap-lg-5 bg-primary text-white p-4 rounded-4 h-100  overflow-hidden d-flex flex-column  ">
+                                        <div class="value-card  bg-primary text-white p-4 rounded-4 h-100  overflow-hidden d-flex flex-column gap-3 gap-lg-4  justify-content-between ">
                                             <!-- Top Right Shape -->
                                             <div class="d-flex justify-content-between align-items-start">
 
@@ -203,9 +202,9 @@
 
                                             <div>
                                                 <h5 class="fw-bold h4 mb-3">Innovation</h5>
-                                                <p class="small h5" style="font-weight:400;">We rely on creativity and
-                                                    the
-                                                    latest technologies to provide advanced solutions.
+                                                <p class="small h5" style="font-weight:400;">
+                                                    We rely on creativity and the latest technologies
+                                                    to provide advanced solutions.
                                                 </p>
                                             </div>
                                         </div>
@@ -216,7 +215,7 @@
                             <div class="row gx-0 gx-lg-3    justify-content-between gap-3 gap-lg-0">
                                 <!-- Card 3 -->
                                 <div class=" col-lg-6">
-                                    <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column  gap-3 gap-lg-5">
+                                    <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column  justify-content-between">
                                         <div class="icon mb-3 icon-bg-dark p-3 ">
                                             <svg width="40" height="36" viewBox="0 0 40 36" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
@@ -230,8 +229,9 @@
                                         </div>
                                         <div>
                                             <h5 class="fw-bold h4 mb-3">Excellence</h5>
-                                            <p class="txt-dark small h5" style="font-weight:400;">We strive to achieve
-                                                the highest levels of quality to enhance customer satisfaction.
+                                            <p class="txt-dark small h5" style="font-weight:400;">
+                                                We strive to achieve the highest levels of quality to enhance customer
+                                                satisfaction.
                                             </p>
                                         </div>
                                     </div>
@@ -243,7 +243,7 @@
                                     <!-- Card 4 -->
 
                                     <div class=" col-lg-6">
-                                        <div class="value-card value-card-dark text-white p-4 rounded-4 h-100 d-flex flex-column  gap-3 gap-lg-5">
+                                        <div class="value-card value-card-dark text-white p-4 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4x`  justify-content-between">
                                             <div class="icon mb-3 bg-light p-3 ">
                                                 <svg width="42" height="38" viewBox="0 0 42 38" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -257,9 +257,10 @@
 
 
                                                 <h5 class="fw-bold h4 mb-3">Collaboration</h5>
-                                                <p class="small h5 " style="font-weight:400;">We build partnerships
-                                                    locally
-                                                    and internationally to exchange expertise and achieve goals.
+                                                <p class="small h5 " style="font-weight:400;">
+                                                    We build partnerships locally and internationally to exchange
+                                                    expertise and enhance our ability to achieve desired strategic
+                                                    goals. 
                                                 </p>
                                             </div>
                                         </div>
@@ -267,7 +268,7 @@
 
                                     <!-- Card 5 -->
                                     <div class=" col-lg-6 ">
-                                        <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column  gap-3 gap-lg-5">
+                                        <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column  gap-3 gap-lg-4 justify-content-between">
                                             <div class="icon mb-3 icon-bg-dark p-3">
                                                 <svg width="40" height="30" viewBox="0 0 40 30" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -285,9 +286,9 @@
 
 
                                                 <h5 class="fw-bold h4 mb-3">Social Responsibility</h5>
-                                                <p class="txt-dark small h5" style="font-weight:400;">We support
-                                                    humanitarian projects and sustainable growth in communities most in
-                                                    need.
+                                                <p class="txt-dark small h5" style="font-weight:400;">We are committed
+                                                    to executing humanitarian projects with the highest efficiency to
+                                                    support sustainable growth in communities most in need. 
                                                 </p>
                                             </div>
                                         </div>
