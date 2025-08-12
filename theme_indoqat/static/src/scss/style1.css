@@ -50,9 +50,9 @@
   background-color: #343434 !important;
 }
 .main__content-area-aboutus .values-vector {
-  position: relative;
-  bottom: 27px;
-  left: 27px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .main__content-area-aboutus .value-card .icon img,
 .main__content-area-aboutus .value-card .icon svg {
@@ -92,6 +92,9 @@
   }
   .main__content-area-aboutus .vision_left h4 {
     font-size: 24px !important;
+  }
+  .main__content-area-aboutus value-card {
+    max-height: 20px !important;
   }
   .main__content-area-aboutus .values-txt h2 {
     font-size: 32px !important;
