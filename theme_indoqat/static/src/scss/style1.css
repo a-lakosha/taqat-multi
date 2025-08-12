@@ -1,3 +1,6 @@
+.main__content-area-aboutus .txt-dark {
+  color: #212020 !important;
+}
 .main__content-area-aboutus .hero_container .upper-text {
   max-width: 640px;
   font-weight: 700;
@@ -33,6 +36,9 @@
   transition: all 0.3s ease-in-out;
   position: relative;
   border-radius: 24px;
+}
+.main__content-area-aboutus .value-card p {
+  line-height: 150%;
 }
 .main__content-area-aboutus .value-card-light {
   background-color: #F3F3F3;
@@ -96,6 +102,9 @@
   .main__content-area-aboutus .vision {
     padding: 0px;
   }
+}
+.main__content-area-aboutus p {
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=style1.css.map */
