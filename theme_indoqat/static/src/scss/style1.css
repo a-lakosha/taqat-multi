@@ -3,7 +3,6 @@
 }
 .main__content-area-aboutus .hero_container .upper-text {
   max-width: 640px;
-  font-weight: 700;
   line-height: 130%;
 }
 .main__content-area-aboutus .hero_container .lower-text {
@@ -68,10 +67,7 @@
   border-radius: 9999px;
 }
 .main__content-area-aboutus .ready-title {
-  font-size: 60px;
   font-weight: 700;
-  line-height: 120%;
-  color: #212020;
 }
 .main__content-area-aboutus .ready-subtitle {
   line-height: 140%;

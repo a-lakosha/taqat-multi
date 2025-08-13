@@ -1,5 +1,4 @@
 .main__content-area-aboutus {
-
   .txt-dark {
     color: #212020 !important;
   }
@@ -7,8 +6,8 @@
   .hero_container {
     .upper-text {
       max-width: 640px;
-      font-weight: 700;
       line-height: 130%;
+
     }
 
     .lower-text {
@@ -19,7 +18,6 @@
     span {
       font-weight: 700;
     }
-
   }
 
   .vision {
@@ -53,7 +51,6 @@
     p {
       line-height: 150%;
     }
-
   }
 
   .value-card-light {
@@ -91,10 +88,7 @@
   }
 
   .ready-title {
-    font-size: 60px;
     font-weight: 700;
-    line-height: 120%;
-    color: #212020;
   }
 
   .ready-subtitle {
@@ -116,7 +110,8 @@
 
           padding: 0px;
         }
-        .vision_photo_container{
+
+        .vision_photo_container {
           max-height: 432px;
 
         }

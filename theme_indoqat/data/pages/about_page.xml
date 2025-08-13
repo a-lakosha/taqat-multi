@@ -24,17 +24,17 @@
                                     </div>
 
                                     <div class="d-flex flex-column ">
-                                        <h3 class="txt-dark h5 lower-text" style="font-weight:400;">
+                                        <p class="txt-dark fs-5 lower-text">
                                             <span class="txt-dark fw-bold">Indoqat</span>
                                             adheres to the highest professional standards in real estate development and
                                             is expanding its portfolio to include key sectors such as renewable energy,
                                             agricultural investment, and import/export.
-                                        </h3>
-                                        <h3 class="txt-dark h5 lower-text" style="font-weight:400;">
+                                        </p>
+                                        <p class="txt-dark fs-5 lower-text">
                                             Indoqat also focuses on environmental sustainability and social
                                             responsibility by committing to an effective and integrated sustainable
                                             growth model.
-                                        </h3>
+                                        </p>
                                     </div>
 
                                 </div>
@@ -119,7 +119,7 @@
                                     </h4>
 
                                     <!-- Description -->
-                                    <p class="text-secondary-emphasis mb-0 fs-5">
+                                    <p class="text-secondary-emphasis mb-0 fs-6">
                                         By combining local and international expertise and capabilities and providing
                                         high-quality real estate and development projects that deliver long-term
                                         economic and social impact, we aim to enable Indoqat to effectively lead the
@@ -149,7 +149,7 @@
                                 <!-- Text block: bigger on md, 5 cols on lg -->
                                 <div class=" col-xxl-6 d-flex flex-column gap-3 values-txt ">
                                     <h2 class="fw-bold h1 txt-dark">The base of all our successes</h2>
-                                    <p class="txt-dark h5" style="font-weight:400; line-height:150%;">
+                                    <p class="txt-dark display-6">
                                         At IndoQat, we do not see our values as mere slogans… we consider them the core
                                         of every decision we make, the spirit of every project we develop, and the
                                         pillar upon which we innovate our creative solutions to effectively achieve the
@@ -160,7 +160,7 @@
 
                                 <!-- Card 1 -->
                                 <div class="col-lg-6 col-xxl-3 ">
-                                    <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
+                                    <div class="value-card value-card-light p-3 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="icon mb-3 icon-bg-dark p-3">
                                             <svg width="40" height="34" viewBox="0 0 40 34" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
@@ -170,7 +170,7 @@
                                         </div>
                                         <div>
                                             <h5 class="fw-bold h4 mb-3">Integrity</h5>
-                                            <p class="txt-dark small h5" style="font-weight:400;">
+                                            <p class="txt-dark small display-6">
                                                 We adhere to the highest standards of integrity and transparency in all
                                                 our services and projects.
                                             </p>
@@ -180,7 +180,7 @@
 
                                 <!-- Card 2 (Innovation) -->
                                 <div class="col-lg-6 col-xxl-3 ">
-                                    <div class="value-card bg-primary text-white p-4 rounded-4 h-100 overflow-hidden d-flex flex-column gap-3 gap-lg-4 justify-content-between">
+                                    <div class="value-card bg-primary text-white p-3 rounded-4 h-100 overflow-hidden d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="d-flex justify-content-between align-items-start">
                                             <div class="icon mb-3 bg-light p-3">
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -195,7 +195,7 @@
                                         </div>
                                         <div>
                                             <h5 class="fw-bold h4 mb-3">Innovation</h5>
-                                            <p class="small h5" style="font-weight:400;">
+                                            <p class="small display-6">
                                                 We rely on creativity and the latest technologies to provide advanced
                                                 solutions.
                                             </p>
@@ -219,7 +219,7 @@
                                         </div>
                                         <div>
                                             <h5 class="fw-bold h4 mb-3">Excellence</h5>
-                                            <p class="txt-dark small h5" style="font-weight:400;">
+                                            <p class="txt-dark small display-6">
                                                 We strive to achieve the highest levels of quality to enhance customer
                                                 satisfaction.
                                             </p>
@@ -229,7 +229,7 @@
 
                                 <!-- Card 4 -->
                                 <div class="col-lg-6 col-xxl-3 ">
-                                    <div class="value-card value-card-dark text-white p-4 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
+                                    <div class="value-card value-card-dark text-white p-3 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="icon mb-3 bg-light p-3">
                                             <svg width="42" height="38" viewBox="0 0 42 38" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +241,7 @@
                                         </div>
                                         <div>
                                             <h5 class="fw-bold h4 mb-3">Collaboration</h5>
-                                            <p class="small h5" style="font-weight:400;">
+                                            <p class="small display-6">
                                                 We build partnerships locally and internationally to exchange
                                                 expertise and enhance our ability to achieve desired strategic
                                                 goals.
@@ -252,7 +252,7 @@
 
                                 <!-- Card 5 -->
                                 <div class="col-lg-6 col-xxl-3 ">
-                                    <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
+                                    <div class="value-card value-card-light p-3 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="icon mb-3 icon-bg-dark p-3">
                                             <svg width="40" height="30" viewBox="0 0 40 30" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
@@ -268,7 +268,7 @@
                                         </div>
                                         <div>
                                             <h5 class="fw-bold h4 mb-3">Social Responsibility</h5>
-                                            <p class="txt-dark small h5" style="font-weight:400;">
+                                            <p class="txt-dark small display-6">
                                                 We are committed to executing humanitarian projects with the highest
                                                 efficiency to
                                                 support sustainable growth in communities most in need.
