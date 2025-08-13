@@ -103,42 +103,27 @@
   }
 
   @media (max-width: 768px) {
-    .upper-text {
-      font-size: 20px !important;
-    }
-    .misson-text {
-      h3 {
-        font-size: 32px !important;
+
+    .vision-content {
+      .container {
+
+
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+
+        .vision {
+
+          padding: 0px;
+        }
+        .vision_photo_container{
+          max-height: 432px;
+
+        }
+
       }
 
-      p {
-        font-size: 20px !important;
-      }
-    }
-    .vision_left {
-      h2 {
-        font-size: 32px !important;
-      }
 
-      h4 {
-        font-size: 24px !important;
-      }
-    }
-    value-card {
-      max-height: 20px !important;
-    }
-    .values-txt {
-      h2 {
-        font-size: 32px !important;
-      }
-    }
-
-    .ready-title {
-      font-size: 40px !important;
-    }
-    .vision {
-
-      padding: 0px;
     }
   }
 
