@@ -1,5 +1,497 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <template id="services_template" name="Our Services">
+            <t t-set="additional_title" t-valuef="Our Services"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure main__content-area-services">
+                    <section class="pb24 services-hero ">
+                        <div class="container  d-flex flex-column ">
+                            <div class="hero-bg d-flex flex-column align-items-center p-2 p-lg-4  gap-4 order-2 order-lg-1  ">
+                                <div class="bg-white tag p-2 rounded-4 d-flex justify-content-center align-items-center">
+                                    <h4 class="h4 m-0 text-center">
+                                        Our Services
+                                    </h4>
+                                </div>
+
+                                <div class="txt-hero text-center d-flex flex-column align-items-center gap-4  ">
+                                    <h1 class="h1" style="max-width: 878px;">
+                                        Collaborate with Indoqat and start your journey toward distinction and
+                                        sustainable success.
+                                    </h1>
+                                    <p class="display-6 para">
+                                        At Indoqat, we provide more than just exceptional services… we forge meaningful
+                                        partnerships built on a deep understanding of your needs.
+                                    </p>
+                                    <p class="display-6 para">
+                                        From development consulting and logistics services to digital transformation and
+                                        investment empowerment, we deliver smart, innovative solutions that drive your
+                                        business forward efficiently.
+                                    </p>
+                                </div>
+
+                                <div class="double-image overflow-hidden d-flex gap-5 justify-content-center justify-content-lg-between">
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                         class="left-globe position-absolute"/>
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                         class="right-globe position-absolute  "/>
+                                </div>
+                            </div>
+
+                            <div class="hero-photo order-1 order-lg-2   rounded-4 p-2">
+                                <img src="/theme_indoqat/static/src/imgs/services/Indoqat.png"
+                                     alt="Indoqat Green Wall"
+                                     class=" rounded-4 h-100 w-100"/>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="basic_servies ">
+                        <div class="container pb80 pt80">
+                            <h1 class="display-1 text-center mt-5 mb96 bservices-title" style="font-weight:700;">
+                                <span class="text-primary">Our Basic</span>
+                                Services
+                            </h1>
+                            <div class=" row justify-content-center right-basics">
+                                <div class=" d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-end ">
+                                    <div class="d-flex flex-column  gap-3   " style="max-width:426px;">
+
+
+                                        <h2 class="text-primary h1">01</h2>
+                                        <h3 class="text-dark h1">Real Estate Development &amp; Investment</h3>
+                                    </div>
+                                    <p class="display-5 " style="max-width:575px;">
+                                        We handle every stage of real estate development to ensure its alignment with
+                                        sustainability standards and the evolving demands of the market. 
+
+                                    </p>
+                                </div>
+                                <div class="row  justify-content-between" style="max-height:472px;">
+                                    <div class="col-xl-5 order-2 order-xl-1">
+                                        <img src="/theme_indoqat/static/src/imgs/services/basic-services1.jpg"
+                                             alt="building" class="w-100 h-100"/>
+                                    </div>
+                                    <div class="col-xl-6 d-flex flex-column gap-2 gap-xl-4 order-1 order-xl-2 mb32">
+                                        <div class="d-flex gap-3"
+                                             style="max-width:555px ;">
+                                            <div>
+                                                <h3 class="h3">01</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Comprehensive Feasibility Studies for Real
+                                                    Estate Projects 
+                                                </h3>
+                                                <p class="display-6">We conduct in-depth financial and technical
+                                                    analysis to
+                                                    identify profitable real estate opportunities in Indonesia.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">02</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Developing Residential, Commercial &amp; Tourism Complexes
+                                                </h3>
+                                                <p class="display-6">We design and build diverse real estate projects
+                                                    that match client needs and investment goals. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">03</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Efficient Construction &amp; Project Execution 
+                                                </h3>
+                                                <p class="display-6">We manage all construction phases to ensure timely
+                                                    delivery and top-quality results. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class=" row justify-content-center right-basics">
+                                <div class=" d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-end ">
+                                    <div class="d-flex flex-column  gap-3   " style="max-width:426px;">
+
+
+                                        <h2 class="text-primary h1">02</h2>
+                                        <h3 class="text-dark h1">Alternative &amp; Sustainable Energy</h3>
+                                    </div>
+                                    <p class="display-5 " style="max-width:575px;">
+                                        We invest in solar energy projects and smart environmental solutions to drive
+                                        energy efficiency and sustainable growth. 
+
+                                    </p>
+                                </div>
+                                <div class="row  justify-content-between" style="max-height:472px;">
+                                    <div class="col-xl-5 order-2 order-xl-1">
+                                        <img src="/theme_indoqat/static/src/imgs/services/basic-services2.jpg"
+                                             alt="building" class="w-100 h-100"/>
+                                    </div>
+                                    <div class="col-xl-6 d-flex flex-column gap-2 gap-xl-4 order-1 order-xl-2 mb32">
+                                        <div class="d-flex gap-3"
+                                             style="max-width:555px ;">
+                                            <div>
+                                                <h3 class="h3">01</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Building Solar Power Stations
+                                                </h3>
+                                                <p class="display-6">We construct high-performance solar systems to
+                                                    generate clean energy. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">02</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Smart Energy-Saving System Design
+                                                </h3>
+                                                <p class="display-6">We develop intelligent solutions to reduce
+                                                    electricity consumption and optimize energy efficiency. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">03</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Integrated Energy Solutions for Facilities 
+                                                </h3>
+                                                <p class="display-6">We implement smart energy strategies to boost
+                                                    efficiency across facilities. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class=" row justify-content-center right-basics">
+                                <div class=" d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-end ">
+                                    <div class="d-flex flex-column  gap-3   " style="max-width:426px;">
+
+
+                                        <h2 class="text-primary h1">03</h2>
+                                        <h3 class="text-dark h1">Smart Commercial Agriculture</h3>
+                                    </div>
+                                    <p class="display-5 " style="max-width:575px;">
+                                        We develop high-tech farms to enhance productivity and promote sustainable
+                                        export-driven agriculture. 
+
+                                    </p>
+                                </div>
+                                <div class="row  justify-content-between" style="max-height:472px;">
+                                    <div class="col-xl-5 order-2 order-xl-1">
+                                        <img src="/theme_indoqat/static/src/imgs/services/basic-services3.jpg"
+                                             alt="building" class="w-100 h-100"/>
+                                    </div>
+                                    <div class="col-xl-6 d-flex flex-column gap-2 gap-xl-4 order-1 order-xl-2 mb32">
+                                        <div class="d-flex gap-3"
+                                             style="max-width:555px ;">
+                                            <div>
+                                                <h3 class="h3">01</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Boosting Farm Output with Digital Innovation 
+                                                </h3>
+                                                <p class="display-6">We provide digital tools and automation to maximize
+                                                    agricultural efficiency. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">02</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Smart Irrigation System Deployment 
+                                                </h3>
+                                                <p class="display-6">We apply advanced irrigation methods to conserve
+                                                    resources and ensure healthy crop growth. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">03</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Organic Crop Production for Export Markets
+                                                </h3>
+                                                <p class="display-6">We grow high-quality organic produce that complies
+                                                    with international export standards.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class=" row justify-content-center right-basics">
+                                <div class=" d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-end ">
+                                    <div class="d-flex flex-column  gap-3   " style="max-width:426px;">
+
+
+                                        <h2 class="text-primary h1">04</h2>
+                                        <h3 class="text-dark h1">Import &amp; Export</h3>
+                                    </div>
+                                    <p class="display-5 " style="max-width:575px;">
+                                        We streamline trade between Indonesia and global markets with a focus on
+                                        construction materials, agriculture, and food products.
+
+                                    </p>
+                                </div>
+                                <div class="row  justify-content-between" style="max-height:472px;">
+                                    <div class="col-xl-5 order-2 order-xl-1 h-100">
+                                        <img src="/theme_indoqat/static/src/imgs/services/basic-services4.jpg"
+                                             alt="building" class="w-100 h-100"/>
+                                    </div>
+                                    <div class="col-xl-6 d-flex flex-column gap-2 gap-xl-4 order-1 order-xl-2 mb32 h-100">
+                                        <div class="d-flex gap-3"
+                                             style="max-width:555px ;">
+                                            <div>
+                                                <h3 class="h3">01</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Exporting Premium Indonesian Agricultural Goods
+                                                </h3>
+                                                <p class="display-6">We produce and supply premium agricultural crops,
+                                                    ensuring excellent quality for international markets. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">02</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Importing Reliable Construction &amp; Engineering Materials
+                                                </h3>
+                                                <p class="display-6">We provide trusted building supplies and equipment
+                                                    for development projects.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">03</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Professional Trade Brokerage Services 
+                                                </h3>
+                                                <p class="display-6">We connect companies through seamless trade
+                                                    facilitation and expert commercial mediation. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class=" row justify-content-center right-basics">
+                                <div class=" d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-end ">
+                                    <div class="d-flex flex-column  gap-3   " style="max-width:426px;">
+
+
+                                        <h2 class="text-primary h1">05</h2>
+                                        <h3 class="text-dark h1">Social &amp; Environmental Responsibility</h3>
+                                    </div>
+                                    <p class="display-5 " style="max-width:575px;">
+                                        We champion humanitarian and environmental efforts and embed sustainability into
+                                        every aspect of our operations.
+
+                                    </p>
+                                </div>
+                                <div class="row  justify-content-between" style="max-height:472px;">
+                                    <div class="col-xl-5 order-2 order-xl-1 h-100">
+                                        <img src="/theme_indoqat/static/src/imgs/services/basic-services5.jpg"
+                                             alt="building" class="w-100 h-100"/>
+                                    </div>
+                                    <div class="col-xl-6 d-flex flex-column gap-2 gap-xl-4 order-1 order-xl-2 mb32 h-100">
+                                        <div class="d-flex gap-3"
+                                             style="max-width:555px ;">
+                                            <div>
+                                                <h3 class="h3">01</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Supporting Orphan Care &amp; Charitable Programs 
+                                                </h3>
+                                                <p class="display-6">We contribute to impactful social programs that
+                                                    uplift underserved communities. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">02</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Delivering Humanitarian Infrastructure in Developing Regions
+                                                </h3>
+                                                <p class="display-6">We build vital facilities that enhance the quality
+                                                    of life in needful areas. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex gap-3"
+                                             style="max-width:542px ;">
+                                            <div>
+                                                <h3 class="h3">03</h3>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column">
+
+
+                                                <h3 class="h3">
+                                                    Promoting Environmental Sustainability Across Operations 
+                                                </h3>
+                                                <p class="display-6">We apply eco-conscious standards throughout all our
+                                                    business activities. 
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+                </div>
+            </t>
+        </template>
+
+        <record id="services_page" model="theme.website.page">
+            <field name="view_id" ref="services_template"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/services</field>
+        </record>
+
+        <record id="services_menu" model="theme.website.menu">
+            <field name="name">Our Services</field>
+            <field name="url">/services</field>
+            <field name="sequence" type="int">20</field>
+        </record>
     </data>
 </odoo>
