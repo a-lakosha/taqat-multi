@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="website_layout_custom" inherit_id="website.template_header_default" name="navbar custom">
+            <xpath expr="//t[@t-set='_nav_class']" position="attributes">
+                <attribute name="t-valuef" remove="me-auto" add="ms-auto fs-5 gap-2 add-custome-nav " separator=" "/>
+            </xpath>
+        </template>
+        <!--        add-custome-nav-->
+        <template id="add_custome_navbar_language_selector_visible" inherit_id="website.language_selector"
+                  name="navbar custom">
+            <xpath expr="//button" position="attributes">
+                <attribute name="t-attf-class"
+                           add="btn text-dark    "
+                           remove="border-0  btn-outline-secondary"
+                           separator=" "/>
+            </xpath>
+        </template>
+        <!--        add-custome-nav-->
+        <template id="add_custome_user_dropdown" inherit_id="website.user_dropdown"
+                  name="navbar custom">
+            <xpath expr="//li[@t-if='is_connected']//a[@data-bs-toggle='dropdown']" position="attributes">
+                <attribute name="t-attf-class"
+                           add="btn text-dark btn-outline-primary border-1"
+                           remove="_link_class"
+                           separator=" "/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
