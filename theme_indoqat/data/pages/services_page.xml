@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_servies ">
+                    <section class="basic_services " t-if="project_ids">
                         <div class="container pb80 pt80">
                             <h1 class="display-1 text-center mt-5 mb96 bservices-title" style="font-weight:700;">
                                 <span class="text-primary">Our Basic</span>
