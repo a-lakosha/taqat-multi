@@ -159,15 +159,10 @@
 
 .services-hero {
   background: linear-gradient(to right bottom, #F2F2F2 35%, #FBBFAD 58%, #F7B6DC 75%, #F2F2F2 95%);
-  margin: 32px;
-  margin-bottom: 500px;
   border-radius: 40px;
 
   .hero-photo {
-    height: 750px;
-    margin-bottom: -40%;
-    position: relative;
-    border: 1px solid #ffffff;
+    height: 300px;
 
     img {
       height: 750px;
@@ -181,52 +176,47 @@
 
 .basic_servies {
   img {
-    max-height: 450px;
+    max-height: 400px;
     border-radius: 20px;
     object-fit: cover;
   }
 
   .right-basics {
-    gap: 64px;
-    margin-bottom: 168px;
+    margin-bottom: 80px;
+.top-spacing{
+      margin-top: 32px;
+    }
+
   }
+
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .services-hero {
-    margin: 0;
-    margin-bottom: 0;
-
+    margin: 32px 32px 500px;
 
     .hero-photo {
-      height: 300px;
-      margin-bottom: 0;
-      border: none;
-      padding: 20px !important;
+      height: 750px;
+      margin-bottom: -40%;
+      position: relative;
+      border: 1px solid #ffffff;
     }
 
-    .bservices-title {
-      margin-bottom: 32px !important;
-    }
-
-  }
-  .double-image {
-
-    .right-globe {
-      display: none;
-
-    }
   }
   .basic_servies {
     img {
-      max-height: 400px;
+      min-height: 400px;
+    }
+    .top-spacing{
+      margin-top: 64px;
     }
 
-    .right-basics {
-      gap: 32px;
-      margin-bottom: 80px;
-    }
+
   }
+  .right-basics {
+    margin-bottom: 168px;
+  }
+
   .bservices-title {
     margin-bottom: 32px !important;
   }
