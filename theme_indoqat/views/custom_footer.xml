@@ -11,13 +11,9 @@
             </xpath>
         </template>
         <!--footer-->
-        <template
-                id="custom_indoqat_footer"
-                inherit_id="website.layout"
-                name="indoqat Custom Footer"
-        >
+        <template id="custom_indoqat_footer" inherit_id="website.layout" active="False" name="indoqat Custom Footer">
             <xpath expr="//footer" position="replace">
-                <footer class="footer bg-dark pt-5">
+                <footer class="footer bg-dark pt-5" t-ignore="true" t-if="not no_footer">
                     <div class="container pt-lg-3">
                         <svg class="mb-5" width="172" height="44" viewBox="0 0 172 44" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
@@ -198,19 +194,14 @@
                             <path d="M18.0234 0.784138C17.748 0.616555 17.35 0.451496 17.0493 0.334158C16.6396 0.319718 16.0958 0.317312 15.6885 0.319718C15.6239 0.350946 15.5568 0.379825 15.4897 0.411053C15.7005 0.475973 15.9617 0.627473 16.1485 0.74528C16.5031 0.848647 16.9774 0.992927 17.332 1.10111C17.3928 1.0737 17.4534 1.04628 17.5136 1.01887C17.6855 0.940627 17.8551 0.862383 18.0234 0.784138Z"
                                   fill="#F13223"/>
                         </svg>
-
                         <div class="row pb-lg-5 mb-lg-5 justify-content-lg-between">
-
                             <div class="col-lg-7">
-                                <ul
-                                        class="list-unstyled ms-0 d-lg-flex flex-wrap    justify-lg-content-between align-items-lg-center mb-0"
-                                >
+                                <ul class="list-unstyled ms-0 d-lg-flex flex-wrap justify-lg-content-between align-items-lg-center mb-0">
                                     <div class="d-flex justify-content-lg-between pe-lg-4  mb-2 mb-lg-0    ">
                                         <li>
                                             <a class="text-white fs-4  mb-2 pe-4 d-inline-block" href="/aboutus">About
                                                 Indoqat
-                                            </a
-                                            >
+                                            </a>
                                         </li>
                                         <li>
                                             <a class="text-white fs-4  mb-2 d-inline-block" href="/services">Our
@@ -222,15 +213,14 @@
                                         <li>
                                             <a class="text-white fs-4  mb-2 pe-4 d-inline-block" href="/aboutus">Media
                                                 Center
-                                            </a
-                                            >
+                                            </a>
                                         </li>
                                         <li>
-                                            <a class="text-white fs-4  mb-2 d-inline-block" href="/services">Careers</a>
+                                            <a class="text-white fs-4 mb-2 d-inline-block" href="/services">Careers</a>
                                         </li>
                                     </div>
                                     <li>
-                                        <a class="text-white fs-4  mb-2 d-inline-block" href="/contactus">Contact Us</a>
+                                        <a class="text-white fs-4 mb-2 d-inline-block" href="/contactus">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -302,12 +292,8 @@
                                 <section class="info_endtaqat">
                                     <h3 class="text-primary">About Indoqat</h3>
                                     <h5 class="text-white fw-normal pt-3 lh-base" style="max-width: 652px">We’re
-                                        striving to
-                                        create a
-                                        more
-                                        balanced world, where
-                                        development and humanity
-                                        go hand in hand, by empowering individuals, supporting organizations, providing
+                                        striving to create a more balanced world, where development and humanity go hand
+                                        in hand, by empowering individuals, supporting organizations, providing
                                         intelligent consulting and developing integrated projects that foster
                                         sustainability and economic growth.
                                     </h5>

@@ -8,5 +8,6 @@ class ThemeIndoqat(models.AbstractModel):
         self.disable_view('website.footer_custom')
         self.disable_view('website.header_text_element')
         self.disable_view('website.header_search_box')
-        self.enable_view('website.header_language_selector_code, website.header_language_selector_no_text')
+        self.enable_view('website.header_language_selector_no_text')
+        self.enable_view('website.header_language_selector_code')
         self.disable_view('portal.user_sign_in')

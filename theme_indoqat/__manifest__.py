@@ -20,10 +20,9 @@
     'depends': ['theme_common', 'website_blog', 'social_media', 'mass_mailing', 'website',
                 'website_hr_recruitment'],
     'data': [
-        'views/customize_template.xml',
         'views/blogs.xml',
-        'views/custome_footer.xml',
-        "views/custome_navbar.xml",
+        'views/custom_footer.xml',
+        'views/custom_navbar.xml',
         'views/jobs.xml',
         'views/snippets.xml',
 
