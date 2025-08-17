@@ -22,7 +22,7 @@
     'data': [
         'views/customize_template.xml',
         'views/blogs.xml',
-        'views/footer.xml',
+        'views/custome_footer.xml',
         "views/custome_navbar.xml",
         'views/jobs.xml',
         'views/snippets.xml',
