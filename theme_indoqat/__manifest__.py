@@ -18,7 +18,7 @@
     'category': 'Theme',
     'version': '0.1',
     'depends': ['theme_common', 'website_blog', 'social_media', 'mass_mailing', 'website',
-                'website_hr_recruitment'],
+                'website_hr_recruitment', 'multiple_websites_models'],
     'data': [
         'views/blogs.xml',
         'views/custom_footer.xml',
