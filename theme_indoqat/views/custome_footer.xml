@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        <!--add snippet options-->
+        <template id="custom_footer_indoqat" inherit_id="website.snippet_options">
+            <xpath expr="//div/we-select[@data-variable='footer-template']" position="inside">
+                <we-button title="Custom Footer" data-name="footer_custom_opt"
+                           data-customize-website-views="theme_indoqat.custom_indoqat_footer"
+                           data-customize-website-variable="'custom_footer'"
+                           data-img="/website/static/src/img/snippets_options/footer_template_contact.svg"/>
+            </xpath>
+        </template>
+        <!--footer-->
         <template
-                id="custom_avrasya_footer"
+                id="custom_indoqat_footer"
                 inherit_id="website.layout"
-                name="Avrasya Footer"
+                name="indoqat Custom Footer"
         >
             <xpath expr="//footer" position="replace">
                 <footer class="footer bg-dark pt-5">
