@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Hero / top section override -->
+    <template id="opt_blog_post_ta" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//div[@id='o_wblog_blog_top']" position="replace">
+            <section class="post_blogs py-lg-5 pt-5 pb-3">
+                <div class="container">
+                    <div class="row pt-lg-5">
+                        <div class="content">
+                            <h2 class="fs-2 pb-2">Blog &amp; Insights</h2>
+                            <p class="fs-6 fw-medium">
+                                Stay updated with the latest in Odoo and business technology
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <!-- Blogs navigation with search -->
+    <template id="custom_inherit_listing_layout_switcher" inherit_id="website_blog.blogs_nav">
+        <xpath expr="//nav[contains(@t-attf-class, 'navbar navbar-expand-lg navbar-light pt-4 pb-0 px-0')]"
+               position="replace">
+            <nav t-attf-class="navbar navbar-expand-lg navbar-light pb-0 px-0 #{additional_classes}">
+                <div
+                        t-attf-class="container m-auto nav-custom-blog flex-wrap-reverse d-flex justify-content-center justify-content-lg-between flex-wrap flex-lg-nowrap gap-2 w-100"
+                        class="container"
+                >
+                    <!-- Blog filters -->
+                    <ul t-if="len(blogs) > 1" class="handel-nav-blog-post flex-lg-wrap ps-0 d-flex">
+                        <li>
+                            <a
+                                    href="/blog"
+                                    t-attf-class="btn border-active text-dark rounded-4 fw-bold #{(not blog) and 'active'}"
+                            >
+                                All
+                            </a>
+                        </li>
+                        <li class="nav-item ps-4" t-foreach="blogs" t-as="nav_blog">
+                            <a
+                                    t-attf-href="/blog/#{slug(nav_blog)}"
+                                    t-cache="nav_blog,blog and nav_blog.id == blog.id"
+                                    t-attf-class="btn rounded-4 text-dark #{(blog and nav_blog.id == blog.id) and 'active' or 'border-active'}"
+                            >
+                                <b t-field="nav_blog.name"/>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Search box -->
+                    <form
+                            style="max-width: 300px; width: 100%;"
+                            method="get"
+                            class="o_searchbar_form mb-4 s_searchbar_input m-end flex-grow-1"
+                    >
+                        <div role="search" class="input-group">
+                            <span class="input-group-text rounded-5 bg-white border-end-0">
+                                <i class="oi oi-search"/>
+                            </span>
+                            <input
+                                    type="search"
+                                    name="search"
+                                    class="form-control rounded-5 border-start-0"
+                                    placeholder="Search..."
+                                    t-att-value="search"
+                                    autocomplete="off"
+                            />
+                        </div>
+                    </form>
+                </div>
+            </nav>
+
+            <t t-set="featured_post"
+               t-value="request.env['blog.post'].search([('is_featured', '=', True)], limit=1)"/>
+            <!-- Featured post section -->
+            <section class="featured_post" t-if="featured_post">
+                <div class="container py-lg-5 py-4">
+                    <h3 class="pb-lg-5 pb-3 fs-4">Highly Recommended</h3>
+                    <t t-if="featured_post">
+                        <a class="row text-black" t-att-href="featured_post.website_url">
+                            <div class="col-lg-7">
+                                <div class="image_featured_post h-100">
+                                    <t t-call="website.record_cover">
+                                        <t t-set="_record" t-value="featured_post"/>
+                                        <t
+                                                t-set="additional_classes"
+                                                t-valuef="o_not_editable taqat-blog-cover overflow-hidden mb-3 mb-lg-0"
+                                        />
+                                    </t>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="d-flex h-100 justify-content-lg-between flex-column">
+                                    <div class="content">
+                                        <p class="widget" t-esc="featured_post.blog_id.name"/>
+                                        <h3
+                                                class="py-lg-3 py-2 title"
+                                                style="font-size: 40px"
+                                                t-esc="featured_post.name"
+                                        />
+                                        <p
+                                                class="pb-lg-5 pb-2"
+                                                style="font-size: 18px; line-height: 27px; max-width: 520px; color: #000000ad;"
+                                                t-esc="featured_post.subtitle"
+                                        />
+                                        <time
+                                                class="pb-3 d-inline-block"
+                                                style="color: #000000ad;"
+                                                t-if="featured_post.post_date"
+                                                t-esc="featured_post.post_date.strftime('%b %d, %Y')"
+                                        />
+                                    </div>
+                                    <div class="author d-flex gap-4 align-items-center">
+                                        <img
+                                                loading="lazy"
+                                                t-attf-src="/web/image/res.partner/{{featured_post.author_id.id}}/avatar_128"
+                                                t-att-alt="featured_post.author_id.name"
+                                                class="o_image_64_cover rounded-pill"
+                                                style="width: 48px; height: 48px;"
+                                        />
+                                        <p class="mt-auto" t-esc="featured_post.author_id.name"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </t>
+                    <t t-else="">
+                        <h2 class="py-3 text-center text-dark">Highly Recommended</h2>
+                    </t>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <!-- Blog post card loop -->
+    <template id="custom_blog_post" inherit_id="website_blog.posts_loop">
+        <xpath expr="//article[@name='blog_post']" position="replace">
+            <article
+                    id="card_blogs_Taqat"
+                    t-cache="blog_post,opt_blog_list_view,opt_blog_readable,active_tag_ids"
+            >
+                <div class="d-block mb-3" style="position: relative !important;">
+                    <t t-if="not blog_post.is_published">
+                        <div
+                                class="badge badge-warning position-absolute top-0 p-2 bg-danger z-index-1"
+                                style="width: fit-content !important; text-align: start;"
+                        >
+                            Unpublished
+                        </div>
+                    </t>
+                    <div
+                            t-attf-class="row box me-md-3 {{ 'opacity-50' if not blog_post.is_published else '' }} justify-content-center align-items-center"
+                    >
+                        <!-- Image -->
+                        <div class="image_blog m-2">
+                            <t t-call="website.record_cover">
+                                <t t-set="_record" t-value="blog_post"/>
+                                <t
+                                        t-set="additional_classes"
+                                        t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"
+                                />
+                            </t>
+                        </div>
+
+                        <!-- Widget -->
+                        <div class="flex-start" style="font-size: 16px;">
+                            <p class="widget text-start" t-out="blog_post.blog_id.name"/>
+                        </div>
+
+                        <!-- Title -->
+                        <h5
+                                t-field="blog_post.name"
+                                class="fs-5 webkit-text"
+                                style="color: #150e25;"
+                        >
+                            Untitled Post
+                        </h5>
+
+                        <!-- Subtitle -->
+                        <p
+                                class="multiline-ellipsis text-start"
+                                style="max-width: 424px; color: #150e25; height: 80px;"
+                                t-esc="blog_post.subtitle"
+                        />
+
+                        <!-- Read more -->
+                        <a
+                                t-attf-href="/blog/#{slug(blog_post.blog_id)}/#{slug(blog_post)}"
+                                class="d-flex read_more justify-content-between"
+                        >
+                            <span class="d-block fw-bold">read more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none">
+                                <path
+                                        d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75"
+                                        stroke="#7F2E8C"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                />
+                            </svg>
+                        </a>
+
+                        <div
+                                t-if="opt_blog_list_view"
+                                t-field="blog_post.teaser"
+                                class="mt-2 text-secondary mb-4 rounded-2 w-4 o_wblog_read_text"
+                        />
+                    </div>
+                </div>
+            </article>
+        </xpath>
+    </template>
+
+    <!-- Index / more tips section -->
+    <template id="custom_index_logs" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//section[@id='o_wblog_index_content']" position="replace">
+            <section>
+                <div class="container py-5 mb-5">
+                    <div class="row">
+                        <h3 class="pb-5 fw-bold fs-4 mt-5">More Tips and Insights</h3>
+                        <t t-call="theme_taqatechno.custom_blog_post"/>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <!-- Additional posts loop injection -->
+    <template id="custom_posts_loop" inherit_id="website_blog.posts_loop">
+        <xpath expr="//t[@t-foreach='posts' and @t-as='blog_post']" position="after">
+            <t t-call="theme_taqatechno.custom_portel_taqat"/>
+        </xpath>
+    </template>
+
+    <!-- Pager override -->
+    <template id="custom_portel_taqat" inherit_id="portal.pager">
+        <xpath expr="//ul" position="replace">
+            <ul
+                    t-if="pager['page_count'] > 1"
+                    t-attf-class="#{ classname or '' } pagination pt-5 #{_classes} pagenations"
+                    t-att-style="style or None"
+            >
+                <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == 1 else ''}">
+                    <a
+                            t-att-href="pager['page_previous']['url'] if pager['page']['num'] != 1 else None"
+                            t-attf-class="page-link #{extraLinkClass}"
+                    >
+                        <span class="fa fa-chevron-left" role="img" aria-label="Previous" title="Previous"/>
+                    </a>
+                </li>
+                <t t-foreach="pager['pages']" t-as="page">
+                    <li t-attf-class="page-item #{'active' if page['num'] == pager['page']['num'] else ''}">
+                        <a
+                                t-att-href="page['url']"
+                                t-attf-class="page-link #{extraLinkClass}"
+                                t-out="page['num']"
+                        />
+                    </li>
+                </t>
+                <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == pager['page_count'] else ''}">
+                    <a
+                            t-att-href="pager['page_next']['url'] if pager['page']['num'] != pager['page_count'] else None"
+                            t-attf-class="page-link #{extraLinkClass}"
+                    >
+                        <span class="fa fa-chevron-right" role="img" aria-label="Next" title="Next"/>
+                    </a>
+                </li>
+            </ul>
+        </xpath>
+    </template>
+
+    <!-- Alternative pager style -->
+    <template id="custom_hide_pager_ul_taqat" inherit_id="portal.pager">
+        <xpath expr="//ul" position="replace">
+            <div class="d-flex align-items-center m-auto">
+                <ul
+                        id="pagination"
+                        t-if="pager['page_count'] > 1"
+                        t-attf-class="#{ classname or '' } pagination pt-5 m-0 #{_classes} d-flex align-items-center gap-5"
+                        t-att-style="style or None"
+                >
+                    <li
+                            style="font-weight: 500"
+                            t-attf-class="d-flex align-items-center justify-content-between #{'disabled opacity-50' if pager['page']['num'] == 1 else ''}"
+                    >
+                        <a
+                                t-att-href="pager['page_previous']['url'] if pager['page']['num'] != 1 else None"
+                                class="fs-3 text-secondary"
+                        >
+                            <i style="width: 5.5px; height: 11px" class="bi pe-2 fs-5 bi-caret-left-fill"/>
+                            pref
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                                t-att-href="pager['page_next']['url'] if pager['page']['num'] != pager['page_count'] else None"
+                                t-attf-class="fs-3 text-secondary #{'disabled opacity-50' if pager['page']['num'] == pager['page_count'] else ''}"
+                                style="font-weight: 500"
+                        >
+                            next
+                            <i class="bi fs-5 ps-2 bi-caret-right-fill"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Blog detail top -->
+    <template id="cutome_blogs_details" inherit_id="website_blog.blog_post_complete">
+        <xpath expr="//section[@id='o_wblog_post_top']" position="replace">
+            <section id="blog_details">
+                <div class="container pt-lg-3">
+                    <div class="row py-5 my-lg-5 max-width-details-task m-auto">
+                        <div class="nav-links pb-3 pb-lg-0 d-flex gap-2">
+                            <a href="/blog" class="text-black" style="font-weight: 500;">blog</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none">
+                                <path
+                                        d="M8.25 4.5L15.75 12L8.25 19.5"
+                                        stroke="#0F172A"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                />
+                            </svg>
+                            <a
+                                    t-attf-href="#{blog_url(tag=None, date_begin=None, date_end=None)}"
+                                    t-esc="blog.name"
+                                    class="text-black"
+                            />
+                        </div>
+                        <div class="content mt-lg-5 mt-4">
+                            <h3 t-esc="blog_post.name" class="pb-3"/>
+                            <div>
+                                <div class="author mt-4 mb-lg-5 d-flex gap-4 align-items-center">
+                                    <img
+                                            loading="lazy"
+                                            t-attf-src="/web/image/res.partner/{{blog_post.author_id.sudo().id}}/avatar_128"
+                                            t-att-alt="blog_post.author_name"
+                                            class="o_image_64_cover rounded-pill"
+                                            style="width: 48px; height: 48px;"
+                                    />
+                                    <p
+                                            class="mt-auto pe-3 d-inline-block"
+                                            style="border-right: 1px solid black; font-size: 14px;"
+                                            t-esc="blog_post.author_name"
+                                    />
+                                    <time
+                                            class="d-inline-block"
+                                            style="color: #000000ad; font-size: 14px;"
+                                            t-if="blog_post.post_date"
+                                            t-esc="blog_post.post_date.strftime('%b %d, %Y')"
+                                    />
+                                </div>
+                                <!-- record cover -->
+                                <t t-call="website.record_cover">
+                                    <t t-set="_record" t-value="blog_post"/>
+                                    <t t-set="additional_classes"
+                                       t-valuef="o_not_editable overflow-hidden shadow mb-3"/>
+                                </t>
+                            </div>
+
+                            <div class="social py-lg-4 pt-3">
+                                <p class="widget" t-esc="blog_post.blog_id.name"/>
+                                <div class="o_wblog_social_links mt-4 d-flex flex-wrap mx-n1 o_not_editable">
+                                    <!-- Facebook -->
+                                    <a href="#" aria-label="Facebook" title="Share on Facebook"
+                                       t-attf-class="o_facebook #{classes}">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                             viewBox="0 0 32 32" fill="none">
+                                            <path
+                                                    d="M20.1592 7.09321H22.6658V2.85321C21.4522 2.72701 20.2327 2.6647 19.0125 2.66654C15.3858 2.66654 12.9058 4.87988 12.9058 8.93321V12.4265H8.8125V17.1732H12.9058V29.3332H17.8125V17.1732H21.8925L22.5058 12.4265H17.8125V9.39988C17.8125 7.99988 18.1858 7.09321 20.1592 7.09321Z"
+                                                    fill="#150E25"
+                                            />
+                                        </svg>
+                                    </a>
+                                    <!-- Twitter -->
+                                    <a href="#" aria-label="Twitter" title="Share on Twitter"
+                                       t-attf-class="o_twitter #{classes}">
+                                        <i class="fa fa-twitter text-black" aria-label="Twitter" title="Twitter"/>
+                                    </a>
+                                    <!-- LinkedIn -->
+                                    <a href="#" aria-label="LinkedIn" title="Share on LinkedIn"
+                                       t-attf-class="o_linkedin #{classes}">
+                                        <i class="fa fa-linkedin text-black" aria-label="LinkedIn" title="LinkedIn"/>
+                                    </a>
+                                    <!-- YouTube -->
+                                    <a class="share_postes_links" href="#" aria-label="youtube" title="Share on youtube"
+                                       t-attf-class="o_youtube #{classes}">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32"
+                                             viewBox="0 0 33 32" fill="none">
+                                            <path
+                                                    d="M31.0131 12.6024C31.079 10.6939 30.6616 8.79976 29.7997 7.09574C29.2149 6.39654 28.4033 5.92469 27.5064 5.76241C23.7964 5.42577 20.0711 5.2878 16.3464 5.34907C12.6353 5.28502 8.92334 5.41854 5.22639 5.74907C4.49548 5.88203 3.81908 6.22486 3.27972 6.73574C2.07972 7.84241 1.94639 9.73574 1.81306 11.3357C1.61961 14.2125 1.61961 17.099 1.81306 19.9757C1.85163 20.8763 1.98572 21.7702 2.21306 22.6424C2.37382 23.3158 2.69909 23.9389 3.15972 24.4557C3.70275 24.9937 4.3949 25.356 5.14639 25.4957C8.02094 25.8506 10.9173 25.9976 13.8131 25.9357C18.4797 26.0024 22.5731 25.9357 27.4131 25.5624C28.183 25.4313 28.8946 25.0685 29.4531 24.5224C29.8263 24.149 30.1052 23.6919 30.2664 23.1891C30.7432 21.7259 30.9774 20.1946 30.9597 18.6557C31.0131 17.9091 31.0131 13.4024 31.0131 12.6024ZM13.3331 19.4557V11.2024L21.2264 15.3491C19.0131 16.5757 16.0931 17.9624 13.3331 19.4557Z"
+                                                    fill="#150E25"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <t t-call="theme_taqatechno.replace_blog_post_content"/>
+                    </div>
+                </div>
+                <div class="container pb-lg-5">
+                    <div class="row m-auto" style="max-width: 882px;">
+                        <div class="social pb-2">
+                            <div class="o_wblog_social_links d-flex flex-wrap mx-n1 o_not_editable">
+                                <a href="#" aria-label="Facebook" title="Share on Facebook"
+                                   t-attf-class="o_facebook #{classes}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                         fill="none">
+                                        <path
+                                                d="M20.1592 7.09321H22.6658V2.85321C21.4522 2.72701 20.2327 2.6647 19.0125 2.66654C15.3858 2.66654 12.9058 4.87988 12.9058 8.93321V12.4265H8.8125V17.1732H12.9058V29.3332H17.8125V17.1732H21.8925L22.5058 12.4265H17.8125V9.39988C17.8125 7.99988 18.1858 7.09321 20.1592 7.09321Z"
+                                                fill="#150E25"
+                                        />
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Twitter" title="Share on Twitter"
+                                   t-attf-class="o_twitter #{classes}">
+                                    <i class="fa fa-twitter text-black" aria-label="Twitter" title="Twitter"/>
+                                </a>
+                                <a href="#" aria-label="LinkedIn" title="Share on LinkedIn"
+                                   t-attf-class="o_linkedin #{classes}">
+                                    <i class="fa fa-linkedin text-black" aria-label="LinkedIn" title="LinkedIn"/>
+                                </a>
+                                <a class="share_postes_links" href="#" aria-label="youtube" title="Share on youtube"
+                                   t-attf-class="o_youtube #{classes}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32"
+                                         fill="none">
+                                        <path
+                                                d="M31.0131 12.6024C31.079 10.6939 30.6616 8.79976 29.7997 7.09574C29.2149 6.39654 28.4033 5.92469 27.5064 5.76241C23.7964 5.42577 20.0711 5.2878 16.3464 5.34907C12.6353 5.28502 8.92334 5.41854 5.22639 5.74907C4.49548 5.88203 3.81908 6.22486 3.27972 6.73574C2.07972 7.84241 1.94639 9.73574 1.81306 11.3357C1.61961 14.2125 1.61961 17.099 1.81306 19.9757C1.85163 20.8763 1.98572 21.7702 2.21306 22.6424C2.37382 23.3158 2.69909 23.9389 3.15972 24.4557C3.70275 24.9937 4.3949 25.356 5.14639 25.4957C8.02094 25.8506 10.9173 25.9976 13.8131 25.9357C18.4797 26.0024 22.5731 25.9357 27.4131 25.5624C28.183 25.4313 28.8946 25.0685 29.4531 24.5224C29.8263 24.149 30.1052 23.6919 30.2664 23.1891C30.7432 21.7259 30.9774 20.1946 30.9597 18.6557C31.0131 17.9091 31.0131 13.4024 31.0131 12.6024ZM13.3331 19.4557V11.2024L21.2264 15.3491C19.0131 16.5757 16.0931 17.9624 13.3331 19.4557Z"
+                                                fill="#150E25"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="author d-flex gap-4 align-items-center">
+                            <img
+                                    loading="lazy"
+                                    t-attf-src="/web/image/res.partner/{{blog_post.author_id.sudo().id}}/avatar_128"
+                                    t-att-alt="blog_post.author_name"
+                                    class="o_image_64_cover rounded-pill"
+                                    style="width: 48px; height: 48px;"
+                            />
+                            <p class="mt-auto" t-esc="blog_post.author_name"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+
+        <xpath expr="//section[@id='o_wblog_post_main']" position="replace">
+            <!-- Success / more tips posts -->
+            <section id="alternative_blog_posts" class="py-5 mt-5" style="background: #f9fafb;">
+                <div class="container pb-5">
+                    <div class="row py-4">
+                        <h4 class="pb-lg-5 pb-4 fw-bold" style="font-size: 32px;">
+                            More Tips and Insights:
+                        </h4>
+                        <t t-set="alternative_post_ids"
+                           t-value="request.env['blog.post'].search([('id', '!=', blog_post.id)], limit=3)"/>
+                        <t t-if="alternative_post_ids">
+                            <t t-foreach="alternative_post_ids" t-as="alternative_post_id">
+                                <div
+                                        t-attf-class="col-lg-4 box {{'opacity-50' if not alternative_post_id.is_published else ''}} justify-content-center align-items-center"
+                                >
+                                    <div class="image_blog m-2">
+                                        <t t-call="website.record_cover">
+                                            <t t-set="_record" t-value="alternative_post_id"/>
+                                            <t
+                                                    t-set="additional_classes"
+                                                    t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"
+                                            />
+                                        </t>
+                                    </div>
+                                    <div class="flex-start" style="font-size: 16px;">
+                                        <p class="widget text-start" t-out="alternative_post_id.blog_id.name"/>
+                                    </div>
+                                    <h5
+                                            t-field="alternative_post_id.name"
+                                            class="fs-5 webkit-text"
+                                            style="color: #150e25;"
+                                    >
+                                        Untitled Post
+                                    </h5>
+                                    <p
+                                            class="multiline-ellipsis text-start"
+                                            style="max-width: 424px; color: #150e25; height: 80px;"
+                                            t-esc="alternative_post_id.subtitle"
+                                    />
+                                    <a
+                                            t-attf-href="/blog/#{slug(alternative_post_id.blog_id)}/#{slug(alternative_post_id)}"
+                                            class="d-flex justify-content-between"
+                                    >
+                                        <span class="d-block fw-bold">read more</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                    d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75"
+                                                    stroke="#7F2E8C"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
+                                    <div
+                                            t-if="opt_blog_list_view"
+                                            t-field="blog_post.teaser"
+                                            class="mt-2 text-secondary mb-4 rounded-2 w-4 o_wblog_read_text"
+                                    />
+                                </div>
+                            </t>
+                        </t>
+                        <t t-else="">
+                            <h3 class="text-center py-3">Not Success Stories</h3>
+                        </t>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <!-- Replace blog post content tweaks -->
+    <template id="replace_blog_post_content" inherit_id="website_blog.blog_post_content">
+        <xpath expr="//t[@t-if='opt_blog_post_breadcrumb and not opt_blog_post_regular_cover']" position="replace">
+            <t t-set="var" t-value="0"/>
+        </xpath>
+        <xpath expr="//div[@t-field='blog_post.content']" position="replace">
+            <p t-field="blog_post.content"/>
+        </xpath>
+        <xpath expr="//div[@t-if='len(blogs) > 1 or len(blog_post.tag_ids) > 0']" position="replace">
+            <t t-set="var" t-value="0"/>
+        </xpath>
+    </template>
+
+    <!-- Next post / success template social + author -->
+    <template id="alternative_posts_template" inherit_id="website_blog.opt_blog_post_read_next">
+        <xpath expr="//div[@t-if='next_post']" position="replace"/>
+    </template>
+</odoo>
