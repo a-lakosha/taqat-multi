@@ -82,6 +82,130 @@
                         </div>
                     </section>
 
+                    <section class="services-grid">
+                        <div class="container">
+                            <div class="row g-4">
+
+                                <!-- 1 -->
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card border-0 rounded-4 overflow-hidden h-100">
+                                        <div class="position-relative">
+                                            <div class="tile">
+                                                <img src="/theme_indoqat/static/src/imgs/services/Mosque.jpg"
+                                                     alt="Mosque Development" class="w-100 h-100 object-fit-cover"/>
+                                            </div>
+                                            <div class="position-absolute bottom-0 start-0 end-0 p-4 overlay">
+                                                <h3 class="h5 fw-bold text-white mb-2">Mosque Development</h3>
+                                                <p class="mb-0 text-white-50">We handle the design and development of
+                                                    mosques to ensure they meet the highest standards of quality and
+                                                    sustainability.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card border-0 rounded-4 overflow-hidden h-100">
+                                        <div class="position-relative">
+                                            <div class="tile">
+                                                <img src="/theme_indoqat/static/src/imgs/services/Well.jpg"
+                                                     alt="Well Drilling" class="w-100 h-100 object-fit-cover"/>
+                                            </div>
+                                            <div class="position-absolute bottom-0 start-0 end-0 p-4 overlay">
+                                                <h3 class="h5 fw-bold text-white mb-2">Well Drilling</h3>
+                                                <p class="mb-0 text-white-50">We provide clean water to underserved
+                                                    areas through well drilling projects that we oversee and manage.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 3 (wide) -->
+                                <div class="col-12 col-md-12 col-lg-6">
+                                    <div class="card border-0 rounded-4 overflow-hidden h-100">
+                                        <div class="position-relative">
+                                            <div class="tile">
+                                                <img src="/theme_indoqat/static/src/imgs/services/Health-care.jpg"
+                                                     alt="Healthcare Centers Development"
+                                                     class="w-100 h-100 object-fit-cover"/>
+                                            </div>
+                                            <div class="position-absolute bottom-0 start-0 end-0 p-4 overlay">
+                                                <h3 class="h5 fw-bold text-white mb-2">Healthcare Centers Development
+                                                </h3>
+                                                <p class="mb-0 text-white-50">We create fully equipped healthcare
+                                                    centers to deliver comprehensive medical services to communities.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 (wide) -->
+                                <div class="col-12 col-md-12 col-lg-6">
+                                    <div class="card border-0 rounded-4 overflow-hidden h-100">
+                                        <div class="position-relative">
+                                            <div class="tile">
+                                                <img src="/theme_indoqat/static/src/imgs/services/School.jpg"
+                                                     alt="School Development" class="w-100 h-100 object-fit-cover"/>
+                                            </div>
+                                            <div class="position-absolute bottom-0 start-0 end-0 p-4 overlay">
+                                                <h3 class="h5 fw-bold text-white mb-2">School Development</h3>
+                                                <p class="mb-0 text-white-50">We build schools with advanced
+                                                    technologies and modern teaching methods to provide high quality
+                                                    education to children.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card border-0 rounded-4 overflow-hidden h-100">
+                                        <div class="position-relative">
+                                            <div class="tile">
+                                                <img src="/theme_indoqat/static/src/imgs/services/Human.jpg"
+                                                     alt="Humanitarian Project Development"
+                                                     class="w-100 h-100 object-fit-cover"/>
+                                            </div>
+                                            <div class="position-absolute bottom-0 start-0 end-0 p-4 overlay">
+                                                <h3 class="h5 fw-bold text-white mb-2">Humanitarian Project
+                                                    Development
+                                                </h3>
+                                                <p class="mb-0 text-white-50">We launch innovative relief projects to
+                                                    deliver immediate assistance to communities in crisis.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 6 -->
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card border-0 rounded-4 overflow-hidden h-100">
+                                        <div class="position-relative">
+                                            <div class="tile">
+                                                <img src="/theme_indoqat/static/src/imgs/services/Social.jpg"
+                                                     alt="Social Project Development"
+                                                     class="w-100 h-100 object-fit-cover"/>
+                                            </div>
+                                            <div class="position-absolute bottom-0 start-0 end-0 p-4 overlay">
+                                                <h3 class="h5 fw-bold text-white mb-2">Social Project Development</h3>
+                                                <p class="mb-0 text-white-50">We design and implement inclusive social
+                                                    projects that enhance living standards and foster community
+                                                    solidarity.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
                     <section class="text-center  ready-section pt80 pb80  ">
                         <div class="container  p-xl-5">
                             <div class="d-flex flex-column align-items-center">
