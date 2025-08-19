@@ -131,7 +131,7 @@
                                 </div>
 
                                 <form id="contactus_form" action="/website/form/" method="post"
-                                      enctype="multipart/form-data" class="o_mark_required bg-secondary  p-4"
+                                      enctype="multipart/form-data" class="o_mark_required bg-o-color-2-light  p-4"
                                       data-mark=""
                                       data-pre-fill="true" data-model_name="crm.lead"
                                       data-success-mode="message"

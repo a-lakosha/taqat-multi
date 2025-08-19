@@ -36,7 +36,7 @@ publicWidget.registry.ProjectsCarouselMd = publicWidget.Widget.extend({
     },
 
     _apply(isMdUp) {
-        if (isMdUp) {
+        if (isMdUp && !this.editableMode) {
             this._ensureOwl();
         } else {
             this._destroyOwl(true); // fully disable on small screens

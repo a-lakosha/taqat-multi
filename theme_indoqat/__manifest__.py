@@ -30,9 +30,7 @@
         'data/pages/about_page.xml',
         'data/pages/contact_page.xml',
         'data/pages/services_page.xml',
-        # Templates
-		'views/templates/projects_carousel.xml',
-],
+    ],
     'images': [
         'static/description/indoqat_description.png',
         'static/description/indoqat_screenshot.png',

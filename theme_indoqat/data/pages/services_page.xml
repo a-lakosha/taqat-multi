@@ -98,11 +98,11 @@
                                         <div class="position-relative rounded-4 overflow-hidden">
                                             <img src="/theme_indoqat/static/src/imgs/services/Mosque.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
-                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2 ">
                                                 <p class="display-5 fw-bold mb-0 text-white">
                                                     Building Mosques
                                                 </p>
-                                                <p class="mb-0 text-white">
+                                                <p class="mb-0 text-white clamp-4">
                                                     We handle the design and development of mosques to ensure they meet
                                                     the highest standards of quality and sustainability. 
                                                 </p>
