@@ -30,7 +30,9 @@
         'data/pages/about_page.xml',
         'data/pages/contact_page.xml',
         'data/pages/services_page.xml',
-    ],
+        # Templates
+		'views/templates/projects_carousel.xml',
+],
     'images': [
         'static/description/indoqat_description.png',
         'static/description/indoqat_screenshot.png',
@@ -38,6 +40,7 @@
     ],
     'assets': {
         'web.assets_frontend': [
+            'theme_indoqat/static/src/lib/owl-carousel/**/*',
             'theme_indoqat/static/src/lib/bootstrap-icons/bootstrap-icons.css',
             'theme_indoqat/static/src/scss/custom.scss',
             'theme_indoqat/static/src/scss/style1.scss',
