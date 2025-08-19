@@ -4,9 +4,9 @@
         <template name="Indoqat Home" id="indoqat_home_page" inherit_id="website.homepage" active="True">
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap" class="oe_structure oe_empty">
-                    <section class="pt120 pb120">
-                        <div class="container">
-                            <div class="row flex-lg-row flex-column-reverse gap-lg-0 gap-5 justify-content-lg-between justify-content-center align-items-lg-start align-items-xl-center">
+                    <section class="pt24 pb56">
+                        <div class="container pt-lg-5 pb-lg-3">
+                            <div class="row flex-lg-row flex-column-reverse gap-lg-0 gap-5 justify-content-lg-between pt-lg-5 pb-lg-5 justify-content-center align-items-lg-start align-items-xl-center">
                                 <div class="col-xl-6 col-lg-5 col-12">
                                     <h1>
                                         Pioneers of <span class="text-primary">Sustainable Investment</span> and
@@ -51,9 +51,9 @@
                             </div>
                         </div>
                     </section>
-                    <section class="pt240 pb168">
-                        <div class="container">
-                            <div class="row justify-content-between gap-lg-0 gap-3">
+                    <section class="pt80 pb80">
+                        <div class="container pt-lg-5 pb-lg-3">
+                            <div class="row justify-content-between gap-lg-0 gap-3 pt-lg-5 pb-lg-5">
                                 <div class="col-lg-6 col-12">
                                     <h3 class="text-primary mb-4">About Indoqat</h3>
                                     <h1 class="text-black pb-lg-5 pb-2">
@@ -92,9 +92,9 @@
                             </div>
                         </div>
                     </section>
-                    <section class="pt168  pb144">
-                        <div class="container">
-                            <div class="row justify-content-lg-between justify-content-center flex-lg-row flex-column-reverse gap-lg-0 gap-3">
+                    <section class="pt80  pb64">
+                        <div class="container pt-lg-5 pb-lg-3">
+                            <div class="row justify-content-lg-between justify-content-center pt-lg-5 pt-lg-5 flex-lg-row flex-column-reverse gap-lg-0 gap-3">
                                 <div class="col-lg-5 col-12 text-center text-lg-start">
                                     <h1 class="text-clip-primary pb-2">
                                         We shape the future with innovative services that create a sustainable impact 
@@ -118,64 +118,70 @@
                             </div>
                         </div>
                     </section>
-                    <section class="projects_section pb240">
+                    <section class="projects_section pb80">
                         <div class="container">
                             <t t-call="theme_indoqat.projects_carousel_template">
                                 <t t-set="lang" t-value="request.env.lang"/>
                             </t>
+
                         </div>
                     </section>
-                    <section class="pt120 pb168 indoqat-solutions">
-                        <div class="container d-flex flex-column align-items-center">
-                            <h2 class="display-2 fw-bold text-center w880 mb-4">
-                                We Provide <span class="text-primary">solutions</span> that drive meaningful change in
-                                Indonesian society.
-                            </h2>
-                            <p class="display-5 text-center w880 mb-4">
-                                We develop a wide range of integrated solutions designed to empower individuals and
-                                organizations to foster sustainable growth in their communities. 
-                            </p>
-                            <div class="d-grid justify-content-center gap-3 grid-cols-1 lg:grid-cols-2">
+                    <section class="pt80 pb80 indoqat-solutions">
+                        <div class="container d-flex flex-column align-items-center pt-lg-5 pb-lg-5 gap-2 gap-lg-5">
+                            <div>
+
+
+                                <h2 class="display-2 fw-bold text-center w880 mb-4">
+                                    We Provide <span class="text-primary">solutions</span> that drive meaningful change
+                                    in
+                                    Indonesian society.
+                                </h2>
+                                <p class="display-5 text-center w880 mb-4">
+                                    We develop a wide range of integrated solutions designed to empower individuals and
+                                    organizations to foster sustainable growth in their communities. 
+                                </p>
+                            </div>
+                            <div class="d-grid justify-content-center gap-3 grid-cols-1 lg:grid-cols-2 pb-lg-3 ">
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/homepage_images/100849f936214450ba948f86614804eee6082c3b.jpg"
+                                            <img src="/theme_indoqat/static/src/imgs/services/Mosque.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
                                                     Building Mosques
                                                 </p>
-                                                <p class="mb-0 text-white">
+                                                <p class="mb-0 text-white clamp-4">
                                                     We handle the design and development of mosques to ensure they meet
                                                     the highest standards of quality and sustainability. 
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/homepage_images/100849f936214450ba948f86614804eee6082c3b.jpg"
+                                            <img src="/theme_indoqat/static/src/imgs/services/Well.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
-                                                    Building Mosques
+                                                    Well Drilling
                                                 </p>
                                                 <p class="mb-0 text-white">
-                                                    We handle the design and development of mosques to ensure they meet
-                                                    the highest standards of quality and sustainability. 
+                                                    We provide clean water to underserved areas through well drilling
+                                                    projects that we oversee and manage.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="d-grid grid-cols-1">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/homepage_images/100849f936214450ba948f86614804eee6082c3b.jpg"
+                                            <img src="/theme_indoqat/static/src/imgs/services/School.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
-                                                    Building Mosques
+                                                    School Development
                                                 </p>
                                                 <p class="mb-0 text-white">
-                                                    We handle the design and development of mosques to ensure they meet
-                                                    the highest standards of quality and sustainability. 
+                                                    We build schools with advanced technologies and modern teaching
+                                                    methods to provide high quality education to children. 
                                                 </p>
                                             </div>
                                         </div>
@@ -184,43 +190,43 @@
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-grid grid-cols-1">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/homepage_images/100849f936214450ba948f86614804eee6082c3b.jpg"
+                                            <img src="/theme_indoqat/static/src/imgs/services/Health-care.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
-                                                    Building Mosques
+                                                    Healthcare Centers Development
                                                 </p>
                                                 <p class="mb-0 text-white">
-                                                    We handle the design and development of mosques to ensure they meet
-                                                    the highest standards of quality and sustainability. 
+                                                    We create fully equipped healthcare centers to deliver comprehensive
+                                                    medical services to communities.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/homepage_images/100849f936214450ba948f86614804eee6082c3b.jpg"
+                                            <img src="/theme_indoqat/static/src/imgs/services/Human.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
-                                                    Building Mosques
+                                                    Humanitarian Project Development
                                                 </p>
                                                 <p class="mb-0 text-white">
-                                                    We handle the design and development of mosques to ensure they meet
-                                                    the highest standards of quality and sustainability. 
+                                                    We launch innovative relief projects to deliver immediate assistance
+                                                    to communities in crisis. 
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/homepage_images/100849f936214450ba948f86614804eee6082c3b.jpg"
+                                            <img src="/theme_indoqat/static/src/imgs/services/Social.jpg"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
-                                                    Building Mosques
+                                                    Social Project Development
                                                 </p>
                                                 <p class="mb-0 text-white">
-                                                    We handle the design and development of mosques to ensure they meet
-                                                    the highest standards of quality and sustainability. 
+                                                    We design and implement inclusive social projects that enhance
+                                                    living standards and foster community solidarity. 
                                                 </p>
                                             </div>
                                         </div>
@@ -229,8 +235,8 @@
                             </div>
                         </div>
                     </section>
-                    <section class="pt168 pb168">
-                        <div class="container">
+                    <section class="pt80 pb80">
+                        <div class="container pt-lg-5 pb-lg-5">
                             <h2 class="text-black pb-4 pb-lg-96 text-center">
                                 <span class="text-muted">Over <span class="text-primary ">100</span> entities,
                                 </span>
@@ -240,26 +246,26 @@
                                     impact. 
                                 </span>
                             </h2>
-                            <div class="d-flex flex-wrap justify-content-center gap-x gap-y align-items-center company_logos">
-                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
+                            <div class="d-flex flex-lg-wrap justify-content-center gap-x gap-y align-items-center company_logos">
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos05.svg" alt="company_logo"
+                                />
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos06.svg" alt="company_logo"
                                 />
                                 <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
                                 />
-                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos02.svg" alt="company_logo"
                                 />
-                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos01.svg" alt="company_logo"
                                 />
-                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos07.svg" alt="company_logo"
                                 />
-                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
-                                />
-                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg" alt="company_logo"
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos04.svg" alt="company_logo"
                                 />
                             </div>
                         </div>
                     </section>
-                    <section class="pt168 pb168">
-                        <div class="container d-flex flex-column align-items-center">
+                    <section class="pt80 pb80">
+                        <div class="container d-flex flex-column align-items-center pt-lg-5 pb-lg-5">
                             <h2 class="display-2 fw-bold text-black text-center w880 mb-4">
                                 Ready to Start? Collaborate with us now.
                             </h2>

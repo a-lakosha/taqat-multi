@@ -90,10 +90,11 @@
       aspect-ratio: 5/4;
     }
   }
-  .project_title {
-    height: 74px;
-    overflow: hidden;
+
+  .project_title-home {
+    font-weight: 700;
   }
+
   .owl-stage-outer {
     overflow: visible !important;
   }
@@ -161,7 +162,15 @@
     height: 40px;
     object-fit: contain;
   }
+
+  overflow-x: auto;
+  flex-wrap: nowrap;
 }
+
+.company_logos::-webkit-scrollbar {
+  display: none;
+}
+
 
 .w652 {
   max-width: 652px !important;
@@ -172,6 +181,7 @@
     border-bottom: 1px solid #D6D6D6 !important;
   }
 }
+
 
 .pb-lg-96 {
   @media (min-width: 992px) {
@@ -187,3 +197,14 @@
   display: flex;
   flex: 1 0 auto;
 }
+
+.clamp-4 {
+  @media (max-width: 1400px) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* number of lines */
+    overflow: hidden;
+  }
+
+}
+
