@@ -64,9 +64,9 @@
                                                 E-mail
 
                                             </h3>
-                                            <p>
+                                            <a href="mailto:contact@taqat.org" class="mb-3 text-dark">
                                                 contact@taqat.org
-                                            </p>
+                                            </a>
                                         </div>
                                         <div class="phone-number  d-flex flex-column gap-2 ">
                                             <h3 class="number display-5">
@@ -85,9 +85,9 @@
                                             <div>
 
 
-                                                <p class="mb-1">
+                                                <a class="mb-1 text-dark" href="tel:+07433620133">
                                                     +074-33620133
-                                                </p>
+                                                </a>
                                                 <p class="mb-1">
                                                     Sunday - Thursday: 7:30 AM - 3:30 PM
                                                 </p>
