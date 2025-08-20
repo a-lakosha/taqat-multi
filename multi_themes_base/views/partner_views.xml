@@ -15,10 +15,10 @@
                                 <field name="image" widget="image" options="{'size': [200,'']}"
                                        invisible="company_filter not in ['taqatechno', 'indoqat']"
                                        required="company_filter not in ['taqatechno' , 'indoqat']"/>
-                                <field name="website_id"/>
-                                <field name="company_filter"/>
+                                <field name="website_id" invisible="1"/>
+                                <field name="company_filter" invisible="1"/>
                                 <field name="sequence" invisible="1"/>
-                                <field name="company_id"/>
+                                <field name="company_id" invisible="1"/>
                             </group>
                         </group>
                     </sheet>
@@ -34,8 +34,8 @@
                     <field name="name"/>
                     <field name="image" class="oe_avatar" widget="image"
                            options="{'size': [0, 100]}"/>
-                    <field name="website_id" invisible="1"/>
-                    <field name="company_id" invisible="1"/>
+                    <field name="website_id"/>
+                    <field name="company_id"/>
                 </tree>
             </field>
         </record>

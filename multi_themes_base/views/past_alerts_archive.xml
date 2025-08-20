@@ -49,8 +49,8 @@
                     <field name="affected_areas_description"/>
                     <field name="size_of_intervention"/>
                     <field name="number_of_beneficiaries"/>
-                    <field name="website_id" invisible="1"/>
-                    <field name="company_id" invisible="1"/>
+                    <field name="website_id"/>
+                    <field name="company_id"/>
                 </tree>
             </field>
         </record>

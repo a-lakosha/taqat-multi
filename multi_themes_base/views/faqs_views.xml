@@ -39,8 +39,8 @@
                     <field name="sequence" widget="handle"/>
                     <field name="title"/>
                     <field name="description"/>
-                    <field name="website_id" invisible="1"/>
-                    <field name="company_id" invisible="1"/>
+                    <field name="website_id"/>
+                    <field name="company_id"/>
                 </tree>
             </field>
         </record>
