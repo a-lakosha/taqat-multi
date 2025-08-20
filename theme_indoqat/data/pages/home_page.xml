@@ -147,20 +147,13 @@
                                                      alt="Indoqat Green Wall"
                                                      class="rounded-4 h-100 w-100 object-fit-cover" loading="lazy"/>
                                             </div>
-                                            <p class="text-primary display-4 fw-bold mb-4">
-                                                <t>
-                                                    <t t-out="('%02d' % (project_index+1))"/>
-                                                </t>
-                                            </p>
+                                            <p class="text-primary display-4 fw-bold mb-4"
+                                               t-out="('%02d' % (project_index+1))"/>
                                             <p t-att-data-tooltip="project.title" data-tooltip-position="bottom"
-                                               class="text-black display-4 fw-bold mb-4 project_title-home display-4">
-                                                <t t-out="project.title[0:25]"/>
-                                                <t t-if="len(project.title) &gt; 25">...</t>
-                                            </p>
-                                            <p class="text-black display-6  mb-4">
-                                                <t t-out="project.sub_title[0:90]"/>
-                                                <t t-if="len(project.sub_title) &gt; 90">...</t>
-                                            </p>
+                                               class="text-black display-4 fw-bold mb-4 project_title-home display-4"
+                                               t-out="project.title"/>
+                                            <p class="text-black project_subtitle-home display-6 mb-4"
+                                               t-out="project.sub_title"/>
                                             <a t-attf-href="/services/#project_{{project.id}}"
                                                class="btn btn-primary fw-bold px-4 py-2">
                                                 More

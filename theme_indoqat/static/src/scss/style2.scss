@@ -93,6 +93,22 @@
 
   .project_title-home {
     font-weight: 700;
+    min-height: 67px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .project_subtitle-home {
+    font-weight: 700;
+    height: 83px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .owl-stage-outer {
