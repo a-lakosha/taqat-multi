@@ -64,7 +64,7 @@
                                         <h3 class="text-dark h1" style="max-width:450px" t-field="project.title"/>
                                     </div>
                                     <p class="display-5 col-lg-6 col-xl-5" t-field="project.sub_title"/>
-                                    <div class="col-lg-6 col-xl-5  order-lg-last top-spacing services_description">
+                                    <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
                                         <t t-if="project.desc">
                                             <div class="custom-ol-wrapper ">
 
