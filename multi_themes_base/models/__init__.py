@@ -1,3 +1,4 @@
+from . import base_mixin
 from . import inherited
 from . import partners
 from . import programs

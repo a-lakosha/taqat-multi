@@ -31,9 +31,8 @@
         'data/pages/services_page.xml',
     ],
     'images': [
-        'static/description/indoqat_description.webp',
-        'static/description/indoqat_screenshot.webp',
-        'theme_indoqat/static/src/imgs/HeroGroup.webp'
+        'static/description/indoqat_description.png',
+        'static/description/indoqat_screenshot.png',
     ],
     'assets': {
         'web.assets_frontend': [
