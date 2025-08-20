@@ -17,8 +17,7 @@
     ],
     'category': 'Theme',
     'version': '0.1',
-    'depends': ['theme_common', 'website_blog', 'social_media', 'mass_mailing', 'website', 'crm',
-                'website_hr_recruitment', 'multiple_websites_models'],
+    'depends': ['theme_common', 'social_media', 'mass_mailing', 'website', 'crm', 'multi_themes_base'],
     'data': [
         'views/blogs.xml',
         'views/custom_footer.xml',
@@ -46,7 +45,7 @@
             'theme_indoqat/static/src/scss/style3.scss',
             'theme_indoqat/static/src/js/snippets.component.js',
             'theme_indoqat/static/src/js/script.js',
-            
+
         ],
         'web._assets_primary_variables': [
             'theme_indoqat/static/src/scss/primary_variables.scss',
