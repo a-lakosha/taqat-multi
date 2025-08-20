@@ -58,7 +58,7 @@
 
 
                             <t t-foreach="project_ids" t-as="project">
-                                <div class="row right-basics">
+                                <div class="row right-basics" t-attf-id="project_{{project.id}}">
                                     <span class="text-primary h1 custom-ol" t-out="('%02d' % (project_index+1))"/>
                                     <div class="col-lg-6 col-xl-7">
                                         <h3 class="text-dark h1" style="max-width:450px" t-field="project.title"/>
