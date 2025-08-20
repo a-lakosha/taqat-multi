@@ -197,34 +197,31 @@
                         <div class="row pb-lg-5 mb-lg-5 justify-content-lg-between">
                             <div class="col-lg-7">
                                 <ul class="list-unstyled ms-0 d-lg-flex flex-wrap justify-lg-content-between align-items-lg-center mb-0">
-                                    <div class="d-flex justify-content-lg-between pe-lg-4  mb-2 mb-lg-0    ">
-                                        <li>
-                                            <a class="text-white fs-4  mb-2 pe-4 d-inline-block" href="/aboutus">About
-                                                Indoqat
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white fs-4  mb-2 d-inline-block" href="/services">Our
-                                                Services
-                                            </a>
-                                        </li>
-                                    </div>
-                                    <div class="d-flex justify-content-lg-between  pe-lg-4  mb-2 mb-lg-0    ">
-                                        <li>
-                                            <a class="text-white fs-4  mb-2 pe-4 d-inline-block" href="/aboutus">Media
-                                                Center
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white fs-4 mb-2 d-inline-block" href="/services">Careers</a>
-                                        </li>
-                                    </div>
                                     <li>
-                                        <a class="text-white fs-4 mb-2 d-inline-block" href="/contactus">Contact Us</a>
+                                        <a class="text-white fs-4  mb-2 pe-4" href="/aboutus">About
+                                            Indoqat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-white fs-4  mb-2 pe-4" href="/services">Our
+                                            Services
+                                        </a>
+                                    </li>
+                                    <!--                                    <li>-->
+                                    <!--                                        <a class="text-white fs-4  mb-2 pe-4" href="/blog">Media-->
+                                    <!--                                            Center-->
+                                    <!--                                        </a>-->
+                                    <!--                                    </li>-->
+                                    <!--                                    <li>-->
+                                    <!--                                        <a class="text-white fs-4 mb-2 pe-4" href="/jobs">Careers</a>-->
+                                    <!--                                    </li>-->
+                                    <li>
+                                        <a class="text-white fs-4 mb-2 pe-4" href="/contactus">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-lg-4">
+                                <t t-set="_link_class" t-valuef="text-white fs-3"/>
                                 <div
                                         t-attf-class="d-flex  pt-4 pt-lg-0 mt-3 mt-lg-0 pt-lg-0 align-items-center #{_div_class} s_social_media o_not_editable oe_unmovable oe_unremovable gap-2">
                                     <a t-if="website.company_id.social_facebook"

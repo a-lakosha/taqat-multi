@@ -8,8 +8,7 @@
                 <t t-set="project_ids"
                    t-value="request.env['website.projects'].search([('website_id', '=', website.id)])"/>
                 <t t-set="partners_ids"
-                   t-value="request.env['website.partners'].search([('website_id', '=',website.id)])"
-                   t-if="partners_ids"/>
+                   t-value="request.env['website.partners'].search([('website_id', '=',website.id)])"/>
                 <div id="wrap" class="oe_structure oe_empty">
                     <section class="pt24 pb56">
                         <div class="container pt-lg-5 pb-lg-3">
@@ -32,14 +31,14 @@
                                         We believe that innovation is the catalyst for progress and change, and we
                                         are
                                         passionate about creating a tangible, positive impact on individuals and
-                                        communities. 
+                                        communities.
                                     </p>
                                     <div class="btns flex-column flex-lg-row d-flex align-items-center gap-3">
-                                        <a href="/contactus"
+                                        <a href="/contactus" rel="button"
                                            class="btn w-100 w-lg-fit btn-primary px-4 text-white fw-bold">
                                             Contact Us
                                         </a>
-                                        <a href="/aboutus"
+                                        <a href="/aboutus" rel="button"
                                            class="btn w-100 w-lg-fit btn-secondary px-4 text-white fw-bold">
                                             About Us
                                         </a>
@@ -51,7 +50,9 @@
                                          alt="Hero"
                                          class="img-fluid home-page-hero"/>
                                     <div class="position-absolute different-services">
-                                        <h3 class="mb-0">05</h3>
+                                        <h3 class="mb-0 o_not_editable">
+                                            <t t-out="'%02d' % len(project_ids)"/>
+                                        </h3>
                                         <p class="mb-0">Different Services</p>
                                     </div>
                                     <img laoding="lazy"
@@ -69,9 +70,10 @@
                                     <h3 class="text-primary mb-4">About Indoqat</h3>
                                     <h1 class="text-black pb-lg-5 pb-2">
                                         <span class="text-muted">We’re not just an investment company,</span>
-                                        but a partner on your journey of change. 
+                                        but a partner on your journey of change.
                                     </h1>
-                                    <button class="btn btn-primary d-none d-lg-flex fw-bold px-4 py-2 mt-4">
+                                    <a href="/contactus" role="button"
+                                       class="btn btn-primary d-none d-lg-inline-block fw-bold px-4 py-2 mt-4">
                                         Contact Us Now
                                         <span class="ms-3">
                                             <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
@@ -80,7 +82,7 @@
                                                       fill="#FEF3F2"/>
                                             </svg>
                                         </span>
-                                    </button>
+                                    </a>
                                 </div>
                                 <div class="col-lg-5 col-12 border-lg-bottom">
                                     <p class="text-black display-5">
@@ -89,9 +91,10 @@
                                         go hand in hand, by empowering individuals, supporting organizations,
                                         providing
                                         intelligent consulting and developing integrated projects that foster
-                                        sustainability and economic growth. 
+                                        sustainability and economic growth.
                                     </p>
-                                    <button class="btn btn-primary d-flex d-lg-none fw-bold px-4 py-2 mt-4">
+                                    <a href="/contactus" role="button"
+                                       class="btn btn-primary d-flex d-lg-none fw-bold px-4 py-2 mt-4">
                                         Contact Us Now
                                         <span class="ms-3">
                                             <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
@@ -100,7 +103,7 @@
                                                       fill="#FEF3F2"/>
                                             </svg>
                                         </span>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -111,19 +114,19 @@
                                 <div class="col-lg-5 col-12 text-center text-lg-start">
                                     <h1 class="text-clip-primary pb-2">
                                         We shape the future with innovative services that create a sustainable
-                                        impact 
+                                        impact
                                     </h1>
                                     <p class="text-black display-5">
                                         We provide comprehensive and innovative solutions in sustainability,
                                         logistics,
                                         business development, and investment support to enable individuals and
-                                        organizations to achieve lasting and impactful results. 
+                                        organizations to achieve lasting and impactful results.
                                     </p>
                                 </div>
                                 <div class="col d-flex justify-content-lg-end justify-content-center mb-lg-0 mb-4">
                                     <div class="rounded-circle d-flex flex-column align-items-center justify-content-center border border-4 border-primary w250 h250 d-flex justify-content-center align-items-center">
-                                        <p class="display-1 m-0 p-0 text-clip-primary fw-bold">
-                                            05
+                                        <p class="display-1 m-0 p-0 text-clip-primary fw-bold o_not_editable">
+                                            <t t-out="'%02d' % len(project_ids)"/>
                                         </p>
                                         <p class="display-6 m-0 p-0">
                                             Distinct Services
@@ -158,7 +161,7 @@
                                                 <t t-out="project.sub_title[0:90]"/>
                                                 <t t-if="len(project.sub_title) &gt; 90">...</t>
                                             </p>
-                                            <a t-attf-href="/projects/{{project.id}}"
+                                            <a t-attf-href="/services/#project_{{project.id}}"
                                                class="btn btn-primary fw-bold px-4 py-2">
                                                 More
                                                 <span class="ms-3">
@@ -189,7 +192,7 @@
                                 <p class="display-5 text-center w880 mb-4">
                                     We develop a wide range of integrated solutions designed to empower individuals
                                     and
-                                    organizations to foster sustainable growth in their communities. 
+                                    organizations to foster sustainable growth in their communities.
                                 </p>
                             </div>
                             <div class="d-grid justify-content-center gap-3 grid-cols-1 lg:grid-cols-2 pb-lg-3 ">
@@ -206,7 +209,7 @@
                                                 <p class="mb-0 text-white clamp-4">
                                                     We handle the design and development of mosques to ensure they
                                                     meet
-                                                    the highest standards of quality and sustainability. 
+                                                    the highest standards of quality and sustainability.
                                                 </p>
                                             </div>
                                         </div>
@@ -236,7 +239,7 @@
                                                 </p>
                                                 <p class="mb-0 text-white">
                                                     We build schools with advanced technologies and modern teaching
-                                                    methods to provide high quality education to children. 
+                                                    methods to provide high quality education to children.
                                                 </p>
                                             </div>
                                         </div>
@@ -271,7 +274,7 @@
                                                 <p class="mb-0 text-white">
                                                     We launch innovative relief projects to deliver immediate
                                                     assistance
-                                                    to communities in crisis. 
+                                                    to communities in crisis.
                                                 </p>
                                             </div>
                                         </div>
@@ -285,7 +288,7 @@
                                                 </p>
                                                 <p class="mb-0 text-white">
                                                     We design and implement inclusive social projects that enhance
-                                                    living standards and foster community solidarity. 
+                                                    living standards and foster community solidarity.
                                                 </p>
                                             </div>
                                         </div>
@@ -327,7 +330,7 @@
                                 provide
                                 the capabilities and expertise you need to succeed.
                             </p>
-                            <button class="btn btn-primary fw-bold px-4 py-2">
+                            <a href="/contactus" role="button" class="btn btn-primary fw-bold px-4 py-2">
                                 Contact Us
                                 <span class="ms-3">
                                     <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
@@ -336,7 +339,7 @@
                                               fill="#FEF3F2"/>
                                     </svg>
                                 </span>
-                            </button>
+                            </a>
                         </div>
                     </section>
                 </div>
