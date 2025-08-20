@@ -5,8 +5,8 @@
                   active="True">
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap" class="oe_structure oe_empty">
-                    <section class="pt128 pb128">
-                        <div class="container">
+                    <section class="pt80 pb80">
+                        <div class="container py-lg-5">
                             <div class="map_container o_not_editable">
                                 <div class="css_non_editable_mode_hidden">
                                     <div class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
@@ -111,10 +111,10 @@
                     </section>
 
 
-                    <section class="s_website_form mb-5 mb-lg-0 pb128  contact-bottom-section" data-vcss="001"
+                    <section class="s_website_form mb-5 mb-lg-0 pb80 pt80  contact-bottom-section" data-vcss="001"
                              data-snippet="s_website_form"
                              data-name="Form">
-                        <div class="container">
+                        <div class="container py-lg-5">
                             <div class="d-flex flex-column flex-lg-row gap-4 ">
 
 

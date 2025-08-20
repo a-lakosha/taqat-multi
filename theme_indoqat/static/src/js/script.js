@@ -5,6 +5,7 @@ import publicWidget from "@web/legacy/js/public/public_widget";
 const BREAKPOINT = 768;
 publicWidget.registry.ProjectsCarouselMd = publicWidget.Widget.extend({
     selector: '.projects-carousel',
+    disabledInEditableMode: false,
 
 
     start() {

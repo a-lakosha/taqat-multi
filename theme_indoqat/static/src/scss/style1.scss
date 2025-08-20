@@ -34,9 +34,9 @@
     }
 
     .vision_photo {
-      max-width: 500px;
       max-height: 600px;
       border-radius: 40px;
+      object-fit: cover;
     }
 
     .vision_left {

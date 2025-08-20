@@ -32,9 +32,9 @@
         'data/pages/services_page.xml',
     ],
     'images': [
-        'static/description/indoqat_description.png',
-        'static/description/indoqat_screenshot.png',
-        'theme_indoqat/static/src/imgs/HeroGroup.png'
+        'static/description/indoqat_description.webp',
+        'static/description/indoqat_screenshot.webp',
+        'theme_indoqat/static/src/imgs/HeroGroup.webp'
     ],
     'assets': {
         'web.assets_frontend': [
@@ -46,6 +46,7 @@
             'theme_indoqat/static/src/scss/style3.scss',
             'theme_indoqat/static/src/js/snippets.component.js',
             'theme_indoqat/static/src/js/script.js',
+            
         ],
         'web._assets_primary_variables': [
             'theme_indoqat/static/src/scss/primary_variables.scss',

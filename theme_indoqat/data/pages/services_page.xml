@@ -34,26 +34,29 @@
                                 </div>
 
                                 <div class="double-image overflow-hidden d-flex gap-5 justify-content-center justify-content-lg-between">
-                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.webp" alt="globe"
                                          class="left-globe position-absolute" loading="lazy"/>
-                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.webp" alt="globe"
                                          class="right-globe position-absolute d-none d-lg-block" loading="lazy"/>
                                 </div>
                             </div>
 
                             <div class="hero-photo order-1 order-lg-2   rounded-4 p-2">
-                                <img src="/theme_indoqat/static/src/imgs/services/Indoqat.png"
+                                <img src="/theme_indoqat/static/src/imgs/services/Indoqat.webp"
                                      alt="Indoqat Green Wall"
                                      class="rounded-4 h-100 w-100" loading="lazy"/>
                             </div>
                         </div>
                     </section>
                     <section class="basic_services " t-if="project_ids">
+
                         <div class="container pb80 pt80">
                             <h1 class="display-1 text-center mt-5 mb96 bservices-title" style="font-weight:700;">
                                 <span class="text-primary">Our Basic</span>
                                 Services
                             </h1>
+
+
                             <t t-foreach="project_ids" t-as="project">
                                 <div class="row right-basics">
                                     <span class="text-primary h1 custom-ol" t-out="('%02d' % (project_index+1))"/>
@@ -73,7 +76,8 @@
                                     </div>
 
 
-                                    <div class=" col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+                                    <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
                                         <img t-attf-src="/web/image/website.projects/{{project.id}}/website_image"
                                              t-att-alt="project.title" class="w-100" loading="lazy"/>
                                     </div>
@@ -96,7 +100,8 @@
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/services/Mosque.jpg"
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/Mosque.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2 ">
                                                 <p class="display-5 fw-bold mb-0 text-white">
@@ -109,7 +114,7 @@
                                             </div>
                                         </div>
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/services/Well.jpg"
+                                            <img laoding="lazy" src="/theme_indoqat/static/src/imgs/services/Well.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
@@ -124,7 +129,8 @@
                                     </div>
                                     <div class="d-grid grid-cols-1">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/services/School.jpg"
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/School.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
@@ -141,7 +147,8 @@
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-grid grid-cols-1">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/services/Health-care.jpg"
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/Health-care.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
@@ -156,7 +163,7 @@
                                     </div>
                                     <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/services/Human.jpg"
+                                            <img laoding="lazy" src="/theme_indoqat/static/src/imgs/services/Human.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
@@ -169,7 +176,8 @@
                                             </div>
                                         </div>
                                         <div class="position-relative rounded-4 overflow-hidden">
-                                            <img src="/theme_indoqat/static/src/imgs/services/Social.jpg"
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/Social.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
                                                 <p class="display-5 fw-bold mb-0 text-white">
