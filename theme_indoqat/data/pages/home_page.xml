@@ -308,7 +308,7 @@
                                     impact.
                                 </span>
                             </h2>
-                            <div class="d-flex flex-lg-wrap justify-content-center gap-x gap-y align-items-center company_logos">
+                            <div class="d-flex flex-lg-wrap justify-content-start justify-content-lg-center gap-x gap-y align-items-center company_logos">
 
 
                                 <t t-foreach="partners_ids" t-as="partner">
