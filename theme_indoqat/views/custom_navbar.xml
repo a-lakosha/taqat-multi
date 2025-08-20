@@ -8,12 +8,6 @@
             <xpath expr="//div[@id='o_main_nav']" position="attributes">
                 <attribute name="class" remove="container" add="container-fluid" separator=" "/>
             </xpath>
-            <xpath expr="//t[@t-call='website.placeholder_header_brand']" position="replace">
-                <a href="/">
-                    <img src="/theme_indoqat/static/img/global/Logo.webp" alt="Indoqat" class="img-fluid"
-                     loading="lazy"/>
-                </a>
-            </xpath>
             <xpath expr="//t[@t-set='item_class']" position="attributes">
                 <attribute name="t-valuef" remove="" add="p-2" separator=" "/>
             </xpath>
