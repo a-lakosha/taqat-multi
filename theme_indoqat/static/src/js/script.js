@@ -62,8 +62,8 @@ publicWidget.registry.ProjectsCarouselMd = publicWidget.Widget.extend({
             responsive: {
                 0: {items: 1},
                 576: {items: 1.5},
-                992: {items: 2},
-                1200: {items: 2}
+                992: {items: 2.3},
+                1200: {items: 3}
             }
         });
     },
