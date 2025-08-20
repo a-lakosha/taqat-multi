@@ -41,9 +41,10 @@
 
                                 <div class="text-center">
                                     <picture>
-                                        <source srcset="/theme_indoqat/static/src/imgs/about_us_images/about_mobile.png"
+                                        <source srcset="/theme_indoqat/static/src/imgs/about_us_images/about_mobile.webp"
                                                 media="(max-width: 767px)"/>
-                                        <img src="/theme_indoqat/static/src/imgs/about_us_images/HeroGroup.png"
+                                        <img laoding="lazy"
+                                             src="/theme_indoqat/static/src/imgs/about_us_images/HeroGroup.webp"
                                              alt="About Indoqat"
                                              class="img-fluid w-100"/>
                                     </picture>
@@ -76,7 +77,8 @@
                                 </div>
                                 <div class="d-flex flex-column align-self-center justify-self-center col-xl-3 order-xl-2 order-0	"
                                      style="max-width:220px;">
-                                    <img src="/theme_indoqat/static/src/imgs/about_us_images/Quatation.png"
+                                    <img laoding="lazy"
+                                         src="/theme_indoqat/static/src/imgs/about_us_images/Quatation.webp"
                                          alt="About Indoqat"
                                          style=" object-fit: cover;"
                                          class="w-100"
@@ -90,7 +92,7 @@
                     <!--                    Vision Content-->
                     <section class="pt80 pb80 vision-content ">
                         <div class="container ">
-                            <div class="row vision p-lg-5 text-white rounded-5 overflow-hidden  gx-0   justify-content-between gap-lg-3">
+                            <div class="row vision text-white rounded-5 overflow-hidden  gx-0   justify-content-between">
 
 
                                 <!-- Left: Content -->
@@ -129,7 +131,8 @@
 
                                 <!-- Right: Image -->
                                 <div class="col-lg-5  d-flex justify-content-lg-end justify-content-center  order-lg-2 order-1 vision_photo_container">
-                                    <img src="/theme_indoqat/static/src/imgs/about_us_images/visionPhoto.jpg"
+                                    <img laoding="lazy"
+                                         src="/theme_indoqat/static/src/imgs/about_us_images/visionPhoto.webp"
                                          alt="Vision Photo"
                                          class="w-100 h-100 object-fit-cover rounded-4 vision_photo"/>
                                 </div>
@@ -190,7 +193,8 @@
                                                           stroke-linejoin="round"/>
                                                 </svg>
                                             </div>
-                                            <img src="/theme_indoqat/static/src/imgs/about_us_images/Vector.png"
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/about_us_images/Vector.webp"
                                                  alt="globe" style="max-height:189px;" class="values-vector"/>
                                         </div>
                                         <div>

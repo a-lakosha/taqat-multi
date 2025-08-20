@@ -34,36 +34,50 @@
                                 </div>
 
                                 <div class="double-image overflow-hidden d-flex gap-5 justify-content-center justify-content-lg-between">
-                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.webp" alt="globe"
                                          class="left-globe position-absolute" loading="lazy"/>
-                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.webp" alt="globe"
                                          class="right-globe position-absolute d-none d-lg-block" loading="lazy"/>
                                 </div>
                             </div>
 
                             <div class="hero-photo order-1 order-lg-2   rounded-4 p-2">
-                                <img src="/theme_indoqat/static/src/imgs/services/Indoqat.png"
+                                <img src="/theme_indoqat/static/src/imgs/services/Indoqat.webp"
                                      alt="Indoqat Green Wall"
                                      class="rounded-4 h-100 w-100" loading="lazy"/>
                             </div>
                         </div>
                     </section>
                     <section class="basic_services " t-if="project_ids">
+
                         <div class="container pb80 pt80">
                             <h1 class="display-1 text-center mt-5 mb96 bservices-title" style="font-weight:700;">
                                 <span class="text-primary">Our Basic</span>
                                 Services
                             </h1>
+
+
                             <t t-foreach="project_ids" t-as="project">
                                 <div class="row right-basics">
-                                    <span class="text-primary h1" t-out="project_index+1"/>
+                                    <span class="text-primary h1 custom-ol" t-out="('%02d' % (project_index+1))"/>
                                     <div class="col-lg-6 col-xl-7">
                                         <h3 class="text-dark h1" style="max-width:450px" t-field="project.title"/>
                                     </div>
                                     <p class="display-5 col-lg-6 col-xl-5" t-field="project.sub_title"/>
-                                    <div class="col-lg-6 col-xl-5 mb32 services_description"
-                                         t-field="project.desc"/>
-                                    <div class=" col-lg-6 col-xl-7 top-spacing pe-lg-4">
+                                    <div class="col-lg-6 col-xl-5  order-lg-last top-spacing services_description">
+                                        <t t-if="project.desc">
+                                            <div class="custom-ol-wrapper ">
+
+
+                                                <!-- render the HTML as is -->
+                                                <t t-raw="project.desc"/>
+                                            </div>
+                                        </t>
+                                    </div>
+
+
+                                    <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
                                         <img t-attf-src="/web/image/website.projects/{{project.id}}/website_image"
                                              t-att-alt="project.title" class="w-100" loading="lazy"/>
                                     </div>
@@ -71,6 +85,144 @@
                             </t>
                         </div>
                     </section>
+
+                    <section class="pt120 pb168 indoqat-solutions">
+                        <div class="container d-flex flex-column align-items-center">
+                            <h2 class="display-2 fw-bold text-center w880 mb-4">
+                                We Provide <span class="text-primary">solutions</span> that drive meaningful change in
+                                Indonesian society.
+                            </h2>
+                            <p class="display-5 text-center w880 mb-4">
+                                We develop a wide range of integrated solutions designed to empower individuals and
+                                organizations to foster sustainable growth in their communities. 
+                            </p>
+                            <div class="d-grid justify-content-center gap-3 grid-cols-1 lg:grid-cols-2">
+                                <div class="d-flex flex-column gap-3">
+                                    <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
+                                        <div class="position-relative rounded-4 overflow-hidden">
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/Mosque.webp"
+                                                 alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2 ">
+                                                <p class="display-5 fw-bold mb-0 text-white">
+                                                    Building Mosques
+                                                </p>
+                                                <p class="mb-0 text-white clamp-4">
+                                                    We handle the design and development of mosques to ensure they meet
+                                                    the highest standards of quality and sustainability. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative rounded-4 overflow-hidden">
+                                            <img laoding="lazy" src="/theme_indoqat/static/src/imgs/services/Well.webp"
+                                                 alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
+                                                <p class="display-5 fw-bold mb-0 text-white">
+                                                    Well Drilling
+                                                </p>
+                                                <p class="mb-0 text-white">
+                                                    We provide clean water to underserved areas through well drilling
+                                                    projects that we oversee and manage.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid grid-cols-1">
+                                        <div class="position-relative rounded-4 overflow-hidden">
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/School.webp"
+                                                 alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
+                                                <p class="display-5 fw-bold mb-0 text-white">
+                                                    School Development
+                                                </p>
+                                                <p class="mb-0 text-white">
+                                                    We build schools with advanced technologies and modern teaching
+                                                    methods to provide high quality education to children. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-3">
+                                    <div class="d-grid grid-cols-1">
+                                        <div class="position-relative rounded-4 overflow-hidden">
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/Health-care.webp"
+                                                 alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
+                                                <p class="display-5 fw-bold mb-0 text-white">
+                                                    Healthcare Centers Development
+                                                </p>
+                                                <p class="mb-0 text-white">
+                                                    We create fully equipped healthcare centers to deliver comprehensive
+                                                    medical services to communities.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
+                                        <div class="position-relative rounded-4 overflow-hidden">
+                                            <img laoding="lazy" src="/theme_indoqat/static/src/imgs/services/Human.webp"
+                                                 alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
+                                                <p class="display-5 fw-bold mb-0 text-white">
+                                                    Humanitarian Project Development
+                                                </p>
+                                                <p class="mb-0 text-white">
+                                                    We launch innovative relief projects to deliver immediate assistance
+                                                    to communities in crisis. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative rounded-4 overflow-hidden">
+                                            <img laoding="lazy"
+                                                 src="/theme_indoqat/static/src/imgs/services/Social.webp"
+                                                 alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
+                                            <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
+                                                <p class="display-5 fw-bold mb-0 text-white">
+                                                    Social Project Development
+                                                </p>
+                                                <p class="mb-0 text-white">
+                                                    We design and implement inclusive social projects that enhance
+                                                    living standards and foster community solidarity. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="text-center  ready-section pt80 pb80  ">
+                        <div class="container  p-xl-5">
+                            <div class="d-flex flex-column align-items-center">
+
+
+                                <h2 class="ready-title display-2 mb-lg-4 txt-dark" style="max-width:880px;">
+                                    Ready to Start? Collaborate
+                                    with us now.
+                                </h2>
+                                <p class="ready-subtitle h4 " style="max-width:650px;">
+                                    Whether you're looking for consultative or humanitarian
+                                    logistics solutions, we provide the capabilities and
+                                    expertise you need to succeed.
+                                </p>
+
+                            </div>
+                            <button class="btn btn-primary px-4 py-2 mt-4">
+                                Contact Us
+                                <span class="ms-3">
+                                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
+                                              fill="#FEF3F2"/>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </section>
+
                 </div>
             </t>
         </template>
