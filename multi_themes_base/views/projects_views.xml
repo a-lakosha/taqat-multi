@@ -19,6 +19,9 @@
                                 <field name="sub_title"
                                        invisible="company_filter not in ['edama', 'indoqat']"
                                        required="company_filter in ['edama', 'indoqat']"/>
+                                <field name="teaser"
+                                       invisible="company_filter not in ['indoqat']"
+                                       required="company_filter in ['indoqat']"/>
                                 <field name="desc" widget="html" invisible="company_filter not in ['edama', 'indoqat']"
                                        required="company_filter in ['edama', 'indoqat']"/>
                                 <field name="company_filter" invisible="1"/>
