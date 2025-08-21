@@ -16,7 +16,8 @@
                                 <div class="top-section d-flex flex-column align-items-center gap-3 o_animable o_animate o_anim_fade_in"
                                      style="--wanim-duration: 1.2s; --wanim-intensity: 60;">
                                     <h1 class="display-5 text-primary o_animable o_animate o_anim_fade_in"
-                                        style="font-weight:700; --wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 60;">Contact us
+                                        style="font-weight:700; --wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 60;">
+                                        Contact us
                                     </h1>
 
                                     <h3 class="h1 mb-lg-5 text-center o_animable o_animate o_anim_fade_in"
@@ -70,8 +71,8 @@
                                                 E-mail
 
                                             </h3>
-                                            <a href="mailto:contact@taqat.org" class="mb-3 text-dark">
-                                                contact@taqat.org
+                                            <a href="mailto:info@taqat.org" class="mb-3 text-dark">
+                                                info@taqat.org
                                             </a>
                                         </div>
                                         <div class="phone-number  d-flex flex-column gap-2 o_animable o_animate o_anim_fade_in"
@@ -108,7 +109,8 @@
 
 
                                     <iframe class="s_map_embedded o_not_editable o_animable o_animate o_anim_zoom_in"
-                                            width="100%" style="--wanim-duration: 1.5s; --wanim-delay: 0.5s; --wanim-intensity: 85;"
+                                            width="100%"
+                                            style="--wanim-duration: 1.5s; --wanim-delay: 0.5s; --wanim-intensity: 85;"
                                             frameborder="0"
                                             scrolling="no" marginheight="0" marginwidth="0" aria-label="Map"
                                             src="https://maps.google.com/maps?q=RR4P%2BWW2%20Cikini%2C%20Central%20Jakarta%20City%2C%20Jakarta%2C%20Indonesia&amp;t=m&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed"/>
