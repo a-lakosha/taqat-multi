@@ -147,23 +147,6 @@
                                                      alt="Indoqat Green Wall"
                                                      class="rounded-4 h-100 w-100 object-fit-cover" loading="lazy"/>
                                             </div>
-
-                                            <p class="text-primary display-4 fw-bold mb-4">
-
-                                                <t t-out="('%02d' % (project_index+1))"/>
-
-                                            </p>
-                                            <div>
-
-
-                                                <p t-att-data-tooltip="project.title" data-tooltip-position="bottom"
-                                                   class="text-black display-4 fw-bold mb-4 project_title-home display-4">
-                                                    <t t-out="project.title"/>
-                                                </p>
-                                                <p class="text-black display-6  mb-4">
-                                                    <t t-out="project.teaser"/>
-                                                </p>
-                                            </div>
                                             <p class="text-primary display-4 fw-bold mb-4"
                                                t-out="('%02d' % (project_index+1))"/>
                                             <p t-att-data-tooltip="project.title" data-tooltip-position="bottom"
