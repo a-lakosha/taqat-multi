@@ -7,13 +7,16 @@
                 <div id="wrap" class="oe_structure main__content-area-aboutus">
                     <section class="pt40 pb80">
                         <div class="container hero_container p-xl-5">
-                            <h2 class="h4 text-primary mb24">About Idnoqat</h2>
+                            <h2 class="h4 text-primary mb24 o_animable o_animate o_anim_fade_in o_anim_from_top"
+                                style="--wanim-duration: 1s; --wanim-intensity: 60;">About Idnoqat
+                            </h2>
                             <div class="row flex-column justify-content-between align-items-start gap-3  gap-lg-5">
 
                                 <!-- Added gap and padding -->
                                 <div class="heading-title d-flex flex-column flex-lg-row  w-100 gap-3 gap-lg-5">
 
-                                    <div>
+                                    <div class="o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                         style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
                                         <h3 class="h3 upper-text txt-dark">
                                             <span class="text-primary">Indoqat</span>
                                             is a multi-sector investment and development company established in Jakarta,
@@ -23,7 +26,8 @@
                                         </h3>
                                     </div>
 
-                                    <div class="d-flex flex-column ">
+                                    <div class="d-flex flex-column o_animable o_animate o_anim_slide_in o_anim_from_right"
+                                         style="--wanim-duration: 1.2s; --wanim-delay: 0.4s; --wanim-intensity: 70;">
                                         <p class="txt-dark fs-5 lower-text">
                                             <span class="txt-dark fw-bold">Indoqat</span>
                                             adheres to the highest professional standards in real estate development and
@@ -39,7 +43,8 @@
 
                                 </div>
 
-                                <div class="text-center">
+                                <div class="text-center o_animable o_animate o_anim_zoom_in"
+                                     style="--wanim-duration: 1.5s; --wanim-delay: 0.6s; --wanim-intensity: 80;">
                                     <picture>
                                         <source srcset="/theme_indoqat/static/src/imgs/about_us_images/about_mobile.webp"
                                                 media="(max-width: 767px)"/>
@@ -61,9 +66,12 @@
                         <div class="container  d-flex flex-column flex-xl-row align-items-xl-center justify-content-center gap-3 gap-lg-1 ">
                             <div class="row p-xl-5 justify-content-xl-between justify-content-center gap-3">
 
-                                <h2 class="text-primary h4 mb24 order-xl-0 order-1">Our Misson</h2>
+                                <h2 class="text-primary h4 mb24 order-xl-0 order-1 o_animable o_animate o_anim_fade_in o_anim_from_top"
+                                    style="--wanim-duration: 1s; --wanim-intensity: 60;">Our Misson
+                                </h2>
 
-                                <div class="d-flex flex-column gap-4 col-xl-9  order-xl-1 order-2 misson-text">
+                                <div class="d-flex flex-column gap-4 col-xl-9  order-xl-1 order-2 misson-text o_animable o_animate o_anim_fade_in"
+                                     style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
                                     <h3 class="txt-dark w-100 h2">
                                         To lead the
                                         development and management of comprehensive projects by covering planning,
@@ -75,8 +83,8 @@
                                         Indoqat's reputation as a reliable partner in the Indonesian market
                                     </p>
                                 </div>
-                                <div class="d-flex flex-column align-self-center justify-self-center col-xl-3 order-xl-2 order-0	"
-                                     style="max-width:220px;">
+                                <div class="d-flex flex-column align-self-center justify-self-center col-xl-3 order-xl-2 order-0 o_animable o_animate o_anim_fade_in"
+                                     style="max-width:220px; --wanim-duration: 1.5s; --wanim-intensity: 60;">
                                     <img laoding="lazy"
                                          src="/theme_indoqat/static/src/imgs/about_us_images/Quatation.webp"
                                          alt="About Indoqat"
@@ -96,7 +104,8 @@
 
 
                                 <!-- Left: Content -->
-                                <div class="col-lg-5 d-flex flex-column justify-content-center px-3 py-4 mx-lg-5  gap-xl-4 gap-2 order-lg-1 order-2  vision_left">
+                                <div class="col-lg-5 d-flex flex-column justify-content-center px-3 py-4 mx-lg-5  gap-xl-4 gap-2 order-lg-1 order-2  vision_left o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                     style="--wanim-duration: 1.2s; --wanim-intensity: 75;">
 
                                     <!-- Icon -->
                                     <div class="mb-3 vision_icon  ">
@@ -130,7 +139,8 @@
                                 </div>
 
                                 <!-- Right: Image -->
-                                <div class="col-lg-5  d-flex justify-content-lg-end justify-content-center  order-lg-2 order-1 vision_photo_container">
+                                <div class="col-lg-5  d-flex justify-content-lg-end justify-content-center  order-lg-2 order-1 vision_photo_container o_animable o_animate o_anim_slide_in o_anim_from_right"
+                                     style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                     <img laoding="lazy"
                                          src="/theme_indoqat/static/src/imgs/about_us_images/visionPhoto.webp"
                                          alt="Vision Photo"
@@ -144,13 +154,16 @@
 
                     <section class="pt80 pb80">
                         <div class="container p-xl-5">
-                            <h6 class="text-primary fw-bold h4 mb24">Our Values</h6>
+                            <h6 class="text-primary fw-bold h4 mb24 o_animable o_animate o_anim_fade_in o_anim_from_top"
+                                style="--wanim-duration: 1s; --wanim-intensity: 60;">Our Values
+                            </h6>
 
                             <!-- Single row controlling all layout -->
                             <div class="row gy-3 ">
 
                                 <!-- Text block: bigger on md, 5 cols on lg -->
-                                <div class=" col-xxl-6 d-flex flex-column gap-3 values-txt ">
+                                <div class="col-xxl-6 d-flex flex-column gap-3 values-txt o_animable o_animate o_anim_fade_in"
+                                     style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
                                     <h2 class="fw-bold h1 txt-dark">The base of all our successes</h2>
                                     <p class="txt-dark display-6">
                                         At IndoQat, we do not see our values as mere slogans… we consider them the core
@@ -162,7 +175,8 @@
 
 
                                 <!-- Card 1 -->
-                                <div class="col-lg-6 col-xxl-3 ">
+                                <div class="col-lg-6 col-xxl-3 o_animable o_animate o_anim_bounce_in"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 65;">
                                     <div class="value-card value-card-light p-3 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="icon mb-3 icon-bg-dark p-3">
                                             <svg width="40" height="34" viewBox="0 0 40 34" fill="none"
@@ -182,7 +196,8 @@
                                 </div>
 
                                 <!-- Card 2 (Innovation) -->
-                                <div class="col-lg-6 col-xxl-3 ">
+                                <div class="col-lg-6 col-xxl-3 o_animate o_anim_bounce_in"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.4s; --wanim-intensity: 65;">
                                     <div class="value-card bg-primary text-white p-3 rounded-4 h-100 overflow-hidden d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="d-flex justify-content-between align-items-start">
                                             <div class="icon mb-3 bg-light p-3">
@@ -208,7 +223,8 @@
                                 </div>
 
                                 <!-- Excellence (Card 3): bigger on md -->
-                                <div class=" col-xxl-6 ">
+                                <div class="col-xxl-6 o_animable o_animate o_anim_bounce_in"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.5s; --wanim-intensity: 65;">
                                     <div class="value-card value-card-light p-4 rounded-4 h-100 d-flex flex-column justify-content-between">
                                         <div class="icon mb-3 icon-bg-dark p-3">
                                             <svg width="40" height="36" viewBox="0 0 40 36" fill="none"
@@ -232,7 +248,8 @@
                                 </div>
 
                                 <!-- Card 4 -->
-                                <div class="col-lg-6 col-xxl-3 ">
+                                <div class="col-lg-6 col-xxl-3 o_animate o_anim_bounce_in"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.6s; --wanim-intensity: 65;">
                                     <div class="value-card value-card-dark text-white p-3 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="icon mb-3 bg-light p-3">
                                             <svg width="42" height="38" viewBox="0 0 42 38" fill="none"
@@ -255,7 +272,8 @@
                                 </div>
 
                                 <!-- Card 5 -->
-                                <div class="col-lg-6 col-xxl-3 ">
+                                <div class="col-lg-6 col-xxl-3 o_animate o_anim_bounce_in"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.7s; --wanim-intensity: 65;">
                                     <div class="value-card value-card-light p-3 rounded-4 h-100 d-flex flex-column gap-3 gap-lg-4 justify-content-between">
                                         <div class="icon mb-3 icon-bg-dark p-3">
                                             <svg width="40" height="30" viewBox="0 0 40 30" fill="none"
@@ -291,18 +309,21 @@
                             <div class="d-flex flex-column align-items-center">
 
 
-                                <h2 class="ready-title display-2 mb-lg-4 txt-dark" style="max-width:880px;">
+                                <h2 class="ready-title display-2 mb-lg-4 txt-dark o_animable o_animate o_anim_fade_in"
+                                    style="max-width:880px; --wanim-duration: 1.2s; --wanim-intensity: 60;">
                                     Ready to Start? Collaborate
                                     with us now.
                                 </h2>
-                                <p class="ready-subtitle h4 " style="max-width:650px;">
+                                <p class="ready-subtitle h4 o_animable o_animate o_anim_fade_in"
+                                   style="max-width:650px; --wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
                                     Whether you're looking for consultative or humanitarian
                                     logistics solutions, we provide the capabilities and
                                     expertise you need to succeed.
                                 </p>
 
                             </div>
-                            <button class="btn btn-primary px-4 py-2 mt-4">
+                            <button class="btn btn-primary px-4 py-2 mt-4 o_animable o_animate o_anim_zoom_in"
+                                    style="--wanim-duration: 1s; --wanim-delay: 0.4s; --wanim-intensity: 80;">
                                 Contact Us
                                 <span class="ms-3">
                                     <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
