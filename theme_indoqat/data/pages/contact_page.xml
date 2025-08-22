@@ -13,18 +13,25 @@
                                         An address must be specified for a map to be embedded
                                     </div>
                                 </div>
-                                <div class="top-section d-flex flex-column align-items-center gap-3">
-                                    <h1 class="display-5 text-primary" style="font-weight:700;">Contact us</h1>
+                                <div class="top-section d-flex flex-column align-items-center gap-3 o_animable o_animate o_anim_fade_in"
+                                     style="--wanim-duration: 1.2s; --wanim-intensity: 60;">
+                                    <h1 class="display-5 text-primary o_animable o_animate o_anim_fade_in"
+                                        style="font-weight:700; --wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 60;">
+                                        Contact us
+                                    </h1>
 
-                                    <h3 class="h1 mb-lg-5 text-center">
+                                    <h3 class="h1 mb-lg-5 text-center o_animable o_animate o_anim_fade_in"
+                                        style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 60;">
                                         We’re always excited to hear from you!
                                     </h3>
                                 </div>
 
 
                                 <div class="map d-flex flex-column position-relative">
-                                    <div class="floating-details bg-white d-flex flex-column p-3 gap-lg-4">
-                                        <div class="address-bulding d-flex flex-column gap-2 ">
+                                    <div class="floating-details bg-white d-flex flex-column p-3 gap-lg-4 o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                         style="--wanim-duration: 1.2s; --wanim-intensity: 75;">
+                                        <div class="address-bulding d-flex flex-column gap-2 o_animable o_animate o_anim_fade_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
                                             <h3 class="display-5">
                                                 <svg width="24" height="28" viewBox="0 0 24 28" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg"
@@ -43,13 +50,13 @@
                                                 Main building
                                             </h3>
                                             <p class="subaddress">
-                                                8th Floor, QFB Building, Building: 29, Suhaim Bin Hamad Street,
-                                                Street:
-                                                901, Ring Road, Al Sadd - Zone: 38
-                                                Doha - Qatar
+                                                PT. IndoQat World Wide™
+                                                GRIYA UPAKARA, Jl. Cikini IV No.10, CIKINI, MENTENG, JAKARTA PUSAT, DKI
+                                                JAKARTA 10330
                                             </p>
                                         </div>
-                                        <div class="email-address  d-flex flex-column gap-2 ">
+                                        <div class="email-address  d-flex flex-column gap-2 o_animable o_animate o_anim_fade_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 50;">
                                             <h3 class="email display-5 ">
                                                 <svg width="28" height="22" viewBox="0 0 28 22" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +71,12 @@
                                                 E-mail
 
                                             </h3>
-                                            <a href="mailto:contact@taqat.org" class="mb-3 text-dark">
-                                                contact@taqat.org
+                                            <a href="mailto:info@taqat.org" class="mb-3 text-dark">
+                                                info@taqat.org
                                             </a>
                                         </div>
-                                        <div class="phone-number  d-flex flex-column gap-2 ">
+                                        <div class="phone-number  d-flex flex-column gap-2 o_animable o_animate o_anim_fade_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.4s; --wanim-intensity: 50;">
                                             <h3 class="number display-5">
                                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg"
@@ -100,10 +108,12 @@
                                     </div>
 
 
-                                    <iframe class="s_map_embedded o_not_editable" width="100%"
+                                    <iframe class="s_map_embedded o_not_editable o_animable o_animate o_anim_zoom_in"
+                                            width="100%"
+                                            style="--wanim-duration: 1.5s; --wanim-delay: 0.5s; --wanim-intensity: 85;"
                                             frameborder="0"
                                             scrolling="no" marginheight="0" marginwidth="0" aria-label="Map"
-                                            src="https://maps.google.com/maps?q=7GQ4%2BP8H%2C%20Suhaim%20bin%20hamad%20Street%2C%20Doha%2C%20Qatar&amp;t=m&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"/>
+                                            src="https://maps.google.com/maps?q=RR4P%2BWW2%20Cikini%2C%20Central%20Jakarta%20City%2C%20Jakarta%2C%20Indonesia&amp;t=m&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed"/>
                                 </div>
                                 <div class="s_map_color_filter"/>
                             </div>
@@ -118,7 +128,8 @@
                             <div class="d-flex flex-column flex-lg-row gap-4 ">
 
 
-                                <div class="d-flex flex-column  align-items-center align-items-lg-start text-lg-start text-center gap-4">
+                                <div class="d-flex flex-column  align-items-center align-items-lg-start text-lg-start text-center gap-4 o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                     style="--wanim-duration: 1.2s; --wanim-intensity: 75;">
                                     <h2>
                                         Contact Us
                                     </h2>
@@ -131,7 +142,9 @@
                                 </div>
 
                                 <form id="contactus_form" action="/website/form/" method="post"
-                                      enctype="multipart/form-data" class="o_mark_required bg-o-color-2-light  p-4"
+                                      enctype="multipart/form-data"
+                                      class="o_mark_required bg-o-color-2-light p-4 o_animable o_animate o_anim_slide_in o_anim_from_right"
+                                      style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;"
                                       data-mark=""
                                       data-pre-fill="true" data-model_name="crm.lead"
                                       data-success-mode="message"
@@ -196,7 +209,7 @@
                                                 class="mb-0 col-12 s_website_form_submit d-flex align-items-center flex-column flex-lg-row-reverse justify-content-lg-between"
                                                 data-name="Submit Button">
                                             <a href="#" role="button"
-                                               class="btn btn-primary w-100 w-lg-auto d-flex align-items-center justify-content-between flex-nowrap s_website_form_send o_default_snippet_text">
+                                               class="btn btn-primary w-100 w-lg-auto d-flex align-items-center justify-content-between flex-nowrap s_website_form_send o_default_snippet_text o_animable o_animate o_anim_pulse o_animate_on_hover">
                                                 Send
                                                 <i class="bi bi-arrow-right ms-2"/>
                                             </a>

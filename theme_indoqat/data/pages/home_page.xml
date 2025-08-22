@@ -13,15 +13,19 @@
                     <section class="pt24 pb56">
                         <div class="container pt-lg-5 pb-lg-3">
                             <div class="row flex-lg-row flex-column-reverse gap-lg-0 gap-5 justify-content-lg-between pt-lg-5 pb-lg-5 justify-content-center align-items-lg-start align-items-xl-center">
-                                <div class="col-xl-6 col-lg-5 col-12">
-                                    <h1>
+                                <div class="col-xl-6 col-lg-5 col-12 o_animable o_animate o_anim_fade_in o_anim_from_left"
+                                     style="--wanim-duration: 1.2s; --wanim-intensity: 70;">
+                                    <h1 class="o_animable o_animate o_anim_fade_in"
+                                        style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 60;">
                                         Pioneers of <span class="text-primary">Sustainable Investment</span> and
                                         Humanitarian Support
                                     </h1>
-                                    <h2 class="pt-2">
+                                    <h2 class="pt-2 o_animable o_animate o_anim_fade_in"
+                                        style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 60;">
                                         Towards a More Sustainable and Human Future
                                     </h2>
-                                    <p class="display-6 pt-4 mt-2 pb-lg-5 pb-3">
+                                    <p class="display-6 pt-4 mt-2 pb-lg-5 pb-3 o_animable o_animate o_anim_fade_in"
+                                       style="--wanim-duration: 1s; --wanim-delay: 0.4s; --wanim-intensity: 50;">
                                         Indoqat is a leading company in sustainable investment, committed to
                                         developing
                                         innovative solutions that drive economic growth and support humanitarian
@@ -33,7 +37,8 @@
                                         passionate about creating a tangible, positive impact on individuals and
                                         communities.
                                     </p>
-                                    <div class="btns flex-column flex-lg-row d-flex align-items-center gap-3">
+                                    <div class="btns flex-column flex-lg-row d-flex align-items-center gap-3 o_animable o_animate o_anim_zoom_in"
+                                         style="--wanim-duration: 1s; --wanim-delay: 0.5s; --wanim-intensity: 80;">
                                         <a href="/contactus" rel="button"
                                            class="btn w-100 w-lg-fit btn-primary px-4 text-white fw-bold">
                                             Contact Us
@@ -44,7 +49,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col w-2xl-fit col-2xl-0 p-0 position-relative img-section1-container mb-2 mb-lg-0 px-lg-0 px-3">
+                                <div class="col w-2xl-fit col-2xl-0 p-0 position-relative img-section1-container mb-2 mb-lg-0 px-lg-0 px-3 o_animable o_animate o_anim_zoom_out"
+                                     style="--wanim-duration: 1.5s; --wanim-delay: 0.3s; --wanim-intensity: 85;">
                                     <img laoding="lazy"
                                          src="/theme_indoqat/static/src/imgs/homepage_images/section1-image.webp"
                                          alt="Hero"
@@ -67,13 +73,17 @@
                         <div class="container pt-lg-5 pb-lg-3">
                             <div class="row justify-content-between gap-lg-0 gap-3 pt-lg-5 pb-lg-5">
                                 <div class="col-lg-6 col-12">
-                                    <h3 class="text-primary mb-4">About Indoqat</h3>
-                                    <h1 class="text-black pb-lg-5 pb-2">
+                                    <h3 class="text-primary mb-4 o_animable o_animate o_anim_fade_in o_anim_from_top"
+                                        style="--wanim-duration: 1s; --wanim-intensity: 60;">About Indoqat
+                                    </h3>
+                                    <h1 class="text-black pb-lg-5 pb-2 o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                        style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                         <span class="text-muted">We’re not just an investment company,</span>
                                         but a partner on your journey of change.
                                     </h1>
                                     <a href="/contactus" role="button"
-                                       class="btn btn-primary d-none d-lg-inline-block fw-bold px-4 py-2 mt-4">
+                                       class="btn btn-primary d-none d-lg-inline-block fw-bold px-4 py-2 mt-4 o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                       style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                         Contact Us Now
                                         <span class="ms-3">
                                             <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
@@ -84,7 +94,8 @@
                                         </span>
                                     </a>
                                 </div>
-                                <div class="col-lg-5 col-12 border-lg-bottom">
+                                <div class="col-lg-5 col-12 border-lg-bottom o_animable o_animate o_anim_slide_in o_anim_from_right"
+                                     style="--wanim-duration: 1.2s; --wanim-delay: 0.3s; --wanim-intensity: 75;">
                                     <p class="text-black display-5">
                                         We’re striving to create a more balanced world, where development and
                                         humanity
@@ -112,18 +123,21 @@
                         <div class="container pt-lg-5 pb-lg-3">
                             <div class="row justify-content-lg-between justify-content-center pt-lg-5 pt-lg-5 flex-lg-row flex-column-reverse gap-lg-0 gap-3">
                                 <div class="col-lg-5 col-12 text-center text-lg-start">
-                                    <h1 class="text-clip-primary pb-2">
+                                    <h1 class="text-clip-primary pb-2 o_animable o_animate o_anim_fade_in"
+                                        style="--wanim-duration: 1.2s; --wanim-intensity: 60;">
                                         We shape the future with innovative services that create a sustainable
                                         impact
                                     </h1>
-                                    <p class="text-black display-5">
+                                    <p class="text-black display-5 o_animable o_animate o_anim_fade_in"
+                                       style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
                                         We provide comprehensive and innovative solutions in sustainability,
                                         logistics,
                                         business development, and investment support to enable individuals and
                                         organizations to achieve lasting and impactful results.
                                     </p>
                                 </div>
-                                <div class="col d-flex justify-content-lg-end justify-content-center mb-lg-0 mb-4">
+                                <div class="col d-flex justify-content-lg-end justify-content-center mb-lg-0 mb-4 o_animable o_animate o_anim_zoom_in"
+                                     style="--wanim-duration: 1.5s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                     <div class="rounded-circle d-flex flex-column align-items-center justify-content-center border border-4 border-primary w250 h250 d-flex justify-content-center align-items-center">
                                         <p class="display-1 m-0 p-0 text-clip-primary fw-bold o_not_editable">
                                             <t t-out="'%02d' % len(project_ids)"/>
@@ -141,7 +155,8 @@
                             <div class="projects-carousel owl-carousel">
                                 <t t-if="len(project_ids)">
                                     <t t-foreach="project_ids" t-as="project">
-                                        <div class="project_card h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0">
+                                        <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
                                             <div class="project_card_img mb-4">
                                                 <img t-attf-src="/web/image/website.projects/{{project.id}}/website_image"
                                                      alt="Indoqat Green Wall"
@@ -153,9 +168,9 @@
                                                class="text-black display-4 fw-bold mb-4 project_title-home display-4"
                                                t-out="project.title"/>
                                             <p class="text-black project_subtitle-home display-6 mb-4"
-                                               t-out="project.sub_title"/>
+                                               t-out="project.teaser"/>
                                             <a t-attf-href="/services/#project_{{project.id}}"
-                                               class="btn btn-primary fw-bold px-4 py-2">
+                                               class="btn btn-primary fw-bold px-4 py-2 align-self-start">
                                                 More
                                                 <span class="ms-3">
                                                     <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
@@ -176,13 +191,15 @@
                             <div>
 
 
-                                <h2 class="display-2 fw-bold text-center w880 mb-4">
+                                <h2 class="display-2 fw-bold text-center w880 mb-4 o_animable o_animate o_anim_fade_in"
+                                    style="--wanim-duration: 1.2s; --wanim-intensity: 60;">
                                     We Provide <span class="text-primary">solutions</span> that drive meaningful
                                     change
                                     in
                                     Indonesian society.
                                 </h2>
-                                <p class="display-5 text-center w880 mb-4">
+                                <p class="display-5 text-center w880 mb-4 o_animable o_animate o_anim_fade_in"
+                                   style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
                                     We develop a wide range of integrated solutions designed to empower individuals
                                     and
                                     organizations to foster sustainable growth in their communities.
@@ -191,7 +208,8 @@
                             <div class="d-grid justify-content-center gap-3 grid-cols-1 lg:grid-cols-2 pb-lg-3 ">
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
-                                        <div class="position-relative rounded-4 overflow-hidden">
+                                        <div class="position-relative rounded-4 overflow-hidden o_animable o_animate o_anim_zoom_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                             <img laoding="lazy"
                                                  src="/theme_indoqat/static/src/imgs/services/Mosque.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
@@ -206,7 +224,8 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="position-relative rounded-4 overflow-hidden">
+                                        <div class="position-relative rounded-4 overflow-hidden o_animable o_animate o_anim_zoom_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                             <img laoding="lazy" src="/theme_indoqat/static/src/imgs/services/Well.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
@@ -222,7 +241,8 @@
                                         </div>
                                     </div>
                                     <div class="d-grid grid-cols-1">
-                                        <div class="position-relative rounded-4 overflow-hidden">
+                                        <div class="position-relative rounded-4 overflow-hidden o_animable o_animate o_anim_zoom_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                             <img laoding="lazy"
                                                  src="/theme_indoqat/static/src/imgs/services/School.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
@@ -240,7 +260,8 @@
                                 </div>
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-grid grid-cols-1">
-                                        <div class="position-relative rounded-4 overflow-hidden">
+                                        <div class="position-relative rounded-4 overflow-hidden o_animable o_animate o_anim_zoom_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                             <img laoding="lazy"
                                                  src="/theme_indoqat/static/src/imgs/services/Health-care.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
@@ -257,7 +278,8 @@
                                         </div>
                                     </div>
                                     <div class="d-grid grid-cols-1 lg:grid-cols-2 gap-3">
-                                        <div class="position-relative rounded-4 overflow-hidden">
+                                        <div class="position-relative rounded-4 overflow-hidden o_animable o_animate o_anim_zoom_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                             <img laoding="lazy" src="/theme_indoqat/static/src/imgs/services/Human.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
                                             <div class="position-absolute img-description-service p-3 d-flex flex-column gap-2">
@@ -271,7 +293,8 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="position-relative rounded-4 overflow-hidden">
+                                        <div class="position-relative rounded-4 overflow-hidden o_animable o_animate o_anim_zoom_in"
+                                             style="--wanim-duration: 1s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                             <img laoding="lazy"
                                                  src="/theme_indoqat/static/src/imgs/services/Social.webp"
                                                  alt="indonesia" class="w-100 o_object_fit_cover rounded-4"/>
@@ -292,7 +315,8 @@
                     </section>
                     <section class="pt80 pb80">
                         <div class="container pt-lg-5 pb-lg-5">
-                            <h2 class="text-black pb-4 pb-lg-96 text-center">
+                            <h2 class="text-black pb-4 pb-lg-96 text-center o_animable o_animate o_anim_fade_in"
+                                style="--wanim-duration: 1.2s; --wanim-intensity: 60;">
                                 <span class="text-muted">Over <span class="text-primary ">100</span> entities,
                                 </span>
                                 including startups, government agencies, and humanitarian
@@ -313,17 +337,25 @@
                             </div>
                         </div>
                     </section>
-                    <section class="pt80 pb80">
-                        <div class="container d-flex flex-column align-items-center pt-lg-5 pb-lg-5">
-                            <h2 class="display-2 fw-bold text-black text-center w880 mb-4">
-                                Ready to Start? Collaborate with us now.
-                            </h2>
-                            <p class="display-5 text-muted text-center w652 mb-4">
-                                Whether you're looking for consultative or humanitarian logistics solutions, we
-                                provide
-                                the capabilities and expertise you need to succeed.
-                            </p>
-                            <a href="/contactus" role="button" class="btn btn-primary fw-bold px-4 py-2">
+
+                    <section class="text-center ready-section pt80 pb80">
+                        <div class="container  p-xl-5">
+                            <div class="d-flex flex-column align-items-center">
+                                <h2 class="ready-title display-2 mb-lg-4 txt-dark o_animable o_animate o_anim_fade_in"
+                                    style="max-width:880px; --wanim-duration: 1.2s; --wanim-intensity: 60;">
+                                    Ready to Start? Collaborate
+                                    with us now.
+                                </h2>
+                                <p class="ready-subtitle h4 o_animable o_animate o_anim_fade_in"
+                                   style="max-width:650px; --wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 50;">
+                                    Whether you're looking for consultative or humanitarian
+                                    logistics solutions, we provide the capabilities and
+                                    expertise you need to succeed.
+                                </p>
+
+                            </div>
+                            <button class="btn btn-primary px-4 py-2 mt-4 o_animable o_animate o_anim_zoom_in"
+                                    style="--wanim-duration: 1s; --wanim-delay: 0.4s; --wanim-intensity: 80;">
                                 Contact Us
                                 <span class="ms-3">
                                     <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
@@ -332,7 +364,7 @@
                                               fill="#FEF3F2"/>
                                     </svg>
                                 </span>
-                            </a>
+                            </button>
                         </div>
                     </section>
                 </div>
