@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template
+            id="custom_theme_taqatechno_footer"
+            inherit_id="website.layout"
+            name="Avrasya Footer"
+    >
+        <xpath expr="//footer" position="replace">
+            <footer
+                    id="footer"
+                    class="o_footer overflow-hidden position-relative pt-5 oe_structure oe_structure_solo"
+                    t-ignore="true"
+                    t-if="not no_footer"
+                    data-name="footer"
+            >
+                <p class="footer-custom-png d-none d-md-block"/>
+                <div class="container">
+                    <div class="mb-4 pt-4" style="max-width: 287px;">
+                        <img
+                                src="/theme_taqatechno/static/src/images/global/tech_Logo.webp"
+                                alt="taqat-tech"
+                                style="width: 171.228px; height: 72px;"
+                        />
+                    </div>
+                    <div class="row pb-lg-3 align-items-center align-items-lg-baseline">
+                        <div class="col-lg-8">
+                            <ul class="footer__list d-md-flex align-items-center list-unstyled mb56 gap-3 gap-lg-5 flex-wrap">
+                                <li class="mb-3 mb-lg-auto">
+                                    <a href="/aboutus" class="text-white">About us</a>
+                                </li>
+                                <li class="mb-3 mb-lg-auto">
+                                    <a href="/services" class="text-white">Services</a>
+                                </li>
+                                <li class="mb-3 mb-lg-auto">
+                                    <a href="/contactus" class="text-white">Contact Us</a>
+                                </li>
+                                <li class="mb-3 mb-lg-auto">
+                                    <a href="/careers" class="text-white">Career</a>
+                                </li>
+                                <li class="mb-3 mb-lg-auto">
+                                    <a href="/blog" class="text-white">Blog</a>
+                                </li>
+                            </ul>
+                            <ul class="ps-0 list-unstyled">
+                                <h2 class="h5 fw-bold text-white mb-4">Contact Us</h2>
+                                <li class="d-flex flex-column mb-2 fw-normal">
+                                    <a
+                                            t-if="website.company_id.phone"
+                                            t-att-href="'tel:%s' % website.company_id.phone"
+                                            class="text-white"
+                                    >
+                                        <span t-field="website.company_id.phone"/>
+                                    </a>
+                                </li>
+                                <li class="list-unstyled" style="max-width: 136px;">
+                                    D ring - Al sad st. Doha, Qatar
+                                </li>
+                                <li class="list-unstyled pt-2" style="max-width: 136px;">
+                                    <t t-esc="website.company_id.email"/>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column">
+                            <div
+                                    t-attf-class="mb-4 mt-5 mt-md-0 order-2 order-md-1 pb-lg-5 mb-lg-0 d-flex align-items-center #{_div_class} s_social_media o_not_editable oe_unmovable oe_unremovable gap-2"
+                            >
+                                <a
+                                        t-if="website.company_id.social_facebook"
+                                        t-att-href="website.company_id.social_facebook"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="Facebook"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32"
+                                         fill="none">
+                                        <path
+                                                d="M20.6592 7.09321H23.1658V2.85321C21.9522 2.72701 20.7327 2.6647 19.5125 2.66654C15.8858 2.66654 13.4058 4.87988 13.4058 8.93321V12.4265H9.3125V17.1732H13.4058V29.3332H18.3125V17.1732H22.3925L23.0058 12.4265H18.3125V9.39988C18.3125 7.99988 18.6858 7.09321 20.6592 7.09321Z"
+                                                fill="white"
+                                        />
+                                    </svg>
+                                </a>
+
+                                <a
+                                        t-if="website.company_id.social_youtube"
+                                        t-att-href="website.company_id.social_youtube"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="YouTube"
+                                >
+                                    <span class="fs-5 fa fa-youtube-play"/>
+                                </a>
+
+                                <a
+                                        t-if="website.company_id.social_twitter"
+                                        t-att-href="website.company_id.social_twitter"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="Twitter"
+                                >
+                                    <span class="fs-5 fa fa-twitter"/>
+                                </a>
+
+                                <a
+                                        t-if="website.company_id.social_linkedin"
+                                        t-att-href="website.company_id.social_linkedin"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="LinkedIn"
+                                >
+                                    <span class="fs-5 fa fa-linkedin"/>
+                                </a>
+
+                                <a
+                                        t-if="website.company_id.social_github"
+                                        t-att-href="website.company_id.social_github"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="GitHub"
+                                >
+                                    <span class="fs-5 fa fa-github"/>
+                                </a>
+
+                                <a
+                                        t-if="website.company_id.social_instagram"
+                                        t-att-href="website.company_id.social_instagram"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="Instagram"
+                                >
+                                    <span class="fs-5 fa fa-instagram"/>
+                                </a>
+
+                                <a
+                                        t-if="website.company_id.social_tiktok"
+                                        t-att-href="website.company_id.social_tiktok"
+                                        t-attf-class="mx-2 fs-5 btn p-0 text-white #{_link_class}"
+                                        target="_blank"
+                                        aria-label="TikTok"
+                                >
+                                    <span class="fs-5 fa fa-tiktok"/>
+                                </a>
+                            </div>
+
+                            <div class="oe_structure oe_empty order-1 order-md-2">
+                                <section
+                                        class="s_newsletter_block s_newsletter_list o_colored_level"
+                                        data-list-id="1"
+                                        data-snippet="s_newsletter_block"
+                                        data-name="Newsletter Block"
+                                        style="background-image: none;"
+                                >
+                                    <div>
+                                        <div class="row pt-lg-5">
+                                            <div>
+                                                <p class="fw-bold fs-6">Newsletters</p>
+                                                <div
+                                                        class="s_newsletter_subscribe_form s_newsletter_list js_subscribe"
+                                                        data-vxml="001"
+                                                        data-list-id="0"
+                                                        data-name="Newsletter Form"
+                                                        data-snippet="s_newsletter_subscribe_form"
+                                                >
+                                                    <div class="input-group" style="max-width: 400px !important;">
+                                                        <input
+                                                                type="email"
+                                                                name="email"
+                                                                class="js_subscribe_value form-control rounded-5"
+                                                                placeholder="your email..."
+                                                        />
+                                                        <a
+                                                                role="button"
+                                                                href="#"
+                                                                class="btn btn-primary js_subscribe_btn o_submit o_default_snippet_text rounded-end-pill"
+                                                        >
+                                                            Subscribe
+                                                        </a>
+                                                        <a
+                                                                role="button"
+                                                                href="#"
+                                                                class="btn btn-success rounded-end-pill js_subscribed_btn o_submit o_default_snippet_text d-none"
+                                                                disabled="disabled"
+                                                        >
+                                                            Thanks
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                            class="py-4 justify-content-between d-flex flex-wrap mt-5 copyright"
+                            style="border-top: 1px solid #475569;"
+                    >
+                        <div class="d-flex gap-4">
+                            <p>cookies</p>
+                            <p>Terms &amp; conditions</p>
+                        </div>
+                        <p class="text-white m-0 fw-light" style="font-size: 14px;">All right received © 2024 @ taqat
+                            technology.com
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

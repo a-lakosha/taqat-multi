@@ -282,8 +282,8 @@
     margin-bottom: 32px !important;
   }
   .custom-ol-wrapper ol li {
-  margin-bottom: 50px;
-}
+    margin-bottom: 50px;
+  }
 
 }
 
@@ -343,6 +343,7 @@
   }
   .map .floating-details {
     position: absolute;
+    z-index: 10;
     top: 5px;
     left: 6px;
     margin-top: 0;

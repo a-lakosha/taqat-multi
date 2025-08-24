@@ -62,7 +62,7 @@
         <xpath expr="//nav[contains(@t-attf-class, 'navbar navbar-expand-lg navbar-light pt-4 pb-0 px-0')]"
                position="replace">
             <t t-set="latest_posts"
-               t-value="request.env['blog.post'].search([], order='create_date desc', limit=4)"/>
+               t-value="request.env['blog.post'].search([('is_published', '=', True)], order='create_date desc', limit=4)"/>
             <t t-set="first_latest_post" t-value="latest_posts[0]"/>
             <t t-set="last_three_posts" t-value="latest_posts[1:]"/>
             <!-- Featured post section -->
@@ -181,22 +181,29 @@
     <!-- Pager override -->
     <template id="custom_portel_indoqat" inherit_id="portal.pager">
         <xpath expr="//ul" position="replace">
-            <ul t-if="pager['page_count'] > 1"
-                t-attf-class="#{ classname or '' } pagination pt-5 #{_classes} pagenations gap-2"
-                t-att-style="style or None">
+            <ul
+                    t-if="pager['page_count'] > 1"
+                    t-attf-class="#{ classname or '' } pagination pt-5 #{_classes} pagenations gap-2"
+                    t-att-style="style or None"
+            >
                 <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == 1 else ''}">
-                    <a t-att-href="pager['page_previous']['url'] if pager['page']['num'] != 1 else None"
-                       t-attf-class="page-link #{extraLinkClass} #{'d-flex' if pager['page']['num'] != 1 else 'd-none'} bg-primary rounded-pill pager-item justify-content-center align-items-center">
+                    <a
+                            t-att-href="pager['page_previous']['url'] if pager['page']['num'] != 1 else None"
+                            t-attf-class="page-link #{extraLinkClass} #{'d-flex' if pager['page']['num'] != 1 else 'd-none'} bg-primary rounded-pill pager-item justify-content-center align-items-center"
+                    >
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
                             <path d="M6 14.625L16 4.625M16 4.625L26 14.625M16 4.625V28.625"
                                   stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
+
                     </a>
                 </li>
 
                 <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == pager['page_count'] else ''}">
-                    <a t-att-href="pager['page_next']['url'] if pager['page']['num'] != pager['page_count'] else None"
-                       t-attf-class="page-link #{extraLinkClass} #{'d-flex' if pager['page']['num'] != pager['page_count'] else 'd-none'} bg-primary rounded-pill pager-item d-flex justify-content-center align-items-center">
+                    <a
+                            t-att-href="pager['page_next']['url'] if pager['page']['num'] != pager['page_count'] else None"
+                            t-attf-class="page-link #{extraLinkClass} #{'d-flex' if pager['page']['num'] != pager['page_count'] else 'd-none'} bg-primary rounded-pill pager-item d-flex justify-content-center align-items-center"
+                    >
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
                             <path d="M26 18.625L16 28.625M16 28.625L6 18.625M16 28.625L16 4.625" stroke="white"
                                   stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -214,12 +221,14 @@
                 <div class="container pt144">
                     <div class="row max-width-details-task">
                         <div class="content mb40">
-                            <h1 t-esc="blog_post.name" class="display-4 fw-bolder pb-3 m-0"/>
+                            <h3 t-esc="blog_post.name" class="display-4 fw-bolder pb-3 m-0"/>
                             <div>
-                                <time class="mb-5 d-block"
-                                      style="color: #737373; font-size: 16px;"
-                                      t-if="blog_post.post_date"
-                                      t-esc="blog_post.post_date.strftime('%b %Y %d')"/>
+                                <time
+                                        class="mb-5 d-block"
+                                        style="color: #737373; font-size: 16px;"
+                                        t-if="blog_post.post_date"
+                                        t-esc="blog_post.post_date.strftime('%b %Y %d')"
+                                />
                                 <!-- record cover -->
                                 <t t-call="website.record_cover">
                                     <t t-set="_record" t-value="blog_post"/>
@@ -282,8 +291,6 @@
 
         <xpath expr="//section[@id='o_wblog_post_main']" position="replace">
             <!-- Success / more tips posts -->
-            <t t-set="alternative_post_ids"
-               t-value="request.env['blog.post'].search([('blog_id' , '=', blog_post.blog_id.id),('id' , '!=', blog_post.id)], limit=3)"/>
             <section id="alternative_blog_posts" class="py-5 mt-5" style="background: #f9fafb;">
                 <div class="container pb-5">
                     <div class="row py-4">
@@ -291,7 +298,7 @@
                             <h4 class="fw-bold" style="font-size: 32px;">
                                 Similar News
                             </h4>
-                            <a href="/blog"
+                            <a t-attf-href="/blog/#{slug(blog_post.blog_id)}"
                                class="d-flex text-black flex-row gap-3 align-items-center">
                                 More
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
@@ -302,6 +309,8 @@
                                 </svg>
                             </a>
                         </div>
+                        <t t-set="alternative_post_ids"
+                           t-value="request.env['blog.post'].search([('blog_id' , '=', blog_post.blog_id.id)], limit=3)"/>
                         <t t-if="alternative_post_ids">
                             <t t-foreach="alternative_post_ids" t-as="alternative_post_id">
                                 <article
