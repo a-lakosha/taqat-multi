@@ -1,0 +1,161 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#top_menu {
+  margin: auto;
+}
+
+:root {
+  --font-size-large: 24px;
+}
+
+footer {
+  background: #1c1231 !important;
+  z-index: 2;
+}
+
+.footer-custom-png {
+  background-image: url(./../images/footer/footer_custome.webp);
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  width: 512px;
+  z-index: -1;
+  height: 579px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%);
+}
+
+#wrapwrap {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+
+.rounded-5 {
+  border-radius: 24px;
+}
+
+.rounded-bottom-4 {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.row-gap-56 {
+  row-gap: 56px;
+}
+
+.row-gap-4 {
+  row-gap: 2rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+@media (max-width: 999px) {
+  .o_searchbar_form {
+    max-width: 100% !important;
+  }
+  .w-responsef {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  .fs-response-20 {
+    font-size: 20px !important;
+  }
+  .fs-response-16 {
+    font-size: 16px !important;
+  }
+  .fs-response-18 {
+    font-size: 18px !important;
+  }
+  .fs-32 {
+    font-size: 32px !important;
+  }
+  .w-custom {
+    max-width: 300px !important;
+  }
+}
+
+.border-active {
+  border: 1px solid var(--dark);
+}
+
+@media (max-width: 999px) {
+  .handel-nav-blog-post {
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .nav-custom-blog {
+    padding: 24px !important;
+  }
+}
+
+.form-control:focus {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none;
+}
+
+.nav-custom-blog {
+  border-top: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+  padding: 24px 0;
+
+  .active {
+    color: white !important;
+    background-color: #2e1e51;
+  }
+
+  .active:hover {
+    color: white !important;
+  }
+}
+
+.o_record_cover_component {
+  border-radius: 25px !important;
+  object-fit: cover !important;
+}
+
+.webkit-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.multiline-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#o_wblog_index_content {
+  padding-top: 100px;
+}

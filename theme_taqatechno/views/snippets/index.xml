@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="d_map_snippets" inherit_id="website.snippets" priority="10">
+    <xpath expr="//t[@t-snippet='website.s_website_form']" position="after">
+      <t
+        t-snippet="theme_avrasya.avrasya_latest_posts_snippet"
+        string="Latest Posts"
+      />
+    </xpath>
+    <xpath expr="//t[@t-snippet='website.s_website_form']" position="after">
+      <t t-snippet="theme_avrasya.avrasya_faqs_snippet" string="Avrasya Faqs" />
+    </xpath>
+    <xpath expr="//t[@t-snippet='website.s_website_form']" position="after">
+      <t
+        t-snippet="theme_avrasya.avrasya_testimonials_snippet"
+        string="Avrasya Testimonials"
+      />
+    </xpath>
+  </template>
+</odoo>

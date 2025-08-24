@@ -1,0 +1,88 @@
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+
+$o-theme-h1-font-size-multiplier: (72 / 16);
+$o-theme-h2-font-size-multiplier: (60 / 16);
+$o-theme-h3-font-size-multiplier: (48 / 16);
+$o-theme-h4-font-size-multiplier: (32 / 16);
+$o-theme-h5-font-size-multiplier: (24 / 16);
+$o-theme-h6-font-size-multiplier: (20 / 16);
+
+$headings-font-weight: 700;
+$o-theme-headings-font-weight: 700;
+
+$o-color-palettes: map-merge($o-color-palettes,
+        (
+                'taqatechno_colors': (
+                        'o-color-1': #7F2E8C,
+                        'o-color-2': #322159,
+                        'o-color-3': #F2F3F1,
+                        'o-color-4': #ffffff,
+                        'o-color-5': #322159,
+                        'menu': 1,
+                        'footer': 5,
+                        'copyright': 5,
+                ),
+        )
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'taqatechno_colors');
+
+$o-website-values-palettes: (
+        (
+                'color-palettes-name': 'taqatechno_colors',
+                'link-underline': 'never',
+                'line-height-base': '1.5',
+                'btn-font-weight': 700,
+                'btn-padding-y': 15px,
+                'btn-padding-x': 36px,
+                'btn-border-radius': 9999px,
+                'btn-padding-y-sm': 12px,
+                'btn-padding-x-sm': 28px,
+                'btn-border-radius-sm': 9999px,
+                'btn-padding-y-lg': 12px,
+                'btn-padding-x-lg': 24px,
+                'btn-border-radius-lg': 9999px,
+                'input-padding-y': 10px,
+                'input-padding-x': 16px,
+                'input-border-radius': 4px,
+                'input-padding-y-sm': 10px,
+                'input-padding-x-sm': 16px,
+                'input-border-radius-sm': 9999px,
+                'input-padding-y-lg': 20px,
+                'input-padding-x-lg': 16px,
+                'input-border-radius-lg': 9999px,
+                'display-1-font-size': 40px,
+                'display-2-font-size': 32px,
+                'display-3-font-size': 24px,
+                'display-4-font-size': 20px,
+                'display-5-font-size': 16px,
+                'display-6-font-size': 14px,
+        ),
+);
+
+$o-theme-font-configs: map-merge((
+        'Inter': (
+                'family': ('Inter', sans-serif),
+                'url': 'Inter:100,200,300,400,500,600,700,800,900',
+        ),
+        'Almarai': (
+                'family': ('Almarai', sans-serif),
+                'url': 'Almarai:300,400,700,900',
+        ),
+        'Readex Pro': (
+                'family': ('Readex Pro', sans-serif),
+                'url': 'Readex Pro:200,300,400,500,600,700',
+        ),
+        'Cairo': (
+                'family': ('Cairo', sans-serif),
+                'url': 'Cairo:200,300,400,500,600,700,800,900,1000',
+        )
+), $o-theme-font-configs);
+
+// Custom Headers
+$custom-header-list: ('prime_style_1', 'prime_style_2', 'prime_style_3', 'prime_style_4', 'prime_style_5', 'prime_style_6', 'prime_style_7', 'prime_style_8');
+$custom-header-list-support-box: ('prime_style_2', 'prime_style_3', 'prime_style_4');
+$custom-header-list-navbar-only: ('prime_style_1', 'prime_style_5', 'prime_style_8');
