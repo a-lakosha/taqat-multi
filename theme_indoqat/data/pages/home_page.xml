@@ -10,6 +10,7 @@
                 <t t-set="partners_ids"
                    t-value="request.env['website.partners'].search([('website_id', '=',website.id)])"/>
                 <div id="wrap" class="oe_structure oe_empty">
+                    <!--                    Hero Section-->
                     <section class="pt24 pb56">
                         <div class="container pt-lg-5 pb-lg-3">
                             <div class="row flex-lg-row flex-column-reverse gap-lg-0 gap-5 justify-content-lg-between pt-lg-5 pb-lg-5 justify-content-center align-items-lg-start align-items-xl-center">
