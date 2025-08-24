@@ -1,0 +1,202 @@
+<odoo>
+    <data>
+        <template id="get_start_template">
+            <t t-set="additional_title" t-valuef="Get Started"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure oe_empty">
+                    <div class="oe_structure oe_empty"/>
+                    <section class="hero-section">
+                        <div class="container py-5">
+                            <div class="row py-lg-5">
+                                <div class="content text-center mb-3 d-block d-lg-none">
+                                    <h1 class="m-auto" style="max-width: 320px">
+                                        Step into successful Future with TaqaTechno
+                                    </h1>
+                                    <p class="pt-4 m-auto" style="max-width: 320px">
+                                        Your successful digital transformation starts now.
+                                    </p>
+                                </div>
+                                <div
+                                        class="get-start-hero d-sm-flex position-relative d-flex align-items-center justify-content-center rounded-5 py-5"
+                                        style="
+                  width: 100%;
+                  z-index: 1;
+                  height: 100%;
+                  background-attachment: fixed;
+                  background-image: url('/theme_taqatechno/static/src/images/getStarted/get-started.webp');
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  min-height: 750px;
+                "
+                                >
+                                    <div class="content d-none d-lg-block text-center">
+                                        <h1 class="text-white m-auto" style="max-width: 882px">
+                                            Step into successful Future with TaqaTechno
+                                        </h1>
+                                        <p class="text-white pt-4">
+                                            Your successful digital transformation starts now.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure oe_empty"/>
+                    <section class="your-path py-lg-5 py-3">
+                        <div class="container py-lg-5">
+                            <div class="row">
+                                <div class="content text-lg-center pb-lg-5 pb-2 mb-lg-4">
+                                    <h2 class="pb-2 title">Begin Your Innovation Evolution</h2>
+                                    <p>Lead your digital transformation with confidence.</p>
+                                </div>
+                                <div class="col-lg-4 pb-3">
+                                    <div
+                                            style="background: #7f2e8c; padding: 32px"
+                                            class="box rounded-5 h-100 t"
+                                    >
+                                        <svg
+                                                width="42"
+                                                height="37"
+                                                viewBox="0 0 42 37"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                    d="M15 2.5H10.8236C8.84806 2.5 7.10355 3.78845 6.52258 5.67661L1.69899 21.3533C1.56707 21.782 1.5 22.2281 1.5 22.6767V31C1.5 33.4853 3.51472 35.5 6 35.5H36C38.4853 35.5 40.5 33.4853 40.5 31V22.6767C40.5 22.2281 40.4329 21.782 40.301 21.3533L35.4774 5.67661C34.8964 3.78845 33.1519 2.5 31.1764 2.5H27M1.5 22H9.21885C10.9233 22 12.4815 22.963 13.2438 24.4875L13.7562 25.5125C14.5185 27.037 16.0767 28 17.7812 28H24.2188C25.9233 28 27.4815 27.037 28.2438 25.5125L28.7562 24.4875C29.5185 22.963 31.0767 22 32.7812 22H40.5M21 1V17.5M21 17.5L15 11.5M21 17.5L27 11.5"
+                                                    stroke="#F9F5F9"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                            />
+                                        </svg>
+
+                                        <h6 class="fw-bold text-white pt-5">
+                                            Schedule a Consultation
+                                        </h6>
+                                        <p class="text-white pt-2">Book a free consultation with our experts to discuss
+                                            your needs
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pb-3">
+                                    <div
+                                            style="background: #7f2e8c; padding: 32px"
+                                            class="box rounded-5 h-100"
+                                    >
+                                        <svg
+                                                width="42"
+                                                height="37"
+                                                viewBox="0 0 42 37"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                    d="M15 2.5H10.8236C8.84806 2.5 7.10355 3.78845 6.52258 5.67661L1.69899 21.3533C1.56707 21.782 1.5 22.2281 1.5 22.6767V31C1.5 33.4853 3.51472 35.5 6 35.5H36C38.4853 35.5 40.5 33.4853 40.5 31V22.6767C40.5 22.2281 40.4329 21.782 40.301 21.3533L35.4774 5.67661C34.8964 3.78845 33.1519 2.5 31.1764 2.5H27M1.5 22H9.21885C10.9233 22 12.4815 22.963 13.2438 24.4875L13.7562 25.5125C14.5185 27.037 16.0767 28 17.7812 28H24.2188C25.9233 28 27.4815 27.037 28.2438 25.5125L28.7562 24.4875C29.5185 22.963 31.0767 22 32.7812 22H40.5M21 1V17.5M21 17.5L15 11.5M21 17.5L27 11.5"
+                                                    stroke="#F9F5F9"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                            />
+                                        </svg>
+
+                                        <h6 class="fw-bold text-white pt-5">
+                                            Schedule a Consultation
+                                        </h6>
+                                        <p class="text-white pt-2">We analyze your business needs and create a tailored
+                                            implementation plan
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pb-3">
+                                    <div
+                                            style="background: #7f2e8c; padding: 32px"
+                                            class="box rounded-5 h-100"
+                                    >
+                                        <svg
+                                                width="42"
+                                                height="37"
+                                                viewBox="0 0 42 37"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                    d="M15 2.5H10.8236C8.84806 2.5 7.10355 3.78845 6.52258 5.67661L1.69899 21.3533C1.56707 21.782 1.5 22.2281 1.5 22.6767V31C1.5 33.4853 3.51472 35.5 6 35.5H36C38.4853 35.5 40.5 33.4853 40.5 31V22.6767C40.5 22.2281 40.4329 21.782 40.301 21.3533L35.4774 5.67661C34.8964 3.78845 33.1519 2.5 31.1764 2.5H27M1.5 22H9.21885C10.9233 22 12.4815 22.963 13.2438 24.4875L13.7562 25.5125C14.5185 27.037 16.0767 28 17.7812 28H24.2188C25.9233 28 27.4815 27.037 28.2438 25.5125L28.7562 24.4875C29.5185 22.963 31.0767 22 32.7812 22H40.5M21 1V17.5M21 17.5L15 11.5M21 17.5L27 11.5"
+                                                    stroke="#F9F5F9"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                            />
+                                        </svg>
+
+                                        <h6 class="fw-bold text-white pt-5">Implementation</h6>
+                                        <p class="text-white pt-2">
+                                            Our team executes the plan and guides you through the transition
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure oe_empty"/>
+                    <section class="Benefits-Perks">
+                        <div class="container">
+                            <div class="row py-5">
+                                <div class="col-lg-5">
+                                    <h3 class="mb-3">Benefits &amp; Perks</h3>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="d-flex flex-wrap gap-lg-4 gap-2" style="max-width: 700px">
+                                        <div
+                                                style="background: #f5f5f5; width: fit-content; font-weight: 700 !important; padding: 24px 32px;"
+                                                class="widget fs-response-16 fs-5 rounded-4"
+                                        >
+                                            Expert Implementation Team
+                                        </div>
+                                        <div
+                                                style="background: #f5f5f5; width: fit-content; font-weight: 700 !important; padding: 24px 32px;"
+                                                class="widget fs-response-16 fs-5 rounded-4"
+                                        >
+                                            Customized Solutions
+                                        </div>
+                                        <div
+                                                style="background: #f5f5f5; width: fit-content; font-weight: 700 !important; padding: 24px 32px;"
+                                                class="widget fs-response-16 fs-5 rounded-4"
+                                        >
+                                            24/7 Support
+                                        </div>
+                                        <div
+                                                style="background: #f5f5f5; width: fit-content; font-weight: 700 !important; padding: 24px 32px;"
+                                                class="widget fs-response-16 fs-5 rounded-4"
+                                        >
+                                            Proven Track Record
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure oe_empty"/>
+                    <section class="fqs py-lg-5">
+                        <div class="container py-5 my-lg-5">
+                            <div class="row my-lg-3">
+                                <div class="content pb-4 mb-lg-5">
+                                    <h2 class="m-auto text-lg-center pb-3" style="max-width: 656px">
+                                        Frequently Asked Questiosns
+                                    </h2>
+                                </div>
+                                <t t-call="theme_taqatechno.collapse_custom"/>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure oe_empty"/>
+                </div>
+            </t>
+        </template>
+        <record id="page_details_page" model="theme.website.page">
+            <field name="view_id" ref="get_start_template"/>
+            <field name="website_indexed" eval="True"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/get-start</field>
+        </record>
+    </data>
+</odoo>
