@@ -266,7 +266,7 @@
 }
 
 
-.website_blog #o_wblog_posts_loop .o_record_cover_container , #alternative_blog_posts .o_record_cover_container {
+.website_blog #o_wblog_posts_loop .o_record_cover_container, #alternative_blog_posts .o_record_cover_container {
   height: 174px !important;
   border-radius: 20px !important;
   overflow: hidden;
@@ -282,13 +282,49 @@
 }
 
 #blog_details {
-   .max-width-details-task {
+  .max-width-details-task {
     max-width: 882px;
-     margin: auto;
+    margin: auto;
   }
+
   div.o_record_cover_container.d-flex.flex-column.h-100.o_colored_level.o_cc > div {
     height: 574.219px;
     object-fit: cover;
     position: relative;
   }
+}
+
+.min-h-600 {
+  min-height: 600px;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.main_job_section_image {
+  height: 600px;
+  object-fit: cover;
+  @media (max-width: 992px) {
+    height: 354.244px;
+  }
+}
+
+.job-btn {
+  * {
+    transition: 0.5s;
+  }
+
+  &:hover {
+    color: white !important;
+
+    svg {
+      path {
+        stroke: white;
+      }
+    }
+  }
+}
+.details-jobs {
+
 }
