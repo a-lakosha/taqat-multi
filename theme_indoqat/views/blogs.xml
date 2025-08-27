@@ -6,7 +6,7 @@
             <section class="post_blogs">
                 <div class="container pt144 pb64 border-bottom">
                     <div class="row d-flex flex-row align-items-end justify-content-between gap-2 gap-lg-0">
-                        <div class="content col-lg-6">
+                        <div class="content col-lg-6 o_animate o_anim_fade_in">
                             <h2 class="display-2 fw-bolder pb-3">Blog &amp; News</h2>
                             <p class="display-6 fw-medium">
                                 Explore the latest in sustainable development, technology, and social innovation.
@@ -16,7 +16,7 @@
                                 key global trends shaping today and tomorrow. 
                             </p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 o_animate o_anim_fade_in">
                             <t t-call="website.website_search_box_input">
                                 <t t-set="_form_classes"
                                    t-valuef="#{not len(blogs) &gt; 1 and 'ms-auto'} flex-grow-1 flex-lg-grow-0"/>
@@ -70,7 +70,7 @@
             <section class="lastest_news pb144" t-if="latest_posts">
                 <div class="container pt64">
                     <h2 class="pb64">Latest News</h2>
-                    <div class="row first_lastest_blog  gap-4 gap-lg-0">
+                    <div class="row first_lastest_blog  gap-4 gap-lg-0 o_animate o_anim_fade_in">
                         <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
                            class="text-black first_lastest_blog_img col-lg-7">
                             <t t-call="website.record_cover">
@@ -81,7 +81,7 @@
                                 />
                             </t>
                         </a>
-                        <div class="col d-flex flex-column justify-content-between">
+                        <div class="col d-flex flex-column justify-content-between o_animate o_anim_slide_in  o_anim_from_right">
                             <div class="">
                                 <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
                                    class="text-black d-flex display-4 fw-bolder blog_title pb-3 m-0"
@@ -89,10 +89,12 @@
                                 <p class="display-6 fw-medium m-0 pb64" t-out="first_latest_post.teaser"/>
                             </div>
                             <div class="date_more p-0 d-flex flex-row align-items-center justify-content-between">
-                                <time t-if="first_latest_post.post_date" class="display-6 fw-medium m-0"
+                                <time t-if="first_latest_post.post_date"
+                                      class="display-6 fw-medium m-0 o_animate o_anim_slide_in  o_anim_from_right o_delay_250"
                                       t-out="first_latest_post.create_date.strftime('%d %B %Y')"/>
                                 <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
-                                   class="btn btn-link d-flex flex-row gap-2 align-items-center text-black">More
+                                   class="btn btn-link d-flex flex-row gap-2 align-items-center text-black o_animate o_anim_slide_in  o_anim_from_right o_delay_250">
+                                    More
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                          fill="none">
                                         <path d="M13.5 19.5L21 12M21 12L13.5 4.5M21 12H3" stroke="#0F172A"
@@ -104,7 +106,7 @@
                     </div>
                     <div class="pt120 d-grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
                         <t t-foreach="last_three_posts" t-as="post">
-                            <div class="latest_post">
+                            <div class="latest_post o_animate o_anim_bounce_in">
                                 <a class="featured_post_img" t-attf-href="/blog/#{slug(post.blog_id)}/#{slug(post)}">
                                     <t t-call="website.record_cover">
                                         <t t-set="_record" t-value="post"/>
@@ -147,7 +149,7 @@
         </xpath>
         <xpath expr="//article[@name='blog_post']" position="replace">
             <article
-                    t-attf-class="latest_post o_wblog_post position-relative #{'card h-100' if opt_blog_cards_design else ''}"
+                    t-attf-class="latest_post o_wblog_post position-relative #{'card h-100' if opt_blog_cards_design else ''} o_animate o_anim_fade_in  o_anim_from_bottom"
                     name="blog_post">
                 <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/#{slug(blog_post)}">
                     <t t-call="website.record_cover">
@@ -217,9 +219,9 @@
     <!-- Blog detail top -->
     <template id="cutome_blogs_details" inherit_id="website_blog.blog_post_complete">
         <xpath expr="//section[@id='o_wblog_post_top']" position="replace">
-            <section id="blog_details">
-                <div class="container pt144">
-                    <div class="row max-width-details-task">
+            <section id="blog_details ">
+                <div class="container pt144 o_animate o_anim_fade_in">
+                    <div class="row max-width-details-task  ">
                         <div class="content mb40">
                             <h3 t-esc="blog_post.name" class="display-4 fw-bolder pb-3 m-0"/>
                             <div>
