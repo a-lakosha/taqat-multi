@@ -49,51 +49,65 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row gap-5 gap-lg-0 justify-content-lg-between justify-content-evenly">
-                            <div class="col-lg-5 jobs_image">
-                                <img src="/theme_indoqat/static/src/imgs/jobs_images/Rectangle_15.png"
-                                     alt="main_job_section_image"
-                                     class="w-100 img-fluid rounded-4 main_job_section_image"/>
+                        <div class="row gap-5 gap-xl-0 justify-content-lg-between justify-content-evenly">
+                            <div class="col-xl-5">
+                                <div class="pe-xl-5">
+
+
+                                    <img src="/theme_indoqat/static/src/imgs/jobs_images/Rectangle_15.png"
+                                         alt="main_job_section_image"
+                                         class="w-100 img-fluid rounded-4 main_job_section_image"/>
+                                </div>
                             </div>
-                            <div class="col-lg-7">
+                            <div class="col-xl-7">
                                 <div class="d-flex flex-wrap justify-content-between min-h-600">
-                                    <div class="row mb-xl-5 pb-lg-5 justify-content-between h-fit">
-                                        <div class="why_item col-lg-5 mb-4 mb-lg-0 border-bottom">
-                                            <h5 class="display-5 fw-bolder mb-3">
-                                                ✅ A Growth-Oriented, Supportive Workplace
-                                            </h5>
-                                            <p class="mb32">We create a culture that nurtures development and
-                                                professional
-                                                advancement.
-                                            </p>
+                                    <div class="row mb-xl-5 pb-xl-5 justify-content-between h-fit">
+                                        <div class="why_item col-xl-6 mb-4 mb-xl-0 ">
+                                            <div class=" border-bottom h-100">
+
+                                                <h5 class="display-5 fw-bolder mb-3">
+                                                    ✅ A Growth-Oriented, Supportive Workplace
+                                                </h5>
+                                                <p class="mb32">We create a culture that nurtures development and
+                                                    professional
+                                                    advancement.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="why_item col-lg-6 mb-4 mb-lg-0 border-bottom">
-                                            <h5 class="display-5 fw-bolder mb-3">
-                                                ✅ Purpose-Driven Projects with Lasting Impact
-                                            </h5>
-                                            <p class="mb32">At Indoqat, every project is built to drive real change, as
-                                                your
-                                                work will directly contribute to meaningful community development.
-                                            </p>
+                                        <div class="why_item col-xl-6 mb-4 mb-xl-0 ">
+                                            <div class="border-bottom h-100">
+                                                <h5 class="display-5 fw-bolder mb-3">
+                                                    ✅ Purpose-Driven Projects with Lasting Impact
+                                                </h5>
+                                                <p class="mb32">At Indoqat, every project is built to drive real change,
+                                                    as
+                                                    your
+                                                    work will directly contribute to meaningful community development.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row justify-content-between h-fit">
-                                        <div class="why_item col-lg-5 mb-4 mb-lg-0 border-bottom">
-                                            <h5 class="display-5 fw-bolder mb-3">
-                                                ✅ Ongoing Learning &amp; Development Opportunities
-                                            </h5>
-                                            <p class="mb32">We invest in our people through continuous training and
-                                                skill-building to keep them ahead of the curve.
-                                            </p>
+                                        <div class="why_item col-xl-6 mb-4 mb-xl-0">
+                                            <div class=" border-bottom h-100">
+                                                <h5 class="display-5 fw-bolder mb-3">
+                                                    ✅ Ongoing Learning &amp; Development Opportunities
+                                                </h5>
+                                                <p class="mb32">We invest in our people through continuous training and
+                                                    skill-building to keep them ahead of the curve.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="why_item col-lg-6 mb-4 mb-lg-0 border-bottom">
-                                            <h5 class="display-5 fw-bolder mb-3">
-                                                ✅ A Culture of Transparency and Teamwork
-                                            </h5>
-                                            <p class="mb32">We promote trust and openness within our team, believing
-                                                that
-                                                true success comes through collaboration and knowledge-sharing.
-                                            </p>
+                                        <div class="why_item col-xl-6 mb-4 mb-xl-0">
+                                            <div class=" border-bottom h-100">
+                                                <h5 class="display-5 fw-bolder mb-3">
+                                                    ✅ A Culture of Transparency and Teamwork
+                                                </h5>
+                                                <p class="mb32">We promote trust and openness within our team, believing
+                                                    that
+                                                    true success comes through collaboration and knowledge-sharing.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +117,7 @@
                 </section>
                 <section id="home_job" class="o_cc pt80 o_cc2 pb64">
                     <form action="" class="pt-lg-5">
-                        <div class="container pt-lg-5">
+                        <div class="container">
                             <div class="content py-4">
                                 <h2 class="fw-bolder pb-1 m-0">Search among Available Jobs</h2>
                                 <p class="pb32">
@@ -437,7 +451,7 @@
                                 <div class="details-jobs d-flex gap-3">
                                     <span t-field="job.address_id" class="m-0 p-0 text-muted" t-if="job.address_id"
                                           t-options='{"widget": "contact", "fields": ["city"], "no_tag_br": True, "null_text": "Remote", "no_marker": true}'/>
-                                    <p class="m-0 p-0 text-muted">|</p>
+                                    <p t-if="job.address_id" class="m-0 p-0 text-muted">|</p>
                                     <p class="m-0 p-0 text-muted" t-field="job.department_id.name"/>
                                 </div>
                                 <div
