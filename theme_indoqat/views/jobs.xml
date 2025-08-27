@@ -36,7 +36,7 @@
                 </section>
                 <section class="why_be_part pt80 pb80">
                     <div class="container py-lg-5">
-                        <div class="row mb56 gap-2 gap-lg-0 align-items-center justify-content-between">
+                        <div class="row mb56 gap-2 gap-lg-0 align-items-center">
                             <div class="col-lg-5 mb-lg-4">
                                 <h1 class="m-0 p-0">
                                     Why Be Part of Indoqat?
@@ -487,5 +487,16 @@
             </t>
         </xpath>
     </template>
+    <record id="jobs_page" model="theme.website.page">
+        <field name="view_id" ref="inherit_page_jobs"/>
+        <field name="is_published" eval="True"/>
+        <field name="url">/jobs</field>
+    </record>
+
+    <record id="jobs_menu" model="theme.website.menu">
+        <field name="name">Careers</field>
+        <field name="url">/jobs</field>
+        <field name="sequence" type="int">40</field>
+    </record>
 
 </odoo>
