@@ -430,7 +430,7 @@
                         class="m-auto"
                         id="hero_section_details_ids"
                 >
-                    <div class="container">
+                    <div class="container o_animate o_anim_fade_in">
                         <div class="row">
                             <div class="details pt120 pb40 border-bottom px-lg-0">
                                 <div class="d-flex mb24 flex-row flex-wrap justify-content-between align-items-center">
