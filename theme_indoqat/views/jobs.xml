@@ -27,9 +27,9 @@
                                 </a>
                             </div>
                             <div class="col-lg-5 overflow-hidden o_animate o_anim_fade_in">
-                                <img src="/theme_indoqat/static/src/imgs/jobs_images/5af391b112ad628fbf88648cd57e94f4fbda3a06.jpg"
+                                <img src="/theme_indoqat/static/src/imgs/jobs_images/5af391b112ad628fbf88648cd57e94f4fbda3a06.webp"
                                      alt="main_job_section_image"
-                                     class="w-100 img-fluid rounded-4 main_job_section_image"/>
+                                     class="w-100 img-fluid rounded-4 main_job_section_image" loading="lazy"/>
                             </div>
                         </div>
                     </div>
@@ -54,9 +54,9 @@
                                 <div class="pe-xl-5">
 
 
-                                    <img src="/theme_indoqat/static/src/imgs/jobs_images/Rectangle_15.png"
+                                    <img src="/theme_indoqat/static/src/imgs/jobs_images/Rectangle_15.webp"
                                          alt="main_job_section_image"
-                                         class="w-100 img-fluid rounded-4 main_job_section_image"/>
+                                         class="w-100 img-fluid rounded-4 main_job_section_image" loading="lazy"/>
                                 </div>
                             </div>
                             <div class="col-xl-7">
