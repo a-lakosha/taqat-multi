@@ -6,7 +6,7 @@
                 <section class="join_indoqat_team pt56 pb80">
                     <div class="container pb-lg-5 pt-lg-5">
                         <div class="row px-lg-4 align-items-center justify-content-between pt-lg-3">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 o_animate o_anim_fade_in o_anim_from_left">
                                 <h1 class="display-2 fw-bolder mb32">Join Indoqat Team</h1>
                                 <p class="display-5 fw-bolder mb24">
                                     Be part of the change… and build your future with us.
@@ -26,7 +26,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-lg-5 overflow-hidden">
+                            <div class="col-lg-5 overflow-hidden o_animate o_anim_fade_in">
                                 <img src="/theme_indoqat/static/src/imgs/jobs_images/5af391b112ad628fbf88648cd57e94f4fbda3a06.jpg"
                                      alt="main_job_section_image"
                                      class="w-100 img-fluid rounded-4 main_job_section_image"/>
@@ -36,13 +36,13 @@
                 </section>
                 <section class="why_be_part pt80 pb80">
                     <div class="container py-lg-5">
-                        <div class="row mb56 gap-2 gap-lg-0 align-items-center">
+                        <div class="row mb56 gap-2 gap-lg-0 align-items-center o_animate o_anim_fade_in">
                             <div class="col-lg-5 mb-lg-4">
                                 <h1 class="m-0 p-0">
                                     Why Be Part of Indoqat?
                                 </h1>
                             </div>
-                            <div class="col-lg-6 mb-lg-4">
+                            <div class="col-lg-6 mb-lg-4 o_animate o_anim_fade_in">
                                 <p class="display-5 m-0 p-0">
                                     We thrive in a flexible, empowering, and collaborative environment where ideas are
                                     respected and ambitions are embraced.
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="row gap-5 gap-xl-0 justify-content-lg-between justify-content-evenly">
-                            <div class="col-xl-5">
+                            <div class="col-xl-5 o_animate o_anim_fade_in">
                                 <div class="pe-xl-5">
 
 
@@ -61,8 +61,8 @@
                             </div>
                             <div class="col-xl-7">
                                 <div class="d-flex flex-wrap justify-content-between min-h-600">
-                                    <div class="row mb-xl-5 pb-xl-5 justify-content-between h-fit">
-                                        <div class="why_item col-xl-6 mb-4 mb-xl-0 ">
+                                    <div class="row mb-xl-5 pb-xl-5 justify-content-between h-fit o_animate o_anim_fade_in o_anim_from_bottom">
+                                        <div class="why_item col-xl-6 mb-4 mb-xl-0  ">
                                             <div class=" border-bottom h-100">
 
                                                 <h5 class="display-5 fw-bolder mb-3">
@@ -87,8 +87,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row justify-content-between h-fit">
-                                        <div class="why_item col-xl-6 mb-4 mb-xl-0">
+                                    <div class="row justify-content-between h-fit o_animate o_anim_fade_in o_anim_from_bottom">
+                                        <div class="why_item col-xl-6 mb-4 mb-xl-0 ">
                                             <div class=" border-bottom h-100">
                                                 <h5 class="display-5 fw-bolder mb-3">
                                                     ✅ Ongoing Learning &amp; Development Opportunities
@@ -118,7 +118,7 @@
                 <section id="home_job" class="o_cc pt80 o_cc2 pb64">
                     <form action="" class="pt-lg-5">
                         <div class="container">
-                            <div class="content py-4">
+                            <div class="content py-4 o_animate o_anim_fade_in">
                                 <h2 class="fw-bolder pb-1 m-0">Search among Available Jobs</h2>
                                 <p class="pb32">
                                     <t t-esc="len(jobs)"/>
@@ -132,7 +132,7 @@
                                     <form
                                             id="jobsForm"
                                             method="get"
-                                            class="o_searchbar_form rounded-4 w-fit s_searchbar_input me-auto w-100 flex-grow-1"
+                                            class="o_searchbar_form rounded-4 w-fit s_searchbar_input me-auto w-100 flex-grow-1 o_animate o_anim_fade_in"
                                     >
                                         <div role="search"
                                              class="input-group d-flex gap-2 w-100 search-query rounded-4 bg-white w-100 form-control oe_search_box border-0 text-bg-light">
@@ -362,7 +362,7 @@
                             <t t-else="">
                                 <t t-foreach="jobs" t-as="job">
                                     <div
-                                            class="box mt-4 position-relative rounded-5 p-3 bg-white"
+                                            class="box mt-4 position-relative rounded-5 p-3 bg-white o_animate o_anim_fade_in o_anim_from_bottom"
                                     >
                                         <p
                                                 t-if="not job.website_published"
