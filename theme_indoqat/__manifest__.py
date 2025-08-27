@@ -22,8 +22,8 @@
         'views/blogs.xml',
         'views/custom_footer.xml',
         'views/custom_navbar.xml',
-        'views/jobs.xml',
         'views/snippets.xml',
+        'views/jobs.xml',
 
         'data/pages/home_page.xml',
         'data/pages/about_page.xml',
