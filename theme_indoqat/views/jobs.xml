@@ -3,9 +3,9 @@
     <template id="inherit_page_jobs" inherit_id="website_hr_recruitment.index">
         <xpath expr="//t[@t-call='website.layout']" position="replace">
             <t t-call="website.layout">
-                <section class="join_indoqat_team pt120 pb120">
-                    <div class="container">
-                        <div class="row px-lg-4 align-items-center justify-content-between">
+                <section class="join_indoqat_team pt56 pb80">
+                    <div class="container pb-lg-5 pt-lg-5">
+                        <div class="row px-lg-4 align-items-center justify-content-between pt-lg-3">
                             <div class="col-lg-6">
                                 <h1 class="display-2 fw-bolder mb32">Join Indoqat Team</h1>
                                 <p class="display-5 fw-bolder mb24">
@@ -34,30 +34,30 @@
                         </div>
                     </div>
                 </section>
-                <section class="why_be_part pt120 pb120">
-                    <div class="container">
-                        <div class="row mb96 gap-2 gap-lg-0 align-items-center justify-content-between">
-                            <div class="col-lg-5">
+                <section class="why_be_part pt80 pb80">
+                    <div class="container py-lg-5">
+                        <div class="row mb56 gap-2 gap-lg-0 align-items-center justify-content-between">
+                            <div class="col-lg-5 mb-lg-4">
                                 <h1 class="m-0 p-0">
                                     Why Be Part of Indoqat?
                                 </h1>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 mb-lg-4">
                                 <p class="display-5 m-0 p-0">
                                     We thrive in a flexible, empowering, and collaborative environment where ideas are
                                     respected and ambitions are embraced.
                                 </p>
                             </div>
                         </div>
-                        <div class="row gap-5 gap-lg-0 align-items-center justify-content-between">
-                            <div class="col-lg-5">
+                        <div class="row gap-5 gap-lg-0 justify-content-lg-between justify-content-evenly">
+                            <div class="col-lg-5 jobs_image">
                                 <img src="/theme_indoqat/static/src/imgs/jobs_images/Rectangle_15.png"
                                      alt="main_job_section_image"
                                      class="w-100 img-fluid rounded-4 main_job_section_image"/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-7">
                                 <div class="d-flex flex-wrap justify-content-between min-h-600">
-                                    <div class="row mb-lg-5 pb-lg-5 justify-content-between h-fit">
+                                    <div class="row mb-xl-5 pb-lg-5 justify-content-between h-fit">
                                         <div class="why_item col-lg-5 mb-4 mb-lg-0 border-bottom">
                                             <h5 class="display-5 fw-bolder mb-3">
                                                 ✅ A Growth-Oriented, Supportive Workplace
@@ -101,9 +101,9 @@
                         </div>
                     </div>
                 </section>
-                <section id="home_job" class="o_cc pt144 o_cc2 pb64">
-                    <form action="">
-                        <div class="container">
+                <section id="home_job" class="o_cc pt80 o_cc2 pb64">
+                    <form action="" class="pt-lg-5">
+                        <div class="container pt-lg-5">
                             <div class="content py-4">
                                 <h2 class="fw-bolder pb-1 m-0">Search among Available Jobs</h2>
                                 <p class="pb32">
@@ -156,9 +156,9 @@
                                                 class="d-flex w-100 align-items-center justify-content-between"
                                         >
                                             <div>
-                                                <t t-if="department_id" t-out="department_id.name"/>
-                                                <t t-elif="is_other_department">Others</t>
-                                                <t t-else="">All</t>
+                                                <span t-if="department_id" t-field="department_id.name"/>
+                                                <span t-elif="is_other_department">Others</span>
+                                                <span t-else="">All</span>
                                             </div>
 
                                             <svg
@@ -198,7 +198,7 @@
                                                         t-attf-href="/jobs?department_id=#{department.id}#{non_department_params}"
                                                         t-attf-class="dropdown-item d-flex align-items-center justify-content-between nav-link #{' active' if department_id and department_id.id == department.id else ''}"
                                                 >
-                                                    <t t-out="department.name"/>
+                                                    <span t-field="department.name"/>
                                                     <span
                                                             t-attf-class="badge rounded-pill#{' bg-light text-primary' if department_id and department_id.id == department.id else ' bg-primary'} ms-2 px-2"
                                                             t-out="count_per_department.get(department, '0')"
@@ -235,9 +235,9 @@
                                                 class="d-flex w-100 justify-content-between align-items-center"
                                         >
                                             <div>
-                                                <t t-if="country_id" t-out="country_id.name"/>
-                                                <t t-elif="is_remote">Remote</t>
-                                                <t t-else="">All</t>
+                                                <span t-if="country_id" t-field="country_id.name"/>
+                                                <span t-elif="is_remote">Remote</span>
+                                                <span t-else="">All</span>
                                             </div>
 
                                             <svg
@@ -277,7 +277,7 @@
                                                         t-attf-href="/jobs?country_id=#{country.id}#{non_country_params}"
                                                         t-attf-class="dropdown-item d-flex align-items-center justify-content-between nav-link #{' active' if country_id and country_id.id == country.id else ''}"
                                                 >
-                                                    <t t-out="country.name"/>
+                                                    <span t-field="country.name"/>
                                                     <span
                                                             t-attf-class="badge rounded-pill#{' bg-light text-primary' if country_id and country_id.id == country.id else ' bg-primary'} ms-2 px-2"
                                                             t-out="count_per_country.get(country, '0')"
@@ -361,32 +361,21 @@
                                         </p>
                                         <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between">
                                             <div class="details d-flex flex-column gap-2">
-                                                <h3 class="m-0 p-0" t-esc="job.name"/>
+                                                <h3 class="m-0 p-0" t-field="job.name"/>
                                                 <div class="details-jobs d-flex gap-3 align-items-center">
-                                                    <p class="m-0 p-0 text-muted">
-                                                        <t t-if="job.address_id">
-                                                            <t t-out="job.address_id.city + ',' + job.address_id.country_id.name"/>
-                                                        </t>
-                                                        <t t-else="">
-                                                            Remote
-                                                        </t>
-                                                    </p>
-                                                    <p class="m-0 p-0 text-muted">|</p>
+                                                    <span t-field="job.address_id" class="m-0 p-0 text-muted"
+                                                          t-if="job.address_id"
+                                                          t-options='{"widget": "contact", "fields": ["city"], "no_tag_br": True, "null_text": "Remote", "no_marker": true}'/>
+                                                    <p t-if="job.department_id" class="m-0 p-0 text-muted">|</p>
                                                     <t t-if="job.department_id">
-                                                        <p class="m-0 p-0 text-muted" t-out="job.department_id.name"/>
-                                                    </t>
-                                                    <t t-else="">
-                                                        <p class="text-muted m-0 p-0">Undefined</p>
+                                                        <p class="m-0 p-0 text-muted" t-field="job.department_id.name"/>
                                                     </t>
                                                 </div>
                                                 <t t-if="job.date_jobs">
                                                     <time
                                                             class="m-0 p-0"
-                                                            t-esc="job.date_jobs.strftime('%b %d, %Y')"
+                                                            t-out="job.date_jobs.strftime('%b %d, %Y')"
                                                     />
-                                                </t>
-                                                <t t-else="">
-                                                    <p class="text-muted m-0 p-0">Undefined</p>
                                                 </t>
                                                 <div
                                                         class="date d-flex flex-column flex-lg-row justify-content-between align-items-lg-center"
@@ -431,7 +420,7 @@
                         <div class="row">
                             <div class="details pt120 pb40 border-bottom px-lg-0">
                                 <div class="d-flex mb24 flex-row flex-wrap justify-content-between align-items-center">
-                                    <h2 t-esc="job.name"/>
+                                    <h2 t-field="job.name"/>
                                     <a t-attf-href="/jobs/apply/#{slug(job)}"
                                        role="button"
                                        class="btn btn-primary d-lg-flex d-none flex-row align-items-center justify-content-center fw-bold gap-2"
@@ -446,16 +435,10 @@
                                     </a>
                                 </div>
                                 <div class="details-jobs d-flex gap-3">
-                                    <p class="m-0 p-0 text-muted">
-                                        <t t-if="job.address_id">
-                                            <t t-out="job.address_id.city + ',' + job.address_id.country_id.name"/>
-                                        </t>
-                                        <t t-else="">
-                                            Remote
-                                        </t>
-                                    </p>
+                                    <span t-field="job.address_id" class="m-0 p-0 text-muted" t-if="job.address_id"
+                                          t-options='{"widget": "contact", "fields": ["city"], "no_tag_br": True, "null_text": "Remote", "no_marker": true}'/>
                                     <p class="m-0 p-0 text-muted">|</p>
-                                    <p class="m-0 p-0 text-muted" t-out="job.department_id.name"/>
+                                    <p class="m-0 p-0 text-muted" t-field="job.department_id.name"/>
                                 </div>
                                 <div
                                         class="date pt-2 mt-1 d-flex flex-column flex-lg-row justify-content-between align-items-lg-center"
@@ -463,11 +446,8 @@
                                     <t t-if="job.date_jobs">
                                         <time
                                                 class="m-0 p-0 text-muted"
-                                                t-esc="job.date_jobs.strftime('%b %d, %Y')"
+                                                t-out="job.date_jobs.strftime('%b %d, %Y')"
                                         />
-                                    </t>
-                                    <t t-else="">
-                                        <p class="m-0 p-0 text-muted">Undefined</p>
                                     </t>
                                 </div>
                                 <a t-attf-href="/jobs/apply/#{slug(job)}"
