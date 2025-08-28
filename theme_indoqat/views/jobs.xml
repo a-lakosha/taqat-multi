@@ -380,7 +380,9 @@
                                                     <span t-field="job.address_id" class="m-0 p-0 text-muted"
                                                           t-if="job.address_id"
                                                           t-options='{"widget": "contact", "fields": ["city"], "no_tag_br": True, "null_text": "Remote", "no_marker": true}'/>
-                                                    <p t-if="job.department_id" class="m-0 p-0 text-muted">|</p>
+                                                    <p t-if="job.department_id and job.address_id "
+                                                       class="m-0 p-0 text-muted">|
+                                                    </p>
                                                     <t t-if="job.department_id">
                                                         <p class="m-0 p-0 text-muted" t-field="job.department_id.name"/>
                                                     </t>
