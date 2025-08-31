@@ -269,6 +269,16 @@
   transform: rotateY(180deg);
 }
 
+.o_rtl #home_job .container a svg {
+  transform: rotateY(180deg);
+
+}
+
+.o_rtl #details_jobs_ids .container .row .details a svg {
+  transform: rotateY(180deg);
+
+}
+
 @media (min-width: 768px) {
   .services-grid .tile {
     height: 320px
