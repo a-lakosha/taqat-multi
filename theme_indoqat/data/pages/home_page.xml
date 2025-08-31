@@ -70,8 +70,8 @@
                             </div>
                         </div>
                     </section>
-                    <section class="pt80 pb80">
-                        <div class="container pt-lg-5 pb-lg-3">
+                    <section class="pt80 pb80 about_indoqat">
+                        <div class="container pt-lg-5 pb-lg-3 ">
                             <div class="row justify-content-between gap-lg-0 gap-3 pt-lg-5 pb-lg-5">
                                 <div class="col-lg-6 col-12">
                                     <h3 class="text-primary mb-4 o_animable o_animate o_anim_fade_in o_anim_from_top"
