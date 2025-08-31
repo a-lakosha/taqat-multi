@@ -53,7 +53,7 @@ publicWidget.registry.ProjectsCarouselMd = publicWidget.Widget.extend({
         // Already initialized?
         if ($el.hasClass('owl-loaded')) return;
 
-        const rtl = $el.hasClass('ar');
+        const rtl = $('#wrapwrap').hasClass('o_rtl');
         $el.owlCarousel({
             margin: 24,
             dots: true,
