@@ -232,6 +232,39 @@
   }
 }
 
+.o_rtl .about_indoqat .row a span svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .ready-section button span svg {
+  transform: rotateY(180deg);
+
+}
+
+.o_rtl .ready-section a span svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .lastest_news .date_more a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl #alternative_blog_posts a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .latest_post .date_more a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .join_indoqat_team .container a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl #contactus_form .s_website_form_rows .s_website_form_submit a i {
+  transform: rotateY(180deg);
+}
+
 @media (min-width: 768px) {
   .services-grid .tile {
     height: 320px
