@@ -63,8 +63,8 @@
                position="replace">
             <t t-set="latest_posts"
                t-value="request.env['blog.post'].search([('is_published', '=', True)], order='create_date desc', limit=4)"/>
-            <t t-set="first_latest_post" t-value="latest_posts[0]"/>
-            <t t-set="last_three_posts" t-value="latest_posts[1:]"/>
+            <t t-set="first_latest_post" t-value="latest_posts[0] if latest_posts else False"/>
+            <t t-set="last_three_posts" t-value="latest_posts[1:] if latest_posts else []"/>
             <!-- Featured post section -->
             <!--            <section class="latest_post" t-if="latest_post">-->
             <section class="lastest_news pb144" t-if="latest_posts">
