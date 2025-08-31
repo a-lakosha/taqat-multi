@@ -245,6 +245,10 @@
   transform: rotateY(180deg);
 }
 
+.o_rtl .projects_section .project_card span svg {
+  transform: rotateY(180deg);
+}
+
 .o_rtl .lastest_news .date_more a svg {
   transform: rotateY(180deg);
 }
