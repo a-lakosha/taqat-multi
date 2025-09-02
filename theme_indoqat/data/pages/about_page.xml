@@ -8,7 +8,7 @@
                     <section class="pt40 pb80">
                         <div class="container hero_container p-xl-5">
                             <h2 class="h4 text-primary mb24 o_animable o_animate o_anim_fade_in o_anim_from_top"
-                                style="--wanim-duration: 1s; --wanim-intensity: 60;">About Idnoqat
+                                style="--wanim-duration: 1s; --wanim-intensity: 60;">About IndoQat
                             </h2>
                             <div class="row flex-column justify-content-between align-items-start gap-3  gap-lg-5">
 
