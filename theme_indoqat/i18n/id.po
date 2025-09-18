@@ -1,0 +1,1008 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_indoqat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e-20250730\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-17 10:13+0000\n"
+"PO-Revision-Date: 2025-09-18 13:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "+6281119745918"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"<i class=\"bi bi-search d-inline-flex rounded-5 text-primary\"/>\n"
+"                                            No jobs found."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"<span class=\"fa fa-check-circle text-primary\"/>\n"
+"                                                    Thank You For Your\n"
+"                                                    Message"
+msgstr "Terima kasih atas pesan Anda"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Full name</span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Phone Number\n"
+"                                                </span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Email</span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Message\n"
+"                                                </span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"<span class=\"text-muted\">Over <span class=\"text-primary \">100</span> entities,\n"
+"                                </span>\n"
+"                                including startups, government agencies, and humanitarian\n"
+"                                organizations,\n"
+"                                <span class=\"text-muted\">rely on us to drive development and create sustainable\n"
+"                                    impact.\n"
+"                                </span>"
+msgstr ""
+"<span class=\"text-muted\">Lebih dari <span class=\"text-primary \">100</span> Perusahaan,\n"
+"                                </span>\n"
+"                                termasuk Perusahaan perintis, Lembaga Pemerintahan, dan organisasi,\n"
+"                                <span class=\"text-muted\">kemanusiaan, mempercayakan kepada kami untuk memfasilitasi Pembangunan dan menciptakan perubahan yang berkelanjutan.                                </span>"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"<span class=\"text-muted\">We’re not just an investment company,</span>\n"
+"                                        but a partner on your journey of change."
+msgstr "<span class=\"text-muted\">Kami bukan hanya sekadar perusahaan investasi,</span> tetapi juga mitra dalam perjalanan perubahan anda."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"<span class=\"text-primary\">Indoqat</span>\n"
+"                                            is a multi-sector investment and development company established in Jakarta,\n"
+"                                            Indonesia with the\n"
+"                                            objective of connecting promising opportunities in the Indonesian market\n"
+"                                            with investment trends."
+msgstr ""
+"<span class=\"text-primary\">Indoqat</span>\n"
+" adalah perusahaan investasi dan pengembangan multi-sektor yang didirikan Jakarta, Indonesia dengan tujuan menghubungkan peluang menjanjikan di pasar Indonesia dengan tren investasi."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"<span class=\"text-primary\">Our Basic</span>\n"
+"                                Services"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"<span class=\"txt-dark fw-bold\">Indoqat</span>\n"
+"                                            adheres to the highest professional standards in real estate development and\n"
+"                                            is expanding its portfolio to include key sectors such as renewable energy,\n"
+"                                            agricultural investment, and import/export."
+msgstr "<span class=\"txt-dark fw-bold\">Indoqat</span> berpegang pada standar profesional tertinggi dalam pengembangan real estat dan memperluas portofolionya ke sektor-sektor utama seperti energi terbarukan, investasi pertanian, serta impor/ekspor."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid ""
+"About\n"
+"                                            Indoqat"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "About IndoQat"
+msgstr "Tentang Indoqat"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "About Indoqat"
+msgstr "Tentang Indoqat"
+
+#. module: theme_indoqat
+#: model:theme.website.menu,name:theme_indoqat.aboutus_menu
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "About Us"
+msgstr "Tentang Kami"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "All"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_blog_post
+msgid "All News"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "An address must be specified for a map to be embedded"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.details_jobs_ids
+msgid "Apply Now"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Apply now"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"At IndoQat, we do not see our values as mere slogans… we consider them the core\n"
+"                                        of every decision we make, the spirit of every project we develop, and the\n"
+"                                        pillar upon which we innovate our creative solutions to effectively achieve the\n"
+"                                        goals we aspire to."
+msgstr "Di Indoqat, kami tidak melihat nilai-nilai kami sebagai sekadar slogan….. melainkan sebagai inti dari setiap keputusan yang kami ambil, jiwa dari setiap proyek yang kami kembangkan, dan fondasi dari solusi kreatif yang kami inovasikan untuk mencapai tujuan yang kami cita-citakan. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"At Indoqat, every project is built to drive real change,\n"
+"                                                    as\n"
+"                                                    your\n"
+"                                                    work will directly contribute to meaningful community development."
+msgstr "Setiap proyek di Indoqat dirancang untuk memberikan perubahan nyata, sehingga pekerjaan Anda berkontribusi langsung pada pembangunan masyarakat."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"At Indoqat, we provide more than just exceptional services… we forge meaningful\n"
+"                                        partnerships built on a deep understanding of your needs."
+msgstr "Di Indoqat, kami tidak hanya memberikan layanan terbaik… kami membangun kemitraan bermakna yang didasari pemahaman mendalam atas kebutuhan Anda"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"At Indoqat, we’re not just looking for\n"
+"                                    employees… we’re\n"
+"                                    seeking\n"
+"                                    passionate, creative and effective future leaders."
+msgstr "Di Indoqat, kami tidak hanya mencari karyawan… kami mencari individu yang penuh semangat, kreatif, dan calon pemimpin masa depan."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Be part of the change… and build your future with us."
+msgstr "Jadilah bagian dari perubahan… dan bangun masa depan Anda bersama kami."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.opt_blog_post_ta
+msgid "Blog &amp; News"
+msgstr "Blog &amp; Berita"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Building Mosques"
+msgstr "Pembangunan Masjid"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"By combining local and international expertise and capabilities and providing\n"
+"                                        high-quality real estate and development projects that deliver long-term\n"
+"                                        economic and social impact, we aim to enable Indoqat to effectively lead the\n"
+"                                        sustainable development process in Indonesian society."
+msgstr "Dengan menggabungkan keahlian dan kapabilitas lokal maupun Internasional, serta menghadirkan proyek real estat dan pengembangan berkualitas tinggi yang memberikan dampak ekonomi dan sosial jangka panjang, kami bertujuan untuk memungkinkan Indoqat memimpin proses pembangunan berkelanjutan di masyarakat Indonesia secara efektif. "
+
+#. module: theme_indoqat
+#: model:theme.website.menu,name:theme_indoqat.jobs_menu
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "Careers"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"Collaborate with Indoqat and start your journey toward distinction and\n"
+"                                        sustainable success."
+msgstr "Bekerjasama dengan Indoqat dan mulailah perjalanan menuju keunggulan dan kesuksesan berkelanjutan."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Collaboration"
+msgstr "Kolaborasi"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Contact Us Now"
+msgstr "Hubungi Kami Sekarang"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Contact us"
+msgstr "Hubungi Kami"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "Cookies"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Country"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_footer_indoqat
+msgid "Custom Footer"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Different Services"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Distinct Services"
+msgstr "Layanan unggulan"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "E-mail"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Excellence"
+msgstr "Keunggulan"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.opt_blog_post_ta
+msgid ""
+"Explore the latest in sustainable development, technology, and social innovation.\n"
+"                                <br/>\n"
+"                                <br/>\n"
+"                                Discover inspiring success stories, Indoqat highlights, and expert-driven analysis on\n"
+"                                key global trends shaping today and tomorrow."
+msgstr ""
+"Jelajahi yang terbaru dalam pembangunan berkelanjutan, teknologi, dan inovasi sosial.\n"
+"\n"
+"Temukan kisah sukses inspiratif, sorotan Indoqat, serta analisis berbasis ahli mengenai tren global utama yang membentuk hari ini dan masa depan."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Facebook"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"From development consulting and logistics services to digital transformation and\n"
+"                                        investment empowerment, we deliver smart, innovative solutions that drive your\n"
+"                                        business forward efficiently."
+msgstr "Mulai dari konsultasi pembangunan, layanan logistik, transformasi digital, hingga pemberdayaan investasi, kami menghadirkan solusi cerdas dan inovatif yang mendorong bisnis Anda maju dengan efisien."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Full name"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"Have a question? Interested in collaborating with us? Let’s connect with you\n"
+"                                        ASAP!"
+msgstr "Apakah anda memiliki pertanyaan? Tertarik untuk berkolaborasi dengan kami? Mari kita terhubung sesegera mungkin!"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Healthcare Centers Development"
+msgstr "Pengembangan Pusat Kesehatan"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Hero"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Humanitarian Project Development"
+msgstr "Pengembangan Proyek Kemanusiaan"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Indoqat Green Wall"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"Indoqat also focuses on environmental sustainability and social\n"
+"                                            responsibility by committing to an effective and integrated sustainable\n"
+"                                            growth model."
+msgstr "Indoqat juga berfokus pada keberlanjutan lingkungan dan tanggung jawab sosial dengan berkomitmen pada model pertumbuhan berkelanjutan yang efektif dan terintegrasi."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"Indoqat is a leading company in sustainable investment, committed to\n"
+"                                        developing\n"
+"                                        innovative solutions that drive economic growth and support humanitarian\n"
+"                                        causes.\n"
+"                                        <br/>\n"
+"                                        <br/>\n"
+"                                        We believe that innovation is the catalyst for progress and change, and we\n"
+"                                        are\n"
+"                                        passionate about creating a tangible, positive impact on individuals and\n"
+"                                        communities."
+msgstr "Indoqat Merupakan Perusahaan terkemuka dalam bidang investasi berkelanjutan, dengan komitmen untuk merancang solusi inovatif yang mendorong perkembangan ekonomi serta memberikan dukungan untuk tujuan kemanusiaan. Kami meyakini bahwa inovasi berfungsi sebagai pendorong untuk kemajuan dan perubahan, dan kami bertekad untuk menghasilkan dampak positif yang signifikan bagi individu maupun kelompok.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid ""
+"Indoqat © All Copyrights Reserved\n"
+"                                2025"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Innovation"
+msgstr "Inovasi"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Instagram"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Integrity"
+msgstr "Integritas"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.details_jobs_ids
+msgid "Job description"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Jobs"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Join Indoqat Team"
+msgstr "Bergabung dengan Tim Indoqat"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Join Us"
+msgstr "Bergabung Bersama Kami"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_inherit_listing_layout_switcher
+msgid "Latest News"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Main building"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Map"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid ""
+"Media\n"
+"                                            Center"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Monday - Friday: 8:00 AM - 5:00 PM"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_blog_post
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_inherit_listing_layout_switcher
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "More"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "Newsletter"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "No Similar News"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Others"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid ""
+"Our\n"
+"                                            Services"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Our Misson"
+msgstr "Misi Kami"
+
+#. module: theme_indoqat
+#: model:theme.website.menu,name:theme_indoqat.services_menu
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Our Services"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Our Values"
+msgstr "Nilai Kami"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Our Vision"
+msgstr "Visi Kami"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"Our team will message you back as\n"
+"                                                    soon as possible."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"PT. IndoQat World Wide™\n"
+"                                                GRIYA UPAKARA, Jl. Cikini IV No.10, CIKINI, MENTENG, JAKARTA PUSAT, DKI\n"
+"                                                JAKARTA 10330"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Phone Number"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"Pioneers of <span class=\"text-primary\">Sustainable Investment</span> and\n"
+"                                        Humanitarian Support"
+msgstr "Pelopor <span class=\"text-primary\">Investasi Berkelanjutan</span> dan Dukungan Kemanusiaan "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"Ready to Start? Collaborate\n"
+"                                    with us now."
+msgstr ""
+"Siap untuk memulai?\n"
+"Bergabunglah bersama kami sekarang."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Remote"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Reset filters?"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Saturday/Sunday: Closed (Public Holiday)"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "School Development"
+msgstr "Pembangunan Sekolah"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Search"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Search among Available Jobs"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Sector"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid ""
+"Send\n"
+"                                                <i class=\"bi bi-arrow-right ms-2\"/>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Share on Facebook"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Share on Instagram"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Share on Twitter"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Share on youtube"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Similar News"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Social Project Development"
+msgstr "Pengembangan Proyek Sosial"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Social Responsibility"
+msgstr "Tanggung Jawab Sosial"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "Subscribe"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_search_input
+msgid "Text here"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "Thanks"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "The base of all our successes"
+msgstr "Dasar dari semua kesuksesan kami"
+
+#. module: theme_indoqat
+#: model:ir.model,name:theme_indoqat.model_theme_utils
+msgid "Theme Utils"
+msgstr "Utilities Tema"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"To lead the\n"
+"                                        development and management of comprehensive projects by covering planning,\n"
+"                                        execution, and operation processes in an integrated manner"
+msgstr "Memimpin pengembangan dan pengelolaan proyek secara menyeluruh, mencakup proses perencanaan, pelaksanaan, dan operasional secara terpadu."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"To transform <span class=\"text-primary\">Indoqat</span> into a trusted regional\n"
+"                                        investment platform."
+msgstr "Mengubah  <span class=\"text-primary\">Indoqat</span> menjadi platform investasi regional yang terpercaya."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Towards a More Sustainable and Human Future"
+msgstr "Menuju Masa Depan yang Lebih Berkelanjutan dan Manusiawi"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "Twitter"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Unpublished"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Vacancy"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid "Vision Photo"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We Provide <span class=\"text-primary\">solutions</span> that drive meaningful\n"
+"                                    change\n"
+"                                    in\n"
+"                                    Indonesian society."
+msgstr "Kami menyediakan <span class=\"text-primary\">solusi</span>  yang menginisiasi perubahan signifikan dalam lingkungan social di Indonesia.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We Provide <span class=\"text-primary\">solutions</span> that drive meaningful change in\n"
+"                                Indonesian society."
+msgstr "Kami menyediakan  <span class=\"text-primary\"> solusi</span>  yang mendorong perubahan bermakna dalam masyarakat Indonesia."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"We adhere to the highest standards of integrity and transparency in all\n"
+"                                                our services and projects."
+msgstr "Kami memegang standar tertinggi dalam integritas dan transparansi di semua layanan dan proyek."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"We are committed to executing humanitarian projects with the highest\n"
+"                                                efficiency to\n"
+"                                                support sustainable growth in communities most in need."
+msgstr "Kami berkomitmen menjalankan proyek-proyek kemanusiaan dengan efisiensi tertinggi guna mendukung pertumbuhan berkelanjutan di masyarakat yang sangat membutuhkan."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"We build partnerships locally and internationally to exchange\n"
+"                                                expertise and enhance our ability to achieve desired strategic\n"
+"                                                goals."
+msgstr "Kami membangun kemitraan lokal maupun internasional untuk bertukar pengalaman dan mencapai tujuan strategis yang diinginkan organisasi serta Masyarakat."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We build schools with advanced technologies and modern teaching\n"
+"                                                    methods to provide high quality education to children."
+msgstr "Kami membangun sekolah dengan teknologi canggih dan pengajaran modern untuk memastikan anak-anak mendapatkan Pendidikan terbaik. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"We create a culture that nurtures development and\n"
+"                                                    professional\n"
+"                                                    advancement."
+msgstr "Menciptakan budaya yang mendorong perkembangan dan kemajuan profesional."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We create fully equipped healthcare centers to deliver\n"
+"                                                    comprehensive\n"
+"                                                    medical services to communities."
+msgstr "Kami membangun pusat Kesehatan yang dilengkapi secara penuh untuk menyediakan layanan medis yang menyeluruh kepada Masyarakat. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We create fully equipped healthcare centers to deliver comprehensive\n"
+"                                                    medical services to communities."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We design and implement inclusive social projects that enhance\n"
+"                                                    living standards and foster community solidarity."
+msgstr "Kami merancang dan melaksanakan inisiatif sosial yang terbuka untuk meningkatkan kualitas hidup serta memperkuat solidaritas di dalam masyarakat."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We develop a wide range of integrated solutions designed to empower individuals\n"
+"                                    and\n"
+"                                    organizations to foster sustainable growth in their communities."
+msgstr "Kami mengembangkan berbagai solusi terintegrasi yang dirancang untuk memperkuat individu dan organisasi guna mendorong pertumbuhan yang berkelanjutan di wilayah mereka.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We develop a wide range of integrated solutions designed to empower individuals and\n"
+"                                organizations to foster sustainable growth in their communities."
+msgstr "Kami mengembangkan berbagai solusi terintegrasi yang dirancang untuk memperkuat individu dan organisasi guna mendorong pertumbuhan berkelanjutan di komunitas mereka."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We handle the design and development of mosques to ensure they\n"
+"                                                    meet\n"
+"                                                    the highest standards of quality and sustainability."
+msgstr "Kami mengelola perancangan dan Pembangunan masjid untuk memastikan bahwa bangunan masjid memenuhi standar kualitas dan keberlanjutan yang optimal. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We handle the design and development of mosques to ensure they meet\n"
+"                                                    the highest standards of quality and sustainability."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"We invest in our people through continuous training and\n"
+"                                                    skill-building to keep them ahead of the curve."
+msgstr "Memberikan pelatihan dan peningkatan keterampilan secara terus-menerus agar tim selalu unggul.\v"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We launch innovative relief projects to deliver immediate\n"
+"                                                    assistance\n"
+"                                                    to communities in crisis."
+msgstr "Kami meluncurkan proyek bantuan yang inovatif untuk memberikan dukungan yang cepat kepada masyarakat yang tengah menghadapi situasi sulit.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We launch innovative relief projects to deliver immediate assistance\n"
+"                                                    to communities in crisis."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"We promote trust and openness within our team, believing\n"
+"                                                    that\n"
+"                                                    true success comes through collaboration and knowledge-sharing."
+msgstr "Mendorong kepercayaan dan keterbukaan dalam tim, dengan keyakinan bahwa kesuksesan sejati datang dari kolaborasi dan berbagi pengetahuan."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We provide clean water to underserved areas through well\n"
+"                                                    drilling\n"
+"                                                    projects that we oversee and manage."
+msgstr "Kami menghadirkan air bersih ke wilayah yang minim akses melalui proyek pengeboran sumur yang kami awasi dan Kelola.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We provide clean water to underserved areas through well drilling\n"
+"                                                    projects that we oversee and manage."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We provide comprehensive and innovative solutions in sustainability,\n"
+"                                        logistics,\n"
+"                                        business development, and investment support to enable individuals and\n"
+"                                        organizations to achieve lasting and impactful results."
+msgstr "Kami menyediakan solusi komprehensif dan inovatif dalam bidang berkelanjutan, logistik, pengembangan bisnis, serta dukungan investasi untuk memungkinkan individu dan organisasi mencapai hasil yang signifikan dan berkelanjutan. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"We rely on creativity and the latest technologies to provide advanced\n"
+"                                                solutions."
+msgstr "Kami mengandalkan kreativitas dan teknologi terbaru untuk menghadirkan solusi maju."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We shape the future with innovative services that create a sustainable\n"
+"                                        impact"
+msgstr "Kami menciptakan masa depan melalui layanan inovatif  yang berdampak berkelanjutan.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"We strive to achieve the highest levels of quality to enhance customer\n"
+"                                                satisfaction."
+msgstr "Kami berusaha mencapai kualitas terbaik untuk meningkatkan kepuasan klien."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+msgid ""
+"We strive to create innovative solutions that balance investment returns with\n"
+"                                        societal value and strengthen\n"
+"                                        Indoqat's reputation as a reliable partner in the Indonesian market"
+msgstr "Memimpin pengembangan dan pengelolaan proyek secara menyeluruh, mencakup proses perencanaan, pelaksanaan, dan operasional secara terpadu."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid ""
+"We thrive in a flexible, empowering, and collaborative environment where ideas are\n"
+"                                    respected and ambitions are embraced."
+msgstr "Kami berkembang dalam lingkungan yang fleksibel, memberdayakan, dan kolaboratif, di mana ide dihargai dan ambisi didukung."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Well Drilling"
+msgstr "Pengeboran Sumur"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid ""
+"We’re\n"
+"                                        striving to create a more balanced world, where development and humanity go hand\n"
+"                                        in hand, by empowering individuals, supporting organizations, providing\n"
+"                                        intelligent consulting and developing integrated projects that foster\n"
+"                                        sustainability and economic growth."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "We’re always excited to hear from you!"
+msgstr "Kami selalu senang mendengar dari Anda!"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"We’re striving to create a more balanced world, where development and\n"
+"                                        humanity\n"
+"                                        go hand in hand, by empowering individuals, supporting organizations,\n"
+"                                        providing\n"
+"                                        intelligent consulting and developing integrated projects that foster\n"
+"                                        sustainability and economic growth."
+msgstr "Kami berupaya untuk menciptakan dunia yang lebih seimbang, di mana Pembangunan dan aspek kemanusiaan berjalan beriringan, dengan memperkuat individu, mendukung organisasi, memberikan saran yang bijaksana, serta mengembangkan proyek-proyek terpadu yang mendorong perkembangan berkelanjutan dan pertumbuhan ekonomi. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"Whether you're looking for consultative or humanitarian\n"
+"                                    logistics solutions, we provide the capabilities and\n"
+"                                    expertise you need to succeed."
+msgstr "Jika anda memerlukan konsultasi atau solusi penyaluran kemanusiaan, kami menyediakan potensi dan keahlian yang kamu butuhkan untuk mencapai kesuksesan."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "Why Be Part of Indoqat?"
+msgstr "Mengapa Bergabung dengan Indoqat?"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Your Email"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "Your Message"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "found )"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "globe"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "indonesia"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "info@indoqat.com"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "main_job_section_image"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
+msgid "phone number"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "your email..."
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
+msgid "youtube"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "✅ A Culture of Transparency and Teamwork"
+msgstr " ✅ Budaya Transparansi & Kerjasama Tim "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "✅ A Growth-Oriented, Supportive Workplace"
+msgstr " ✅ Lingkungan Kerja yang Mendukung & Berorientasi Pertumbuhan"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "✅ Ongoing Learning &amp; Development Opportunities"
+msgstr " ✅ Peluang Belajar & Pengembangan Berkelanjutan"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
+msgid "✅ Purpose-Driven Projects with Lasting Impact"
+msgstr " ✅ Proyek dengan Tujuan & Efek yang Nyata"
