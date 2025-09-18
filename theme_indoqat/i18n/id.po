@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e-20250730\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-17 10:13+0000\n"
-"PO-Revision-Date: 2025-09-18 13:24+0300\n"
+"PO-Revision-Date: 2025-09-18 14:20+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: id\n"
@@ -309,6 +309,9 @@ msgid ""
 "                                key global trends shaping today and tomorrow."
 msgstr ""
 "Jelajahi yang terbaru dalam pembangunan berkelanjutan, teknologi, dan inovasi sosial.\n"
+"<br/>\n"
+" <br/>\n"
+"\n"
 "\n"
 "Temukan kisah sukses inspiratif, sorotan Indoqat, serta analisis berbasis ahli mengenai tren global utama yang membentuk hari ini dan masa depan."
 
@@ -758,7 +761,7 @@ msgstr "Kami membangun pusat Kesehatan yang dilengkapi secara penuh untuk menyed
 msgid ""
 "We create fully equipped healthcare centers to deliver comprehensive\n"
 "                                                    medical services to communities."
-msgstr ""
+msgstr "Kami membangun pusat Kesehatan yang dilengkapi secara penuh untuk menyediakan layanan medis yang menyeluruh kepada Masyarakat. "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -796,7 +799,7 @@ msgstr "Kami mengelola perancangan dan Pembangunan masjid untuk memastikan bahwa
 msgid ""
 "We handle the design and development of mosques to ensure they meet\n"
 "                                                    the highest standards of quality and sustainability."
-msgstr ""
+msgstr "Kami mengelola perancangan dan Pembangunan masjid untuk memastikan bahwa bangunan masjid memenuhi standar kualitas dan keberlanjutan yang optimal. "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -818,7 +821,7 @@ msgstr "Kami meluncurkan proyek bantuan yang inovatif untuk memberikan dukungan 
 msgid ""
 "We launch innovative relief projects to deliver immediate assistance\n"
 "                                                    to communities in crisis."
-msgstr ""
+msgstr "Kami meluncurkan proyek bantuan yang inovatif untuk memberikan dukungan yang cepat kepada masyarakat yang tengah menghadapi situasi sulit.  "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -841,7 +844,7 @@ msgstr "Kami menghadirkan air bersih ke wilayah yang minim akses melalui proyek 
 msgid ""
 "We provide clean water to underserved areas through well drilling\n"
 "                                                    projects that we oversee and manage."
-msgstr ""
+msgstr "Kami menghadirkan air bersih ke wilayah yang minim akses melalui proyek pengeboran sumur yang kami awasi dan Kelola.  "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -879,7 +882,7 @@ msgid ""
 "We strive to create innovative solutions that balance investment returns with\n"
 "                                        societal value and strengthen\n"
 "                                        Indoqat's reputation as a reliable partner in the Indonesian market"
-msgstr "Memimpin pengembangan dan pengelolaan proyek secara menyeluruh, mencakup proses perencanaan, pelaksanaan, dan operasional secara terpadu."
+msgstr "Kami berupaya menciptakan solusi inovatif yang menyeimbangkan antara hasil investasi dengan nilai sosial, sekaligus memperkuat reputasi Indoqat sebagai mitra terpercaya di pasar Indonesia."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
