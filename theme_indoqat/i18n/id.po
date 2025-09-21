@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e-20250730\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-17 10:13+0000\n"
-"PO-Revision-Date: 2025-09-18 14:20+0300\n"
+"PO-Revision-Date: 2025-09-21 10:20+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: id\n"
@@ -43,6 +43,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Full name</span>\n"
 "                                                <span class=\"s_website_form_mark\"/>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Nama Lengkap</span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -51,6 +53,9 @@ msgid ""
 "                                                </span>\n"
 "                                                <span class=\"s_website_form_mark\"/>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Nomor Telepon\n"
+"                                                </span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -58,6 +63,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                                <span class=\"s_website_form_mark\"/>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Email Anda</span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -66,6 +73,9 @@ msgid ""
 "                                                </span>\n"
 "                                                <span class=\"s_website_form_mark\"/>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Pesan Anda\n"
+"                                                </span>\n"
+"                                                <span class=\"s_website_form_mark\"/>"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -146,12 +156,12 @@ msgstr "Tentang Kami"
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "All"
-msgstr ""
+msgstr "Semua"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_blog_post
 msgid "All News"
-msgstr ""
+msgstr "Lihat Semua Berita"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -161,12 +171,12 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.details_jobs_ids
 msgid "Apply Now"
-msgstr ""
+msgstr "Lamar Sekarang"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Apply now"
-msgstr ""
+msgstr "Lamar Sekarang"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
@@ -272,7 +282,7 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Country"
-msgstr ""
+msgstr "Negara"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_footer_indoqat
@@ -282,7 +292,7 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 msgid "Different Services"
-msgstr ""
+msgstr "Layanan yang Berbeda"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -331,7 +341,7 @@ msgstr "Mulai dari konsultasi pembangunan, layanan logistik, transformasi digita
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Full name"
-msgstr ""
+msgstr "Nama Lengkap"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -411,12 +421,12 @@ msgstr "Integritas"
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.details_jobs_ids
 msgid "Job description"
-msgstr ""
+msgstr "Deskripsi Pekerjaan"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Jobs"
-msgstr ""
+msgstr "Lowongan"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -431,12 +441,12 @@ msgstr "Bergabung Bersama Kami"
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_inherit_listing_layout_switcher
 msgid "Latest News"
-msgstr ""
+msgstr "Berita Terbaru"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Main building"
-msgstr ""
+msgstr "Gedung Utama"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -461,7 +471,7 @@ msgstr ""
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 msgid "More"
-msgstr ""
+msgstr "Lainnya"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
@@ -494,7 +504,7 @@ msgstr "Misi Kami"
 #: model:theme.website.menu,name:theme_indoqat.services_menu
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
 msgid "Our Services"
-msgstr ""
+msgstr "Layanan Kami"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
@@ -511,7 +521,7 @@ msgstr "Visi Kami"
 msgid ""
 "Our team will message you back as\n"
 "                                                    soon as possible."
-msgstr ""
+msgstr "Tim kami akan membalas pesan Anda secepatnya."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -524,7 +534,7 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Phone Number"
-msgstr ""
+msgstr "Nomor Telepon"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -568,17 +578,17 @@ msgstr "Pembangunan Sekolah"
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Search"
-msgstr ""
+msgstr "Cari"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Search among Available Jobs"
-msgstr ""
+msgstr "Cari Pekerjaan Tersedia"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Sector"
-msgstr ""
+msgstr "Bidang"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -586,6 +596,8 @@ msgid ""
 "Send\n"
 "                                                <i class=\"bi bi-arrow-right ms-2\"/>"
 msgstr ""
+"Kirim\n"
+"       <i class=\"bi bi-arrow-right ms-2\"/>"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
@@ -610,7 +622,7 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
 msgid "Similar News"
-msgstr ""
+msgstr "Berita Serupa"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -686,7 +698,7 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Vacancy"
-msgstr ""
+msgstr "Lowongan"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
@@ -941,12 +953,12 @@ msgstr "Mengapa Bergabung dengan Indoqat?"
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Your Email"
-msgstr ""
+msgstr "Email Anda"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Your Message"
-msgstr ""
+msgstr "Pesan Anda"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -978,12 +990,12 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "phone number"
-msgstr ""
+msgstr "Nomor Telepon"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 msgid "your email..."
-msgstr ""
+msgstr "Email Anda..."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
