@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="website_layout_custom" inherit_id="website.template_header_default" name="navbar custom">
+            <xpath expr="//t[@t-set='_nav_class']" position="attributes">
+                <attribute name="t-valuef" remove="me-auto" add="ms-auto fs-5 gap-2 add-custom-nav " separator=" "/>
+            </xpath>
+            <xpath expr="//div[@id='o_main_nav']" position="attributes">
+                <attribute name="class" remove="container" add="container-fluid" separator=" "/>
+            </xpath>
+            <xpath expr="//t[@t-set='item_class']" position="attributes">
+                <attribute name="t-valuef" remove="" add="p-2" separator=" "/>
+            </xpath>
+        </template>
+        <!--        Add Bold Font to Call to Action-->
+        <template id="theme_indoqat.header_call_to_action_inherit" inherit_id="website.header_call_to_action"
+                  name="navbar custom">
+            <a position="attributes">
+                <attribute name="class" remove="" add="fw-bold" separator=" "/>
+            </a>
+        </template>
+        <!--        add-custom-nav-->
+        <template id="add_custom_navbar_language_selector_visible" inherit_id="website.language_selector"
+                  name="navbar custom">
+            <xpath expr="//button" position="attributes">
+                <attribute name="t-attf-class"
+                           add="btn text-dark"
+                           remove="border-0  btn-outline-secondary"
+                           separator=" "/>
+            </xpath>
+        </template>
+        <!--        add-custom-nav-->
+        <template id="add_custom_user_dropdown" inherit_id="website.user_dropdown"
+                  name="navbar custom">
+            <xpath expr="//li[@t-if='is_connected']//a[@data-bs-toggle='dropdown']" position="attributes">
+                <attribute name="t-attf-class"
+                           add="btn text-dark btn-outline-primary border-1"
+                           remove="_link_class"
+                           separator=" "/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

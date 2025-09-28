@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <template id="taqat_africat_page_template" name="Africat Page">
+            <t t-set="additional_title" t-valuef="Africat"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure">
+                    <div role="main" class="main-content-area africat">
+                        <section class="africat-hero text-white">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row align-items-center justify-content-center">
+                                        <div class="col-12 col-md-9 d-flex flex-column align-items-center">
+                                            <div class="africat_logo">
+                                                <img src="/theme_taqat/static/src/img/africat_page/africat-logo.png"
+                                                     alt="Africat" loading="lazy"/>
+                                            </div>
+                                            <div class="hero-info d-flex align-items-center flex-column text-center"
+                                                 style="max-width: 740px;">
+                                                <p class="mb-4 text-[32px] font-bold subheading">Africat</p>
+                                                <h1 class="text-5xl font-bold mb-8 title">
+                                                    Your Ideal Partner for Successful Investment in Africa!
+                                                </h1>
+                                                <p class="text-2xl subtitle text-balance">
+                                                    Explore Africa's potential with our integrated solutions in trade,
+                                                    import and export, procurement, and investment, through which we
+                                                    help
+                                                    you boost your investment success across the continent.
+                                                </p>
+                                                <button
+                                                        class="call-t-action bg-white text-black d-flex align-items-center gap-2 border-0 fw-bold">
+                                                    Contact Us
+                                                    <i class="bi bi-arrow-right fw-bold"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mission bg-white">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row justify-content-between">
+                                        <div class="col-12 col-md-4">
+                                            <h2 class="section-title">
+                                                Why Africat?
+                                            </h2>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <p class="text-[40px] fw-bold section-desc">
+                                                Contributing to Community Development and Enhancing Quality of Life
+                                                Through:
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <ul class="mission-list">
+                                        <li class="position-relative">
+                                            <h3 class="text-[32px] fw-bold">
+                                                We provide the best investment opportunities
+                                            </h3>
+                                            <p>
+                                                We have the experience and innovative solutions that help you expand
+                                                creatively in Africa.
+                                            </p>
+                                        </li>
+                                        <li class="position-relative">
+                                            <h3 class="text-[32px] fw-bold">
+                                                We enhance the efficiency of investment projects
+                                            </h3>
+                                            <p>
+                                                We develop and implement effective strategies to boost the success and
+                                                sustainability of your projects in Africa.
+                                            </p>
+                                        </li>
+                                        <li class="position-relative">
+                                            <h3 class="text-[32px] fw-bold">
+                                                We offer effective export and import services
+                                            </h3>
+                                            <p>
+                                                We provide all logistical services and simplify customs procedures to
+                                                facilitate your investment in Africa.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="services" id="africat_services">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div
+                                            class="d-flex flex-column flex-md-row align-items-start justify-content-between">
+                                        <h3 class="section-title">Our Key Services</h3>
+                                        <div class="d-none d-md-flex gap-3 scroll-btns">
+                                            <button
+                                                    class="scroll-btn left bg-primary p-4 text-white d-flex align-items-center justify-content-center"
+                                                    aria-label="Previous Slide">
+                                                <i class="bi bi-arrow-left fw-bold"></i>
+                                            </button>
+                                            <button
+                                                    class="scroll-btn right bg-primary p-4 text-white d-flex align-items-center justify-content-center"
+                                                    aria-label="Next Slide">
+                                                <i class="bi bi-arrow-right fw-bold"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <ul class="services-list owl-carousel">
+                                            <li
+                                                    class="text-white d-flex flex-column justify-content-between service_1">
+                                                <div>
+                                                    <span class="card_count">01</span>
+                                                    <h3 class="title">
+                                                        Effective Strategic Investment Solutions
+                                                    </h3>
+                                                </div>
+                                                <div class="tags">
+                                                    <span>
+                                                        Evaluating potential investments.
+                                                    </span>
+                                                    <span>
+                                                        Managing investment projects.
+                                                    </span>
+                                                    <span>
+                                                        Developing effective portfolios.
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li
+                                                    class="text-white d-flex flex-column justify-content-between service_2">
+                                                <div>
+                                                    <span class="card_count">02</span>
+                                                    <h3 class="title">
+                                                        Innovative Trade Solutions
+                                                    </h3>
+                                                </div>
+                                                <div class="tags">
+                                                    <span>
+                                                        Analyzing African opportunities.
+                                                    </span>
+                                                    <span>
+                                                        Simplifying trade processes.
+                                                    </span>
+                                                    <span>
+                                                        Providing procurement training.
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li
+                                                    class="text-white d-flex flex-column justify-content-between service_3">
+                                                <div>
+                                                    <span class="card_count">03</span>
+                                                    <h3 class="title">
+                                                        Supply Chain Development Solutions
+                                                    </h3>
+                                                </div>
+                                                <div class="tags">
+                                                    <span>
+                                                        Effective logistics management.
+                                                    </span>
+                                                    <span>
+                                                        Enhancing storage and distribution.
+                                                    </span>
+                                                    <span>
+                                                        Customs clearance services.
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li
+                                                    class="text-white d-flex flex-column justify-content-between service_4">
+                                                <div>
+                                                    <span class="card_count">04</span>
+                                                    <h3 class="title">
+                                                        Integrated Procurement Management Solutions
+                                                    </h3>
+                                                </div>
+                                                <div class="tags">
+                                                    <span>
+                                                        Comprehensive market analysis.
+                                                    </span>
+                                                    <span>
+                                                        Strategic supplier management.
+                                                    </span>
+                                                    <span>
+                                                        Minimizing procurement risks.
+                                                    </span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="d-flex d-md-none justify-content-center gap-3 mt-4 scroll-btns">
+                                            <button
+                                                    class="scroll-btn left bg-primary p-4 text-white d-flex align-items-center justify-content-center"
+                                                    aria-label="Previous Slide">
+                                                <i class="bi bi-arrow-left fw-bold"></i>
+                                            </button>
+                                            <button
+                                                    class="scroll-btn right bg-primary p-4 text-white d-flex align-items-center justify-content-center"
+                                                    aria-label="Next Slide">
+                                                <i class="bi bi-arrow-right fw-bold"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="sectors">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div>
+                                        <h3 class="section-title">
+                                            Our Key Sectors
+                                        </h3>
+                                        <ul class="sectors-list">
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="/theme_taqat/static/src/img/africat_page/icons/Guard.svg"
+                                                         alt="Renewable Energy" loading="lazy"/>
+                                                </div>
+                                                <h3>Renewable Energy</h3>
+                                                <p>
+                                                    We provide you with the opportunity to invest in sustainable power
+                                                    generation.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="/theme_taqat/static/src/img/africat_page/icons/Light.svg"
+                                                         alt="Agriculture and Agro-Processing" loading="lazy"/>
+                                                </div>
+                                                <h3>Agriculture and
+                                                    <br/>
+                                                    Agro-Processing
+                                                </h3>
+                                                <p>
+                                                    Which are witnessing rapid growth due to their importance in
+                                                    improving
+                                                    Africa’s economy.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="/theme_taqat/static/src/img/africat_page/icons/Star.svg"
+                                                         alt="Technology and Innovation" loading="lazy"/>
+                                                </div>
+                                                <h3>Technology and Innovation</h3>
+                                                <p>
+                                                    Their role has become essential in driving successful digital
+                                                    transformation in African markets.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="/theme_taqat/static/src/img/africat_page/icons/Puzzle.svg"
+                                                         alt="Real Estate Development" loading="lazy"/>
+                                                </div>
+                                                <h3>Real Estate Development</h3>
+                                                <p>
+                                                    We provide you with extensive investment opportunities in real
+                                                    estate
+                                                    projects in major African cities.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/africat_page/icons/user-group.svg"
+                                                            alt="Mining" loading="lazy"/>
+                                                </div>
+                                                <h3>Mining</h3>
+                                                <p>
+                                                    We enable you to explore effective investment opportunities in
+                                                    mining
+                                                    across Africa.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="africat-numbers text-white">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div>
+                                        <h3 class="section-title">
+                                            Africat in Numbers
+                                        </h3>
+                                    </div>
+                                    <ul class="africat-numbers_list">
+                                        <li class="bg-white">
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/africat_page/icons/Hand.svg"
+                                                     alt="57 Clients" loading="lazy"/>
+                                            </div>
+                                            <div class="info">
+                                                <h3 class="title text-[32px]">
+                                                    57 Clients
+                                                </h3>
+                                                <hr class="border-0"/>
+                                                <p class="text-2xl">
+                                                    Africat has provided its services to a diverse range of clients with
+                                                    different investment goals and aspirations.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="bg-white">
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/africat_page/icons/Stock.svg"
+                                                     alt="112 Successes" loading="lazy"/>
+                                            </div>
+                                            <div class="info">
+                                                <h3 class="title text-[32px]">
+                                                    112 Successes
+                                                </h3>
+                                                <hr class="border-0"/>
+                                                <p class="text-2xl">
+                                                    Africat has overseen the development of a large number of successful
+                                                    investment projects across 12 diverse sectors in Africa.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="bg-white">
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/africat_page/icons/Package.svg"
+                                                     alt="11 Years" loading="lazy"/>
+                                            </div>
+                                            <div class="info">
+                                                <h3 class="title text-[32px]">
+                                                    11 Years
+                                                </h3>
+                                                <hr class="border-0"/>
+                                                <p class="text-2xl">
+                                                    This is the number of years of experience Africat has in developing
+                                                    effective investment solutions for Africa.
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contact-details">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-8 d-flex flex-column align-items-center mx-auto">
+                                            <h3 class="text-[40px] fw-bold _mb-4 text-center">Get a free consultation…
+                                                Contact Us now!
+                                            </h3>
+                                            <p class="text-2xl text-center mb-16">
+                                                If you want to inquire about our integrated services, seek consultation
+                                                from our experts regarding the best investment opportunities in Africa,
+                                                or looking to become our next strategic partner, don’t hesitate to
+                                                contact us.
+                                            </p>
+                                            <a href="/contactus"
+                                               class="call-t-action border-0 bg-primary text-white text-center">Contact
+                                                Us
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <!-- Page Record -->
+        <record id="taqat_africat_page_rec" model="theme.website.page">
+            <field name="view_id" ref="taqat_africat_page_template"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/africat</field>
+        </record>
+
+        <!-- Menu Record -->
+        <record id="taqat_africat_page_menu_rec" model="theme.website.menu">
+            <field name="name">Africat</field>
+            <field name="url">/africat</field>
+            <field name="sequence" type="int">11</field>
+        </record>
+
+    </data>
+</odoo>

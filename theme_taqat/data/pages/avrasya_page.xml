@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <template id="taqat_avrasya_page_template" name="Avrasya Page">
+            <t t-set="additional_title" t-valuef="Avrasya"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure">
+                    <div role="main" class="main-content-area avrasya">
+                        <section class="avrasya-hero">
+                            <div class="section-p">
+                                <div class="container text-center text-wrapper">
+                                    <div class="brand-img">
+                                        <img src="/theme_taqat/static/src/img/avrasya_page/avrasya-logo.png"
+                                             alt="Avrasya" loading="lazy"/>
+                                    </div>
+                                    <p class="fw-bold text-[32px] text-uppercase brand-txt">Avrasya</p>
+                                    <h1 class="text-5xl fw-bold title">Your trusted partner for
+                                        <br/>
+                                        <span
+                                                class="text-primary">sustainable global growth!
+                                        </span>
+                                    </h1>
+                                    <p class="details">
+                                        Through our innovative solutions and extensive network, we provide unlimited
+                                        opportunities to grow your business globally and help you achieve
+                                        sustainability and enhance efficiency in your projects in an integrated
+                                        manner.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mall-img section-p pt-0 pb-0 large-container d-none d-md-block">
+                                <img src="/theme_taqat/static/src/img/avrasya_page/mall.png"
+                                     alt="Avrasya Mall of Istanbul" loading="lazy"/>
+                            </div>
+                            <div class="d-md-none">
+                                <img src="/theme_taqat/static/src/img/avrasya_page/mobile/mall.png"
+                                     alt="Avrasya Mall of Istanbul" loading="lazy" class="w-100"/>
+                            </div>
+                        </section>
+                        <section class="our-story">
+                            <div class="container">
+                                <div class="section-p">
+                                    <div
+                                            class="d-flex flex-column flex-md-row align-items-start justify-content-between">
+                                        <div class="_flex-1">
+                                            <h2 class="lg_section-title">Our Story</h2>
+                                        </div>
+                                        <div class="_flex-1 text_info">
+                                            <h3 class="title">To support entrepreneurship and enhance economic and
+                                                social development, Avrasya was founded to provide comprehensive
+                                                solutions focused on sustainability and fostering integrated growth in
+                                                business performance.
+                                            </h3>
+                                            <p class="subtitle">
+                                                At Avrasya, we strive to empower communities and develop their ability
+                                                to grow inclusively by providing innovative solutions and advanced
+                                                services that meet our client's diverse needs.
+                                            </p>
+                                            <p class="details">
+                                                We continue to expand globally with confident steps, committed to being
+                                                the trusted partner that helps companies and organizations, regardless
+                                                of their sectors, achieve their desired success goals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="our-values">
+                            <div class="container">
+                                <div class="section-p">
+                                    <div class="_flex-1">
+                                        <h2 class="lg_section-title text-center">What Makes Avrasya stand out? </h2>
+                                    </div>
+                                    <ul class="values-list">
+                                        <li>
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/avrasya_page/icons/Hand.svg"
+                                                     alt="Commitment" loading="lazy"/>
+                                            </div>
+                                            <h3 class='text-center'>Commitment</h3>
+                                            <p>We adhere to the highest standards to help you develop your business
+                                                effectively.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/avrasya_page/icons/Stock.svg"
+                                                     alt="Experience" loading="lazy"/>
+                                            </div>
+                                            <h3 class='text-center'>Experience</h3>
+                                            <p>We provide our services in 26 countries and have the necessary
+                                                expertise to boost your international investments successfully.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/avrasya_page/icons/Package.svg"
+                                                     alt="Innovation" loading="lazy"/>
+                                            </div>
+                                            <h3 class='text-center'>Innovation</h3>
+                                            <p>We embrace the latest technologies to help you keep pace with the rapid
+                                                developments in the business world.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="/theme_taqat/static/src/img/avrasya_page/icons/Puzzle.svg"
+                                                     alt="Efficiency" loading="lazy"/>
+                                            </div>
+                                            <h3 class='text-center'>Efficiency</h3>
+                                            <p>We ensure the highest efficiency standards and customize our diverse
+                                                solutions to your aspirations for sustainable growth.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="our-services" aria-label="Facilitating International Trade">
+                            <div class="custom-padding">
+                                <div class="container">
+                                    <div>
+                                        <h2 class="lg_section-title text-center">
+                                            Our Services
+                                        </h2>
+                                    </div>
+                                    <div class="project-management text-white">
+                                        <h3 class="title">Facilitating International Trade</h3>
+                                        <ul class="project-management_list">
+                                            <li>Logistics management</li>
+                                            <li>Customs clearance services</li>
+                                            <li>Trade compliance and risk management</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="container">
+                            <div class="section-p pt-0">
+                                <div
+                                        class="d-flex flex-column flex-lg-row justify-content-between align-items-center service gap-12">
+                                    <div class="max-w-xl">
+                                        <h3 class="shared_services-title">Supply Chain Optimization</h3>
+                                        <ul class="list">
+                                            <li>Supply chain performance analysis and development</li>
+                                            <li>Automation and facilitation of logistics processes</li>
+                                            <li>Supplier network optimization</li>
+                                        </ul>
+                                    </div>
+                                    <div class="max-w-[550px]">
+                                        <img src="/theme_taqat/static/src/img/avrasya_page/service-1.png"
+                                             alt="Supply Chain Optimization" loading="lazy"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="container">
+                            <div class="section-p pt-0">
+                                <div
+                                        class="d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center service gap-12">
+                                    <div class="max-w-[550px]">
+                                        <img src="/theme_taqat/static/src/img/avrasya_page/service-2.png"
+                                             alt="Market Entry Strategies Development" loading="lazy"/>
+                                    </div>
+                                    <div class="max-w-xl">
+                                        <h3 class="shared_services-title">Market Entry Strategies Development</h3>
+                                        <ul class="list">
+                                            <li>Market analysis</li>
+                                            <li>Risk assessment and expansion planning</li>
+                                            <li>Pricing and marketing services</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section style="background-color: #F6F4F0;">
+                            <div class="large-container">
+                                <div
+                                        class="d-flex flex-column flex-lg-row justify-content-between align-items-center service">
+                                    <div class="_flex-1 innovatio-technology_text">
+                                        <h3 class="shared_services-title">Strategic Investment Solutions</h3>
+                                        <ul class="list">
+                                            <li>Developing effective investment strategies</li>
+                                            <li>Investment risk assessment and management</li>
+                                            <li>Effective portfolio management</li>
+                                        </ul>
+                                    </div>
+                                    <div class="_flex-1">
+                                        <img src="/theme_taqat/static/src/img/avrasya_page/service-3.png"
+                                             alt="Strategic Investment Solutions" loading="lazy"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contact-details">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-8 d-flex flex-column align-items-center mx-auto">
+                                            <h3 class="text-[40px] fw-bold _mb-4 text-center">Get a free consultation…
+                                                Contact Us now!
+                                            </h3>
+                                            <p class="text-2xl text-center mb-16">
+                                                Make your business sustainable with (Avrasya)!
+                                            </p>
+                                            <a href="/contactus"
+                                               class="call-t-action border-0 bg-primary text-white text-center">Contact
+                                                Us
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <!-- Page Record -->
+        <record id="taqat_avrasya_page_rec" model="theme.website.page">
+            <field name="view_id" ref="taqat_avrasya_page_template"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/avrasya</field>
+        </record>
+
+        <!-- Menu Record -->
+        <record id="taqat_avrasya_page_menu_rec" model="theme.website.menu">
+            <field name="name">About Us</field>
+            <field name="url">/avrasya</field>
+            <field name="sequence" type="int">11</field>
+        </record>
+
+    </data>
+</odoo>

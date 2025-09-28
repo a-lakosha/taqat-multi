@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <template name="Taqat login" id="taqat_login_page_customize" inherit_id="web.login"
+            active="True">
+            <xpath expr="//form[hasclass('oe_login_form')]" position="before">
+                <h1 class="display-4 text-center fw-bold">Sign in</h1>
+            </xpath>
+            <xpath expr="//button[hasclass('btn-primary')]" position="replace">
+                <button type="submit"
+                    class="btn btn-primary d-flex align-items-center justify-content-between">
+                    <span class="">Sign in</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                        viewBox="0 0 24 25" fill="none">
+                        <path d="M15 19.8965L8 12.8965L15 5.89648" stroke="#FEFDF9" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

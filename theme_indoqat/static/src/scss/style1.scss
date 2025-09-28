@@ -1,0 +1,407 @@
+// About Us Page Styles
+.main__content-area-aboutus {
+  .txt-dark {
+    color: #212020 !important;
+  }
+
+  .hero_container {
+    .upper-text {
+      max-width: 640px;
+      line-height: 130%;
+
+    }
+
+    .lower-text {
+      max-width: 542px;
+      line-height: 150%
+    }
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .vision {
+    background-color: #101010;
+    border-radius: 40px;
+    padding: 40px;
+
+    .vision_icon {
+      border: 2px solid #D6D6D6;
+      padding: 16px;
+      width: fit-content;
+      border-radius: 20px;
+    }
+
+    .vision_photo {
+      max-height: 600px;
+      border-radius: 40px;
+      object-fit: cover;
+    }
+
+    .vision_left {
+      max-width: 484px;
+    }
+  }
+
+  .value-card {
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 24px;
+
+    p {
+      line-height: 150%;
+    }
+  }
+
+  .value-card-light {
+    background-color: #F3F3F3;
+  }
+
+  .value-card-dark {
+    background-color: #101010;
+  }
+
+  .icon-bg-dark {
+    background-color: #343434 !important;
+  }
+
+  .values-vector {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .value-card .icon img,
+  .value-card .icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .value-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon {
+    width: fit-content;
+    border-radius: 9999px;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .vision-content {
+      .container {
+
+
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+
+        .vision {
+
+          padding: 0px;
+        }
+
+        .vision_photo_container {
+          max-height: 432px;
+
+        }
+
+      }
+
+
+    }
+  }
+
+  p {
+    line-height: 150%;
+  }
+}
+
+
+.ready-title {
+  font-weight: 700;
+}
+
+.ready-subtitle {
+  line-height: 140%;
+  color: #737373;
+}
+
+//Our Services Styles
+
+.hero-bg {
+  .tag {
+    max-width: 180px;
+  }
+
+  .txt-hero {
+    .para {
+      max-width: 652px !important;
+    }
+  }
+
+  .double-image {
+
+
+    .left-globe {
+      left: -70px;
+      bottom: 0;
+    }
+
+    .right-globe {
+      right: -70px;
+      bottom: 0;
+
+    }
+  }
+
+}
+
+
+.services-hero {
+  background: linear-gradient(to right bottom, #F2F2F2 35%, #FBBFAD 58%, #F7B6DC 75%, #F2F2F2 95%);
+  border-radius: 40px;
+
+  .hero-photo {
+    height: 300px;
+
+    img {
+      height: 750px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+}
+
+.basic_services {
+  img {
+    max-height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .right-basics {
+    margin-bottom: 80px;
+
+  }
+
+
+}
+
+.custom-ol-wrapper ol {
+  counter-reset: my-counter;
+  list-style: none;
+}
+
+.custom-ol-wrapper ol li {
+  counter-increment: my-counter;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.custom-ol-wrapper ol li::before {
+  content: counter(my-counter, decimal-leading-zero);
+  position: absolute;
+  left: -30px;
+  font-weight: bold;
+  top: 1px;
+
+}
+
+.services-grid .overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, .65) 80%,
+          rgba(0, 0, 0, .88) 100%);
+}
+
+.services-grid .tile {
+  position: relative;
+  height: 300px;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  img {
+
+
+    object-fit: cover;
+  }
+}
+
+.o_rtl .about_indoqat .row a span svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .ready-section button span svg {
+  transform: rotateY(180deg);
+
+}
+
+.o_rtl .ready-section a span svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .projects_section .project_card span svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .lastest_news .date_more a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl #alternative_blog_posts a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .latest_post .date_more a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl .join_indoqat_team .container a svg {
+  transform: rotateY(180deg);
+}
+
+.o_rtl #contactus_form .s_website_form_rows .s_website_form_submit a i {
+  transform: rotateY(180deg);
+}
+
+.o_rtl #home_job .container a svg {
+  transform: rotateY(180deg);
+
+}
+
+.o_rtl #details_jobs_ids .container .row .details a svg {
+  transform: rotateY(180deg);
+
+}
+
+@media (min-width: 768px) {
+  .services-grid .tile {
+    height: 320px
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-grid .tile {
+    height: 450px;
+    object-fit: cover;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .services-hero {
+    margin: 32px 32px 500px;
+
+    .hero-photo {
+      height: 750px;
+      margin-bottom: -40%;
+      position: relative;
+      border: 1px solid #ffffff;
+    }
+
+  }
+  .basic_services {
+    img {
+      min-height: 400px;
+    }
+
+    .right-basics {
+
+
+      .top-spacing {
+        margin-top: 64px;
+        margin-bottom: 168px;
+      }
+    }
+
+
+  }
+  .right-basics {
+    margin-bottom: 168px;
+  }
+
+  .bservices-title {
+    margin-bottom: 32px !important;
+  }
+  .custom-ol-wrapper ol li {
+    margin-bottom: 50px;
+  }
+
+}
+
+//Contact Us Page Styles
+
+.map {
+  display: block;
+
+  h3 {
+    font-weight: 700;
+  }
+}
+
+/* mobile-first: card BELOW the map */
+
+.map .s_map_embedded {
+  order: 1;
+  display: block;
+  width: 100%;
+  height: 360px;
+  border-radius: 28px
+}
+
+.map .floating-details {
+  order: 2; /* comes after the iframe */
+  position: static; /* no overlay on mobile */
+  margin-top: 12px;
+  border: 1px solid #D6D6D6;
+  border-radius: 16px
+}
+
+.contact-bottom-section {
+  form {
+    max-width: 654px;
+    border-radius: 32px;
+  }
+
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-bottom-section > .container {
+    padding-left: var(--bs-gutter-x, .75rem) !important;
+    padding-right: var(--bs-gutter-x, .75rem) !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .map {
+    display: block;
+  }
+  .map .s_map_embedded {
+    height: 600px;
+  }
+  .map .floating-details {
+    position: absolute;
+    z-index: 10;
+    top: 5px;
+    left: 6px;
+    margin-top: 0;
+    max-width: 400px;
+    padding: 20px
+  }
+
+}
+
+
+
+
+
+

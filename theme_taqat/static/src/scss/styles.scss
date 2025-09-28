@@ -1,0 +1,135 @@
+$primary-color: var(--primary);
+$secondary-color: var(--secondary);
+$dark-background: #121212;
+#wrapwrap {
+  scroll-behavior: smooth;
+  background-color: #ffff;
+}
+
+.website_blog {
+  #o_wblog_posts_loop,
+  #o_wblog_post_footer {
+    .o_wblog_post {
+      .o_record_cover_container.taqat-blog-cover {
+        height: 220px !important;
+
+        > div {
+          height: 220px !important;
+          opacity: 1 !important;
+        }
+
+        border-radius: 32px;
+      }
+
+      .blog-link path {
+        transition: all 0.3s ease-in-out;
+      }
+
+      .blog-link:hover {
+        color: var(--primary);
+
+        path {
+          stroke: var(--primary) !important;
+        }
+      }
+    }
+  }
+
+  .blog-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  #featured_posts {
+    .o_wblog_post {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .post-rounded {
+        border-radius: 24px;
+      }
+
+      .col-lg-7 {
+        .post-rounded {
+          border-radius: 32px;
+        }
+      }
+    }
+  }
+
+  .featured-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 85px;
+
+    h4 {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+    }
+  }
+
+  .css_editable_mode_hidden {
+    display: none !important;
+  }
+}
+
+.o_website_hr_recruitment_jobs_list {
+  @media (max-width: 991px) {
+    .o_jobs_topbar_filters {
+      .dropdown-toggle::after {
+        margin-left: auto;
+      }
+    }
+  }
+
+  .o_jobs_topbar_search_bar {
+    .input-group {
+      margin: 0 !important;
+
+      input,
+      button.btn {
+        border-radius: 0.6rem;
+      }
+    }
+  }
+
+  .job-card {
+    h3 {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+    }
+
+    .job-description {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+    }
+
+    a.job-link {
+      svg {
+        transform: rotateY(180deg);
+      }
+    }
+  }
+}
+
+.js_hr_recruitment {
+  a.btn {
+    svg {
+      transform: rotateY(180deg);
+    }
+  }
+}

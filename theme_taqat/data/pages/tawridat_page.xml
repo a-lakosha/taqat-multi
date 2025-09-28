@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <template id="taqat_tawridat_page_template" name="Tawridat Page">
+            <t t-set="additional_title" t-valuef="Tawridat"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure">
+                    <div role="main" class="main-content-area tawridat" aria-label="Main Content Area">
+                        <section class="tawridat-hero">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row align-items-center justify-content-between">
+                                        <div class="col-lg-5 p-0">
+                                            <div>
+                                                <img src="/theme_taqat/static/src/img/tawridat_page/Tawridat.png"
+                                                     alt="Tawridat Logo" loading="lazy" class="mb-4"/>
+                                                <p class="text-2xl-sm text-2xl">Tawridat</p>
+                                                <h1 class="mt-4 mb-3 text-6xl text-6xl-sm">Driving Change for a
+                                                    <span
+                                                            class="text-primary">Sustainable Future!
+                                                    </span>
+                                                </h1>
+                                                <p class="text-lg-sm text-2xl font-bold mb-md-4 p-0">
+                                                    We innovate solutions to improve quality of life and communities.
+                                                </p>
+                                                <p class="text-base-sm text-xl mb-12 text-gray">
+                                                    We are committed to the latest quality and creativity standards and
+                                                    provide a wide range of services across various sectors to help
+                                                    foster
+                                                    sustainable development and achieve communities' future visions.
+                                                </p>
+                                                <a href='/contactus'
+                                                   class="call-to-action bg-black text-white d-flex align-items-center gap-2 border-0 w-fit">
+                                                    Call Us
+                                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                         class="rotate-180deg"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                                d="M10.5 20.3965L3 12.8965M3 12.8965L10.5 5.39648M3 12.8965H21"
+                                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                                stroke-linejoin="round"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-0 pe-1">
+                                            <div class="t-shape d-none d-lg-flex">
+                                                <div class="top">
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top-left.png"
+                                                         alt="Decorative Top Left Shape" class="top-left"
+                                                         loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top.png"
+                                                         alt="Decorative Top Center Shape" class="top-center"
+                                                         loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top-right.png"
+                                                         alt="Decorative Top Right Shape" class="top-right"
+                                                         loading="lazy"/>
+                                                </div>
+                                                <div class="vertical">
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/vertical-left.png"
+                                                         alt="Decorative Vertical Left Shape" class="vertical-left"
+                                                         loading="lazy"/>
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/tawridat_page/vertical-right.png"
+                                                            alt="Decorative Vertical Right Shape" class="vertical-right"
+                                                            loading="lazy"/>
+                                                </div>
+                                            </div>
+                                            <div
+                                                    class="position-relative d-flex align-items-center overflow-hidden d-lg-none"
+                                                    dir="ltr" style="margin-top: 56px;">
+                                                <div
+                                                        class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top-left.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top-right.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/vertical-left.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/tawridat_page/vertical-right.png"
+                                                            alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                </div>
+                                                <div
+                                                        class="animate-marquee d-flex min-w-full flex-shrink-0 items-center justify-around">
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top-left.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/top-right.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img src="/theme_taqat/static/src/img/tawridat_page/vertical-left.png"
+                                                         alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/tawridat_page/vertical-right.png"
+                                                            alt="Decorative Shape" class="img-fluid" loading="lazy"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="why-choose-tawridat">
+                            <div class="container">
+                                <div class="section-p">
+                                    <div class="row align-content-center justify-content-between">
+                                        <div class="col-12 col-lg-5">
+                                            <div>
+                                                <h2 class="title">Why choose Tawridat</h2>
+                                                <img src="/theme_taqat/static/src/img/tawridat_page/q-mark.png"
+                                                     alt="Why choose Tawridat?" class="mt-4 mb-sm-4" loading="lazy"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-5">
+                                            <ul class="d-flex flex-column">
+                                                <li class="d-flex gap-4">
+                                                    <div
+                                                            class="bg-black d-flex align-items-center justify-content-center icon">
+                                                        <img src="/theme_taqat/static/src/img/tawridat_page/Target.png"
+                                                             alt="Diverse Supplies" loading="lazy"/>
+                                                    </div>
+                                                    <div class="_flex-1">
+                                                        <h3 class="text-2xl">Diverse Supplies</h3>
+                                                        <p class="text-lg m-0">
+                                                            Renewable energy, medical, food, water, construction – we
+                                                            meet all
+                                                            your needs.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex gap-4">
+                                                    <div
+                                                            class="bg-black d-flex align-items-center justify-content-center icon">
+                                                        <img src="/theme_taqat/static/src/img/tawridat_page/World.png"
+                                                             alt="Modern Technology" loading="lazy"/>
+                                                    </div>
+                                                    <div class="_flex-1">
+                                                        <h3 class="text-2xl">Modern Technology</h3>
+                                                        <p class="text-lg m-0">Latest solutions for all services.</p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex gap-4">
+                                                    <div
+                                                            class="bg-black d-flex align-items-center justify-content-center icon">
+                                                        <img src="/theme_taqat/static/src/img/tawridat_page/Plant.png"
+                                                             alt="Global Network" loading="lazy"/>
+                                                    </div>
+                                                    <div class="_flex-1">
+                                                        <h3 class="text-2xl">Global Network</h3>
+                                                        <p class="text-lg m-0">Connects continents; strategic
+                                                            partnerships
+                                                            in Middle East, Turkey, Asia, Africa for global product
+                                                            delivery
+                                                            and resource access.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="renewable-energy">
+                            <div class="section-p pb-0">
+                                <div class="container">
+                                    <div class="row justify-content-between align-items-center gap-4">
+                                        <div class="col-12 col-lg-6">
+                                            <div>
+                                                <h3 class="_tawridat-section-title">Latest
+                                                    <span
+                                                            class="text-primary">Renewable
+                                                        <br/>
+                                                        Energy
+                                                    </span>
+                                                    Solutions
+                                                </h3>
+                                                <p class="_tawridat-section-description mb-14 fw-bold">Tawridat supports
+                                                    the
+                                                    transition to clean energy by providing comprehensive solar energy
+                                                    solutions that include
+                                                </p>
+                                            </div>
+                                            <ul class="auto-fit-grid renewable-energy-list">
+                                                <li class="position-relative">
+                                                    <h3 class="text-2xl mb-3 font-bold">Transformers:</h3>
+                                                    <p class="text-xl">
+                                                        To facilitate the conversion of electricity from solar panels
+                                                        into
+                                                        usable current.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <h3 class="text-2xl mb-3 font-bold">Advanced photovoltaic systems:
+                                                    </h3>
+                                                    <p class="text-xl">
+                                                        To enhance energy production.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <h3 class="text-2xl mb-3 font-bold">Charging controllers:</h3>
+                                                    <p class="text-xl">
+                                                        To efficiently regulate the flow of electricity.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <h3 class="text-2xl mb-3 font-bold">Sustainable batteries:</h3>
+                                                    <p class="text-xl">
+                                                        To store excess energy for use when needed.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-lg-5">
+                                            <img src="/theme_taqat/static/src/img/tawridat_page/renewable-energy.png"
+                                                 alt="Latest Renewable Energy Solutions:" loading="lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="healthcare">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row justify-content-between align-items-center gap-4">
+                                        <div class="col-12 col-lg-6">
+                                            <img src="/theme_taqat/static/src/img/tawridat_page/healthcare.png"
+                                                 alt="Preparing Healthcare" loading="lazy"/>
+                                        </div>
+                                        <div class="col-12 col-lg-5">
+                                            <div>
+                                                <h3 class="_tawridat-section-title">Preparing
+                                                    <span
+                                                            class="text-primary">
+                                                        Healthcare
+                                                    </span>
+                                                    Providers for the Future
+                                                </h3>
+                                                <p class="_tawridat-section-description mb-14 fw-bold">We focus on
+                                                    boosting the healthcare sector by providing the following:
+                                                </p>
+                                            </div>
+                                            <ul class="healthcare-list">
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Advanced diagnostic devices.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Precision surgical equipment for all types of surgeries.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Advanced laboratory equipment.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Pharmaceuticals.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        All medical supplies are necessary for providing comprehensive
+                                                        patient care.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="education text-white">
+                            <div>
+                                <div class="large-container">
+                                    <div class="row g-0">
+                                        <div style="background-color: #443F2B;"
+                                             class="edu-info section-p _flex-1 col-12 col-lg-6">
+                                            <h3 class="title">
+                                                Investing in Education
+                                            </h3>
+                                            <p class="subtitle mb-14">
+                                                The Backbone of a Bright Future
+                                            </p>
+                                            <p class="mb-8 description">
+                                                We believe that education is the cornerstone of building a sustainable
+                                                and prosperous future… that's why we focus on providing:
+                                            </p>
+                                            <ul class="mt-8 d-flex flex-column education-list">
+                                                <li class="position-relative">
+                                                    <h4 class="fw-bold text-2xl">Classroom Furniture</h4>
+                                                    <p class="text-xl">Flexible furniture to increase student comfort
+                                                        and
+                                                        enhance focus.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <h4 class="fw-bold text-2xl">Innovative learning tools</h4>
+                                                    <p class="text-xl">to encourage student engagement and foster
+                                                        collaboration and creativity.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <h4 class="fw-bold text-2xl">Books and educational materials</h4>
+                                                    <p class="text-xl">Books and educational materials suitable for all
+                                                        education levels.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <h4 class="fw-bold text-2xl">School laboratory supplies</h4>
+                                                    <p class="text-xl">to support students' exploratory talents and
+                                                        enhance their innovative abilities.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <img src="/theme_taqat/static/src/img/tawridat_page/education.png"
+                                                 alt="Investing in Education..." loading="lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="fashion-accessories">
+                            <div class="section-p pb-0">
+                                <div class="container">
+                                    <div class="row justify-content-between align-items-center gap-4">
+                                        <div class="col-12 col-lg-6">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/tawridat_page/fashion-accessories.png"
+                                                    alt="Fashion and Accessories:" loading="lazy"/>
+                                        </div>
+                                        <div class="col-12 col-lg-5">
+                                            <div>
+                                                <h3 class="_tawridat-section-title text-primary">
+                                                    Fashion and Accessories
+                                                </h3>
+                                                <p class="_tawridat-section-description mb-14 fw-bold">
+                                                    We deliver a style that highlights your personality, by providing a
+                                                    vast selection of:
+                                                </p>
+                                            </div>
+                                            <ul class="fashion-accessories-list">
+                                                <li class="position-relative">
+                                                    <p class="text-lg m-0">
+                                                        Fashion collections that fit every occasion.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-lg m-0">
+                                                        Accessories that add a unique touch to your appearance.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-lg m-0">
+                                                        High-quality fabrics and textiles for manufacturers and handmade
+                                                        design enthusiasts.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="construction">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row justify-content-between align-items-center gap-4">
+                                        <div class="col-12 col-lg-5">
+                                            <div>
+                                                <h3 class="_tawridat-section-title text-primary">
+                                                    Building Supplies
+                                                </h3>
+                                                <p class="_tawridat-section-description mb-14 fw-bold">
+                                                    Tawridat stands out by providing integrated building services,
+                                                    including:
+                                                </p>
+                                            </div>
+                                            <ul class="construction-list">
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Innovative design and planning for your project.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Effective project supervision for residential, commercial, and
+                                                        industrial projects.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Implementing the latest sustainability technologies at every
+                                                        step of
+                                                        your project's development.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <img src="/theme_taqat/static/src/img/tawridat_page/construction.png"
+                                                 alt="Building Supplies" loading="lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="water-solutions">
+                            <div class="section-p pt-0">
+                                <div class="container">
+                                    <div class="row justify-content-between align-items-center gap-4">
+                                        <div class="col-12 col-lg-6">
+                                            <img src="/theme_taqat/static/src/img/tawridat_page/water-solutions.png"
+                                                 alt="Pure Water Solutionss" loading="lazy"/>
+                                        </div>
+                                        <div class="col-12 col-lg-5">
+                                            <div>
+                                                <h3 class="_tawridat-section-title text-primary">Pure Water Solutionss
+                                                </h3>
+                                                <p class="_tawridat-section-description mb-14 fw-bold">Because water is
+                                                    essential to life, Tawridat provides:
+                                                </p>
+                                            </div>
+                                            <ul class="water-solutions-list">
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        Modern filtration and purification systems to improve water
+                                                        quality.
+                                                    </p>
+                                                </li>
+                                                <li class="position-relative">
+                                                    <p class="text-2xl m-0">
+                                                        The most efficient water treatment technologies to ensure
+                                                        suitability for drinking, irrigation, or industrial use.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="food-beverages text-white">
+                            <div class="d-md-none">
+                                <img src="/theme_taqat/static/src/img/tawridat_page/mobile/food.png"
+                                     alt="Food and Beverages:" loading="lazy" class="w-100"
+                                     style="margin-bottom: -2px;"/>
+                            </div>
+                            <div class="container">
+                                <div class="p-16">
+                                    <div>
+                                        <div>
+                                            <h3 class="text-5xl fw-bold mb-6 title">Food and Beverages</h3>
+                                        </div>
+                                        <div class="food-list-wrapper">
+                                            <p class="text-2xl mb-10 fw-bold">Tawridat helps various businesses and
+                                                brands access to: 
+                                            </p>
+                                            <ul class="food-list">
+                                                <li>
+                                                    <h4>Bulk Essential Ingredients</h4>
+                                                    <p>Ingredients that are needed by restaurants and cafes in bulk.</p>
+                                                </li>
+                                                <li>
+                                                    <h4>Specialty Products</h4>
+                                                    <p>A wide range of products to meet the unique needs
+                                                        <br/>
+                                                        of gourmet
+                                                        kitchens.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <h4>Packaging Solutions</h4>
+                                                    <p>Innovative packaging solutions that preserve quality.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contact-details">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-8 d-flex flex-column align-items-center mx-auto">
+                                            <h3 class="text-[40px] fw-bold _mb-4 text-center">Get a Free
+                                                Consultation... contact us now!
+                                            </h3>
+                                            <p class="text-2xl text-center mb-16">
+                                                Make your supplies sustainable with Tawridat.
+                                            </p>
+                                            <a href="/contactus"
+                                               class="call-t-action border-0 bg-primary text-white text-center">Contact
+                                                Us
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <!-- Page Record -->
+        <record id="taqat_tawridat_page_rec" model="theme.website.page">
+            <field name="view_id" ref="taqat_tawridat_page_template"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/tawridat</field>
+        </record>
+
+        <!-- Menu Record -->
+        <record id="taqat_tawridat_page_menu_rec" model="theme.website.menu">
+            <field name="name">Tawridat</field>
+            <field name="url">/tawridat</field>
+            <field name="sequence" type="int">11</field>
+        </record>
+
+    </data>
+</odoo>

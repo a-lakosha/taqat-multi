@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <template name="Taqat About Us page" id="taqat_aboutus_page_template">
+            <t t-set="additional_title" t-valuef="About Us"/>
+            <t t-set="nav_dark" t-value="True"/>
+            <div id="wrap" class="oe_structure">
+                <div role="main" class="main-content-area aboutus pt-lg-5"
+                     aria-label="Main Content Area">
+                    <section
+                            class="about_hero d-flex align-items-center justify-content-center">
+                        <div class="container">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <h2 class="fw-bold mb-3 fs-1 text-primary">Our Mission</h2>
+                                    <p class="fs-3">To invest in innovative <span
+                                            class="text-primary">solutions and sustainable services
+                                    </span> that promote
+                                        economic growth and encourage innovation, with a focus on delivering
+                                        effective
+                                        humanitarian services that create a positive impact on all beneficiaries.
+                                    </p>
+                                </div>
+                                <div class="col-12 mt-5 col-md-3 mt-md-0">
+                                    <a href="#our-story" class="d-block arrow_buttom">
+                                        <img loading="lazy"
+                                             src="/theme_taqat/static/src/img/about_page/arrow-bottom.png"
+                                             alt="Scroll to Our Story" class="w-100 h-100"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="our-story" class="our-story">
+                        <div class="section-p">
+                            <div class="container">
+                                <h2 class="dark_section-title text-center">Our Story</h2>
+                                <div class="timeline-container">
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <div class="content">
+                                                <h2 class="fs-1 text-primary mt-0 text-md-end">
+                                                    2014
+                                                </h2>
+                                                <p>
+                                                    In 2014, Taqat began its journey with a clear objective: to
+                                                    provide
+                                                    innovative support to entrepreneurs, governmental organizations,
+                                                    non-governmental organizations, and humanitarian agencies.  Our
+                                                    aim was
+                                                    to enable them to thrive and succeed globally, fostering
+                                                    innovation,
+                                                    excellence, and efficient enhancement of local economies. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="content">
+                                                <h2 class="fs-1 text-primary mt-0">2020</h2>
+                                                <p>2020 marked Taqat's emergence as a prominent force. Under the
+                                                    leadership of
+                                                    <span
+                                                            class="fw-bold">CEO Mohammed Abdullah Al-Yafei,
+                                                    </span>
+                                                    <span
+                                                            class="text-primary fw-bold">the
+                                                        company
+                                                        launched a comprehensive development and expansion across
+                                                        all its
+                                                        ventures, programs, and projects.
+                                                    </span>
+                                                    <span class="fw-bold">
+                                                        Today, Taqat operates in 12
+                                                        diverse sectors, with a focus on leading sustainable project
+                                                        development.
+                                                    </span>
+                                                </p>
+                                                <p class="fw-normal">Furthermore, Taqat has remained deeply
+                                                    committed to
+                                                    its social responsibility. We empower local and global
+                                                    communities and
+                                                    provide vital support to governmental and non-governmental
+                                                    organizations
+                                                    in designing and executing impactful humanitarian initiatives. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h2
+                                            class="d-flex align-items-center justify-content-md-center display-1 fw-bolder text-primary
+                              custom-year-style text-secondary">
+                                        2030
+                                    </h2>
+                                    <h3 class="text-md-center mb-5">Our Goals for Vision 2030</h3>
+                                    <div
+                                            class="row mt-5 flex-column flex-md-row justify-content-between align-items-center gap-5">
+                                        <div class="col-12 col-md-5">
+                                            <p class="fs-3 fw-bold">
+                                                In alignment with Qatar National Vision 2030, we strive, with our
+                                                strategic partners, to create a prosperous future for communities.
+                                            </p>
+                                            <p class="fs-3">
+                                                We will achieve this through a comprehensive approach that
+                                                emphasizes
+                                                investment and development in projects centered on sustainability. 
+                                            </p>
+                                            <ul
+                                                    class="d-flex mb-0 p-0 d-flex flex-column gap-3 goals-list"
+                                                    style="margin-top: 80px;">
+                                                <li class="d-flex align-items-center gap-4">
+                                                    <div
+                                                            class="bg-primary d-flex align-items-center justify-content-center rounded-3">
+                                                        <img loading="lazy"
+                                                             src="/theme_taqat/static/src/img/about_page/icons/world.png"
+                                                             alt="Expand our global presence to reach new communities by 2030."/>
+                                                    </div>
+                                                    <div
+                                                            class="flex-grow-1 flex-shrink-1 flex-basis-0">
+                                                        <p class="fw-bold m-0">
+                                                            Expand our global presence to reach new communities by
+                                                            2030.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex align-items-center gap-4">
+                                                    <div
+                                                            class="bg-primary d-flex align-items-center justify-content-center rounded-3">
+                                                        <img loading="lazy"
+                                                             src="/theme_taqat/static/src/img/about_page/icons/plant.png"
+                                                             alt="Create new opportunities that focus on sustainable projects that drive economic growth."/>
+                                                    </div>
+                                                    <div
+                                                            class="flex-grow-1 flex-shrink-1 flex-basis-0">
+                                                        <p class="fw-bold m-0">
+                                                            Create new opportunities that focus on sustainable
+                                                            projects that
+                                                            drive economic growth.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex align-items-center gap-4">
+                                                    <div
+                                                            class="bg-primary d-flex align-items-center justify-content-center rounded-3">
+                                                        <img loading="lazy"
+                                                             src="/theme_taqat/static/src/img/about_page/icons/light-bulb.png"
+                                                             alt="Support innovative initiatives in technology, trade, sustainable agriculture, and humanitarian services."/>
+                                                    </div>
+                                                    <div
+                                                            class="flex-grow-1 flex-shrink-1 flex-basis-0">
+                                                        <p class="fw-bold m-0">
+                                                            Support innovative initiatives in technology, trade,
+                                                            sustainable
+                                                            agriculture, and humanitarian services.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div
+                                                class="col-9 d-flex align-self-center align-self-md-start col-md-5">
+                                            <img loading="lazy"
+                                                 src="/theme_taqat/static/src/img/about_page/30vision.png"
+                                                 alt="Our Goals for Vision 2030"
+                                                 class="w-100 h-100"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="our-mission" class="our-mission">
+                        <div class="container">
+                            <div class="section-p">
+                                <div class="col-12 px-md-5">
+                                    <h3 class="text-secondary text-center fw-normal title">Our Vision</h3>
+                                    <p class="text-center fw-bold description">
+                                        To be recognized as trusted leaders in sustainable projects by driving
+                                        continuous innovation and fostering strategic partnerships that pave the way
+                                        for a brighter future.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="visions">
+                        <div class="visions section-p">
+                            <div class="container">
+                                <div
+                                        class="row d-flex flex-column-reverse gap-5 flex-md-row justify-content-between">
+                                    <div class="col-12 col-md-7">
+                                        <h3 class="section-title text-white fw-bold">Our Core Pillars for
+                                            Contributing
+                                            to Vision 2030 Goals
+                                        </h3>
+                                        <div class="vision-list row">
+                                            <div
+                                                    class="vision-item d-flex align-items-start mb-4 gap-4">
+                                                <div class="icon">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/about_page/icons/chart.png"
+                                                            alt="Sustainability" class="w-100 h-100"/>
+                                                </div>
+                                                <div
+                                                        class="flex-grow-1 flex-shrink-0 flex-basis-0">
+                                                    <h3>Sustainability</h3>
+                                                    <p>Taqat supports sustainable development strategies that reduce
+                                                        carbon
+                                                        emissions, promote the use of renewable energy, and improve
+                                                        resource
+                                                        consumption efficiency.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                    class="vision-item d-flex align-items-start mb-4 gap-4">
+                                                <div class="icon">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/about_page/icons/chart.png"
+                                                            alt="Advanced solutions" class="w-100 h-100"/>
+                                                </div>
+                                                <div
+                                                        class="flex-grow-1 flex-shrink-0 flex-basis-0">
+                                                    <h3>Advanced solutions</h3>
+                                                    <p>We support research and development efforts to provide
+                                                        innovative
+                                                        solutions across all sectors to foster an environment
+                                                        conducive to
+                                                        innovation within institutions.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                    class="vision-item d-flex align-items-start mb-4 gap-4">
+                                                <div class="icon">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/about_page/icons/social.png"
+                                                            alt="Governance"
+                                                            class="w-100 h-100"/>
+                                                </div>
+                                                <div
+                                                        class="flex-grow-1 flex-shrink-0 flex-basis-0">
+                                                    <h3>Governance</h3>
+                                                    <p>At Taqat, we follow the latest governance practices and focus
+                                                        on
+                                                        enhancing transparency in decision-making.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                    class="vision-item d-flex align-items-start mb-4 gap-4">
+                                                <div class="icon">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/about_page/icons/puzzle.png"
+                                                            alt="Strategic Relationships" class="w-100 h-100"/>
+                                                </div>
+                                                <div
+                                                        class="flex-grow-1 flex-shrink-0 flex-basis-0">
+                                                    <h3>Strategic Relationships</h3>
+                                                    <p>We collaborate with local and international organizations to
+                                                        achieve
+                                                        shared sustainability goals.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                    class="vision-item d-flex align-items-start mb-4 gap-4">
+                                                <div class="icon">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/about_page/icons/governance.png"
+                                                            alt="Promoting Equality" class="w-100 h-100"/>
+                                                </div>
+                                                <div
+                                                        class="flex-grow-1 flex-shrink-0 flex-basis-0">
+                                                    <h3>Promoting Equality</h3>
+                                                    <p>We work towards developing and applying policies that foster
+                                                        gender
+                                                        equality and social equity.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div style="max-width: 500px;">
+                                            <img loading="lazy"
+                                                 src="/theme_taqat/static/src/img/about_page/visions-image.png"
+                                                 alt="Illustration of Vision 2030 core pillars"
+                                                 class="w-100 h-100"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="values">
+                        <div class="section-p">
+                            <div class="container">
+                                <div
+                                        class="row flex-col flex-md-row justify-content-between align-items-start">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="h-100">
+                                            <img loading="lazy"
+                                                 src="/theme_taqat/static/src/img/about_page/values-img.png"
+                                                 alt="Representation of Taqat's core values"
+                                                 class="w-100 h-100"
+                                                 style="max-width: calc(100% - 20px)"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 pt-5 pt-lg-0">
+                                        <div>
+                                            <h2 class="dark_section-title">Our Values</h2>
+                                            <p class="desc">
+                                                At Taqat, a core set of values guides our decisions across all
+                                                operations:
+                                            </p>
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item border-0">
+                                                    <h2 class="accordion-header"
+                                                        id="headingIntegrity">
+                                                        <button
+                                                                class="accordion-button d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseIntegrity"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseIntegrity">
+                                                            <span
+                                                                    style="font-size: 18px; color: #0A0A0A;">
+                                                                01
+                                                            </span>
+                                                            <span class="fs-3 fw-bold">Integrity</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseIntegrity"
+                                                         class="accordion-collapse collapse show"
+                                                         aria-labelledby="headingIntegrity"
+                                                         data-bs-parent="#accordionExample">
+                                                        <div
+                                                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                            Adherence to ethical principles and high transparency in
+                                                            all
+                                                            operations.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item border-0">
+                                                    <h2 class="accordion-header"
+                                                        id="headingInnovation">
+                                                        <button
+                                                                class="accordion-button collapsed fw-bold d-flex align-content-center gap-4 p-0 pt-4 pb-4 border-bottom"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseInnovation"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseInnovation">
+                                                            <span
+                                                                    style="font-size: 18px; color: #0A0A0A;">
+                                                                02
+                                                            </span>
+                                                            <span
+                                                                    class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                Innovation
+                                                            </span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseInnovation"
+                                                         class="accordion-collapse collapse"
+                                                         aria-labelledby="headingInnovation"
+                                                         data-bs-parent="#accordionExample">
+                                                        <div
+                                                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                            Innovative solutions to enhance client effectiveness and
+                                                            operational
+                                                            efficiency.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item border-0">
+                                                    <h2 class="accordion-header"
+                                                        id="headingExcellence">
+                                                        <button
+                                                                class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseExcellence"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseExcellence">
+                                                            <span
+                                                                    style="font-size: 18px; color: #0A0A0A;">
+                                                                03
+                                                            </span>
+                                                            <span
+                                                                    class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                Excellence
+                                                            </span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseExcellence"
+                                                         class="accordion-collapse collapse"
+                                                         aria-labelledby="headingExcellence"
+                                                         data-bs-parent="#accordionExample">
+                                                        <div
+                                                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                            Commitment to the highest quality standards in all
+                                                            services and solutions.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item border-0">
+                                                    <h2 class="accordion-header"
+                                                        id="headingCollaboration">
+                                                        <button
+                                                                class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseCollaboration"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseCollaboration">
+                                                            <span
+                                                                    style="font-size: 18px; color: #0A0A0A;">
+                                                                04
+                                                            </span>
+                                                            <span
+                                                                    class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                Collaboration
+                                                            </span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseCollaboration"
+                                                         class="accordion-collapse collapse"
+                                                         aria-labelledby="headingCollaboration"
+                                                         data-bs-parent="#accordionExample">
+                                                        <div
+                                                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                            Long-term strategic partnerships with clients to
+                                                            achieve shared sustainability goals.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item border-0">
+                                                    <h2 class="accordion-header"
+                                                        id="headingSocialResponsibility">
+                                                        <button
+                                                                class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseSocialResponsibility"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseSocialResponsibility">
+                                                            <span
+                                                                    style="font-size: 18px; color: #0A0A0A;">
+                                                                05
+                                                            </span>
+                                                            <span
+                                                                    class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                Social Responsibility
+                                                            </span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseSocialResponsibility"
+                                                         class="accordion-collapse collapse"
+                                                         aria-labelledby="headingSocialResponsibility"
+                                                         data-bs-parent="#accordionExample">
+                                                        <div
+                                                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                            Positive engagement with communities and efficient
+                                                            support for
+                                                            humanitarian initiatives.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </template>
+
+        <!-- Page Record -->
+        <record id="taqat_aboutus_page_rec" model="theme.website.page">
+            <field name="view_id" ref="taqat_aboutus_page_template"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/aboutus</field>
+        </record>
+
+        <!-- Menu Record -->
+        <record id="taqat_aboutus_page_menu_rec" model="theme.website.menu">
+            <field name="name">About Us</field>
+            <field name="url">/aboutus</field>
+            <field name="sequence" type="int">11</field>
+        </record>
+
+    </data>
+</odoo>

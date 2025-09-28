@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Hero / top section override -->
+    <template id="opt_blog_post_ta" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//div[@id='o_wblog_blog_top']" position="replace">
+            <section class="post_blogs">
+                <div class="container pt144 pb64 border-bottom">
+                    <div class="row d-flex flex-row align-items-end justify-content-between gap-2 gap-lg-0">
+                        <div class="content col-lg-6 o_animate o_anim_fade_in">
+                            <h2 class="display-2 fw-bolder pb-3">Blog &amp; News</h2>
+                            <p class="display-6 fw-medium">
+                                Explore the latest in sustainable development, technology, and social innovation.
+                                <br/>
+                                <br/>
+                                Discover inspiring success stories, Indoqat highlights, and expert-driven analysis on
+                                key global trends shaping today and tomorrow.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 o_animate o_anim_fade_in">
+                            <t t-call="website.website_search_box_input">
+                                <t t-set="_form_classes"
+                                   t-valuef="#{not len(blogs) &gt; 1 and 'ms-auto'} flex-grow-1 flex-lg-grow-0"/>
+                                <t t-set="_classes" t-valuef=""/>
+                                <t t-set="search_type" t-valuef="blogs"/>
+                                <t t-set="action" t-value="blog_url(tag=tag,search=search)"/>
+                                <t t-set="display_description" t-valuef="true"/>
+                                <t t-set="display_detail" t-valuef="false"/>
+                                <input type="hidden" name="tag" t-att-value="tag"/>
+                                <input type="hidden" name="date_begin" t-att-value="date_begin"/>
+                                <input type="hidden" name="date_end" t-att-value="date_end"/>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+    <!--    Search Form override-->
+    <template id="custom_search_input" inherit_id="website.website_search_box_input">
+        <xpath expr="//input" position="attributes">
+            <attribute name="t-attf-class"
+                       add="bg-transparent"
+                       remove=""
+                       separator=" "/>
+            <attribute name="placeholder">Text here</attribute>
+        </xpath>
+        <xpath expr="//button" position="attributes">
+            <attribute name="t-attf-class"
+                       add="bg-transparent"
+                       remove=""
+                       separator=" "/>
+        </xpath>
+        <xpath expr="//div" position="attributes">
+            <attribute name="t-attf-class"
+                       add="border flex-row-reverse gap-2 py16 px-3 rounded-3 align-items-start justify-content-end"
+                       remove=""
+                       separator=" "/>
+        </xpath>
+    </template>
+    <!--    Navbar Override-->
+    <template id="custom_inherit_listing_layout_switcher" inherit_id="website_blog.blogs_nav">
+        <xpath expr="//nav[contains(@t-attf-class, 'navbar navbar-expand-lg navbar-light pt-4 pb-0 px-0')]"
+               position="replace">
+            <t t-set="latest_posts"
+               t-value="request.env['blog.post'].search([('is_published', '=', True)], order='create_date desc', limit=4)"/>
+            <t t-set="first_latest_post" t-value="latest_posts[0] if latest_posts else False"/>
+            <t t-set="last_three_posts" t-value="latest_posts[1:] if latest_posts else []"/>
+            <!-- Featured post section -->
+            <!--            <section class="latest_post" t-if="latest_post">-->
+            <section class="lastest_news pb144" t-if="latest_posts">
+                <div class="container pt64">
+                    <h2 class="pb64">Latest News</h2>
+                    <div class="row first_lastest_blog  gap-4 gap-lg-0 o_animate o_anim_fade_in">
+                        <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
+                           class="text-black first_lastest_blog_img col-lg-7">
+                            <t t-call="website.record_cover">
+                                <t t-set="_record" t-value="first_latest_post"/>
+                                <t
+                                        t-set="additional_classes"
+                                        t-valuef="o_not_editable h174 rounded-4"
+                                />
+                            </t>
+                        </a>
+                        <div class="col d-flex flex-column justify-content-between o_animate o_anim_slide_in  o_anim_from_right">
+                            <div class="">
+                                <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
+                                   class="text-black d-flex display-4 fw-bolder blog_title pb-3 m-0"
+                                   t-out="first_latest_post.name"/>
+                                <p class="display-6 fw-medium m-0 pb64" t-out="first_latest_post.teaser"/>
+                            </div>
+                            <div class="date_more p-0 d-flex flex-row align-items-center justify-content-between">
+                                <time t-if="first_latest_post.post_date"
+                                      class="display-6 fw-medium m-0 o_animate o_anim_slide_in  o_anim_from_right o_delay_250"
+                                      t-out="first_latest_post.create_date.strftime('%d %B %Y')"/>
+                                <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
+                                   class="btn btn-link d-flex flex-row gap-2 align-items-center text-black o_animate o_anim_slide_in  o_anim_from_right o_delay_250">
+                                    More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                         fill="none">
+                                        <path d="M13.5 19.5L21 12M21 12L13.5 4.5M21 12H3" stroke="#0F172A"
+                                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt120 d-grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+                        <t t-foreach="last_three_posts" t-as="post">
+                            <div class="latest_post o_animate o_anim_bounce_in">
+                                <a class="featured_post_img" t-attf-href="/blog/#{slug(post.blog_id)}/#{slug(post)}">
+                                    <t t-call="website.record_cover">
+                                        <t t-set="_record" t-value="post"/>
+                                        <t
+                                                t-set="additional_classes"
+                                                t-valuef="o_not_editable h174 rounded-4"
+                                        />
+                                    </t>
+                                </a>
+                                <a t-attf-href="/blog/#{slug(post.blog_id)}/#{slug(post)}"
+                                   class="text-black d-flex display-5 fw-bold blog_title pt40  overflow-text"
+                                   t-out="post.name"/>
+                                <p class="display-6 fw-medium overflow-text blog_desc pt-4"
+                                   t-out="post.teaser"/>
+                                <div class="date_more p-0 pt64 d-flex flex-row align-items-center justify-content-between">
+                                    <time t-if="post.post_date" class="fs-6 fw-medium m-0"
+                                          t-out="post.create_date.strftime('%d %B %Y')"/>
+                                    <a t-attf-href="/blog/#{slug(post.blog_id)}/#{slug(post)}"
+                                       class="btn btn-link fs-6 d-flex flex-row gap-2 align-items-center text-black">
+                                        More
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none">
+                                            <path d="M13.5 19.5L21 12M21 12L13.5 4.5M21 12H3" stroke="#0F172A"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+    <!-- Blog post card loop -->
+    <template id="custom_blog_post" inherit_id="website_blog.posts_loop">
+        <xpath expr="//t[@t-if='state_info']" position="before">
+            <h2 class="pb64 pt144">All News</h2>
+        </xpath>
+        <xpath expr="//article[@name='blog_post']" position="replace">
+            <article
+                    t-attf-class="latest_post o_wblog_post position-relative #{'card h-100' if opt_blog_cards_design else ''} o_animate o_anim_fade_in  o_anim_from_bottom"
+                    name="blog_post">
+                <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/#{slug(blog_post)}">
+                    <t t-call="website.record_cover">
+                        <t t-set="_record" t-value="blog_post"/>
+                        <t
+                                t-set="additional_classes"
+                                t-valuef="o_not_editable h174 rounded-4"
+                        />
+                    </t>
+                </a>
+                <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/#{slug(blog_post)}"
+                   class="text-black d-flex display-5 text-black fw-bold blog_title pt40 pb-4 overflow-text"
+                   t-out="blog_post.name"/>
+                <div class="date_more pt-4 d-flex flex-row align-items-center justify-content-between">
+                    <time t-if="blog_post.post_date" class="fs-6 fw-medium m-0"
+                          t-out="blog_post.create_date.strftime('%d %B %Y')"/>
+                    <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/#{slug(blog_post)}"
+                       class="text-black d-flex btn btn-link fs-6 d-flex flex-row gap-2 align-items-center text-black">
+                        More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                             fill="none">
+                            <path d="M13.5 19.5L21 12M21 12L13.5 4.5M21 12H3" stroke="#0F172A"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </xpath>
+    </template>
+
+    <!-- Pager override -->
+    <template id="custom_portel_indoqat" inherit_id="portal.pager">
+        <xpath expr="//ul" position="replace">
+            <ul
+                    t-if="pager['page_count'] > 1"
+                    t-attf-class="#{ classname or '' } pagination pt-5 #{_classes} pagenations gap-2"
+                    t-att-style="style or None"
+            >
+                <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == 1 else ''}">
+                    <a
+                            t-att-href="pager['page_previous']['url'] if pager['page']['num'] != 1 else None"
+                            t-attf-class="page-link #{extraLinkClass} #{'d-flex' if pager['page']['num'] != 1 else 'd-none'} bg-primary rounded-pill pager-item justify-content-center align-items-center"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M6 14.625L16 4.625M16 4.625L26 14.625M16 4.625V28.625"
+                                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                    </a>
+                </li>
+
+                <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == pager['page_count'] else ''}">
+                    <a
+                            t-att-href="pager['page_next']['url'] if pager['page']['num'] != pager['page_count'] else None"
+                            t-attf-class="page-link #{extraLinkClass} #{'d-flex' if pager['page']['num'] != pager['page_count'] else 'd-none'} bg-primary rounded-pill pager-item d-flex justify-content-center align-items-center"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M26 18.625L16 28.625M16 28.625L6 18.625M16 28.625L16 4.625" stroke="white"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </xpath>
+    </template>
+
+    <!-- Blog detail top -->
+    <template id="cutome_blogs_details" inherit_id="website_blog.blog_post_complete">
+        <xpath expr="//section[@id='o_wblog_post_top']" position="replace">
+            <section id="blog_details ">
+                <div class="container pt144 o_animate o_anim_fade_in">
+                    <div class="row max-width-details-task  ">
+                        <div class="content mb40">
+                            <h3 t-esc="blog_post.name" class="display-4 fw-bolder pb-3 m-0"/>
+                            <div>
+                                <time
+                                        class="mb-5 d-block"
+                                        style="color: #737373; font-size: 16px;"
+                                        t-if="blog_post.post_date"
+                                        t-esc="blog_post.post_date.strftime('%b %Y %d')"
+                                />
+                                <!-- record cover -->
+                                <t t-call="website.record_cover">
+                                    <t t-set="_record" t-value="blog_post"/>
+                                    <t t-set="additional_classes"
+                                       t-valuef="o_not_editable"/>
+                                </t>
+                            </div>
+                        </div>
+                        <t t-call="theme_indoqat.replace_blog_post_content"/>
+                        <time
+                                class="mb40 mt-2 d-block"
+                                style="color: #737373; font-size: 16px;"
+                                t-if="blog_post.post_date"
+                                t-esc="blog_post.post_date.strftime('%b %d %Y')"
+                        />
+                    </div>
+                </div>
+                <div class="container pb-lg-5">
+                    <div class="row m-auto" style="max-width: 882px;">
+                        <div class="social pb-2">
+                            <div class="gap-3 d-flex flex-wrap o_not_editable align-items-center">
+                                <a href="#" aria-label="Instagram" title="Share on Instagram"
+                                   t-attf-class="o_instagram #{classes}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33"
+                                         fill="none">
+                                        <path d="M23.1203 7.49883C22.8039 7.49883 22.4945 7.59267 22.2314 7.76848C21.9683 7.94429 21.7632 8.19418 21.6421 8.48654C21.521 8.7789 21.4893 9.10061 21.5511 9.41098C21.6128 9.72135 21.7652 10.0064 21.989 10.2302C22.2127 10.454 22.4978 10.6064 22.8082 10.6681C23.1186 10.7298 23.4403 10.6981 23.7326 10.577C24.025 10.4559 24.2749 10.2509 24.4507 9.98774C24.6265 9.72463 24.7203 9.41528 24.7203 9.09883C24.7203 8.67449 24.5518 8.26752 24.2517 7.96746C23.9516 7.6674 23.5447 7.49883 23.1203 7.49883ZM29.2537 10.7255C29.2277 9.61923 29.0205 8.5247 28.6403 7.4855C28.3013 6.59634 27.7736 5.7912 27.0937 5.1255C26.4334 4.44207 25.6264 3.91773 24.7337 3.59216C23.6972 3.20038 22.6015 2.98844 21.4937 2.9655C20.0803 2.8855 19.627 2.8855 16.0003 2.8855C12.3737 2.8855 11.9203 2.8855 10.507 2.9655C9.3992 2.98844 8.30345 3.20038 7.26699 3.59216C6.37589 3.92103 5.56957 4.44491 4.90699 5.1255C4.22356 5.78574 3.69923 6.59275 3.37366 7.4855C2.98187 8.52196 2.76994 9.6177 2.74699 10.7255C2.66699 12.1388 2.66699 12.5922 2.66699 16.2188C2.66699 19.8455 2.66699 20.2988 2.74699 21.7122C2.76994 22.82 2.98187 23.9157 3.37366 24.9522C3.69923 25.8449 4.22356 26.6519 4.90699 27.3122C5.56957 27.9928 6.37589 28.5166 7.26699 28.8455C8.30345 29.2373 9.3992 29.4492 10.507 29.4722C11.9203 29.5522 12.3737 29.5522 16.0003 29.5522C19.627 29.5522 20.0803 29.5522 21.4937 29.4722C22.6015 29.4492 23.6972 29.2373 24.7337 28.8455C25.6264 28.5199 26.4334 27.9956 27.0937 27.3122C27.7766 26.6489 28.3048 25.8431 28.6403 24.9522C29.0205 23.913 29.2277 22.8184 29.2537 21.7122C29.2537 20.2988 29.3337 19.8455 29.3337 16.2188C29.3337 12.5922 29.3337 12.1388 29.2537 10.7255ZM26.8537 21.5522C26.844 22.3985 26.6907 23.2371 26.4003 24.0322C26.1874 24.6124 25.8455 25.1367 25.4003 25.5655C24.9679 26.0062 24.4446 26.3474 23.867 26.5655C23.0719 26.8558 22.2334 27.0091 21.387 27.0188C20.0537 27.0855 19.5603 27.0988 16.0537 27.0988C12.547 27.0988 12.0537 27.0988 10.7203 27.0188C9.84151 27.0353 8.96645 26.9 8.13366 26.6188C7.58137 26.3896 7.08213 26.0492 6.66699 25.6188C6.22444 25.1905 5.88678 24.6658 5.68033 24.0855C5.3548 23.279 5.17425 22.4214 5.14699 21.5522C5.14699 20.2188 5.06699 19.7255 5.06699 16.2188C5.06699 12.7122 5.06699 12.2188 5.14699 10.8855C5.15297 10.0202 5.31093 9.16276 5.61366 8.35216C5.84839 7.78938 6.20868 7.28771 6.66699 6.8855C7.07208 6.42706 7.57271 6.06296 8.13366 5.81883C8.94639 5.52556 9.80299 5.37227 10.667 5.3655C12.0003 5.3655 12.4937 5.2855 16.0003 5.2855C19.507 5.2855 20.0003 5.2855 21.3337 5.3655C22.18 5.37521 23.0186 5.52849 23.8137 5.81883C24.4196 6.0437 24.9634 6.40929 25.4003 6.8855C25.8373 7.29507 26.1787 7.79581 26.4003 8.35216C26.6967 9.16408 26.85 10.0212 26.8537 10.8855C26.9203 12.2188 26.9337 12.7122 26.9337 16.2188C26.9337 19.7255 26.9203 20.2188 26.8537 21.5522ZM16.0003 9.37883C14.6481 9.38147 13.3269 9.78487 12.2039 10.5381C11.0808 11.2912 10.2062 12.3604 9.6905 13.6105C9.17484 14.8606 9.04129 16.2355 9.30672 17.5614C9.57214 18.8874 10.2246 20.1049 11.1818 21.0601C12.1389 22.0154 13.3577 22.6655 14.6841 22.9284C16.0106 23.1912 17.3852 23.055 18.6343 22.5369C19.8834 22.0188 20.9508 21.1421 21.7018 20.0175C22.4528 18.893 22.8537 17.5711 22.8537 16.2188C22.8554 15.319 22.6793 14.4276 22.3353 13.5961C21.9914 12.7646 21.4864 12.0092 20.8495 11.3736C20.2126 10.7379 19.4563 10.2344 18.6241 9.89207C17.7919 9.54974 16.9002 9.37531 16.0003 9.37883ZM16.0003 20.6588C15.1222 20.6588 14.2637 20.3984 13.5336 19.9106C12.8034 19.4227 12.2344 18.7292 11.8983 17.9179C11.5622 17.1066 11.4743 16.2139 11.6456 15.3526C11.817 14.4914 12.2398 13.7002 12.8608 13.0793C13.4817 12.4583 14.2728 12.0355 15.1341 11.8641C15.9954 11.6928 16.8881 11.7808 17.6994 12.1168C18.5107 12.4529 19.2042 13.0219 19.6921 13.7521C20.1799 14.4823 20.4403 15.3407 20.4403 16.2188C20.4403 16.8019 20.3255 17.3793 20.1024 17.9179C19.8792 18.4566 19.5522 18.9461 19.1399 19.3584C18.7276 19.7707 18.2381 20.0977 17.6994 20.3209C17.1608 20.544 16.5834 20.6588 16.0003 20.6588Z"
+                                              fill="#0A0A0A"/>
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Twitter" title="Share on Twitter"
+                                   t-attf-class="o_twitter #{classes}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33"
+                                         fill="none">
+                                        <path d="M8.66446 4.21875H4.57539L13.5088 14.159L2.99935 27.6854H11.2282L17.6733 19.4817L25.0479 27.6854H29.1394L19.5843 17.0532L29.666 4.21875H21.2283L15.4025 11.7173L8.66446 4.21875ZM10.0996 25.3026H7.83379L22.4595 6.47636H24.8909L10.0996 25.3026Z"
+                                              fill="#0A0A0A"/>
+                                    </svg>
+                                </a>
+                                <a class="share_postes_links" href="#" aria-label="youtube" title="Share on youtube"
+                                   t-attf-class="o_youtube #{classes}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33"
+                                         fill="none">
+                                        <path d="M31.3451 12.8209C31.411 10.9125 30.9937 9.01827 30.1318 7.31425C29.547 6.61504 28.7354 6.14319 27.8384 5.98091C24.1285 5.64428 20.4031 5.50631 16.6784 5.56758C12.9673 5.50352 9.25537 5.63705 5.55842 5.96758C4.82751 6.10054 4.15111 6.44337 3.61175 6.95425C2.41175 8.06091 2.27842 9.95425 2.14509 11.5542C1.95164 14.431 1.95164 17.3175 2.14509 20.1942C2.18366 21.0948 2.31775 21.9887 2.54509 22.8609C2.70585 23.5343 3.03112 24.1574 3.49175 24.6742C4.03478 25.2122 4.72693 25.5745 5.47842 25.7142C8.35298 26.0691 11.2494 26.2161 14.1451 26.1542C18.8118 26.2209 22.9051 26.1542 27.7451 25.7809C28.515 25.6498 29.2267 25.287 29.7851 24.7409C30.1584 24.3675 30.4372 23.9104 30.5984 23.4076C31.0753 21.9444 31.3095 20.4131 31.2918 18.8742C31.3451 18.1276 31.3451 13.6209 31.3451 12.8209ZM13.6651 19.6742V11.4209L21.5584 15.5676C19.3451 16.7942 16.4251 18.1809 13.6651 19.6742Z"
+                                              fill="#0A0A0A"/>
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Facebook" title="Share on Facebook"
+                                   t-attf-class="o_facebook #{classes}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33"
+                                         fill="none">
+                                        <path d="M20.1601 7.3122H22.6668V3.0722C21.4531 2.946 20.2337 2.88369 19.0135 2.88554C15.3868 2.88554 12.9068 5.09887 12.9068 9.1522V12.6455H8.81348V17.3922H12.9068V29.5522H17.8135V17.3922H21.8935L22.5068 12.6455H17.8135V9.61887C17.8135 8.21887 18.1868 7.3122 20.1601 7.3122Z"
+                                              fill="#0A0A0A"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+
+        <xpath expr="//section[@id='o_wblog_post_main']" position="replace">
+            <!-- Success / more tips posts -->
+            <section id="alternative_blog_posts" class="py-5 mt-5" style="background: #f9fafb;">
+                <div class="container pb-5">
+                    <div class="row py-4">
+                        <div class="d-flex flex-row justify-content-between align-items-center mb96">
+                            <h4 class="fw-bold" style="font-size: 32px;">
+                                Similar News
+                            </h4>
+                            <a t-attf-href="/blog/#{slug(blog_post.blog_id)}"
+                               class="d-flex text-black flex-row gap-3 align-items-center">
+                                More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                     fill="none">
+                                    <path d="M13.5 19.7188L21 12.2188M21 12.2188L13.5 4.71875M21 12.2188H3"
+                                          stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <t t-set="alternative_post_ids"
+                           t-value="request.env['blog.post'].search([('blog_id' , '=', blog_post.blog_id.id)], limit=3)"/>
+                        <t t-if="alternative_post_ids">
+                            <t t-foreach="alternative_post_ids" t-as="alternative_post_id">
+                                <article
+                                        t-attf-class="latest_post o_wblog_post position-relative #{'card h-100' if opt_blog_cards_design else ''} col-lg-4 box {{'opacity-50' if not alternative_post_id.is_published else ''}} justify-content-center align-items-center"
+                                        name="blog_post">
+                                    <a t-attf-href="/blog/#{slug(alternative_post_id.blog_id)}/#{slug(alternative_post_id)}">
+                                        <t t-call="website.record_cover">
+                                            <t t-set="_record" t-value="alternative_post_id"/>
+                                            <t
+                                                    t-set="additional_classes"
+                                                    t-valuef="o_not_editable h174 rounded-4"
+                                            />
+                                        </t>
+                                    </a>
+                                    <a t-attf-href="/blog/#{slug(alternative_post_id.blog_id)}/#{slug(alternative_post_id)}"
+                                       class="text-black d-flex display-5 text-black fw-bold blog_title pt40 pb-4 overflow-text"
+                                       t-out="alternative_post_id.name"/>
+                                    <div class="date_more pt-4 d-flex flex-row align-items-center justify-content-between">
+                                        <time t-if="alternative_post_id.post_date" class="fs-6 fw-medium m-0"
+                                              t-out="alternative_post_id.create_date.strftime('%d %B %Y')"/>
+                                        <a t-attf-href="/blog/#{slug(alternative_post_id.blog_id)}/#{slug(alternative_post_id)}"
+                                           class="text-black d-flex btn btn-link fs-6 d-flex flex-row gap-2 align-items-center text-black">
+                                            More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                 viewBox="0 0 24 24"
+                                                 fill="none">
+                                                <path d="M13.5 19.5L21 12M21 12L13.5 4.5M21 12H3" stroke="#0F172A"
+                                                      stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </article>
+
+                            </t>
+                        </t>
+                        <t t-else="">
+                            <h3 class="text-center py-3">No Similar News</h3>
+                        </t>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <!-- Replace blog post content tweaks -->
+    <template id="replace_blog_post_content" inherit_id="website_blog.blog_post_content">
+        <xpath expr="//t[@t-if='opt_blog_post_breadcrumb and not opt_blog_post_regular_cover']" position="replace">
+            <t t-set="var" t-value="0"/>
+        </xpath>
+        <xpath expr="//div[@t-field='blog_post.content']" position="replace">
+            <p t-field="blog_post.content"/>
+        </xpath>
+        <xpath expr="//div[@t-if='len(blogs) > 1 or len(blog_post.tag_ids) > 0']" position="replace">
+            <t t-set="var" t-value="0"/>
+        </xpath>
+    </template>
+
+    <!-- Next post / success template social + author -->
+    <template id="alternative_posts_template" inherit_id="website_blog.opt_blog_post_read_next">
+        <xpath expr="//div[@t-if='next_post']" position="replace"/>
+    </template>
+</odoo>

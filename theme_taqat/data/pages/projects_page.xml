@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data noupdate="1">
+    <template name="Taqat Projects Template" id="taqat_projects_page"
+      inherit_id="multiple_websites_models.projects_page_template" active="True">
+      <xpath expr="//div[@id='wrap']" position="replace">
+        <div id="wrap" class="oe_structure">
+          <div role="main" class="main-content-area projects">
+            <section class="projects-hero">
+              <div class="container">
+                <div class="section-p">
+                  <div class="row flex-column-reverse flex-md-row">
+                    <div class="d-none d-md-block col-lg-6">
+                      <img src="/theme_taqat/static/src/img/projects_page/hero-img.png"
+                        alt="Projects Hero" class="w-100 h-100" loading="lazy" />
+                    </div>
+                    <div class="d-md-none col-lg-6">
+                      <img src="/theme_taqat/static/src/img/projects_page/mobile/hero-img.png"
+                        alt="Projects Hero" class="w-100 h-100" loading="lazy" />
+                    </div>
+                    <div class="col-lg-5 _flex-1">
+                      <div>
+                        <h1 class="text-primary title">Our Projects</h1>
+                        <p class="fw-bold subtitle">Taqat is committed to developing innovative
+                          projects driven by sustainability to effectively improve the lives of
+                          individuals and communities. </p>
+                        <p class="details mb-0">We strive to create a positive impact that
+                          translates our values and vision into tangible support for humanity!</p>
+                      </div>
+                      <div class="p-box d-flex">
+                        <div class="project-count d-flex flex-column">
+                          <span class="number fw-bold">8</span>
+                          <span>Projects</span>
+                        </div>
+                        <div class="stats d-flex align-items-end">
+                          <span class="shape small"></span>
+                          <span class="shape"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="logos-list d-none d-md-flex">
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-1.png"
+                        alt="Taqat For Technology" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/pp.png"
+                        alt="Pearl Pixels" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-3.png"
+                        alt="Taqat Real Estate Brokerage" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/Oksouq.png"
+                        alt="Oksouq" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-4.png"
+                        alt="Taqat Facility Management" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-2.png"
+                        alt="Taqat Real Estate Development" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-5.png"
+                        alt="Taqat HR Services" loading="lazy" />
+                    </li>
+                    <li>
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-6.png"
+                        alt="Taqat Customer Service Solutions" loading="lazy" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="taqat-techno" id="taqat-for-technology">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-1.png"
+                        class="section-logo" alt="Projects Hero" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Taqat Techno
+                        </h2>
+                        <p>
+                          Taqat Techno was established to be a leading center specializing in
+                          designing the latest technologies and solutions, such as software
+                          development, automation, and artificial intelligence solutions, to enhance
+                          the efficiency of digital transformation processes in organizations.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/theme_taqat/static/src/img/projects_page/taqat-tech.png"
+                        alt="Taqat For Technology" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Key Services of Taqat Techno</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative">
+                        Managing digital transformation.
+                      </li>
+                      <li class="position-relative">
+                        Re-engineering business processes.
+                      </li>
+                      <li class="position-relative">
+                        Enhancing operational excellence.
+                      </li>
+                      <li class="position-relative">
+                        Custom development solutions.
+                      </li>
+                      <li class="position-relative">
+                        Odoo system implementation.
+                      </li>
+                    </ul>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="subtxt">
+                          <h3>
+                            We open up new horizons to help you achieve organizational excellence
+                            and reinvent your business with creativity!
+                          </h3>
+                          <p>
+                            Achieve the uniqueness you seek with Taqat Techno!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="pearl-pixels" id="pearl-pixels">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/pp.png"
+                        class="section-logo" alt="Pearl Pixels" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Pearl Pixels
+                        </h2>
+                        <p>
+                          Pearl Pixels is an extraordinary agency specializing in providing creative
+                          media and marketing services to help various companies and organizations
+                          enhance the efficiency of their marketing operations and effectively
+                          communicate with their target audiences.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/theme_taqat/static/src/img/projects_page/pearl-pixels.png"
+                        alt="Pearl Pixels" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Key Services of Pearl Pixels</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative">
+                        Digital Marketing
+                      </li>
+                      <li class="position-relative">
+                        Media services.
+                      </li>
+                      <li class="position-relative">
+                        Market and customer analysis services.
+                      </li>
+                      <li class="position-relative">
+                        Customer relationship management solutions.
+                      </li>
+                      <li class="position-relative">
+                        Resource planning and marketing strategies for organizations.
+                      </li>
+                      <li class="position-relative">
+                        Website design.
+                      </li>
+                      <li class="position-relative">
+                        Organizing conferences and exhibitions.
+                      </li>
+                      <li class="position-relative">
+                        Creative services.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="taqat-real-estate-brokerage" id="taqat-for-real-estate-brokerage">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-3.png"
+                        class="section-logo" alt="Taqat Real Estate Brokerage" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Taqat for Real Estate Brokerage
+                        </h2>
+                        <p>
+                          Because buying, selling, and renting properties can be complicated, Taqat
+                          for Real Estate Brokerage aims to simplify these processes in an
+                          integrated manner by developing professional services that enable clients
+                          to access the best available options smoothly, along with providing real
+                          estate consulting to help them make the best investment decisions.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img
+                        src="/theme_taqat/static/src/img/projects_page/taqat-real-estate-brokerage.png"
+                        alt="Taqat Real Estate Brokerage" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Key Services of Taqat for Real Estate Brokerage</h2>
+                    </div>
+                    <div class="list">
+                      <div class="_item">
+                        <h3>
+                          Real Estate Marketing
+                        </h3>
+                        <div class="service-bullets">
+                          <span class="bullet-item position-relative">
+                            Providing effective real estate marketing consultations.
+                          </span>
+                          <span class="bullet-item position-relative">
+                            Managing marketing, selling, and leasing operations for various types of
+                            properties.
+                          </span>
+                        </div>
+                      </div>
+                      <div class="_item">
+                        <h3>
+                          Investment Consulting Solutions
+                        </h3>
+                        <div class="service-bullets">
+                          <span class="bullet-item position-relative">
+                            Feasibility studies for investment projects.
+                          </span>
+                          <span class="bullet-item position-relative">
+                            Developing innovative strategies and plans to achieve effective Real
+                            Estate investments.
+                          </span>
+                        </div>
+                      </div>
+                      <div class="_item">
+                        <h3>
+                          Facilities Management
+                        </h3>
+                        <div class="service-bullets">
+                          <span class="bullet-item position-relative">
+                            Developing and managing effective maintenance operations.
+                          </span>
+                          <span class="bullet-item position-relative">
+                            Managing all types of commercial and residential properties.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="subtxt">
+                          <p class="mb-3">
+                            Taqat for Real Estate Brokerage
+                          </p>
+                          <h3 class="mb-0">
+                            Your ideal partner to achieve all your real estate needs in Qatar.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="oksouq" id="oksouq">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5 mt-md-4">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/Oksouq.png"
+                        class="section-logo" alt="OkSouq" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          OKSOUQ
+                        </h2>
+                        <p>
+                          To provide an innovative and convenient online shopping experience, OKSOUQ
+                          was developed as a comprehensive e-commerce platform aimed at enabling
+                          shoppers to easily access a wide range of products, including electronics,
+                          perfumes, watches, home furniture, and more, with the highest quality at
+                          the lowest cost.
+                        </p>
+                        <a href="https://www.oksouq.com/" class="website bg-primary text-white"
+                          target="_blank"> Website <svg class="rotate-180deg" width="24"
+                            height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M10.5 20.3965L3 12.8965M3 12.8965L10.5 5.39648M3 12.8965H21"
+                              stroke="#FEFDF9" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/theme_taqat/static/src/img/projects_page/oksouq.png"
+                        alt="Oksouq" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">
+                        Key Services of OKSOUQ
+                      </h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative"> A wide range of products <span>To meet all your
+                        needs and ensure you get the ideal shopping experience you deserve.</span>
+                      </li>
+                      <li class="position-relative">Diverse and secure payment solutions<span>To
+                        ensure the comfort and security of your financial transactions during online
+                        shopping.</span>
+                      </li>
+                      <li class="position-relative">Exceptional and convenient online shopping
+                        experience<span>We provide an innovative user experience that makes finding
+                        and purchasing the products you want easier.</span>
+                      </li>
+                      <li class="position-relative">Fast and reliable delivery <span>We ensure that
+                        your orders arrive at the most convenient time for you.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="taqat-facility-management" id="taqat-facility-management">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-4.png"
+                        class="section-logo" alt="Taqat Facility Management" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Taqat For Facility Management
+                        </h2>
+                        <p>
+                          Maintenance, repairs, and renovations with the highest quality... all this
+                          and more Taqat for Real Estate Maintenance is providing to ensure your
+                          property’s efficiency.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img
+                        src="/theme_taqat/static/src/img/projects_page/taqat-facility-management.png"
+                        alt="Taqat Facility Management" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Soft Services</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative">
+                        Landscaping
+                      </li>
+                      <li class="position-relative">
+                        Waste management
+                      </li>
+                      <li class="position-relative">
+                        Hospitality services
+                      </li>
+                      <li class="position-relative">
+                        Health and safety services
+                      </li>
+                      <li class="position-relative">
+                        Security and guarding
+                      </li>
+                      <li class="position-relative">
+                        Management of recreational facilities
+                      </li>
+                      <li class="position-relative wide">
+                        Cleaning services
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Hard services</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative">
+                        Equipment maintenance
+                      </li>
+                      <li class="position-relative">
+                        Management of technical systems
+                      </li>
+                      <li class="position-relative">
+                        External maintenance
+                      </li>
+                      <li class="position-relative">
+                        Infrastructure maintenance
+                      </li>
+                    </ul>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="subtxt">
+                          <p class="mb-3">
+                            Taqat for Facility Management
+                          </p>
+                          <h3 class="mb-0">
+                            Takes care of your property to guarantee the highest ROI for your
+                            investment!
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="taqat-real-estate-development"
+              id="taqat-for-real-estate-development">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-2.png"
+                        class="section-logo" alt="Projects Hero" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Taqat for Real Estate Development
+                        </h2>
+                        <p>
+                          To achieve effective sustainability while developing efficiency of the
+                          real estate market, Taqat for Real Estate Development was established to
+                          focus mainly on developing residential and commercial properties
+                          creatively, by providing innovative designs that meet market needs and
+                          achieve the highest quality standards.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img
+                        src="/theme_taqat/static/src/img/projects_page/taqat-real-estate-development.png"
+                        alt="Taqat Real Estate Development" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Key Services of Taqat for Real Estate Development</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative"> Residential and Commercial Property Development<span>We
+                        develop innovative properties that provide you with exceptional investment
+                        opportunities.</span>
+                      </li>
+                      <li class="position-relative"> Advanced Architectural Design <span>We provide
+                        creative architectural designs that align with your luxury needs.</span>
+                      </li>
+                      <li class="position-relative"> Real Estate Development Consulting <span>We
+                        develop comprehensive market studies and analyze opportunities to enable you
+                        to achieve the highest possible returns.</span>
+                      </li>
+                      <li class="position-relative"> Construction Project Management <span>Our
+                        construction services adhere to the highest quality standards, from planning
+                        to delivery.</span>
+                      </li>
+                      <li class="position-relative"> Property Management Services <span>We provide
+                        efficient property management services to ensure their sustainability.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="taqat-hr-services" id="taqat-for-hr-services">
+              <div class="section-p">
+                <div class="container">
+                  <div
+                    class="row align-items-center flex-column-reverse flex-md-row justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-5.png"
+                        class="section-logo" alt="Taqat for HR Services" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Taqat for HR Services
+                        </h2>
+                        <p>
+                          Taqat for HR Services specializes in providing a wide range of human
+                          resources services and consulting to help organizations enhance
+                          recruitment processes, talent management, and team development, as well as
+                          increase operational efficiency to achieve the highest possible
+                          performance smoothly.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/theme_taqat/static/src/img/projects_page/taqat-hr-services.png"
+                        alt="Taqat Real Estate Development" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Key Services of Taqat for HR Services</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative"> Recruitment and hiring <span>We help
+                        organizations attract the right talents that match their needs.
+                        </span>
+                      </li>
+                      <li class="position-relative"> Employee management <span>We provide
+                        comprehensive employee management services to ensure a balanced and
+                        productive work environment.
+                        </span>
+                      </li>
+                      <li class="position-relative"> Payroll, compensation, and benefits management <span>We
+                        organize these processes effectively to enhance employee satisfaction.</span>
+                      </li>
+                      <li class="position-relative"> Competency evaluation <span>We measure
+                        employees’ performance to improve productivity and better allocate human
+                        resources.</span>
+                      </li>
+                      <li class="position-relative"> Training and development <span>We develop
+                        creative training plans and programs to build employees' capabilities and
+                        increase productivity.
+                        </span>
+                      </li>
+                    </ul>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="subtxt">
+                          <p class="mb-3">
+                            Taqat for HR Solutions
+                          </p>
+                          <h3 class="mb-0">
+                            Develops your resources to enhance your success!
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="taqat-customer-service-solutions"
+              id="taqat-for-customer-service-solutions">
+              <div class="section-p">
+                <div class="container">
+                  <div class="row align-items-center d-flex justify-content-between">
+                    <div class="col-lg-5">
+                      <img src="/theme_taqat/static/src/img/projects_page/logos/taqat-6.png"
+                        alt="Taqat Customer Service Solutions" loading="lazy" />
+                      <div class="section-info">
+                        <h2>
+                          Taqat for Customer Service Solutions
+                        </h2>
+                        <p>
+                          Taqat for Customer Service Solutions focuses on enabling you to provide
+                          exceptional customer service by helping you develop and implement
+                          integrated strategies for managing call centers, to boost the customer
+                          experience creatively, and improve the skills of your customer service
+                          team effectively.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img
+                        src="/theme_taqat/static/src/img/projects_page/taqat-customer-service-solutions.png"
+                        alt="Taqat Customer Service Solutions" loading="lazy" />
+                    </div>
+                  </div>
+                  <div class="section-details">
+                    <div class="title">
+                      <h2 class="fw-bold">Key Services of Taqat for Customer Service Solutions</h2>
+                    </div>
+                    <ul class="list">
+                      <li class="position-relative">
+                        Enhancing call centers quality.
+                      </li>
+                      <li class="position-relative">
+                        Developing and improving customer service systems.
+                      </li>
+                      <li class="position-relative">
+                        Designing specialized solutions for managing customer experiences.
+                      </li>
+                    </ul>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="subtxt">
+                          <p class="mb-3">
+                            Taqat For Customer Service Solutions
+                          </p>
+                          <h3 class="mb-0">
+                            Taqat... Your Partner in Delivering Exceptional Customer Service!
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </xpath>
+    </template>
+  </data>
+</odoo>

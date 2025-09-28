@@ -1,0 +1,110 @@
+//------------------------------------------------------------------------------
+// Nav bar
+//------------------------------------------------------------------------------
+
+#o_search_modal_block .modal-content {
+  background-color: transparent !important;
+
+  button.btn {
+    border-top-right-radius: 9999px !important;
+    border-bottom-right-radius: 9999px !important;
+  }
+}
+
+header nav {
+  #top_menu .nav-link {
+    font-size: 20px;
+  }
+
+  a.navbar-brand {
+    height: 100%;
+
+    span {
+      height: 100%;
+      display: block;
+
+      img {
+        height: 100% !important;
+      }
+    }
+  }
+
+  .contact-sm a.btn_cta {
+    border: none !important;
+  }
+}
+
+footer {
+  a {
+    color: inherit !important;
+    white-space: nowrap;
+  }
+
+  .list-inline {
+    @media (min-width: 1200px) {
+      .list-inline-item:not(:last-child) {
+        margin-right: 40px !important;
+      }
+    }
+  }
+}
+
+header nav .btn-sm,
+header nav .link-light,
+header nav .nav-link,
+footer a {
+  &:hover,
+  &:focus {
+    color: var(--primary) !important;
+  }
+}
+
+header .navbar-brand.logo img {
+  height: auto !important;
+}
+//------------------------------------------------------------------------------
+// Login
+//------------------------------------------------------------------------------
+
+.oe_website_login_container {
+  padding: 1rem;
+  margin: 64px 0;
+
+  .oe_login_form {
+    max-width: 600px;
+    margin: 32px auto;
+    padding: 40px;
+    background: var(--light);
+    border-radius: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .oe_website_login_container {
+    margin: 144px 0;
+  }
+}
+
+.main-footer .s_newsletter_block .input-group {
+  input {
+    border: 0;
+    outline: 0;
+  }
+  @media (max-width: 767.98px) {
+    input {
+      max-width: calc(100% - 95px);
+    }
+  }
+}
+
+//------------------------------------------------------------------------------
+// Contact us
+//------------------------------------------------------------------------------
+.contact-landing {
+  .s_map {
+    min-height: 350px;
+    height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,3527 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_taqat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-06 11:11+0000\n"
+"PO-Revision-Date: 2025-04-06 11:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"\"Avrasya\" is one of the leading global companies in providing integrated\n"
+"                            business solutions… It views every challenge as a new opportunity for\n"
+"                            innovation and works to help clients achieve effective strategic growth\n"
+"                            in the Balkans and Africa, enhancing their capacity for sustainable\n"
+"                            success."
+msgstr ""
+"تعتبر \"أوراسيا\" من بين أبرز الشركات الرائدة عالميًا في تقديم حلول الأعمال "
+"المتكاملة، حيث تتعامل مع أي تحدي على أنه فرصة جديدة للابتكار، وتعمل على "
+"مساعدة عملاءها على تحقيق نمو استراتيجي فعّال في دول البلقان وأفريقيا لتعزز "
+"قدرتهم على تحقيق النجاح المستدام."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "01"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "02"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "03"
+msgstr "ر"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "11 Years"
+msgstr "11 سنة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "112 Successes"
+msgstr "112 نجاح"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "2014"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "2020"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"2020 marked Taqat's emergence as a prominent force. Under the\n"
+"                            leadership of <span class=\"fw-bold\">CEO Mohammed Abdullah Al-Yafei,</span> <span class=\"text-primary fw-bold\">the\n"
+"                              company\n"
+"                              launched a comprehensive development and expansion across all its\n"
+"                            ventures, programs, and projects.</span> <span class=\"fw-bold\">\n"
+"                              Today, Taqat operates in 12\n"
+"                              diverse sectors, with a focus on leading sustainable project\n"
+"                            development.\n"
+"                            </span>"
+msgstr ""
+"كان عام 2020 هو عام الانطلاق لشركة طاقات، حيث بدأت، تحت قيادة\n"
+"<span class=\"fw-bold\">مديرها التنفيذي، محمد عبدالله اليافعي،</span>\n"
+"<span class=\"text-primary fw-bold\">في عملية تطوير وتوسع شاملة في كافة شركاتها، برامجها ومشاريعها.</span>\n"
+"<span class=\"fw-bold\">حتى أصبحت تنشط اليوم في 12 مجالًا متنوعًا، واضعة نصب أعينها أن تحمل علم الريادة في مجال المشاريع المستدامة.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "2030"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "57 Clients"
+msgstr "57 عميل"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"8th Floor QFB Building, Building: 29 Suhaim Bin Hamad\n"
+"                        Street,\n"
+"                        Street: 901, Ring Road, Al Sadd - Area: 38 Doha - Qatar"
+msgstr ""
+"الدور الثامن بناية QFB، المبنى: 29  شارع سحيم بن حمد, الشارع: 901, الطريق الدائري, السد - المنطقة: 38\n"
+"الدوحة – قطر"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "<i class=\"bi bi-envelope me-1\"/> Email"
+msgstr "<i class=\"bi bi-envelope me-1\"/> البريد الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "<i class=\"bi bi-geo-alt me-1\"/> Main building"
+msgstr "<i class=\"bi bi-geo-alt me-1\"/> المبني الرئيسي"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "<i class=\"bi bi-telephone me-1\"/> Phone number"
+msgstr "<i class=\"bi bi-telephone me-1\"/> رقم الهاتف"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "<i class=\"fa fa-facebook-square\" aria-label=\"Facebook\" title=\"Facebook\"/>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "<i class=\"fa fa-linkedin\" aria-label=\"LinkedIn\" title=\"LinkedIn\"/>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "<i class=\"fa fa-twitter\" aria-label=\"Twitter\" title=\"Twitter\"/>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "<span class=\"\">Send</span>"
+msgstr "<span class=\"\">إرسال</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_login_page_customize
+msgid "<span class=\"\">Sign in</span>"
+msgstr "<span class=\"\">تسجيل الدخول</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"<span class=\"bullet-item position-relative\">\n"
+"                            Developing and managing effective maintenance operations.\n"
+"                          </span>\n"
+"                          <span class=\"bullet-item position-relative\">\n"
+"                            Managing all types of commercial and residential properties.\n"
+"                          </span>"
+msgstr ""
+"<span class=\"bullet-item position-relative\">\n"
+"  تطوير وإدارة عمليات الصيانة الفعالة.\n"
+"</span>  \n"
+"<span class=\"bullet-item position-relative\">\n"
+"  إدارة العقارات التجارية والسكنية بمختلف أنواعها واستخداماتها.\n"
+"</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"<span class=\"bullet-item position-relative\">\n"
+"                            Feasibility studies for investment projects.\n"
+"                          </span>\n"
+"                          <span class=\"bullet-item position-relative\">\n"
+"                            Developing innovative strategies and plans to achieve effective Real\n"
+"                            Estate investments.\n"
+"                          </span>"
+msgstr ""
+"<span class=\"bullet-item position-relative\">\n"
+"  دراسات الجدوى للمشروعات الاستثمارية.\n"
+"</span>  \n"
+"<span class=\"bullet-item position-relative\">\n"
+"  تطوير استراتيجيات وخطط مبتكرة لتحقيق توسع فعال في الاستثمارات.\n"
+"</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"<span class=\"bullet-item position-relative\">\n"
+"                            Providing effective real estate marketing consultations.\n"
+"                          </span>\n"
+"                          <span class=\"bullet-item position-relative\">\n"
+"                            Managing marketing, selling, and leasing operations for various types of\n"
+"                            properties.\n"
+"                          </span>"
+msgstr ""
+"<span class=\"bullet-item position-relative\">\n"
+"                            تقديم استشارات التسويق العقارية الفعالة. \n"
+"                          </span>\n"
+"                          <span class=\"bullet-item position-relative\">\n"
+"                            إدارة عمليات تسويق وبيع وتأجير العقارات بمختلف أنواعها.\n"
+"                          </span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "<span class=\"card_count\">01</span>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "<span class=\"card_count\">02</span>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "<span class=\"card_count\">03</span>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "<span class=\"card_count\">04</span>"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"<span class=\"fa fa-check-circle text-primary\"/> Thank You For Your\n"
+"                              Message"
+msgstr "<span class=\"fa fa-check-circle text-primary\"/> شكرًا لك على رسالتك"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "<span class=\"fw-bold\">More</span>"
+msgstr "<span class=\"fw-bold\">المزيد</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"<span class=\"number fw-bold\">8</span>\n"
+"                          <span>Projects</span>"
+msgstr ""
+"<span class=\"number fw-bold\">8</span>\n"
+"                          <span>مشاريع</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Full name</span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">الاسم</span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Phone Number\n"
+"                            </span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">رقم الهاتف\n"
+"                            </span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Email</span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">البريد الإلكتروني</span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Message\n"
+"                            </span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">الرسالة\n"
+"                            </span>\n"
+"                            <span class=\"s_website_form_mark\"/>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"<span class=\"text-7xl fw-bold\">8</span>\n"
+"                      <span>Projects</span>"
+msgstr ""
+"<span class=\"text-7xl fw-bold\">8</span>\n"
+"                      <span>مشاريع</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  01</span>\n"
+"                                <span class=\"fs-3 fw-bold\">Integrity</span>"
+msgstr ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  01</span>\n"
+"                                <span class=\"fs-3 fw-bold\">النزاهة</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  02</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  Innovation\n"
+"                                </span>"
+msgstr ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  02</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  الابتكار\n"
+"                                </span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  03</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  Excellence\n"
+"                                </span>"
+msgstr ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  03</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  التميز\n"
+"                                </span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  04</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  Collaboration\n"
+"                                </span>"
+msgstr ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  04</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  التعاون\n"
+"                                </span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  05</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  Social Responsibility\n"
+"                                </span>"
+msgstr ""
+"<span style=\"font-size: 18px; color: #0A0A0A;\">\n"
+"                                  05</span>\n"
+"                                <span class=\"d-flex align-items-center gap-4 fs-3 fw-bold\">\n"
+"                                  المسؤولية الاجتماعية\n"
+"                                </span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"<span>\n"
+"                                Analyzing African opportunities.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Simplifying trade processes.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Providing procurement training.\n"
+"                              </span>"
+msgstr ""
+"<span>تحليل الفرص في أفريقيا.</span>  \n"
+"<span>تبسيط عمليات التجارة.</span>  \n"
+"<span>تقديم تدريب في مجال المشتريات.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"<span>\n"
+"                                Comprehensive market analysis.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Strategic supplier management.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Minimizing procurement risks.\n"
+"                              </span>"
+msgstr ""
+"<span>التحليل الشامل للأسواق.</span>  \n"
+"<span>الإدارة الاستراتيجية للموردين.</span>  \n"
+"<span>تقليل مخاطر المشتريات.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"<span>\n"
+"                                Effective logistics management.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Enhancing storage and distribution.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Customs clearance services.\n"
+"                              </span>"
+msgstr ""
+"<span>الإدارة الفعالة للخدمات اللوجستية.</span>  \n"
+"<span>تعزيز التخزين والتوزيع.</span>  \n"
+"<span>خدمات التخليص الجمركي.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"<span>\n"
+"                                Evaluating potential investments.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Managing investment projects.\n"
+"                              </span>\n"
+"                              <span>\n"
+"                                Developing effective portfolios.\n"
+"                              </span>"
+msgstr ""
+"<span>تقييم الفرص الاستثمارية.</span>  \n"
+"<span>إدارة مشاريع الاستثمار.</span>  \n"
+"<span>تطوير محافظ استثمارية فعالة.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "A purposeful message"
+msgstr "رسالة هادفة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"A step\n"
+"                          Towards a Sustainable Future!"
+msgstr "خطوة نحو مستقبل مستدام!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"A wide range of products <span>To meet all your\n"
+"                        needs and ensure you get the ideal shopping experience you deserve.</span>"
+msgstr ""
+"مجموعة متنوعة من المنتجات <span>التي تلبي جميع احتياجاتك، وتضمن أعلى جودة "
+"بأقل الأسعار لنحقق لك تجربة التسوق المثالية التي تستحقها.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"A wide range of products to meet the unique needs <br/> of gourmet\n"
+"                                kitchens."
+msgstr "لتغطية الاحتياجات الفريدة للمطابخ الفاخرة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "About Taqat"
+msgstr "عن طاقات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "About us"
+msgstr "عن الشركة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Accessories that add a unique touch to your appearance."
+msgstr "الإكسسوارات التي تضيف لمسة فريدة على مظهرك."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Achieve the uniqueness you seek with Taqat Techno!"
+msgstr "حقق الاستثنائية التي تبحث عنها مع (طاقات للتكنولوجيا)!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Adherence to ethical principles and high transparency in all\n"
+"                                operations."
+msgstr ""
+"نتأكد من الالتزام بالمبادئ الأخلاقية والمعايير العالية للشفافية في جميع "
+"نواحي أعمالنا."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Advanced Architectural Design <span>We provide\n"
+"                        creative architectural designs that align with your luxury needs.</span>"
+msgstr ""
+"التصميم المعماري المتطور <span>نقدم تصاميم معمارية مُبدعة تتناسب مع "
+"احتياجاتك للرفاهية.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Advanced diagnostic devices."
+msgstr "أجهزة تشخيص متطورة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Advanced laboratory equipment."
+msgstr "معدات مختبرات متقدمة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Advanced photovoltaic systems:"
+msgstr "ألواح شمسية كهروضوئية عالية الكفاءة:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Advanced solutions"
+msgstr "أحدث حلول"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Africat"
+msgstr "أفريقات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Africat aims to achieve sustainable growth for future generations in\n"
+"                            Africa by supporting investment, developing trade, and creating job\n"
+"                            opportunities.\n"
+"                            This enables companies and individuals to expand their businesses in\n"
+"                            Africa, enhance their investments, and create a fertile environment for\n"
+"                            economic development and prosperity across various sectors."
+msgstr ""
+"تسعى منصة \"أﻓﺮﻳﻘﺎت\" لتحقيق النمو المستدام للأجيال القادمة في القارة "
+"الإفريقية، عبر اﻟﺘﺮﻛﻴﺰ على دﻋﻢ اﻻﺳﺘﺜﻤﺎر، ﺗﻄﻮﻳﺮ اﻟﺘﺠﺎرة وﺧﻠﻖ ﻓﺮص اﻟﻌﻤﻞ، وذلك "
+"لتمكين اﻟﺸﺮﻛﺎت واﻷﻓﺮاد ﻓﻲ إﻓﺮﻳﻘﻴﺎ من تطوير أعمالهم وتعزيز استثمارتهم، وتوفير"
+" ﺑﻴﺌﺔ ﺧﺼﺒﺔ ﻟﺘﺤﻘﻴﻖ اﻟﺘﻨﻤﻴﺔ اﻻﻗﺘﺼﺎدﻳﺔ واﻻزدﻫﺎر في ﻣﺨﺘﻠﻒ اﻟﻤﺠﺎﻻت."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"Africat has overseen the development of a large number of successful\n"
+"                              investment projects across 12 diverse sectors in Africa."
+msgstr ""
+"أشرفت أفريقات على تطوير مجموعة كبيرة من المشروعات الاستثمارية الناجحة في 12 "
+"مجال متنوع بأفريقيا."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"Africat has provided its services to a diverse range of clients with\n"
+"                              different investment goals and aspirations."
+msgstr ""
+"قدمت أفريقات خدماتها لعدد متنوع من العملاء الذين يمتلكون أهدافًا وتطلعات "
+"استثمارية مختلفة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Africat in Numbers"
+msgstr "أفريقات في أرقام"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Africates"
+msgstr "أفريقات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Agriculture and <br/> Agro-Processing"
+msgstr "الزراعة والتصنيع <br/>الزراعي"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Agriculture and Agro-Processing"
+msgstr "الزراعة والتصنيع الزراعي"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"All medical supplies are necessary for providing comprehensive\n"
+"                                patient care."
+msgstr ""
+"كافة المستلزمات الطبية التي تضمن تقديم خدمة رعاية طبية متكاملة للمرضى."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Alternative Posts"
+msgstr "أخبار مشابهة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "An address must be specified for a map to be embedded"
+msgstr "يجب تحديد عنوان ليتم تضمين الخريطة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "An inspiring work environment"
+msgstr "بيئة عمل محفزة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.detail_inherit
+msgid "Apply Now"
+msgstr "ابدأ التقديم الآن"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Area: 38, Doha – Qatar"
+msgstr ""
+"المنطقة: 38\n"
+"الدوحة – قطر"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"At Avrasya, we strive to empower communities and develop their ability\n"
+"                            to grow inclusively by providing innovative solutions and advanced\n"
+"                            services that meet our client's diverse needs."
+msgstr ""
+"نسعى في (أوراسيا) دائمًا نحو تمكين المجتمعات وتطوير قدرتها على النمو الشامل،"
+" عبر توفير حلول مبتكرة وخدمات متقدمة تلبّي احتياجات عملائنا المتنوعة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"At Qatar Charity, we always strive to make the\n"
+"                        donation process easy and\n"
+"                        convenient for everyone. We provide you with the new\n"
+"                        donation box, which\n"
+"                        allows you to donate clothes, shoes, toys, and books\n"
+"                        effortlessly."
+msgstr ""
+"في مؤسسة قطر الخيرية، نسعى دائمًا لجعل عملية التبرع سهلة ومريحة للجميع. نوفر"
+" لكم صندوق التبرعات الجديد الذي يتيح لكم التبرع بالملابس، الأحذية، الألعاب، "
+"والكتب بكل سهولة ويسر."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"At Taqat, a core set of values guides our decisions across all operations:"
+msgstr ""
+"في (طاقات)، تدفعنا مجموعة من القيم الهادفة، وتوجه مختلف قراراتنا بشكل فعال "
+"عبر جميع أعمالنا وأنشطتنا:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"At Taqat, we follow the latest governance practices and focus on\n"
+"                              enhancing transparency in decision-making."
+msgstr ""
+"نتبع أحدث ممارسات الحوكمة، ونركز على تعزيز الشفافية في اتخاذ القرارات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Automation and facilitation of logistics processes"
+msgstr "أتمتة وتسهيل العمليات اللوجستية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Avrasya"
+msgstr "أوراسيا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Avrasya International"
+msgstr "أوراﺳﻴﺎ اﻟﺪوﻟﻴﺔ ﻟﻠﺘﺠﺎرة وﺣﻠﻮل اﻷﻋﻤﺎل"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Avrasya Mall of Istanbul"
+msgstr "أوراﺳﻴﺎ اﻟﺪوﻟﻴﺔ ﻟﻠﺘﺠﺎرة وﺣﻠﻮل اﻷﻋﻤﺎل"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid ""
+"Be part of a team that strives to make a positive and lasting impact on\n"
+"                                society."
+msgstr "كن جزءًا من فريق يسعى لتحقيق تأثير إيجابي ودائم في المجتمع."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Because buying, selling, and renting properties can be complicated, Taqat\n"
+"                          for Real Estate Brokerage aims to simplify these processes in an\n"
+"                          integrated manner by developing professional services that enable clients\n"
+"                          to access the best available options smoothly, along with providing real\n"
+"                          estate consulting to help them make the best investment decisions."
+msgstr ""
+"لأن عملية شراء وبيع وتأجير العقارات قد تكون مليئة بالتعقيدات، تسعى طاقات "
+"للوساطة العقارية لتبسيطها بشكل فعال، عبر تقديم خدمة احترافية تمكن مختلف "
+"عملائها من الوصول لأفضل الخيارات المتاحة بسلاسة، مع توفير اﺳﺘﺸﺎرات ﻋﻘﺎرﻳﺔ "
+"ﺗمكنهم من اﺗﺨﺎذ أفضل القرارات الاستثمارية."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Because water is\n"
+"                              essential to life, Tawridat provides:"
+msgstr "لأن المياه أساس الحياة، تقدم توريدات:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Blog Post Cover"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Blog Post Title"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.header_custom
+msgid "Blogs"
+msgstr "المدونة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Books and educational materials"
+msgstr "الكتب والمواد التعليمية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Books and educational materials suitable for all\n"
+"                                education levels."
+msgstr "التي تتناسب مع كافة المستويات الدراسية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.header_custom
+msgid "Bottom"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Building Supplies"
+msgstr "مستلزمات البناء"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Bulk Essential Ingredients"
+msgstr "المكونات الأساسية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Call Us"
+msgstr "تواصل معنا الآن"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Charging controllers:"
+msgstr "أجهزة التحكم في الشحن:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Classroom Furniture"
+msgstr "أثاث مرن للفصول الدراسية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Clean Water Initiatives"
+msgstr "مبادرة المياه النظيفة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Cleaning services"
+msgstr "التنظيف"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.header_custom
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Combats hunger and malnutrition in disaster zones."
+msgstr ""
+"والذي يهدف إلى مكافحة الجوع وسوء التغذية في المناطق المتضررة من الكوارث."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Commitment"
+msgstr "الالتزام"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Commitment to the highest quality standards in all\n"
+"                                services and solutions."
+msgstr "نحرص دائمًا على تحقيق أعلى مستويات الجودة في خدماتنا وحلولنا."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Competency evaluation <span>We measure\n"
+"                        employees’ performance to improve productivity and better allocate human\n"
+"                        resources.</span>"
+msgstr ""
+"تقييم الكفاءات <span>نحلل أداء الموظفين ونساعد في توجيه الموارد البشرية بشكل"
+" أفضل يسهم في تحقيق التميز المؤسسي بشكل فعال.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Comprehensive Logistics"
+msgstr "نوفر خدمات لوجستية شاملة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Connects continents; strategic partnerships\n"
+"                                  in Middle East, Turkey, Asia, Africa for global product delivery\n"
+"                                  and resource access."
+msgstr ""
+"حيث تربط توريدات بين القارات وتمكن المؤسسات من توصيل منتجاتها أو الحصول على "
+"مواردها من أي مكان في العالم، عبر شراكاتها الاستراتيجية في الشرق الأوسط، "
+"تركيا، آسيا وأفريقيا."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Construction Project Management <span>Our\n"
+"                        construction services adhere to the highest quality standards, from planning\n"
+"                        to delivery.</span>"
+msgstr ""
+"إدارة مشاريع البناء <span>نقدم إدارة فعّالة للمشاريع العقارية تعتمد على أعلى"
+" معايير الجودة، بدءًا من التخطيط حتى التسليم.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Contact\n"
+"                            Us"
+msgstr "تواصل معنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Contact Us <i class=\"bi bi-arrow-right fw-bold\"/>"
+msgstr "تواصل معنا<i class=\"bi bi-arrow-right fw-bold\"/>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Contact Us Today!"
+msgstr "تواصل معنا الآن!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "Contact us"
+msgstr "أرسل لنا رسالة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"Contributing to Community Development and Enhancing Quality of Life\n"
+"                            Through:"
+msgstr "المساهمة في تنمية المجتمع وتحسين جودة الحياة من خلال:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Cookies"
+msgstr "ملفات تعريف الارتباط"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Copyright © 2024 All rights reserved to Taqat"
+msgstr "حقوق النشر © 2025 محفوظة لشركة طاقات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.job_filter_by_countries_inherit
+msgid "Country"
+msgstr "البلد"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Create new opportunities that focus on sustainable projects that\n"
+"                                drive economic growth."
+msgstr "خلق فرص جديدة تركز على المشاريع المستدامة التي تعزز النمو الاقتصادي."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Create new opportunities that focus on sustainable projects that drive "
+"economic growth."
+msgstr "خلق فرص جديدة تركز على المشاريع المستدامة التي تعزز النمو الاقتصادي."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Creative services."
+msgstr "الخدمات الإبداعية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_footer
+msgid "Custom Footer"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_header
+msgid "Custom Header"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Custom development solutions."
+msgstr "حلول التطوير المخصص."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Customer relationship management solutions."
+msgstr "حلول إدارة علاقات العملاء."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Customized Aid Packages"
+msgstr "نقدم حزم المساعدات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Customs clearance services"
+msgstr "خدمات التخليص الجمركي"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Decorative Shape"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Decorative Top Center Shape"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Decorative Top Left Shape"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Decorative Top Right Shape"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Decorative Vertical Left Shape"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Decorative Vertical Right Shape"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Delivers basic healthcare services in disaster zones."
+msgstr "عبر تقديم خدمات الرعاية الصحية الأساسية في مناطق الكوارث."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.job_filter_by_departments_inherit
+msgid "Department"
+msgstr "مجال العمل"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Designing specialized solutions for managing customer experiences."
+msgstr "تصميم حلول متخصصة لإدارة تجربة العملاء."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Developing and improving customer service systems."
+msgstr "توفير وتطوير أنظمة خدمة العملاء وتحسينها."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Developing effective investment strategies"
+msgstr "تطوير استراتيجيات الاستثمار الفعالة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Develops your resources to enhance your success!"
+msgstr "نطور مواردك لنعزز نجاحك!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Digital Marketing"
+msgstr "التسويق الرقمي"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Discover your career opportunities with Taqat"
+msgstr "اكتشف فرصك المهنية مع طاقات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Diverse Supplies"
+msgstr "توريداتنا متنوعة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Diverse and secure payment solutions<span>To\n"
+"                        ensure the comfort and security of your financial transactions during online\n"
+"                        shopping.</span>"
+msgstr ""
+"حلول دفع متنوعة وآمنة<span> لضمان راحة وأمان معاملاتك المالية أثناء التسوق "
+"أونلاين.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Driving Change for a <span class=\"text-primary\">Sustainable Future!</span>"
+msgstr "نقود التغيير نحو <span class=\"text-primary\">مستقبل مستدام!</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"EMDAD is a specialized platform providing products for humanitarian\n"
+"                        organizations. As a \"one-stop shop,\" we offer integrated aid solutions\n"
+"                        developed with advanced AI."
+msgstr ""
+"منصة متخصصة في توفير المنتجات لمنظمات الدعم الإنساني، حيث تلعب دورًا فعالًا "
+"في تقديم المساعدات بشكل متكامل عبر تجربة \"المتجر الشامل\"، والتي قامت "
+"بتطويرها باستخدام أحدث تقنيات الذكاء الاصطناعي."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Easy Donation Process"
+msgstr "نسهل عملية التبرع"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Edamah"
+msgstr "إدامة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Edamah Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Edamah is an integrated program blending investment strategies with\n"
+"                        community needs for sustainable development."
+msgstr ""
+"برنامج متكامل يقوم بدمج الاستراتيجيات الاستثمارية مع الاحتياجات المجتمعية "
+"لتحقيق أهداف التنمية المستدامة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Effective Strategic Investment Solutions"
+msgstr "حلول الاستثمار الاستراتيجي الفعالة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Effective portfolio management"
+msgstr "إدارة المحافظ الاستثمارية بشكل فعال"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Effective project supervision for residential, commercial, and\n"
+"                                industrial projects."
+msgstr "الإشراف الفعال على تنفيذ المشاريع السكنية، التجارية والصناعية."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Efficiency"
+msgstr "الكفاءة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Emdad"
+msgstr "إمداد"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Emdad Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Emergency Food Security"
+msgstr "برنامج الأمن الغذائي الطارئ"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Emergency Medical Response"
+msgstr "الاستجابة الطبية الطارئة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Employee management <span>We provide\n"
+"                        comprehensive employee management services to ensure a balanced and\n"
+"                        productive work environment.\n"
+"                        </span>"
+msgstr ""
+"إدارة الموظفين <span>نساعد على تعزيز التعاون ووضع نظام فعال للترقيات والحضور"
+" والانصراف، لضمان بيئة عمل عالية الإنتاجية.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Encourages sustainable economic projects, developing sustainable\n"
+"                          agriculture and fisheries to improve food security."
+msgstr ""
+"عبر تشجيع المشاريع الاقتصادية المستدامة، مثل تنمية الزراعة المستدامة "
+"والثروات السمكية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Enhance fundraising and distribution efficiency, driving sustainable\n"
+"                        development in communities facing crises."
+msgstr ""
+"تعزيز كفاءة جمع التبرعات وتوزيعها، بهدف تحقيق التنمية المستدامة في المجتمعات"
+" التي تعاني من الأزمات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Enhanced Food Security"
+msgstr "تعزيز الأمن الغذائي"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Enhancing call centers quality."
+msgstr "تعزيز إمكانات مراكز الاتصال بالمؤسسات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Enhancing operational excellence."
+msgstr "تعزيز تميز العمليات التشغيلية في المؤسسات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Equipment maintenance"
+msgstr "صيانة المعدات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid ""
+"Eurasia International for Trade <br/> and Business\n"
+"                        Solutions"
+msgstr "أوراﺳﻴﺎ اﻟﺪوﻟﻴﺔ ﻟﻠﺘﺠﺎرة وﺣﻠﻮل اﻷﻋﻤﺎل"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Exceptional and convenient online shopping\n"
+"                        experience<span>We provide an innovative user experience that makes finding\n"
+"                        and purchasing the products you want easier.</span>"
+msgstr ""
+"تجربة تسوق أونلاين استثنائية ومريحة<span> مع تجربة مستخدم مُبتكرة تسهل عليك "
+"الوصول إلى المنتجات التي ترغب في شرائها بسلاسة.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Expand our global presence to reach new communities by 2030."
+msgstr "توسيع نطاق شركتنا عالميًا للوصول إلى مجتمعات جديدة بحلول عام 2030."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Experience"
+msgstr "الخبرة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"Explore Africa's potential with our integrated solutions in trade,\n"
+"                              import and export, procurement, and investment, through which we help\n"
+"                              you boost your investment success across the continent."
+msgstr ""
+"استكشف إمكانات إفريقيا مع حلولنا المتكاملة في التجارة، الاستيراد والتصدير، "
+"المشتريات، والاستثمار، والتي نساعدك من خلالها على تطوير إمكانات ونجاح "
+"استثماراتك في جميع أنحاء القارة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Explore our programs"
+msgstr "برامجنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Explore our projects"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Extensive donation box network and integrated call service for\n"
+"                              convenient home donations."
+msgstr ""
+"عبر توزيع مجموعة كبيرة من صناديق التبرع، وتوفير خدمة (اتصل نصل) التي تتيح "
+"للمتبرعين المساهمة من منازلهم بسهولة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "External maintenance"
+msgstr "الصيانة الخارجية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Facebook"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Facilitating International Trade"
+msgstr "تسهيل التجارة الدولية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Facilities Management"
+msgstr "إدارة المباني والمنشآت"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Fashion and Accessories"
+msgstr "الأزياء والإكسسوارات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Fashion and Accessories:"
+msgstr "الأزياء والإكسسوارات:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Fashion collections that fit every occasion."
+msgstr "الملابس والأحذية التي تتوافق مع كل المناسبات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Fast and reliable delivery <span>We ensure that\n"
+"                        your orders arrive at the most convenient time for you.\n"
+"                        </span>"
+msgstr ""
+"توصيل سريع وموثوق <span>تضمن وصول طلباتك في الوقت الذي يتناسب معك.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Flexible furniture to increase student comfort and\n"
+"                                enhance focus."
+msgstr "لزيادة راحة الطلاب وتعزيز تركيزهم."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on Facebook"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on GitHub"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on Instagram"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on Linkedin"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on TikTok"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on X"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.custom_social_links
+msgid "Follow us on Youtube"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Food and Beverages"
+msgstr "الأغذية والمشروبات:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Food and Beverages:"
+msgstr "الأغذية والمشروبات:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "Full name"
+msgstr "الاسم"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Furthermore, Taqat has remained deeply committed to\n"
+"                            its social responsibility. We empower local and global communities and\n"
+"                            provide vital support to governmental and non-governmental organizations\n"
+"                            in designing and executing impactful humanitarian initiatives."
+msgstr ""
+"بالإضافة إلى ذلك، لم تغفل (طاقات) مسؤوليتها المجتمعية، لهذا، ركزت في أعمالها"
+" على تمكين المجتمعات المحلية والعالمية وتقديم الدعم للمنظمات الحكومية وغير "
+"الحكومية في تصميم وتنفيذ مبادرات الدعم الإنساني الفعالة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Get a Free\n"
+"                            Consultation... contact us now!"
+msgstr "استشرنا مجانًا الآن!"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"Get a free consultation…\n"
+"                            Contact Us now!"
+msgstr "استشرنا مجانًا!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Get in Touch"
+msgstr "العنوان"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Global Network"
+msgstr "نجعل العالم بين يديك"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Governance"
+msgstr "الحوكمة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Hard services"
+msgstr "الخدمات الصلبة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Health and safety services"
+msgstr "خدمات الصحة والسلامة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Helps organizations align profit goals with positive environmental and\n"
+"                          social impact through innovative projects and modern technologies."
+msgstr ""
+"مساعدة المؤسسات على دمج أهدافها الربحية مع التأثير البيئي والاجتماعي "
+"الإيجابي من خلال المشاريع الابتكارية والتقنيات الحديثة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"High-quality fabrics and textiles for manufacturers and handmade\n"
+"                                design enthusiasts."
+msgstr "الأقمشة والمنسوجات عالية الجودة للمصنعين ومحبي التصميم اليدوي."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Hospitality services"
+msgstr "خدمات الضيافة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"If you want to inquire about our integrated services, seek consultation\n"
+"                            from our experts regarding the best investment opportunities in Africa,\n"
+"                            or looking to become our next strategic partner, don’t hesitate to\n"
+"                            contact us."
+msgstr ""
+"إذا كنت ترغب في الاستفسار عن خدماتنا المتكاملة، تسعى للحصول على استشارة "
+"فريقنا من الخبراء بخصوص أفضل فرص الاستثمار في إفريقيا، أو تريد أن تكون "
+"شريكنا الاستراتيجي القادم، لا تتردد في التواصل معنا."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Illustration of Vision 2030 core pillars"
+msgstr "ركائزنا الأساسية للمساهمة في تحقيق أهداف رؤية 2030"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Implementing the latest sustainability technologies at every step of\n"
+"                                your project's development."
+msgstr ""
+"تمكينك من الاستفادة من أحدث تقنيات الاستدامة في كل خطوة من خطوات تطوير "
+"مشروعك."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"In 2014, Taqat began its journey with a clear objective: to provide\n"
+"                            innovative support to entrepreneurs, governmental organizations,\n"
+"                            non-governmental organizations, and humanitarian agencies.  Our aim was\n"
+"                            to enable them to thrive and succeed globally, fostering innovation,\n"
+"                            excellence, and efficient enhancement of local economies."
+msgstr ""
+"في 2014، بدأت رحلة طاقات بهدف واضح يتمثل في تقديم الدعم اللازم لرواد "
+"الأعمال، المؤسسات الحكومية وغير الحكومية والمنظمات الإنسانية، وتمكينهم من "
+"الازدهار والنجاح عالميًا لدعم الابتكار والتميز وتعزيز الاقتصاد المحلي "
+"بكفاءة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"In 2014, Taqat embarked on its journey with a clear objective: to provide\n"
+"                      innovative support to entrepreneurs, governmental organizations,\n"
+"                      non-governmental organizations, and humanitarian organizations. Our aim is to\n"
+"                      enable them to thrive and succeed globally, fostering excellence and\n"
+"                      efficiently enhancing local economies."
+msgstr ""
+"في 2014، بدأت رحلة طاقات بهدف واضح يتمثل في تقديم الدعم اللازم لرواد "
+"الأعمال، المؤسسات الحكومية وغير الحكومية والمنظمات الإنسانية، وتمكينهم من "
+"الازدهار والنجاح عالميًا لدعم الابتكار والتميز وتعزيز الاقتصاد المحلي "
+"بكفاءة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"In alignment with Qatar National Vision 2030, we strive, with our\n"
+"                          strategic partners, to create a prosperous future for communities."
+msgstr ""
+"للمساهمة في تحقيق رؤية قطر 2030، نسعى مع شركائنا الاستراتيجيين إلى خلق "
+"مستقبل مزدهر للمجتمعات بشكل متكامل، عبر دعم الاستثمارات وتطوير المشروعات "
+"التي تركز بشكل متخصص على مختلف مجالات الاستدامة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Infrastructure maintenance"
+msgstr "صيانة البنية التحتية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Ingredients that are needed by restaurants and cafes in bulk."
+msgstr "التي قد تحتاجها المطاعم والمقاهي بالجملة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Innovation"
+msgstr "الابتكار"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Innovative Technology"
+msgstr "نوفر تكنولوجيا مبتكرة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Innovative Trade Solutions"
+msgstr "حلول التجارة المُبتكرة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Innovative design and planning for your project."
+msgstr "التصميم والتخطيط المبتكر لمشروعك."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Innovative learning tools"
+msgstr "أدوات التعليم الذكية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Innovative packaging solutions that preserve quality."
+msgstr "بطرق مبتكرة تحافظ على الجودة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Innovative solutions to enhance client effectiveness and operational\n"
+"                                efficiency."
+msgstr "نوفر حلول مبتكرة تسهم في تعزيز فعالية وكفاءة العمليات لدى عملاءنا."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Insert a Job Description..."
+msgstr "أدخل وصف الوظيفة..."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Integrated Procurement Management Solutions"
+msgstr "حلول إدارة المشتريات المتكاملة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Integrated Profitability &amp; Impact"
+msgstr "الربحية المتكاملة والأثر الإيجابي"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Investing in Education"
+msgstr "نستثمر في التعليم"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Investing in Education..."
+msgstr "نستثمر في التعليم..."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Investment Consulting Solutions"
+msgstr "حلول الاستشارات الاستثمارية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Investment risk assessment and management"
+msgstr "تقييم وإدارة المخاطر الاستثمارية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Job"
+msgstr "وظيفة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.header_custom
+msgid "Jobs"
+msgstr "الوظائف"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid ""
+"Join the Taqat team, where we offer a dynamic work environment and\n"
+"                                unmatched opportunities for professional growth. Discover how you can contribute to\n"
+"                                our vision and exceed your personal expectations in the world of technology and\n"
+"                                innovation."
+msgstr ""
+"انضم إلى فريق طاقات، حيث نقدم بيئة عمل ديناميكية وفرصًا لا مثيل لها للتطوير "
+"المهني. اكتشف كيف يمكنك الإسهام في تحقيق رؤيتنا وتجاوز توقعاتك الشخصية في "
+"عالم التكنولوجيا والابتكار."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of OKSOUQ"
+msgstr "أبرز خدمات (OKSOUQ)"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of Pearl Pixels"
+msgstr "أبرز خدمات (بيرل بيكسلز)"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of Taqat Techno"
+msgstr "أبرز خدمات (طاقات للتكنولوجيا)"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of Taqat for Customer Service Solutions"
+msgstr "أبرز خدمات (طاقات) لحلول خدمة العملاء"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of Taqat for HR Services"
+msgstr "أبرز خدمات (طاقات) لخدمات الموارد البشرية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of Taqat for Real Estate Brokerage"
+msgstr "أبرز خدمات طاقات للوساطة العقارية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Key Services of Taqat for Real Estate Development"
+msgstr "أبرز خدمات طاقات للتطوير العقاري"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Landscaping"
+msgstr "نسيق الحدائق"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Latest\n"
+"                    News and Updates"
+msgstr "اكتشف آخر الأخبار"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Latest <span class=\"text-primary\"> Renewable <br/> Energy </span> "
+"Solutions"
+msgstr "أحدث <span class=\"text-primary\">حلول <br/> الطاقة المتجددة</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_post_short_customize
+msgid "Latest News and Updates"
+msgstr "اكتشف آخر الأخبار"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Latest Renewable Energy Solutions:"
+msgstr "أحدث حلول الطاقة المتجددة:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Latest solutions for all services."
+msgstr "في كافة خدماتنا، لنوفر أحدث حلول متاحة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Learn more about Africat"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Learn more about Avrasya International"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Learn more about Tawridat Haditha for Trade & Services"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "LinkedIn"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Logistics management"
+msgstr "إدارة العمليات اللوجستية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Logo of MyCompany"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Long-term strategic partnerships with clients to\n"
+"                                achieve shared sustainability goals."
+msgstr ""
+"نتأكد من إقامة مجموعة من الشراكات الاستراتيجية طويلة الأمد مع عملائنا لتحقيق"
+" أهداف الاستدامة المرغوبة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Main Content Area"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Maintenance, repairs, and renovations of\n"
+"                            the highest quality... all of this and more is provided by Taqat for\n"
+"                            Facility Management to ensure the safety of all types of properties by\n"
+"                            providing integrated preventative maintenance services that align with\n"
+"                            the nature and type of your property, to ensure that your investment\n"
+"                            remains in optimal condition."
+msgstr ""
+"صيانة، إصلاحات، وتجديدات بأعلى جودة... كل هذا وأكثر تقدمه طاقات لصيانة "
+"العقارات،  حيث توفر خدمات الصيانة الوقائية المتكاملة التي تتوافق مع طبيعة "
+"ونوع عقارك، وتضمن لك الحفاظ عليه في أفضل حالة ممكنة، ما ينعكس بالإيجاب على "
+"تعظيم استثمارك."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Maintenance, repairs, and renovations with the highest quality... all this\n"
+"                          and more Taqat for Real Estate Maintenance is providing to ensure your\n"
+"                          property’s efficiency."
+msgstr ""
+"صيانة، إصلاحات، وتجديدات بأعلى جودة... كل هذا وأكثر تقدمه لك طاقات لصيانة "
+"العقارات، لتضمن أمان عقارك بكفاءة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Make your business sustainable with (Avrasya)!"
+msgstr "اجعل أعمالك مستدامة مع (أوراسيا)!"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Make your supplies sustainable with Tawridat."
+msgstr "اجعل توريداتك مستدامة مع توريدات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Management of recreational facilities"
+msgstr "إدارة المرافق الترفيهية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Management of technical systems"
+msgstr "إدارة الأنظمة التقنية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Managing digital transformation."
+msgstr "إدارة عمليات التحول الرقمي في المؤسسات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "Map"
+msgstr "الخريطة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Market Entry Strategies Development"
+msgstr "تطوير استراتيجيات دخول الأسواق"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Market analysis"
+msgstr "تحليل الأسواق المستهدفة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Market and customer analysis services."
+msgstr "خدمات تحليل السوق والعملاء."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Media services."
+msgstr "الخدمات الإعلامية."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Mining"
+msgstr "التعدين"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Modern Supplies for <br/> Trade and Services"
+msgstr "التوريدات الحديثة للتجارة والخدمات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Modern Technology"
+msgstr "نستخدم التكنولوجيا الحديثة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Modern filtration and purification systems to improve water\n"
+"                                quality."
+msgstr "أنظمة تنقية وترشيح حديثة لتحسين جودة المياه."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "More"
+msgstr "المزيد"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "MyCompany"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.posts_loop_customize
+msgid "News"
+msgstr "كل الأخبار"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Newsletter"
+msgstr "النشرة البريدية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Next Slide"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "OKSOUQ"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "OKSOUQ:"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Odoo system implementation."
+msgstr "تطبيق نظام Odoo."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.job_filter_by_offices_inherit
+msgid "Offices"
+msgstr "المكاتب"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "OkSouq"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Oksouq"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Operates with the highest transparency standards from collection to\n"
+"                              distribution, ensuring donations reach those in need."
+msgstr ""
+"ونعتمد على أعلى معايير الشفافية في جميع عملياتنا، بدءًا من جمع التبرعات وحتى"
+" تقديمها."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Organizational Partnerships"
+msgstr "نركز على التعاون وعقد الشراكات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Organizing conferences and exhibitions."
+msgstr "استشارات التسويق والمبيعات المتكاملة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Our Change Partners"
+msgstr "شركاؤنا في التغيير"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Our Companies"
+msgstr "شركاتنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Our Core Pillars for Contributing\n"
+"                        to Vision 2030 Goals"
+msgstr "ركائزنا الأساسية للمساهمة في تحقيق أهداف رؤية 2030"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Our Goals for Vision 2030"
+msgstr "أهدافنا لرؤية 2030"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Our Goals for Vision 2030:"
+msgstr "أﻫﺪافنا لرؤﻳﺔ 2030:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Our Key Sectors"
+msgstr "قطاعاتنا الرئيسية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Our Key Services"
+msgstr "أبرز خدماتنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Our Mission"
+msgstr "مهمتنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Our Programs"
+msgstr "برامجنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Our Projects"
+msgstr "مشاريعنا"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Our Services"
+msgstr "أبرز خدماتنا"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Our Story"
+msgstr "قصتنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Our Values"
+msgstr "قيمنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Our Vision"
+msgstr "رؤيتنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Our partners"
+msgstr "شركاتنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Our program develops profit-driven projects with a positive societal and\n"
+"                        environmental impact.\n"
+"                        Edamah focuses on renewable energy, agriculture, economic development,\n"
+"                        fisheries, social projects, and more, ensuring a sustainable future."
+msgstr ""
+"حيث يركز على تطوير المشاريع الباحثة عن تحقيق الأرباح جنبًا إلى جنب مع ترك أثر إيجابي على المجتمع والبيئة.\n"
+"تشمل مجالات عمل برنامج إدامة الطاقة المتجددة، الزراعة، التنمية الاقتصادية، الثروات السمكية والمشروعات الاجتماعية، وغيرها من المجالات التي نستهدف من خلالها ضمان مستقبل مستدام للأجيال القادمة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Our programs"
+msgstr "برامجنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Our projects"
+msgstr "مشاريعنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"Our team will message you back as\n"
+"                              soon as possible."
+msgstr "سيرد عليك فريقنا في أقرب وقت ممكن."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Packaging Solutions"
+msgstr "حلول التعبئة والتغليف"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Payroll, compensation, and benefits management <span>We\n"
+"                        organize these processes effectively to enhance employee satisfaction.</span>"
+msgstr ""
+"إدارة وتطوير نظم الرواتب، التعويضات والمزايا <span>وتنظيمها بشكل فعال يسهم "
+"في تعزيز الرضا الوظيفي.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Pearl Pixels"
+msgstr "بيرل بيكسلز"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Pearl Pixels is a creative marketing agency\n"
+"                            that helps businesses and organizations improve their marketing\n"
+"                            operations and reach their audience more effectively. To achieve this,\n"
+"                            Pearl Pixels provides innovative marketing solutions, including\n"
+"                            developing successful strategies for advertising campaigns, event\n"
+"                            management, and digital marketing."
+msgstr ""
+"بيرل بيكسلز هي وكالة متخصصة في تقديم خدمات الإعلام والتسويق المُبدعة، لتساعد مختلف الشركات والمؤسسات على تعزيز كفاءة عملياتها التسويقية، وتمكنهم من الوصول لجمهورهم بفاعلية أكبر. \n"
+"في سبيل ذلك، تقدم (بيرل بيكسلز) مجموعة مُبتكرة من الحلول التسويقية الاستثنائية، والتي تشمل إدارة اﻟﺤﻤﻼت اﻹﻋﻼﻧﻴﺔ، إدارة اﻟﻔﻌﺎﻟﻴﺎت واﻟﺘﺴﻮﻳﻖ اﻟﺮﻗﻤﻲ، كما تمكن عملاؤها من الوصول لأهدافهم بسلاسة، عبر مساعدتهم على التخطيط لاستراتيجية تسويق مُبدعة ومتكاملة الأركان، تستخدم فيها أحدث التوجهات في عالم التسويق."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Pearl Pixels is an extraordinary agency specializing in providing creative\n"
+"                          media and marketing services to help various companies and organizations\n"
+"                          enhance the efficiency of their marketing operations and effectively\n"
+"                          communicate with their target audiences."
+msgstr ""
+"بيرل بيكسلز هي وكالة متخصصة في تقديم خدمات الإعلام والتسويق المُبدعة، لتساعد"
+" مختلف الشركات والمؤسسات على تعزيز كفاءة عملياتها التسويقية، وتمكنهم من "
+"الوصول لجمهورهم بفعالية أكبر."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Pearl Pixels:"
+msgstr "بيرل بيكسلز:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Pharmaceuticals."
+msgstr "المستحضرات الصيدلانية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Pioneering Sustainable Solutions and Humanitarian Initiatives!"
+msgstr "رواد الحلول المستدامة والمبادرات الإنسانية!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Positive engagement with communities and efficient support for\n"
+"                                humanitarian initiatives."
+msgstr ""
+"نحرص على التفاعل بشكل إيجابي مع المجتمع، ودعم المشاريع والمبادرات الإنسانية "
+"بكفاءة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Precision surgical equipment for all types of surgeries."
+msgstr "معدات جراحية دقيقة لجميع أنواع العمليات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Preparing <span class=\"text-primary\">\n"
+"                                Healthcare\n"
+"                              </span>\n"
+"                              Providers for the Future"
+msgstr "تجهيز <span class=\"text-primary\">منشآت الرعاية الصحية</span> للمستقبل"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Preparing Healthcare"
+msgstr "تجهيز منشآت الرعاية الصحية للمستقبل"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Previous Slide"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Pricing and marketing services"
+msgstr "خدمات التسعير والتسويق"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Privacy Policy"
+msgstr "الشروط والأحكام"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Professional development opportunities"
+msgstr "فرص تطوير مهني"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Programs Hero Image"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Projects Hero"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Promotes investment in renewable energy and other sustainable projects to\n"
+"                          improve living conditions with clean energy."
+msgstr ""
+"مثل مشاريع الطاقة المتجددة، لتحسين الظروف المعيشية للمجتمعات عبر الاستخدام "
+"الفعّال للطاقة النظيفة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Promoting Equality"
+msgstr "تعزيز المساواة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Property Management Services <span>We provide\n"
+"                        efficient property management services to ensure their sustainability.</span>"
+msgstr ""
+"إدارة الممتلكات العقارية <span>نقدم خدمات إدارة شاملة وفعالة للعقارات "
+"السكنية والتجارية لنضمن استدامتها والحفاظ عليها بشكل فعال.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Provides quick, efficient shelter for displaced populations."
+msgstr ""
+"والتي تتمثل في تقديم مأوى سريع وفعّال للسكان النازحين أو المتضررين من "
+"الكوارث."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Pure Water Solutionss"
+msgstr "حلول المياه النقية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Qatar Box Charity"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Rafeeq Seek"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Rapid Shelter Solutions"
+msgstr "حلول المأوى السريعة:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Re-engineering business processes."
+msgstr "إعادة هندسة العمليات التجارية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_post_short_customize
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.posts_loop_customize
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Real Estate Development"
+msgstr "التطوير العقاري"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Real Estate Development Consulting <span>We\n"
+"                        develop comprehensive market studies and analyze opportunities to enable you\n"
+"                        to achieve the highest possible returns.</span>"
+msgstr ""
+"استشارات التطوير العقاري <span>نطور دراسات شاملة للأسواق ونحلل الفرص لنمكن "
+"عملائنا من تحقيق أعلى عوائد ممكنة.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Real Estate Marketing"
+msgstr "التسويق العقاري"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Recognizing that buying, selling, and\n"
+"                            renting properties can be complex, Taqat for Real Estate Brokerage\n"
+"                            simplifies this process effectively. We provide professional services\n"
+"                            that help clients smoothly access the best available options and offer\n"
+"                            expert real estate consultancy to assist clients in making informed\n"
+"                            investment decisions."
+msgstr ""
+"لأن عملية شراء وبيع وتأجير العقارات قد تكون مليئة بالتعقيدات، تسعى طاقات "
+"للوساطة العقارية على تبسيطها بشكل فعّال، عبر تقديم خدمة احترافية تمكن مختلف "
+"عملاؤها من الوصول لأفضل الخيارات المتاحة بسلاسة، مع توفير اﺳﺘﺸﺎرات ﻋﻘﺎرﻳﺔ "
+"ﺗمكنّهم من اﺗﺨﺎذ أفضل القرارات الاستثمارية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Recruitment and hiring <span>We help\n"
+"                        organizations attract the right talents that match their needs.\n"
+"                        </span>"
+msgstr ""
+"التوظيف والتعيين <span>نساعد المؤسسات على استقطاب الكفاءات المناسبة التي "
+"تتوافق مع احتياجاتها.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Rectangle 1"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Rectangle 2"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Rectangle 3"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Rectangle 4"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Rectangle 5"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Rectangle 6"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Reduces waterborne diseases and ensures safe\n"
+"                            drinking water access."
+msgstr ""
+"والتي تسعى للحد من الأمراض المنقولة بالمياه، وضمان الوصول إلى مياه شرب آمنة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Relief Center"
+msgstr "مركز الإغاثة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Relief Center is a pioneering platform providing comprehensive humanitarian\n"
+"                        support and early alerts services. We help governmental and non-governmental\n"
+"                        organizations improve relief operations and rapid response efficiency."
+msgstr ""
+"يقوم (مركز الإغاثة) بتقديم خدمات الدعم الإنساني والإنذار المبكر الشاملة "
+"لمساعدة المنظمات الحكومية وغير الحكومية على تعزيز كفاءة عمليات الإغاثة "
+"والاستجابة السريعة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Relief Center uses the latest AI technologies to analyze data and deliver\n"
+"                        innovative solutions. This enables humanitarian organizations to quickly\n"
+"                        reach those in need and effectively reduce the negative impacts of crises."
+msgstr ""
+"يركز (مركز الإغاثة) على استخدام أحدث تقنيات الذكاء الاصطناعي المتقدمة لتحليل"
+" البيانات وتقديم حلول مبتكرة تساعد منظمات الدعم الإنساني على الوصول السريع "
+"للمتضررين وتقليص الآثار السلبية للأزمات بشكل فعّال."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Renewable Energy"
+msgstr "الطاقة المتجددة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Renewable energy, medical, food, water, construction – we meet all\n"
+"                                  your needs."
+msgstr ""
+"مرورًا بالمعدات الطبية والغذائية وحلول المياه النقية، وحتى توريد خدمات "
+"البناء، لنلبي كافة احتياجاتك بشكل فعال."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Representation of Taqat's core values"
+msgstr "قيمنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Request Your Free Consultation:  Let's Discuss Your Needs"
+msgstr "استشرنا مجانًا!\""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Residential and Commercial Property Development<span>We\n"
+"                        develop innovative properties that provide you with exceptional investment\n"
+"                        opportunities.</span>"
+msgstr ""
+"تطوير العقارات السكنية والتجارية <span>نطور عقارات مبتكرة تضمن راحتك وتوفر "
+"لك فرصًا استثمارية مميزة.</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Resource planning and marketing strategies for organizations."
+msgstr "تخطيط الموارد والاستراتيجيات التسويقية للمؤسسات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Risk assessment and expansion planning"
+msgstr "تقييم المخاطر ووضع خطط التوسع"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Save the Children"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "School laboratory supplies"
+msgstr "مستلزمات المختبرات المدرسية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Scroll to Our Story"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Search for current job"
+msgstr "البحث عن الوظائف الحالية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Security and guarding"
+msgstr "الأمن والحراسة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Share on Facebook"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Share on LinkedIn"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Share on Twitter"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_login_page_customize
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Snoonu"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Soft Services"
+msgstr "الخدمات الناعمة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Specialty Products"
+msgstr "مجموعة واسعة من المنتجات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Start your journey toward excellence with us"
+msgstr "ابدأ رحلتك نحو التميز معنا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"Stay connected with us\n"
+"                  and\n"
+"                  start your\n"
+"                  journey to\n"
+"                  making an impact."
+msgstr "كن على تواصل معنا وابدأ رحلتك للتأثير."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Strategic Investment Solutions"
+msgstr "تعزيز كفاءة الاستثمارات الاستراتيجية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Strategic Relationships"
+msgstr "بناء علاقات استراتيجية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Street: 901 - Ring Road - Al Sadd"
+msgstr ""
+"الشارع: 901 - الطريق الدائري - السد\n"
+"المنطقة: 38, الدوحة – قطر"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Subscribe"
+msgstr "إشترك الآن"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Subtitle"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Supplier network optimization"
+msgstr "تحسين شبكة الموردين"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Supply Chain Development Solutions"
+msgstr "حلول تطوير سلسلة التوريد"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Supply Chain Optimization"
+msgstr "تحسين سلسلة التوريد"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Supply chain performance analysis and development"
+msgstr "تحليل وتطوير أداء سلسلة التوريد"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Support innovative initiatives in technology, trade, sustainable\n"
+"                                agriculture, and humanitarian services."
+msgstr ""
+"دعم مشاريع مبتكرة في مجالات التكنولوجيا، التجارة، الزراعة المستدامة والخدمات"
+" الإنسانية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Support innovative initiatives in technology, trade, sustainable "
+"agriculture, and humanitarian services."
+msgstr ""
+"دعم مشاريع مبتكرة في مجالات التكنولوجيا، التجارة، الزراعة المستدامة والخدمات"
+" الإنسانية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Supports initiatives like \"It Holds Value\" providing in-kind donations\n"
+"                              while promoting recycling and environmental sustainability."
+msgstr ""
+"مثل مبادرة (لها قيمة) التي تهدف لتوفير الاحتياجات العينية للمحتاجين، إلى "
+"جانب تعزيز الاستدامة البيئية، من خلال إعادة تدوير الملابس والمواد المستعملة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid "Sustainability"
+msgstr "الاستدامة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Sustainable Initiatives"
+msgstr "ندعم المبادرات المستدامة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Sustainable Investment"
+msgstr "تعزيز الاستثمار في المشاريع المستدامة"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Sustainable batteries:"
+msgstr "بطاريات مستدامة:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"TAYF enhances living conditions in vulnerable communities by providing\n"
+"                        solutions to alleviate crisis effects and promote sustainable development."
+msgstr ""
+"تعمل (طيف) عن قرب على تحسين ظروف الحياة في المجتمعات الأكثر احتياجًا، عبر "
+"توفير حلول متميزة تسهم في تخفيف آثار الأزمات وتعزيز التنمية المستدامة على "
+"المدى البعيد."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"TAYF, a Qatar Charity initiative, improves in-kind donation collection and\n"
+"                        distribution for greater relief impact."
+msgstr ""
+"مبادرة تابعة لمؤسسة قطر الخيرية تهدف إلى تعزيز كفاءة جمع وتوزيع التبرعات "
+"العينية بهدف تفعيل تأثير عمليات الإغاثة الدولية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Tailored aid packages efficiently provide essential items like water,\n"
+"                              food, and medicine based on specific needs."
+msgstr ""
+"ونصممها بما يتوافق مع احتياجات المستفيدين، مثل تلبية الاحتياجات الأساسية "
+"(الماء، الغذاء، الدواء وغيرها) بكفاءة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Takes care of your property to guarantee the highest ROI for your\n"
+"                            investment!"
+msgstr "نحافظ على عقارك، ونحقق أعلى عائد لاستثمارك!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat"
+msgstr "طاقات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat Customer Service Solutions"
+msgstr "طاقات لحلول خدمة العملاء"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat Facility Management"
+msgstr "طاقات لصيانة العقارات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat For Customer Service Solutions"
+msgstr "طاقات لحلول خدمة العملاء"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat For Facility Management"
+msgstr "طاقات لصيانة العقارات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat For Technology"
+msgstr "طاقات للتكنولوجيا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat HR Services"
+msgstr "طاقات لخدمات الموارد البشرية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat Real Estate Brokerage"
+msgstr "طاقات للوساطة العقارية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat Real Estate Development"
+msgstr "طاقات للتطوير العقاري"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat Techno"
+msgstr "طاقات للتكنولوجيا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Taqat Techno was established to be a leading center specializing in\n"
+"                          designing the latest technologies and solutions, such as software\n"
+"                          development, automation, and artificial intelligence solutions, to enhance\n"
+"                          the efficiency of digital transformation processes in organizations."
+msgstr ""
+"تم تأسيس طاقات للتكنولوجيا لتكون مركزًا رائدًا يقوم بتصميم أحدث التقنيات "
+"والحلول التكنولوجية، مثل تطوير البرمجيات، الأتمتة وحلول الذكاء الاصطناعي، "
+"لزيادة فاعلية وكفاءة إتمام عملية التحول الرقمي في المؤسسات، بمختلف مجالاتها."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat for Customer Service Solutions"
+msgstr "طاقات لحلول خدمة العملاء"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Taqat for Customer Service Solutions\n"
+"                            focuses on empowering you to provide exceptional customer service by\n"
+"                            helping you develop and implement a comprehensive call center management\n"
+"                            strategy. We also aid in creatively enhancing your customer experience\n"
+"                            and effectively improving the skills of your customer service team."
+msgstr ""
+"تركز طاقات لحلول خدمة العملاء على تمكينك من تقديم خدمة استثنائية لعملائك، "
+"عبر مساعدتك على تطوير وتطبيق استراتيجية متكاملة لإدارة مراكز الاتصال، تطوير "
+"تجربة عملاءك بإبداع وتعزيز مهارات فريق خدمة العملاء في فريقك بشكل فعّال."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Taqat for Customer Service Solutions focuses on enabling you to provide\n"
+"                          exceptional customer service by helping you develop and implement\n"
+"                          integrated strategies for managing call centers, to boost the customer\n"
+"                          experience creatively, and improve the skills of your customer service\n"
+"                          team effectively."
+msgstr ""
+"تركز طاقات لحلول خدمة العملاء على تمكينك من تقديم خدمة استثنائية لعملائك، "
+"عبر مساعدتك على تطوير وتطبيق استراتيجيات متكاملة لإدارة مراكز الاتصال، تطوير"
+" تجربة عملائك بإبداع وتعزيز مهارات فريق خدمة العملاء في فريقك بشكل فعال."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat for Facility Management"
+msgstr "طاقات لصيانة العقارات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat for Facility Management:"
+msgstr "طاقات لصيانة العقارات:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat for HR Services"
+msgstr "طاقات لخدمات الموارد البشرية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Taqat for HR Services specializes in\n"
+"                            providing a wide range of human resources services and consulting. We\n"
+"                            help organizations enhance their hiring processes, manage talent and\n"
+"                            teams, and develop operational efficiency, leading to seamless, high\n"
+"                            performance."
+msgstr ""
+"تتخصص طاقات لخدمات الموارد البشرية ﻓﻲ ﺗﻘﺪﻳﻢ مجموعة متنوعة من خدمات واستشارات"
+" الموارد البشرية التي تساعد المؤسسات على تعزيز عمليات التوظيف، إدارة المواهب"
+" وفرق العمل، لتطوير كفاءة العمليات التشغيلية والوصول لأعلى أداء ممكن بشكل "
+"سلس."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Taqat for HR Services specializes in providing a wide range of human\n"
+"                          resources services and consulting to help organizations enhance\n"
+"                          recruitment processes, talent management, and team development, as well as\n"
+"                          increase operational efficiency to achieve the highest possible\n"
+"                          performance smoothly."
+msgstr ""
+"تتخصص طاقات لخدمات الموارد البشرية ﻓﻲ ﺗﻘﺪﻳﻢ مجموعة متنوعة من خدمات واستشارات"
+" الموارد البشرية التي تساعد المؤسسات على تعزيز عمليات التوظيف، إدارة المواهب"
+" وتطوير فرق العمل، لزيادة كفاءة العمليات التشغيلية والوصول لأعلى أداء ممكن "
+"بشكل سلس."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat for HR Services:"
+msgstr "طاقات لخدمات الموارد البشرية:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat for HR Solutions"
+msgstr "طاقات لخدمات الموارد البشرية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat for Real Estate Brokerage"
+msgstr "طاقات للوساطة العقارية"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat for Real Estate Brokerage:"
+msgstr "طاقات للوساطة العقارية:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat for Real Estate Development"
+msgstr "طاقات للتطوير العقاري"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat for Real Estate Development:"
+msgstr "طاقات للتطوير العقاري:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat for Technology"
+msgstr "طاقات للتكنولوجيا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Taqat for Technology was established as a\n"
+"                            leading center that designs the latest technologies and solutions,\n"
+"                            including software development, automation, and artificial intelligence.\n"
+"                            Its mission is clear: enhance the effectiveness and efficiency of\n"
+"                            digital transformation processes across various sectors!"
+msgstr ""
+"تم تأسيس طاقات للتكنولوجيا لتكون مركزًا رائدًا يقوم بتصميم أحدث التقنيات "
+"والحلول التكنولوجية، مثل تطوير البرمجيات، تقديم حلول الأتمتة والذكاء "
+"الاصطناعي، لزيادة فاعلية وكفاءة إتمام عملية التحول الرقمي في المؤسسات، "
+"بمختلف مجالاتها!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Taqat for Technology:"
+msgstr "طاقات للتكنولوجيا:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Taqat is committed to developing innovative\n"
+"                          projects driven by sustainability to effectively improve the lives of\n"
+"                          individuals and communities."
+msgstr ""
+"تلتزم (طاقات) بتطوير مشاريع مبتكرة تنبض بالاستدامة، وتساهم في تحسين حياة "
+"الأفراد والمجتمعات بشكل فعال."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Taqat is home to a diverse group of companies that all share a unified vision:\n"
+"                      provide innovative and comprehensive solutions that serve the aspirations of\n"
+"                      clients and the community while effectively achieving sustainable development\n"
+"                      goals."
+msgstr ""
+"تمتلك طاقات تحت مظلتها مجموعة متنوعة من الشركات التي تتشارك جميعًا رؤية "
+"واحدة...  تقديم حلول مبتكرة وشاملة تخدم تطلعات العملاء والمجتمع وتحقق أهداف "
+"التنمية المستدامة بشكل فعّال."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"Taqat supports sustainable development strategies that reduce carbon\n"
+"                              emissions, promote the use of renewable energy, and improve resource\n"
+"                              consumption efficiency."
+msgstr ""
+"نتبع معايير الاستدامة التي تسهم في الحد من الانبعاثات الكربونية، تعزيز "
+"استخدام الطاقة المتجددة، وتحسين كفاءة استهلاك الموارد."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Taqat... Your Partner in Delivering Exceptional Customer Service!"
+msgstr "طاقات... شريكك نحو تقديم خدمة عملاء استثنائية!"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Tawridat"
+msgstr "التوريدات الحديثة للتجارة والخدمات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Tawridat Haditha for Trade & Services"
+msgstr "التوريدات الحديثة للتجارة والخدمات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Tawridat Logo"
+msgstr "التوريدات الحديثة للتجارة والخدمات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Tawridat helps entrepreneurships and organizations establish and\n"
+"                            streamline their supply chains by providing the latest solutions in\n"
+"                            procurement, logistics, customs clearance, and digital technology to\n"
+"                            enable them to achieve the desired growth in their businesses."
+msgstr ""
+"تساعد عملائها على تأسيس وتبسيط سلاسل التوريد الخاصة بهم، وتقدم لهم أحدث "
+"الحلول في مجالات المشتريات، اللوجيستيات، التخليص الجمركي والتكنولوجيا "
+"الرقمية، لتمكنهم من تحقيق النمو المطلوب في أعمالهم."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Tawridat helps various businesses and\n"
+"                            brands access to:"
+msgstr "حيث تساعد توريدات مختلف الأنشطة والعلامات التجارية على الوصول إلى:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Tawridat stands out by providing integrated building services,\n"
+"                              including:"
+msgstr "نتميز في توريدات بتقديم خدمات بناء متكاملة، تشمل:"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"Tawridat supports\n"
+"                              the\n"
+"                              transition to clean energy by providing comprehensive solar energy\n"
+"                              solutions that include"
+msgstr ""
+"تدعم توريدات بشكل كامل الانتقال إلى مصادر طاقة نظيفة تحقق الاستدامة البيئية "
+"الفعالة في المجتمعات، لهذا تركز في استثماراتها على تطوير حلول مُبدعة للطاقة "
+"الشمسية تشمل"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Tayf"
+msgstr "طيف"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Tayf Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Technology and Innovation"
+msgstr "التكنولوجيا والابتكار"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Thanks"
+msgstr "شكرا"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "The Backbone of a Bright Future"
+msgstr "أساس المستقبل المشرق"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"The most efficient water treatment technologies to ensure\n"
+"                                suitability for drinking, irrigation, or industrial use."
+msgstr ""
+"أكفأ تقنيات معالجة المياه، والتي تهدف لجعلها صالحة: للشرب، الري أو الاستخدام"
+" الصناعي."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"Their role has become essential in driving successful digital\n"
+"                              transformation in African markets."
+msgstr ""
+"واللذان أصبح دورهما جوهريًا لتحفيز التحول الرقمي الناجح في الأسواق "
+"الأفريقية."
+
+#. module: theme_taqat
+#: model:ir.model,name:theme_taqat.model_theme_utils
+msgid "Theme Utils"
+msgstr "أدوات السمة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"This ensures seamless, efficient solutions meeting customer needs and\n"
+"                        enhancing relief operations."
+msgstr ""
+"لتوفير حلول متكاملة وسلسة تلبي احتياجات العملاء بكفاءة وسرعة، مما يعزز "
+"فعالية عمليات الإغاثة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"This is the number of years of experience Africat has in developing\n"
+"                              effective investment solutions for Africa."
+msgstr ""
+"إنها عدد سنوات الخبرة التي تمتلكها أفريقات من تطوير حلول استثمارية فعالة في "
+"القارة السمراء."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Through our diverse programs, we offer a range of integrated services\n"
+"                        designed to support organizations in effective humanitarian efforts.\n"
+"                        We utilize advanced artificial intelligence technologies to provide\n"
+"                        innovative and rapid solutions that address the needs of those affected by\n"
+"                        crises. Our goal is to enhance the efficiency of fundraising and\n"
+"                        distribution efforts to achieve sustainable development in communities\n"
+"                        facing challenges."
+msgstr ""
+"عبر برامجنا المتنوعة، نقدم مجموعة من الخدمات المتكاملة التي تهدف إلى دعم "
+"المنظمات في العمل الإنساني الفعال، وتستعين بأحدث تقنيات الذكاء الاصطناعي "
+"المتقدمة، لتوفر حلول مبتكرة وسريعة تلبي احتياجات المتضررين، كما تهدف لتعزيز "
+"كفاءة جمع التبرعات وتوزيعها، بهدف تحقيق التنمية المستدامة في المجتمعات التي "
+"تعاني من الأزمات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"Through our innovative solutions and extensive network, we provide unlimited\n"
+"                        opportunities to grow your business globally and help you achieve\n"
+"                        sustainability and enhance efficiency in your projects in an integrated\n"
+"                        manner."
+msgstr ""
+"عبر حلولنا المٌبدعة وشبكتنا الواسعة، نقدم لك فرصًا غير محدودة تمكنك من تنمية"
+" أعمالك على الصعيد العالمي، وتساعدك على تحقيق الاستدامة وتعزيز الكفاءة في "
+"أداء مشروعاتك بشكل متكامل."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"To achieve effective sustainability while developing efficiency of the\n"
+"                          real estate market, Taqat for Real Estate Development was established to\n"
+"                          focus mainly on developing residential and commercial properties\n"
+"                          creatively, by providing innovative designs that meet market needs and\n"
+"                          achieve the highest quality standards."
+msgstr ""
+"لتحقيق استدامة فعالة في تنمية السوق العقاري محليًا وعالميًا، تم تأسيس طاقات "
+"للتطوير العقاري، والتي تركز بشكل رئيسي على تطوير العقارات السكنية والتجارية "
+"بشكل مُبدع، عبر ﺗﻘﺪﻳﻢ ﺗﺼﺎﻣﻴﻢ ﻣﺒﺘﻜﺮة ﺗﻠﺒﻲ اﺣﺘﻴﺎﺟﺎت اﻟﺴﻮق وﺗﺤﻘﻖ أعلى ﻣﻌﺎﻳﻴﺮ "
+"اﻟﺠﻮدة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"To be recognized as trusted leaders in sustainable projects by driving\n"
+"                      continuous innovation and fostering strategic partnerships that pave the way\n"
+"                      for a brighter future."
+msgstr ""
+"أن نكون قادة المشاريع المستدامة، عبر الابتكار المستمر وبناء الشراكات "
+"الاستراتيجية التي تساهم في بناء مستقبل أكثر إشراقًا."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"To build a sustainable future, we support\n"
+"                          investments and projects that drive economic growth by:"
+msgstr ""
+"لتطوير مستقبل يتسم بالاستدامة، نعمل على دعم الاستثمار والمشاريع التي تعزز "
+"النمو الاقتصادي، عبر:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"To contact the Center for Excellence in specific Humanitarian\n"
+"                    and Development Work."
+msgstr "للتواصل مع شركة طاقات للتجارة و حلول الأعمال"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "To efficiently regulate the flow of electricity."
+msgstr "لتتولى مهمة تنظيم تدفق الكهرباء بشكل فعال."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "To enhance energy production."
+msgstr "لتعزيز إنتاج الطاقة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"To ensure effective sustainability in\n"
+"                            developing local and global real estate markets, Taqat for Real Estate\n"
+"                            Development focuses on innovatively developing residential and\n"
+"                            commercial properties. We provide creative designs that meet market\n"
+"                            needs and achieve the highest quality standards."
+msgstr ""
+"لتحقيق استدامة فعالة في تنمية السوق العقاري، تم تأسيس طاقات للتطوير العقاري،"
+" والتي تركز بشكل رئيسي على تطوير العقارات السكنية والتجارية بشكل مُبدع، عبر "
+"ﺗﻘﺪﻳﻢ ﺗﺼﺎﻣﻴﻢ ﻣﺒﺘﻜﺮة ﺗﻠﺒﻲ اﺣﺘﻴﺎﺟﺎت اﻟﺴﻮق وﺗﺤﻘﻖ أعلى ﻣﻌﺎﻳﻴﺮ اﻟﺠﻮدة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"To facilitate the conversion of electricity from solar panels into\n"
+"                                usable current."
+msgstr ""
+"لتسهيل تحويل التيار الكهربائي من الألواح الشمسية إلى تيار صالح للاستخدام."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"To invest in innovative <span class=\"text-primary\">solutions and sustainable services\n"
+"                      </span> that promote\n"
+"                      economic growth and encourage innovation, with a focus on delivering effective\n"
+"                      humanitarian services that create a positive impact on all beneficiaries."
+msgstr ""
+"المساهمة في تطوير المجتمعات عبر الاستثمار في تقديم  <span class=\"text-primary\">حلول مبتكرة وخدمات مستدامة\n"
+"                      </span> تعزز النمو الاقتصادي وتشجع على الابتكار، مع التركيز على تقديم خدمات إنسانية فعالة تترك الأثر الإيجابي المرغوب لكل المستفيدين منها."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"To provide an innovative and convenient\n"
+"                            e-commerce experience, the OKSOUQ platform was developed as an\n"
+"                            extraordinary online marketplace. It aims to empower individuals to\n"
+"                            access a wide variety of high-quality products at the best prices, such\n"
+"                            as electronics, perfumes, watches, furniture, and more."
+msgstr ""
+"لتقديم تجربة تسوق إلكتروني مُبتكرة ومريحة، تم تطوير منصة (OKSOUQ)، وهي منصة "
+"تجارة إلكترونية تهدف لتمكين الأفراد من الوصول إلى تشكيلة واسعة من المنتجات، "
+"مثل الإلكترونيات، اﻟﻌﻄﻮر، اﻟﺴﺎﻋﺎت، الأثاث المنزلي وغيرها، والحصول عليها "
+"بسهولة، بأعلى جودة وأقل تكلفة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"To provide an innovative and convenient online shopping experience, OKSOUQ\n"
+"                          was developed as a comprehensive e-commerce platform aimed at enabling\n"
+"                          shoppers to easily access a wide range of products, including electronics,\n"
+"                          perfumes, watches, home furniture, and more, with the highest quality at\n"
+"                          the lowest cost."
+msgstr ""
+"لتقديم تجربة تسوق إلكتروني مُبتكرة ومريحة، تم تطوير منصة (OKSOUQ)، وهي منصة "
+"تجارة إلكترونية متكاملة الأركان، تهدف لتمكين مختلف المتسوقين من الوصول إلى "
+"تشكيلة واسعة من المنتجات، مثل الإلكترونيات، اﻟﻌﻄﻮر، اﻟﺴﺎﻋﺎت، الأثاث المنزلي "
+"وغيرها، والحصول عليها بسهولة، أعلى جودة وأقل تكلفة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "To store excess energy for use when needed."
+msgstr "تخزن الفائض من الطاقة لاستخدامها عند الحاجة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"To support entrepreneurship and enhance economic and\n"
+"                            social development, Avrasya was founded to provide comprehensive\n"
+"                            solutions focused on sustainability and fostering integrated growth in\n"
+"                            business performance."
+msgstr ""
+"بهدف دعم ريادة الأعمال وتعزيز التنمية الاقتصادية والاجتماعية، تم تأسيس شركة "
+"أوراسيا الدولية لتقديم حلول شاملة تركز على تحقيق الاستدامة وتعزيز النمو "
+"المتكامل في أداء المشروعات والأعمال."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.header_custom
+msgid "Toggle navigation"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.header_custom
+msgid "Top"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "Towards a Sustainable Future"
+msgstr "نحو عالم يمتلك مستقبل مستدام!"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "Trade compliance and risk management"
+msgstr "الامتثال التجاري وإدارة المخاطر"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"Training and development <span>We develop\n"
+"                        creative training plans and programs to build employees' capabilities and\n"
+"                        increase productivity.\n"
+"                        </span>"
+msgstr ""
+"التدريب والتطوير <span>إعداد وتنفيذ خطط وبرامج تدريبية متنوعة ومُبدعة تعمل "
+"على بناء قدرات الموظفين ورفع إنتاجيتهم.</span>"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Transformers:"
+msgstr "محولات تم تطويرها باستخدام أحدث التقنيات:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "Transparent Donation Handling"
+msgstr "نضمن وصول التبرعات إلى مستحقيها"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"Transportation, storage, and distribution services ensure timely,\n"
+"                              high-quality aid delivery to those in need."
+msgstr ""
+"تتضمن النقل والتخزين والتوزيع الفعال لضمان وصول المساعدات إلى المستفيدين في "
+"الوقت المناسب وبأعلى جودة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"Turn your vision into reality... Make\n"
+"                        your business more <br/> successful with Taqat!"
+msgstr "دعنا نحول رؤيتك إلى واقع... اجعل أعمالك أنجح مع (طاقات)"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Twitter"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.job_filter_by_employment_type_inherit
+msgid "Types"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_post_short_customize
+msgid "Unpublished"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_post_short_customize
+msgid ""
+"Untitled\n"
+"                          Post"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_post_short_customize
+msgid ""
+"Untitled\n"
+"                      Post"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.posts_loop_customize
+msgid ""
+"Untitled\n"
+"              Post"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.blog_single_post_complete_customize
+msgid "Untitled Post"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Waste management"
+msgstr "إدارة النفايات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"We achieve all this by supporting\n"
+"                          investment and\n"
+"                          projects that enhance economic growth in the\n"
+"                          fields of agriculture,\n"
+"                          industry, and trade. We aim to raise living\n"
+"                          standards and\n"
+"                          self-reliance rates."
+msgstr ""
+"نحقق كل ذلك من خلال دعم الاستثمارات والمشاريع التي تعزز النمو الاقتصادي في "
+"مجالات الزراعة والصناعة والتجارة. هدفنا هو تحسين مستويات المعيشة وزيادة "
+"معدلات الاعتماد على الذات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"We adhere to the highest standards to help you develop your business\n"
+"                            effectively."
+msgstr ""
+"نتأكد دائمًا من الالتزام بأعلى المعايير، لنساعد عملاءنا على تطوير أعمالهم "
+"ونمكنهم من تحقيق النمو المستدام."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"We are committed to the latest quality and creativity standards and\n"
+"                              provide a wide range of services across various sectors to help foster\n"
+"                              sustainable development and achieve communities' future visions."
+msgstr ""
+"نلتزم بأحدث معايير الجودة والإبداع ونقدم مجموعة واسعة من الخدمات في العديد "
+"من القطاعات لنساعد على تعزيز التطور المستدام وتحقيق الرؤية المستقبلية "
+"للمجتمعات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid ""
+"We are here to connect, collaborate,\n"
+"                  and\n"
+"                  provide support. If you have any questions, feedback, or inquiries about our\n"
+"                  programs and projects, we would love to hear from you. Reach out to us through the\n"
+"                  available channels, and let's work together to create a positive impact."
+msgstr ""
+"نحن هنا للتواصل والتعاون وتقديم الدعم. إذا كانت لديك أسئلة أو ملاحظات أو "
+"استفسارات حول برامجنا ومشاريعنا، يسعدنا سماعك. تواصل معنا عبر القنوات "
+"المتاحة، ودعنا نعمل معًا لإحداث تأثير إيجابي."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid ""
+"We believe in innovation and teamwork as fundamental pillars of\n"
+"                                success."
+msgstr "نؤمن بالابتكار والعمل الجماعي كركائز أساسية للنجاح."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"We believe that education is the cornerstone of building a sustainable\n"
+"                            and prosperous future… that's why we focus on providing:"
+msgstr ""
+"نؤمن بأن التعليم هو الحجر الذي يتم عليه بناء مستقبل مستدام وناجح، ولذلك نحرص"
+" على توفير:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"We collaborate with local and international organizations to achieve\n"
+"                              shared sustainability goals."
+msgstr "مع مختلف المنظمات المحلية والدولية لتحقيق أهداف الاستدامة المشتركة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"We continue to expand globally with confident steps, committed to being\n"
+"                            the trusted partner that helps companies and organizations, regardless\n"
+"                            of their sectors, achieve their desired success goals."
+msgstr ""
+"حيث نواصل التوسع عالميًا بخطى واثقة، مع الالتزام بأن نكون الشريك الموثوق "
+"الذي يساعد الشركات والمؤسسات، باختلاف مجالاتها، على تحقيق أهداف النجاح "
+"المرغوبة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"We deliver a style that highlights your personality, by providing a\n"
+"                              vast selection of:"
+msgstr "نقدم لك أسلوب يعكس شخصيتك... حيث نتيح توريد تشكيلة واسعة من:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"We deliver integrated solutions through diverse programs to support\n"
+"                          effective humanitarian work. Leveraging advanced AI, we provide swift,\n"
+"                          innovative solutions for crisis-affected communities."
+msgstr ""
+"نقدم حلولًا متكاملة عبر برامجنا المتنوعة لدعم العمل الإنساني الفعال. ونستعين"
+" بأحدث تقنيات الذكاء الاصطناعي لتوفير حلول مبتكرة وسريعة للمجتمعات المتضررة "
+"من الأزمات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"We develop and implement effective strategies to boost the success and\n"
+"                            sustainability of your projects in Africa."
+msgstr "نطور وننفذ استراتيجيات فعالة لتعزيز نجاح واستدامة مشاريعك في أفريقيا."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"We embrace the latest technologies to help you keep pace with the rapid\n"
+"                            developments in the business world."
+msgstr ""
+"نتبنى أحدث التقنيات والأساليب، لنساعد عملاءنا على مواكبة التطورات المتلاحقة "
+"في عالم الأعمال بشكل سريع."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"We enable you to explore effective investment opportunities in mining\n"
+"                              across Africa."
+msgstr "نمكنك من استكشاف فرص الاستثمار الفعال في التعدين داخل أفريقيا."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "We enhance the efficiency of investment projects"
+msgstr "نعزز كفاءة المشاريع الاستثمارية"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"We ensure the highest efficiency standards and customize our diverse\n"
+"                            solutions to your aspirations for sustainable growth."
+msgstr ""
+"نتأكد من تقديم أعلى معايير الكفاءة، ونقوم بتخصيص حلولنا المتنوعة لتتوافق مع "
+"احتياجات عملاؤنا وتطلعاتهم للنمو بشكل فعال."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"We focus on\n"
+"                              boosting the healthcare sector by providing the following:"
+msgstr "حيث نركز على تمكين القطاع الصحي بشكل عام، من خلال منحه بـ:"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"We focus on implementing innovative and sustainable\n"
+"                      projects that aim to improve the lives of individuals\n"
+"                      aQnd promote community\n"
+"                      development. We endeavour to achieve a tangible positive\n"
+"                      impact that\n"
+"                      reflects our values and vision to support humanity."
+msgstr ""
+"نركز على تنفيذ مشاريع مبتكرة ومستدامة تهدف إلى تحسين حياة الأفراد وتعزيز "
+"تنمية المجتمع. نسعى لتحقيق تأثير إيجابي ملموس يعكس قيمنا ورؤيتنا في دعم "
+"الإنسانية."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"We have the experience and innovative solutions that help you expand\n"
+"                            creatively in Africa."
+msgstr ""
+"نمتلك الخبرة ونطور الحلول المُبدعة لنساعدك على التوسع بشكل مُبتكر في القارة "
+"السمراء."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "We innovate solutions to improve quality of life and communities."
+msgstr "نبتكر الحلول التي تعزز من جودة حياة الأفراد وتساهم في تقدم المجتمعات."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "We offer effective export and import services"
+msgstr "نقدم حلول فعّالة للتصدير والاستيراد"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"We open up new horizons to help you achieve organizational excellence\n"
+"                            and reinvent your business with creativity!"
+msgstr ""
+"نفتح أمامك أفقًا جديدًا لتحقيق التميز المؤسسي وإعادة ابتكار أعمالك بإبداع!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid ""
+"We partner with local and international organizations to amplify\n"
+"                              relief efforts and provide comprehensive community support."
+msgstr ""
+"مع المنظمات المحلية والدولية، لتحقيق أقصى تأثير إيجابي في جهود الإغاثة،  "
+"وتوفير الدعم الشامل للمجتمعات المتضررة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"We provide all logistical services and simplify customs procedures to\n"
+"                            facilitate your investment in Africa."
+msgstr ""
+"نوفر كافة الخدمات اللوجستية ونبسط الإجراءات الجمركية لتسهيل استثمارك في "
+"أفريقيا بكفاءة."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"We provide our services in 26 countries and have the necessary\n"
+"                            expertise to boost your international investments successfully."
+msgstr ""
+"نقدم خدماتنا في 26 دولة، ما يمكننا من امتلاك الخبرة المطلوبة التي تمكن "
+"عملاؤنا من تطوير استثماراتهم دوليًا بنجاح."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "We provide the best investment opportunities"
+msgstr "نوفر لك أفضل فرص الاستثمار في أفريقيا"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid ""
+"We provide you with continuous training and the resources to enhance\n"
+"                                your skills and achieve your goals."
+msgstr "نوفر لك التدريب المستمر والإمكانات لتنمية مهاراتك وتحقيق أهدافك."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"We provide you with extensive investment opportunities in real estate\n"
+"                              projects in major African cities."
+msgstr ""
+"نوفر لك فرص استثمارية واسعة في المشاريع السكنية والتجارية في المدن الإفريقية"
+" الكبرى."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"We provide you with the opportunity to invest in sustainable power\n"
+"                              generation."
+msgstr ""
+"نوفر لك الفرصة للاستثمار في الطاقة الشمسية والرياح لتوليد الطاقة المستدامة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid ""
+"We strive for effective change and deliver integrated solutions to make a\n"
+"                      tangible impact on society!"
+msgstr ""
+"نسعى لتحقيق تغيير فعال ونقدم حلولًا متكاملة لترك أثر ملموس في المجتمع!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid ""
+"We strive to create a positive impact that\n"
+"                          translates our values and vision into tangible support for humanity!"
+msgstr ""
+"نسعى لإحداث تأثير إيجابي يترجم قيمنا ورؤيتنا في دعم الإنسانية بشكل ملموس!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"We support research and development efforts to provide innovative\n"
+"                              solutions across all sectors to foster an environment conducive to\n"
+"                              innovation within institutions."
+msgstr ""
+"ندعم عمليات البحث والتطوير ونقدم حلول مبتكرة في كافة المجالات لنطور بيئة "
+"محفزة للابتكار داخل المؤسسات."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"We will achieve this through a comprehensive approach that emphasizes\n"
+"                          investment and development in projects centered on sustainability."
+msgstr ""
+"سوف نحقق ذلك من خلال نهج شامل يركز على الاستثمار والتنمية في المشاريع التي "
+"تتمحور حول الاستدامة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_aboutus_page
+msgid ""
+"We work towards developing and applying policies that foster gender\n"
+"                              equality and social equity."
+msgstr "في عالم الأعمال، وتحقيق العدالة الاجتماعية المرغوبة."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Website design."
+msgstr "تصميم المواقع الإلكترونية."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "What Edamah Provides:"
+msgstr "ماذا تقدم إدامة؟!"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid "What Makes Avrasya stand out?"
+msgstr "ما الذي يميز (أوراسيا)؟!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "What Relief Center Provides:"
+msgstr "ماذا يقدم مركز الإغاثة؟!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "What does EMDAD provide?"
+msgstr "ماذا تقدم إمداد؟"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "What does TAYF provide?"
+msgstr "ماذا تقدم طيف؟"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid ""
+"Which are witnessing rapid growth due to their importance in improving\n"
+"                              Africa’s economy."
+msgstr ""
+"واللذان يشهدان نموًا سريعًا ومذهلًا في أفريقيا لأهميتهما في تحسين الإنتاج "
+"المحلي."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Why Africat?"
+msgstr "لماذا أفريقات؟!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "Why Join Us?"
+msgstr "لماذا تنضم إلينا؟"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Why choose Tawridat"
+msgstr "لماذا تختار توريدات"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid "Why choose Tawridat?"
+msgstr "لماذا تختار توريدات"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "Your Email"
+msgstr "البريد الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_africat_page_ir_ui_view
+msgid "Your Ideal Partner for Successful Investment in Africa!"
+msgstr "رواد التنمية المستدامة في جميع أنحاء إفريقيا!"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_contact_us_page
+msgid "Your Message"
+msgstr "الرسالة"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.footer_custom
+msgid "Your e-mail address"
+msgstr "عنوان البريد الإلكتروني"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_projects_page
+msgid "Your ideal partner to achieve all your real estate needs in Qatar."
+msgstr "شريكك المثالي لتلبية كافة احتياجاتك العقارية في قطر."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_avrasya_page_ir_ui_view
+msgid ""
+"Your trusted partner for <br/> <span class=\"text-primary\">sustainable "
+"global growth!</span>"
+msgstr ""
+"شريكك المثالي لتحقيق <br/> <span class=\"text-primary\">النجاح العالمي "
+"المستدام!</span>"
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "open position"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+msgid "open positions"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_home_page
+msgid "partner.name"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"to encourage student engagement and foster\n"
+"                                collaboration and creativity."
+msgstr "لتحفيز الطلاب على المشاركة وتطوير تعاونهم وإبداعهم."
+
+#. module: theme_taqat
+#: model_terms:ir.ui.view,arch_db:theme_taqat.taqat_tawridat_page_ir_ui_view
+msgid ""
+"to support students' exploratory talents and\n"
+"                                enhance their innovative abilities."
+msgstr "لدعم المواهب الاستكشافية لدى الطلاب وتعزيز قدرتهم على الابتكار."
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "unhcr"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.taqat_ourprograms_page
+msgid "unicef"
+msgstr ""
+
+#. module: theme_taqat
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.index_inherit
+#: model_terms:theme.ir.ui.view,arch:theme_taqat.posts_loop_customize
+msgid "unpublished"
+msgstr ""
