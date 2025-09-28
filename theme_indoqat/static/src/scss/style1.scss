@@ -207,9 +207,22 @@
 .custom-ol-wrapper ol li::before {
   content: counter(my-counter, decimal-leading-zero);
   position: absolute;
-  left: -30px;
+  left: -40px;
   font-weight: bold;
   top: 1px;
+  font-size: 20px;
+
+}
+
+.basic_img {
+  max-height: 300px;
+}
+
+@media (min-width: 992px) {
+  .basic_img {
+
+    height: 297px !important;
+  }
 
 }
 
@@ -400,6 +413,124 @@
 
 }
 
+
+/* Minimal preview styles for editor / non-initialized Owl
+   - Only active when JS switched the DOM to grid-mode or when owl is NOT initialized
+   - Non-invasive: live Owl initialization (owl-carousel + owl-loaded) remains unaffected
+*/
+
+/* ---------------------------
+   1) General image sanity
+   --------------------------- */
+.s_mood_carousel img,
+.projects-carousel img,
+.s_mood_carousel .mood-item img,
+.projects-carousel > * img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------------------------
+   2) Mood carousel — editor preview
+   When your JS calls _toGrid() it adds .grid-mode on the row
+   --------------------------- */
+.s_mood_carousel .grid-mode {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 8px; /* keep some breathing room */
+  scroll-snap-type: x mandatory;
+}
+
+/* Each item behaves like a mobile card in preview */
+.s_mood_carousel .grid-mode > * {
+  flex: 0 0 82%; /* wide card look, similar to mobile slide */
+  max-width: 420px; /* prevent huge cards on wide editor viewport */
+  box-sizing: border-box;
+  scroll-snap-align: center;
+  margin: 0;
+  padding: 8px;
+}
+
+/* On narrower editor panes, let them be full width */
+@media (max-width: 480px) {
+  .s_mood_carousel .grid-mode > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------
+   3) Projects carousel — fallback when Owl is NOT initialized
+   Target .projects-carousel when it's NOT an owl-carousel to mimic small/mobile behavior
+   This will also apply when ProjectsCarouselMd destroyed Owl in editor
+   --------------------------- */
+.projects-carousel:not(.owl-carousel) {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 8px;
+  scroll-snap-type: x mandatory;
+}
+
+/* Project card sizing in preview */
+.projects-carousel:not(.owl-carousel) > * {
+  flex: 0 0 84%;
+  max-width: 420px;
+  box-sizing: border-box;
+  scroll-snap-align: center;
+  margin: 0;
+  padding: 8px;
+}
+
+/* Slightly tighter on medium editor panes */
+@media (min-width: 768px) {
+  .projects-carousel:not(.owl-carousel) > * {
+    flex: 0 0 42%; /* two across look in a wider editor */
+    max-width: none;
+  }
+}
+
+/* ---------------------------
+   4) Keep controls visible inside editor (if you use prev/next links)
+   Scope to the widget target so it doesn't change global controls
+   --------------------------- */
+.s_mood_carousel .mood-prev,
+.s_mood_carousel .mood-next,
+.projects-carousel .projects-prev,
+.projects-carousel .projects-next {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9); /* slight bg so it's visible in editor */
+  font-size: 0.9rem;
+}
+
+/* Make sure Owl-hidden won't hide preview content accidentally */
+.projects-carousel.owl-hidden,
+.s_mood_carousel.owl-hidden,
+.s_mood_carousel .grid-mode.owl-hidden,
+.projects-carousel:not(.owl-carousel).owl-hidden {
+  display: block !important;
+}
+
+/* ---------------------------
+   5) Accessibility / focus visible for keyboard testing
+   --------------------------- */
+.s_mood_carousel .mood-prev:focus,
+.s_mood_carousel .mood-next:focus,
+.projects-carousel .projects-prev:focus,
+.projects-carousel .projects-next:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
 
 
 

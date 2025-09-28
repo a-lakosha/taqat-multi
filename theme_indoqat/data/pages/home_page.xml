@@ -5,10 +5,7 @@
 
             <xpath expr="//div[@id='wrap']" position="replace">
                 <t t-set="additional_title" t-valuef="Indoqat Home"/>
-                <t t-set="project_ids"
-                   t-value="request.env['website.projects'].search([('website_id', '=', website.id)])"/>
-                <t t-set="partners_ids"
-                   t-value="request.env['website.partners'].search([('website_id', '=',website.id)])"/>
+
                 <div id="wrap" class="oe_structure oe_empty">
                     <!--                    Hero Section-->
                     <section class="pt24 pb56">
@@ -58,7 +55,7 @@
                                          class="img-fluid home-page-hero"/>
                                     <div class="position-absolute different-services">
                                         <h3 class="mb-0 o_not_editable">
-                                            <t t-out="'%02d' % len(project_ids)"/>
+                                            05
                                         </h3>
                                         <p class="mb-0">Different Services</p>
                                     </div>
@@ -141,7 +138,7 @@
                                      style="--wanim-duration: 1.5s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                     <div class="rounded-circle d-flex flex-column align-items-center justify-content-center border border-4 border-primary w250 h250 d-flex justify-content-center align-items-center">
                                         <p class="display-1 m-0 p-0 text-clip-primary fw-bold o_not_editable">
-                                            <t t-out="'%02d' % len(project_ids)"/>
+                                            05
                                         </p>
                                         <p class="display-6 m-0 p-0">
                                             Distinct Services
@@ -151,39 +148,179 @@
                             </div>
                         </div>
                     </section>
-                    <section class="projects_section pb80" t-if="project_ids">
+                    <section class="projects_section pb80">
                         <div class="container">
-                            <div class="projects-carousel owl-carousel">
-                                <t t-if="len(project_ids)">
-                                    <t t-foreach="project_ids" t-as="project">
-                                        <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
-                                             style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
-                                            <div class="project_card_img mb-4">
-                                                <img t-attf-src="/web/image/website.projects/{{project.id}}/website_image"
-                                                     alt="Indoqat Green Wall"
-                                                     class="rounded-4 h-100 w-100 object-fit-cover" loading="lazy"/>
-                                            </div>
-                                            <p class="text-primary display-4 fw-bold mb-4"
-                                               t-out="('%02d' % (project_index+1))"/>
-                                            <p t-att-data-tooltip="project.title" data-tooltip-position="bottom"
-                                               class="text-black display-4 fw-bold mb-4 project_title-home display-4"
-                                               t-out="project.title"/>
-                                            <p class="text-black project_subtitle-home display-6 mb-4"
-                                               t-out="project.teaser"/>
-                                            <a t-attf-href="/services/#project_{{project.id}}"
-                                               class="btn btn-primary fw-bold px-4 py-2 align-self-start">
-                                                More
-                                                <span class="ms-3">
-                                                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
-                                                         xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
-                                                              fill="#FEF3F2"/>
-                                                    </svg>
-                                                </span>
-                                            </a>
+                            <div class="projects-carousel owl-carousel" data-oe-structure="true">
+                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                        <div class="project_card_img mb-4">
+                                            <img src="/theme_indoqat/static/src/imgs/services/basic-services1.webp"
+                                                 alt="Indoqat Green Wall"
+                                                 class="rounded-4 h-100 w-100 object-fit-cover basic_img"
+                                                 loading="lazy"/>
                                         </div>
-                                    </t>
-                                </t>
+                                        <p class="text-primary display-4 fw-bold mb-4"
+                                        >01
+                                        </p>
+                                        <p data-tooltip-position="bottom"
+                                           class="text-black display-4 fw-bold mb-4 project_title-home display-4"
+                                        >Real Estate Development &amp; Investment
+                                        </p>
+                                        <p class="text-black project_subtitle-home display-6 mb-4"
+                                        >Developing residential, commercial, and tourism projects based on sustainable
+                                            design standards.Implementing Comprehensive management of the planning,
+                                            construction, and operation stages.
+                                        </p>
+                                        <a t-attf-href="/services"
+                                           class="btn btn-primary fw-bold px-4 py-2 align-self-start">
+                                            More
+                                            <span class="ms-3">
+                                                <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
+                                                          fill="#FEF3F2"/>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                        <div class="project_card_img mb-4">
+                                            <img src="/theme_indoqat/static/src/imgs/services/basic-services2.webp"
+                                                 alt="Indoqat Green Wall"
+                                                 class="rounded-4 h-100 w-100 object-fit-cover basic_img"
+                                                 loading="lazy"/>
+                                        </div>
+                                        <p class="text-primary display-4 fw-bold mb-4"
+                                        >02
+                                        </p>
+                                        <p data-tooltip-position="bottom"
+                                           class="text-black display-4 fw-bold mb-4 project_title-home display-4"
+                                        >Renewable and Sustainable Energy
+                                        </p>
+                                        <p class="text-black project_subtitle-home display-6 mb-4"
+                                        >Investing in solar energy projects and innovative environmental solutions.
+                                        </p>
+                                        <a t-attf-href="/services"
+                                           class="btn btn-primary fw-bold px-4 py-2 align-self-start">
+                                            More
+                                            <span class="ms-3">
+                                                <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
+                                                          fill="#FEF3F2"/>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                        <div class="project_card_img mb-4">
+                                            <img src="/theme_indoqat/static/src/imgs/services/basic-services3.webp"
+                                                 alt="Indoqat Green Wall"
+                                                 class="rounded-4 h-100 w-100 object-fit-cover basic_img"
+                                                 loading="lazy"/>
+                                        </div>
+                                        <p class="text-primary display-4 fw-bold mb-4"
+                                        >03
+                                        </p>
+                                        <p data-tooltip-position="bottom"
+                                           class="text-black display-4 fw-bold mb-4 project_title-home display-4"
+                                        >Smart Agriculture
+                                        </p>
+                                        <p class="text-black project_subtitle-home display-6 mb-4"
+                                        >Developing advanced farming projects for commercial and export purposes.
+                                        </p>
+                                        <a t-attf-href="/services"
+                                           class="btn btn-primary fw-bold px-4 py-2 align-self-start">
+                                            More
+                                            <span class="ms-3">
+                                                <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
+                                                          fill="#FEF3F2"/>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                        <div class="project_card_img mb-4">
+                                            <img src="/theme_indoqat/static/src/imgs/services/basic-services4.webp"
+                                                 alt="Indoqat Green Wall"
+                                                 class="rounded-4 h-100 w-100 object-fit-cover basic_img"
+                                                 loading="lazy"/>
+                                        </div>
+                                        <p class="text-primary display-4 fw-bold mb-4"
+                                        >04
+                                        </p>
+                                        <p data-tooltip-position="bottom"
+                                           class="text-black display-4 fw-bold mb-4 project_title-home display-4"
+                                        >Import and Export
+                                        </p>
+                                        <p class="text-black project_subtitle-home display-6 mb-4"
+                                        >Enhancing connections between Indonesia and the Gulf countries in the
+                                            construction, agricultural, and food sectors.
+                                        </p>
+                                        <a t-attf-href="/services"
+                                           class="btn btn-primary fw-bold px-4 py-2 align-self-start">
+                                            More
+                                            <span class="ms-3">
+                                                <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
+                                                          fill="#FEF3F2"/>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                        <div class="project_card_img mb-4">
+                                            <img src="/theme_indoqat/static/src/imgs/services/basic-services5.webp"
+                                                 alt="Indoqat Green Wall"
+                                                 class="rounded-4 h-100 w-100 object-fit-cover basic_img"
+                                                 loading="lazy"/>
+                                        </div>
+                                        <p class="text-primary display-4 fw-bold mb-4"
+                                        >05
+                                        </p>
+                                        <p data-tooltip-position="bottom"
+                                           class="text-black display-4 fw-bold mb-4 project_title-home display-4"
+                                        >Social and Environmental Responsibility
+                                        </p>
+                                        <p class="text-black project_subtitle-home display-6 mb-4"
+                                        >Supporting orphan care programs and charitable initiatives.
+                                            Implementing infrastructure projects to support humanitarian efforts in
+                                            developing regions.
+                                            Maintaining a strong commitment to sustainability and environmental
+                                            protection standards in all corporate operations to ensure long-term
+                                            success.
+                                        </p>
+                                        <a t-attf-href="/services"
+                                           class="btn btn-primary fw-bold px-4 py-2 align-self-start">
+                                            More
+                                            <span class="ms-3">
+                                                <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.277628 1.61717L14.7658 16.1053H4.21999C3.69708 16.1053 3.27262 16.5298 3.27262 17.0527C3.27262 17.5756 3.69708 18.0001 4.21999 18.0001H17.0526C17.5755 18.0001 18 17.5756 18 17.0527V4.22005C18 3.69714 17.5755 3.27268 17.0526 3.27268C16.5297 3.27268 16.1053 3.69714 16.1053 4.22005L16.1054 14.7658L1.6172 0.277594C1.24708 -0.0925313 0.647757 -0.0925313 0.277628 0.277594C-0.092495 0.647719 -0.092495 1.24704 0.277628 1.61717Z"
+                                                          fill="#FEF3F2"/>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </section>
@@ -329,12 +466,22 @@
                             <div class="d-flex flex-lg-wrap justify-content-start justify-content-lg-center gap-x gap-y align-items-center company_logos">
 
 
-                                <t t-foreach="partners_ids" t-as="partner">
-                                    <img t-attf-src="/web/image/website.partners/{{partner.id}}/image"
-                                         t-att-alt="partner.name" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos01.svg"
+                                     alt="logo01" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos02.svg"
+                                     alt="logo02" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos03.svg"
+                                     alt="logo03" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos04.svg"
+                                     alt="logo04" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos05.svg"
+                                     alt="logo05" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos06.svg"
+                                     alt="logo06" loading="lazy"/>
+                                <img src="/theme_indoqat/static/src/imgs/homepage_images/Logos07.svg"
+                                     alt="logo07" loading="lazy"/>
 
 
-                                </t>
                             </div>
                         </div>
                     </section>

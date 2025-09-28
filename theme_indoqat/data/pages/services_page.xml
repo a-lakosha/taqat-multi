@@ -3,8 +3,6 @@
     <data>
         <template id="services_template" name="Our Services">
             <t t-set="additional_title" t-valuef="Our Services"/>
-            <t t-set="project_ids"
-               t-value="request.env['website.projects'].search([('website_id', '=', request.website.id)])"/>
 
             <t t-call="website.layout">
                 <div id="wrap" class="oe_structure main__content-area-services">
@@ -53,7 +51,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_services " t-if="project_ids">
+                    <section class="basic_services ">
 
                         <div class="container pb80 pt80">
                             <h1 class="display-1 text-center mt-5 mb96 bservices-title o_animable o_animate o_anim_fade_in"
@@ -61,29 +59,261 @@
                                 <span class="text-primary">Our Basic</span>
                                 Services
                             </h1>
+                        </div>
+                    </section>
+                    <section class="basic_services ">
+                        <div class="container">
+                            <div class="row right-basi  cs o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                 id="1"
+                                 style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
+                                <span class="text-primary h1 custom-ol">01</span>
+                                <div class="col-lg-6 col-xl-7">
+                                    <h3 class="text-dark h1 mb-3" style="max-width:450px">
+                                        Real Estate Development &amp; Investment
+                                    </h3>
+                                </div>
+                                <p class="display-5 col-lg-6 col-xl-5">We handle every stage of real estate development
+                                    to ensure its alignment with sustainability standards and the evolving demands of
+                                    the market.
+                                </p>
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                    <div class="custom-ol-wrapper ">
+                                        <ol>
+                                            <li>
+                                                <h3>Comprehensive Feasibility Studies for Real Estate Projects</h3>
+                                                <h5 class="fw-normal">We conduct in-depth financial and technical
+                                                    analysis to identify
+                                                    profitable real estate opportunities in Indonesia.
+                                                </h5>
+                                            </li>
+                                            <li>
+                                                <h3>Developing Residential, Commercial &amp; Tourism Complexes</h3>
+                                                <h5 class="fw-normal">We design and build diverse real estate projects
+                                                    that match client
+                                                    needs and investment goals.
+                                                </h5>
+                                            </li>
 
+                                            <li>
+                                                <h3>Efficient Construction &amp; Project Execution</h3>
+                                                <h5 class="fw-normal">We manage all construction phases to ensure timely
+                                                    delivery and
+                                                    top-quality results.
+                                                </h5>
+                                            </li>
+                                        </ol>
 
-                            <t t-foreach="project_ids" t-as="project">
-                                <div t-attf-class="row right-basics o_animable o_animate o_anim_slide_in {{'o_anim_from_left' if project_odd else 'o_anim_from_right'}}"
-                                     t-attf-id="project_{{project.id}}"
-                                     style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
-                                    <span class="text-primary h1 custom-ol" t-out="('%02d' % (project_index+1))"/>
-                                    <div class="col-lg-6 col-xl-7">
-                                        <h3 class="text-dark h1" style="max-width:450px" t-field="project.title"/>
-                                    </div>
-                                    <p class="display-5 col-lg-6 col-xl-5" t-field="project.sub_title"/>
-                                    <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
-                                        <div class="custom-ol-wrapper " t-field="project.desc"/>
-                                    </div>
-
-
-                                    <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
-
-                                        <img t-attf-src="/web/image/website.projects/{{project.id}}/website_image"
-                                             t-att-alt="project.title" class="w-100" loading="lazy"/>
                                     </div>
                                 </div>
-                            </t>
+
+
+                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
+                                    <img src="/theme_indoqat/static/src/imgs/services/basic-services1.webp"
+                                         alt="basic1" class="w-100" loading="lazy"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="basic_services ">
+                        <div class="container">
+                            <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_right"
+                                 id="2"
+                                 style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
+                                <span class="text-primary h1 custom-ol">02</span>
+                                <div class="col-lg-6 col-xl-7">
+                                    <h3 class="text-dark h1" style="max-width:450px">
+                                        Alternative &amp; Sustainable Energy
+                                    </h3>
+                                </div>
+                                <p class="display-5 col-lg-6 col-xl-5">We invest in solar energy projects and smart
+                                    environmental solutions to drive energy efficiency and sustainable growth.
+                                </p>
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                    <div class="custom-ol-wrapper ">
+                                        <ol>
+                                            <li>
+                                                <h3>Building Solar Power Stations</h3>
+                                                <h5 class="fw-normal">We construct high-performance solar systems to
+                                                    generate clean energy.
+                                                </h5>
+                                            </li>
+                                            <li>
+                                                <h3>Smart Energy-Saving System Design</h3>
+                                                <h5 class="fw-normal">We develop intelligent solutions to reduce
+                                                    electricity consumption and optimize energy efficiency.
+                                                </h5>
+                                            </li>
+
+                                            <li>
+                                                <h3>Integrated Energy Solutions for Facilities</h3>
+                                                <h5 class="fw-normal">We implement smart energy strategies to boost
+                                                    efficiency across facilities.
+                                                </h5>
+                                            </li>
+                                        </ol>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
+                                    <img src="/theme_indoqat/static/src/imgs/services/basic-services2.webp"
+                                         alt="basic2" class="w-100" loading="lazy"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="basic_services ">
+                        <div class="container">
+                            <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                 id="1"
+                                 style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
+                                <span class="text-primary h1 custom-ol">03</span>
+                                <div class="col-lg-6 col-xl-7">
+                                    <h3 class="text-dark h1" style="max-width:450px">
+                                        Smart Commercial Agriculture
+                                    </h3>
+                                </div>
+                                <p class="display-5 col-lg-6 col-xl-5">We develop high-tech farms to enhance
+                                    productivity and promote sustainable export-driven agriculture.
+                                </p>
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                    <div class="custom-ol-wrapper ">
+                                        <ol>
+                                            <li>
+                                                <h3>Boosting Farm Output with Digital Innovation</h3>
+                                                <h5 class="fw-normal">We apply advanced irrigation methods to conserve
+                                                    resources and ensure healthy crop growth.
+                                                </h5>
+                                            </li>
+                                            <li>
+                                                <h3>Smart Irrigation System Deployment</h3>
+                                                <h5 class="fw-normal">We apply advanced irrigation methods to conserve
+                                                    resources and ensure healthy crop growth.
+                                                </h5>
+                                            </li>
+                                            <li>
+                                                <h3>Organic Crop Production for Export Markets</h3>
+                                                <h5 class="fw-normal">We grow high-quality organic produce that complies
+                                                    with international export standards.
+                                                </h5>
+                                            </li>
+
+
+                                        </ol>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
+                                    <img src="/theme_indoqat/static/src/imgs/services/basic-services3.webp"
+                                         alt="basic3" class="w-100" loading="lazy"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="basic_services ">
+                        <div class="container">
+                            <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_right"
+                                 id="4"
+                                 style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
+                                <span class="text-primary h1 custom-ol">04</span>
+                                <div class="col-lg-6 col-xl-7">
+                                    <h3 class="text-dark h1" style="max-width:450px">
+                                        Import &amp; Export
+                                    </h3>
+                                </div>
+                                <p class="display-5 col-lg-6 col-xl-5">We streamline trade between Indonesia and global
+                                    markets with a focus on construction materials, agriculture, and food products.
+                                </p>
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                    <div class="custom-ol-wrapper ">
+                                        <ol>
+                                            <li>
+                                                <h3>Exporting Premium Indonesian Agricultural Goods</h3>
+                                                <h5 class="fw-normal">We produce and supply premium agricultural crops,
+                                                    ensuring excellent quality for international markets.
+                                                </h5>
+                                            </li>
+                                            <li>
+                                                <h3>Importing Reliable Construction &amp; Engineering Materials</h3>
+                                                <h5 class="fw-normal">We provide trusted building supplies and equipment
+                                                    for development projects.
+                                                </h5>
+                                            </li>
+
+                                            <li>
+                                                <h3>Professional Trade Brokerage Services</h3>
+                                                <h5 class="fw-normal">We connect companies through seamless trade
+                                                    facilitation and expert commercial mediation.
+                                                </h5>
+                                            </li>
+                                        </ol>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
+                                    <img src="/theme_indoqat/static/src/imgs/services/basic-services4.webp"
+                                         alt="basic4" class="w-100" loading="lazy"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="basic_services ">
+                        <div class="container">
+                            <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_left"
+                                 id="5"
+                                 style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
+                                <span class="text-primary h1 custom-ol">05</span>
+                                <div class="col-lg-6 col-xl-7">
+                                    <h3 class="text-dark h1" style="max-width:450px">
+                                        Social &amp; Environmental Responsibility
+                                    </h3>
+                                </div>
+                                <p class="display-5 col-lg-6 col-xl-5">We champion humanitarian and environmental
+                                    efforts and embed sustainability into every aspect of our operations.
+                                </p>
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                    <div class="custom-ol-wrapper ">
+                                        <ol>
+                                            <li>
+                                                <h3>Supporting Orphan Care &amp; Charitable Programs</h3>
+                                                <h5 class="fw-normal">We contribute to impactful social programs that
+                                                    uplift underserved communities.
+                                                </h5>
+                                            </li>
+                                            <li>
+                                                <h3>Delivering Humanitarian Infrastructure in Developing Regions</h3>
+                                                <h5 class="fw-normal">We build vital facilities that enhance the quality
+                                                    of life in needful areas.
+                                                </h5>
+                                            </li>
+
+                                            <li>
+                                                <h3>Promoting Environmental Sustainability Across Operations</h3>
+                                                <h5 class="fw-normal">We apply eco-conscious standards throughout all
+                                                    our business activities.
+                                                </h5>
+                                            </li>
+                                        </ol>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+
+                                    <img src="/theme_indoqat/static/src/imgs/services/basic-services5.webp"
+                                         alt="basic5" class="w-100" loading="lazy"/>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
