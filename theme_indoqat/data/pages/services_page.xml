@@ -51,32 +51,33 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_services ">
+                    <section class="basic_services pt80 pb64 ">
 
-                        <div class="container pb80 pt80">
-                            <h1 class="display-1 text-center mt-5 mb96 bservices-title o_animable o_animate o_anim_fade_in"
+                        <div class="container">
+                            <h1 class="display-1 text-center my-lg-5 bservices-title o_animable o_animate o_anim_fade_in"
                                 style="font-weight:700; --wanim-duration: 1.2s; --wanim-intensity: 60;">
                                 <span class="text-primary">Our Basic</span>
                                 Services
                             </h1>
                         </div>
                     </section>
-                    <section class="basic_services ">
-                        <div class="container">
+                    <section class="basic_services  pb80 ">
+                        <div class="container  pt-lg-5">
                             <div class="row right-basi  cs o_animable o_animate o_anim_slide_in o_anim_from_left"
                                  id="1"
                                  style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                 <span class="text-primary h1 custom-ol">01</span>
-                                <div class="col-lg-6 col-xl-7">
+                                <div class="col-lg-6 col-xl-7 pb-3 pb-lg-5">
                                     <h3 class="text-dark h1 mb-3" style="max-width:450px">
                                         Real Estate Development &amp; Investment
                                     </h3>
                                 </div>
-                                <p class="display-5 col-lg-6 col-xl-5">We handle every stage of real estate development
+                                <p class="display-5 col-lg-6 col-xl-5 pb-3 pb-lg-5">We handle every stage of real estate
+                                    development
                                     to ensure its alignment with sustainability standards and the evolving demands of
                                     the market.
                                 </p>
-                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last  services_description">
                                     <div class="custom-ol-wrapper ">
                                         <ol>
                                             <li>
@@ -107,7 +108,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+                                <div class="col-lg-6 col-xl-7 pe-lg-4 ">
 
                                     <img src="/theme_indoqat/static/src/imgs/services/basic-services1.webp"
                                          alt="basic1" class="w-100" loading="lazy"/>
@@ -115,21 +116,22 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_services ">
-                        <div class="container">
+                    <section class="basic_services  pb80 ">
+                        <div class="container  pt-lg-5">
                             <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_right"
                                  id="2"
                                  style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                 <span class="text-primary h1 custom-ol">02</span>
-                                <div class="col-lg-6 col-xl-7">
+                                <div class="col-lg-6 col-xl-7 pb-3 pb-lg-5">
                                     <h3 class="text-dark h1" style="max-width:450px">
                                         Alternative &amp; Sustainable Energy
                                     </h3>
                                 </div>
-                                <p class="display-5 col-lg-6 col-xl-5">We invest in solar energy projects and smart
+                                <p class="display-5 col-lg-6 col-xl-5 pb-3 pb-lg-5">We invest in solar energy projects
+                                    and smart
                                     environmental solutions to drive energy efficiency and sustainable growth.
                                 </p>
-                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last services_description">
                                     <div class="custom-ol-wrapper ">
                                         <ol>
                                             <li>
@@ -157,7 +159,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+                                <div class="col-lg-6 col-xl-7 pe-lg-4 ">
 
                                     <img src="/theme_indoqat/static/src/imgs/services/basic-services2.webp"
                                          alt="basic2" class="w-100" loading="lazy"/>
@@ -165,21 +167,22 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_services ">
-                        <div class="container">
+                    <section class="basic_services  pb80 ">
+                        <div class="container  pt-lg-5">
                             <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_left"
                                  id="1"
                                  style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                 <span class="text-primary h1 custom-ol">03</span>
-                                <div class="col-lg-6 col-xl-7">
+                                <div class="col-lg-6 col-xl-7 pb-3 pb-lg-5">
                                     <h3 class="text-dark h1" style="max-width:450px">
                                         Smart Commercial Agriculture
                                     </h3>
                                 </div>
-                                <p class="display-5 col-lg-6 col-xl-5">We develop high-tech farms to enhance
+                                <p class="display-5 col-lg-6 col-xl-5 pb-3 pb-lg-5">We develop high-tech farms to
+                                    enhance
                                     productivity and promote sustainable export-driven agriculture.
                                 </p>
-                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last services_description">
                                     <div class="custom-ol-wrapper ">
                                         <ol>
                                             <li>
@@ -208,7 +211,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+                                <div class="col-lg-6 col-xl-7 pe-lg-4 ">
 
                                     <img src="/theme_indoqat/static/src/imgs/services/basic-services3.webp"
                                          alt="basic3" class="w-100" loading="lazy"/>
@@ -216,21 +219,22 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_services ">
-                        <div class="container">
+                    <section class="basic_services  pb80 ">
+                        <div class="container  pt-lg-5">
                             <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_right"
                                  id="4"
                                  style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                 <span class="text-primary h1 custom-ol">04</span>
-                                <div class="col-lg-6 col-xl-7">
+                                <div class="col-lg-6 col-xl-7 pb-3 pb-lg-5">
                                     <h3 class="text-dark h1" style="max-width:450px">
                                         Import &amp; Export
                                     </h3>
                                 </div>
-                                <p class="display-5 col-lg-6 col-xl-5">We streamline trade between Indonesia and global
+                                <p class="display-5 col-lg-6 col-xl-5 pb-3 pb-lg-5">We streamline trade between
+                                    Indonesia and global
                                     markets with a focus on construction materials, agriculture, and food products.
                                 </p>
-                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last services_description">
                                     <div class="custom-ol-wrapper ">
                                         <ol>
                                             <li>
@@ -258,7 +262,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+                                <div class="col-lg-6 col-xl-7 pe-lg-4 ">
 
                                     <img src="/theme_indoqat/static/src/imgs/services/basic-services4.webp"
                                          alt="basic4" class="w-100" loading="lazy"/>
@@ -266,21 +270,22 @@
                             </div>
                         </div>
                     </section>
-                    <section class="basic_services ">
-                        <div class="container">
+                    <section class="basic_services  pb80 ">
+                        <div class="container pt-lg-5">
                             <div class="row right-basics o_animable o_animate o_anim_slide_in o_anim_from_left"
                                  id="5"
                                  style="--wanim-duration: 1.2s; --wanim-delay: 0.2s; --wanim-intensity: 75;">
                                 <span class="text-primary h1 custom-ol">05</span>
-                                <div class="col-lg-6 col-xl-7">
+                                <div class="col-lg-6 col-xl-7 pb-3 pb-lg-5">
                                     <h3 class="text-dark h1" style="max-width:450px">
                                         Social &amp; Environmental Responsibility
                                     </h3>
                                 </div>
-                                <p class="display-5 col-lg-6 col-xl-5">We champion humanitarian and environmental
+                                <p class="display-5 col-lg-6 col-xl-5 pb-3 pb-lg-5">We champion humanitarian and
+                                    environmental
                                     efforts and embed sustainability into every aspect of our operations.
                                 </p>
-                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last top-spacing services_description">
+                                <div class="col-lg-6 col-xl-5  align-content-center  order-lg-last services_description">
                                     <div class="custom-ol-wrapper ">
                                         <ol>
                                             <li>
@@ -308,7 +313,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6 col-xl-7 top-spacing pe-lg-4 ">
+                                <div class="col-lg-6 col-xl-7 pe-lg-4 ">
 
                                     <img src="/theme_indoqat/static/src/imgs/services/basic-services5.webp"
                                          alt="basic5" class="w-100" loading="lazy"/>
