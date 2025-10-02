@@ -19,8 +19,12 @@
                         <div class="col-lg-4 o_animate o_anim_fade_in">
                             <t t-call="website.website_search_box_input">
                                 <t t-set="_form_classes"
-                                   t-valuef="#{not len(blogs) &gt; 1 and 'ms-auto'} flex-grow-1 flex-lg-grow-0"/>
-                                <t t-set="_classes" t-valuef=""/>
+                                   t-valuef="#{not len(blogs) &gt; 1 and 'ms-auto'} flex-grow-1 flex-lg-grow-0 bg-transparent"/>
+                                <t t-set="_classes"
+                                   t-valuef="bg-transparent border flex-row-reverse gap-2 py16 px-3 rounded-3 align-items-start justify-content-end"/>
+                                <t t-set="_input_classes" t-valuef="bg-transparent"/>
+                                <t t-set="_submit_classes" t-valuef="bg-transparent"/>
+                                <t t-set="placeholder" t-valuef="Text here"/>
                                 <t t-set="search_type" t-valuef="blogs"/>
                                 <t t-set="action" t-value="blog_url(tag=tag,search=search)"/>
                                 <t t-set="display_description" t-valuef="true"/>
@@ -36,45 +40,41 @@
         </xpath>
     </template>
     <!--    Search Form override-->
-    <template id="custom_search_input" inherit_id="website.website_search_box_input">
-        <xpath expr="//input" position="attributes">
-            <attribute name="t-attf-class"
-                       add="bg-transparent"
-                       remove=""
-                       separator=" "/>
-            <attribute name="placeholder">Text here</attribute>
-        </xpath>
-        <xpath expr="//button" position="attributes">
-            <attribute name="t-attf-class"
-                       add="bg-transparent"
-                       remove=""
-                       separator=" "/>
-        </xpath>
-        <xpath expr="//div" position="attributes">
-            <attribute name="t-attf-class"
-                       add="border flex-row-reverse gap-2 py16 px-3 rounded-3 align-items-start justify-content-end"
-                       remove=""
-                       separator=" "/>
-        </xpath>
-    </template>
+    <!--    <template id="custom_search_input" inherit_id="website.website_search_box_input">-->
+    <!--        <xpath expr="//input" position="attributes">-->
+    <!--            <attribute name="t-attf-class"-->
+    <!--                       add="bg-transparent"-->
+    <!--                       remove=""-->
+    <!--                       separator=" "/>-->
+    <!--            <attribute name="placeholder">Text here</attribute>-->
+    <!--        </xpath>-->
+    <!--        <xpath expr="//button" position="attributes">-->
+    <!--            <attribute name="t-attf-class"-->
+    <!--                       add="bg-transparent"-->
+    <!--                       remove=""-->
+    <!--                       separator=" "/>-->
+    <!--        </xpath>-->
+    <!--        <xpath expr="//div" position="attributes">-->
+    <!--            <attribute name="t-attf-class"-->
+    <!--                       add="border flex-row-reverse gap-2 py16 px-3 rounded-3 align-items-start justify-content-end"-->
+    <!--                       remove=""-->
+    <!--                       separator=" "/>-->
+    <!--        </xpath>-->
+    <!--    </template>-->
     <!--    Navbar Override-->
     <template id="custom_inherit_listing_layout_switcher" inherit_id="website_blog.blogs_nav">
         <xpath expr="//nav[contains(@t-attf-class, 'navbar navbar-expand-lg navbar-light pt-4 pb-0 px-0')]"
                position="replace">
-            <t t-set="latest_posts"
-               t-value="request.env['blog.post'].search([('is_published', '=', True)], order='create_date desc', limit=4)"/>
-            <t t-set="first_latest_post" t-value="latest_posts[0] if latest_posts else False"/>
-            <t t-set="last_three_posts" t-value="latest_posts[1:] if latest_posts else []"/>
             <!-- Featured post section -->
             <!--            <section class="latest_post" t-if="latest_post">-->
-            <section class="lastest_news pb144" t-if="latest_posts">
+            <section class="lastest_news pb144" t-if="first_post">
                 <div class="container pt64">
                     <h2 class="pb64">Latest News</h2>
                     <div class="row first_lastest_blog  gap-4 gap-lg-0 o_animate o_anim_fade_in">
-                        <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
+                        <a t-attf-href="/blog/#{slug(first_post.blog_id)}/#{slug(first_post)}"
                            class="text-black first_lastest_blog_img col-lg-7">
                             <t t-call="website.record_cover">
-                                <t t-set="_record" t-value="first_latest_post"/>
+                                <t t-set="_record" t-value="first_post"/>
                                 <t
                                         t-set="additional_classes"
                                         t-valuef="o_not_editable h174 rounded-4"
@@ -83,16 +83,16 @@
                         </a>
                         <div class="col d-flex flex-column justify-content-between o_animate o_anim_slide_in  o_anim_from_right">
                             <div class="">
-                                <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
+                                <a t-attf-href="/blog/#{slug(first_post.blog_id)}/#{slug(first_post)}"
                                    class="text-black d-flex display-4 fw-bolder blog_title pb-3 m-0"
-                                   t-out="first_latest_post.name"/>
-                                <p class="display-6 fw-medium m-0 pb64" t-out="first_latest_post.teaser"/>
+                                   t-out="first_post.name"/>
+                                <p class="display-6 fw-medium m-0 pb64" t-out="first_post.teaser"/>
                             </div>
                             <div class="date_more p-0 d-flex flex-row align-items-center justify-content-between">
-                                <time t-if="first_latest_post.post_date"
+                                <time t-if="first_post.post_date"
                                       class="display-6 fw-medium m-0 o_animate o_anim_slide_in  o_anim_from_right o_delay_250"
-                                      t-out="first_latest_post.create_date.strftime('%d %B %Y')"/>
-                                <a t-attf-href="/blog/#{slug(first_latest_post.blog_id)}/#{slug(first_latest_post)}"
+                                      t-out="first_post.create_date.strftime('%d %B %Y')"/>
+                                <a t-attf-href="/blog/#{slug(first_post.blog_id)}/#{slug(first_post)}"
                                    class="btn btn-link d-flex flex-row gap-2 align-items-center text-black o_animate o_anim_slide_in  o_anim_from_right o_delay_250">
                                     More
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
