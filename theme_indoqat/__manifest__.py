@@ -17,7 +17,7 @@
     ],
     'category': 'Theme',
     'version': '0.1',
-    'depends': ['theme_common', 'social_media', 'mass_mailing', 'website', 'crm', 'multi_themes_base',
+    'depends': ['theme_common', 'social_media', 'mass_mailing', 'website', 'crm',
                 'website_hr_recruitment'],
     'data': [
         'views/blogs.xml',
@@ -30,6 +30,8 @@
         'data/pages/about_page.xml',
         'data/pages/contact_page.xml',
         'data/pages/services_page.xml',
+
+        'data/menus/menu.xml'
     ],
     'images': [
         'static/description/indoqat_description.png',
