@@ -478,8 +478,6 @@
 
 /* Project card sizing in preview */
 .projects-carousel:not(.owl-carousel) > * {
-  flex: 0 0 84%;
-  max-width: 420px;
   box-sizing: border-box;
   scroll-snap-align: center;
   margin: 0;

@@ -54,7 +54,7 @@
                                          alt="Hero"
                                          class="img-fluid home-page-hero"/>
                                     <div class="position-absolute different-services">
-                                        <h3 class="mb-0 o_not_editable">
+                                        <h3 class="mb-0">
                                             05
                                         </h3>
                                         <p class="mb-0">Different Services</p>
@@ -137,7 +137,7 @@
                                 <div class="col d-flex justify-content-lg-end justify-content-center mb-lg-0 mb-4 o_animable o_animate o_anim_zoom_in"
                                      style="--wanim-duration: 1.5s; --wanim-delay: 0.3s; --wanim-intensity: 80;">
                                     <div class="rounded-circle d-flex flex-column align-items-center justify-content-center border border-4 border-primary w250 h250 d-flex justify-content-center align-items-center">
-                                        <p class="display-1 m-0 p-0 text-clip-primary fw-bold o_not_editable">
+                                        <p class="display-1 m-0 p-0 text-clip-primary fw-bold">
                                             05
                                         </p>
                                         <p class="display-6 m-0 p-0">
@@ -150,10 +150,10 @@
                     </section>
                     <section class="projects_section pb80">
                         <div class="container">
-                            <div class="projects-carousel owl-carousel" data-oe-structure="true">
-                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
-                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
-                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                            <div class="projects-carousel owl-carousel row">
+                                <div class="project o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0">
                                         <div class="project_card_img mb-4">
                                             <img src="/theme_indoqat/static/src/imgs/services/basic-services1.webp"
                                                  alt="Indoqat Green Wall"
@@ -172,7 +172,7 @@
                                             design standards.Implementing Comprehensive management of the planning,
                                             construction, and operation stages.
                                         </p>
-                                        <a t-attf-href="/services"
+                                        <a href="/services"
                                            class="btn btn-primary fw-bold px-4 py-2 align-self-start">
                                             More
                                             <span class="ms-3">
@@ -185,9 +185,9 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
-                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
-                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                <div class="project o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0">
                                         <div class="project_card_img mb-4">
                                             <img src="/theme_indoqat/static/src/imgs/services/basic-services2.webp"
                                                  alt="Indoqat Green Wall"
@@ -204,7 +204,7 @@
                                         <p class="text-black project_subtitle-home display-6 mb-4"
                                         >Investing in solar energy projects and innovative environmental solutions.
                                         </p>
-                                        <a t-attf-href="/services"
+                                        <a href="/services"
                                            class="btn btn-primary fw-bold px-4 py-2 align-self-start">
                                             More
                                             <span class="ms-3">
@@ -217,9 +217,9 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
-                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
-                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                <div class="project o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0">
                                         <div class="project_card_img mb-4">
                                             <img src="/theme_indoqat/static/src/imgs/services/basic-services3.webp"
                                                  alt="Indoqat Green Wall"
@@ -236,7 +236,7 @@
                                         <p class="text-black project_subtitle-home display-6 mb-4"
                                         >Developing advanced farming projects for commercial and export purposes.
                                         </p>
-                                        <a t-attf-href="/services"
+                                        <a href="/services"
                                            class="btn btn-primary fw-bold px-4 py-2 align-self-start">
                                             More
                                             <span class="ms-3">
@@ -249,9 +249,9 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
-                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
-                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                <div class="project o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0">
                                         <div class="project_card_img mb-4">
                                             <img src="/theme_indoqat/static/src/imgs/services/basic-services4.webp"
                                                  alt="Indoqat Green Wall"
@@ -269,7 +269,7 @@
                                         >Enhancing connections between Indonesia and the Gulf countries in the
                                             construction, agricultural, and food sectors.
                                         </p>
-                                        <a t-attf-href="/services"
+                                        <a href="/services"
                                            class="btn btn-primary fw-bold px-4 py-2 align-self-start">
                                             More
                                             <span class="ms-3">
@@ -282,9 +282,9 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="project" data-oe-type="snippet" data-oe-structure="true">
-                                    <div class="project_card d-flex flex-column justify-content-between h-auto w-fit border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0 o_animable o_animate o_anim_slide_in o_anim_from_bottom"
-                                         style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                <div class="project o_animable o_animate o_anim_slide_in o_anim_from_bottom"
+                                     style="--wanim-duration: 1s; --wanim-delay: 0.2s; --wanim-intensity: 70;">
+                                    <div class="project_card d-flex flex-column justify-content-between h-auto border border-muted p-3 rounded-4 w-fit mb-3 mb-md-0">
                                         <div class="project_card_img mb-4">
                                             <img src="/theme_indoqat/static/src/imgs/services/basic-services5.webp"
                                                  alt="Indoqat Green Wall"
@@ -306,7 +306,7 @@
                                             protection standards in all corporate operations to ensure long-term
                                             success.
                                         </p>
-                                        <a t-attf-href="/services"
+                                        <a href="/services"
                                            class="btn btn-primary fw-bold px-4 py-2 align-self-start">
                                             More
                                             <span class="ms-3">
