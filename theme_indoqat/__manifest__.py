@@ -45,7 +45,7 @@
             'theme_indoqat/static/src/scss/style1.scss',
             'theme_indoqat/static/src/scss/style2.scss',
             'theme_indoqat/static/src/scss/style3.scss',
-            'theme_indoqat/static/src/js/snippets.component.js',
+            'theme_indoqat/static/src/js/project.snippet.js',
             'theme_indoqat/static/src/js/script.js',
 
         ],
