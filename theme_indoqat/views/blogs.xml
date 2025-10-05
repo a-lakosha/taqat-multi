@@ -39,28 +39,6 @@
             </section>
         </xpath>
     </template>
-    <!--    Search Form override-->
-    <!--    <template id="custom_search_input" inherit_id="website.website_search_box_input">-->
-    <!--        <xpath expr="//input" position="attributes">-->
-    <!--            <attribute name="t-attf-class"-->
-    <!--                       add="bg-transparent"-->
-    <!--                       remove=""-->
-    <!--                       separator=" "/>-->
-    <!--            <attribute name="placeholder">Text here</attribute>-->
-    <!--        </xpath>-->
-    <!--        <xpath expr="//button" position="attributes">-->
-    <!--            <attribute name="t-attf-class"-->
-    <!--                       add="bg-transparent"-->
-    <!--                       remove=""-->
-    <!--                       separator=" "/>-->
-    <!--        </xpath>-->
-    <!--        <xpath expr="//div" position="attributes">-->
-    <!--            <attribute name="t-attf-class"-->
-    <!--                       add="border flex-row-reverse gap-2 py16 px-3 rounded-3 align-items-start justify-content-end"-->
-    <!--                       remove=""-->
-    <!--                       separator=" "/>-->
-    <!--        </xpath>-->
-    <!--    </template>-->
     <!--    Navbar Override-->
     <template id="custom_inherit_listing_layout_switcher" inherit_id="website_blog.blogs_nav">
         <xpath expr="//nav[contains(@t-attf-class, 'navbar navbar-expand-lg navbar-light pt-4 pb-0 px-0')]"
