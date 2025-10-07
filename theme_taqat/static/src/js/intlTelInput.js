@@ -37,7 +37,6 @@ publicWidget.registry.intlTelInput = publicWidget.Widget.extend({
         $input.data("itiInstance", iti);
       });
     } else {
-      console.log("destroy in editable mode");
       let inputs = form.find(
         "input[data-original-name='phone'],input[data-original-name='mobile']"
       );

@@ -38,7 +38,6 @@ publicWidget.registry.moodCarousel = publicWidget.Widget.extend({
         if (this.$row.hasClass('owl-loaded')) return;
 
         if (typeof $.fn.owlCarousel !== 'function') {
-            console.warn('Owl Carousel not loaded for moodCarousel');
             return;
         }
 

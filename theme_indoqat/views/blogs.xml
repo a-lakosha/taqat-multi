@@ -52,10 +52,8 @@
                            class="text-black first_lastest_blog_img col-lg-7">
                             <t t-call="website.record_cover">
                                 <t t-set="_record" t-value="first_post"/>
-                                <t
-                                        t-set="additional_classes"
-                                        t-valuef="o_not_editable h174 rounded-4"
-                                />
+                                <t t-set="additional_classes"
+                                   t-valuef="o_not_editable h174 rounded-4"/>
                             </t>
                         </a>
                         <div class="col d-flex flex-column justify-content-between o_animate o_anim_slide_in  o_anim_from_right">
