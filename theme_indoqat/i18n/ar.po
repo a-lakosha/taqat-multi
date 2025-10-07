@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e-20250730\n"
+"Project-Id-Version: Odoo Server 17.0+e-20250825\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 11:28+0000\n"
-"PO-Revision-Date: 2025-09-01 14:45+0300\n"
+"POT-Creation-Date: 2025-10-06 07:32+0000\n"
+"PO-Revision-Date: 2025-10-06 10:49+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -21,6 +21,31 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "+6281119745918"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "01"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "02"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "03"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "04"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "05"
 msgstr ""
 
 #. module: theme_indoqat
@@ -106,6 +131,31 @@ msgid ""
 msgstr "<span class=\"text-muted\">نحن أكثر من مجرد شركة استثمار,</span>  ... نحن شركائك في التغيير"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "<span class=\"text-primary h1 custom-ol\">01</span>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "<span class=\"text-primary h1 custom-ol\">02</span>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "<span class=\"text-primary h1 custom-ol\">03</span>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "<span class=\"text-primary h1 custom-ol\">04</span>"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "<span class=\"text-primary h1 custom-ol\">05</span>"
+msgstr ""
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 msgid ""
 "<span class=\"text-primary\">Indoqat</span>\n"
@@ -115,8 +165,8 @@ msgid ""
 "                                            objective of connecting promising opportunities in the Indonesian market\n"
 "                                            with investment trends."
 msgstr ""
-"تعد<span class=\"text-primary\"> إندوقات</span> شركة استثمار وتطوير متعددة الأنشطة تأسست في العاصمة الإندونيسية جاكرتا "
-"بهدف الربط بين الفرص الواعدة في السوق الإندونيسي والتوجهات الاستثمارية."
+"تعد<span class=\"text-primary\"> إندوقات</span> شركة استثمار وتطوير متعددة الأنشطة تأسست في العاصمة الإندونيسية "
+"جاكرتا بهدف الربط بين الفرص الواعدة في السوق الإندونيسي والتوجهات الاستثمارية."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
@@ -158,9 +208,13 @@ msgid "About Indoqat"
 msgstr "من نحن"
 
 #. module: theme_indoqat
-#: model:theme.website.menu,name:theme_indoqat.aboutus_menu
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 msgid "About Us"
+msgstr "عن الشركة"
+
+#. module: theme_indoqat
+#: model:theme.website.menu,name:theme_indoqat.aboutus_menu
+msgid "About us"
 msgstr "عن الشركة"
 
 #. module: theme_indoqat
@@ -172,6 +226,11 @@ msgstr "الكل"
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_blog_post
 msgid "All News"
 msgstr "كل الأخبار"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Alternative &amp; Sustainable Energy"
+msgstr "الطاقة البديلة والمستدامة"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -237,10 +296,20 @@ msgid "Blog &amp; News"
 msgstr "المدونة والأخبار"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Boosting Farm Output with Digital Innovation"
+msgstr "تعزيز التحول الرقمي لرفع إنتاجية المزارع"
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
 msgid "Building Mosques"
 msgstr "بناء المساجد"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Building Solar Power Stations"
+msgstr "تطوير محطات الطاقة الشمسية"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
@@ -255,6 +324,7 @@ msgstr ""
 
 #. module: theme_indoqat
 #: model:theme.website.menu,name:theme_indoqat.jobs_menu
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 msgid "Careers"
 msgstr "الوظائف"
 
@@ -269,6 +339,11 @@ msgstr "تعاون مع إندوقات وابدأ رحلتك نحو التميز
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 msgid "Collaboration"
 msgstr "التعاون"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Comprehensive Feasibility Studies for Real Estate Projects"
+msgstr "إعداد دراسات جدوى دقيقة للمشاريع العقارية"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
@@ -305,6 +380,31 @@ msgid "Custom Footer"
 msgstr ""
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Delivering Humanitarian Infrastructure in Developing Regions"
+msgstr "تنفيذ مشاريع بنية تحتية إنسانية في المناطق النامية "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Developing Residential, Commercial &amp; Tourism Complexes"
+msgstr "نطور مجمعات سكنية، تجارية وسياحية متكاملة"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Developing advanced farming projects for commercial and export purposes."
+msgstr "تطوير مشاريع مزارع متقدمة لأغراض تجارية وتصديرية."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"Developing residential, commercial, and tourism projects based on sustainable\n"
+"                                            design standards.Implementing Comprehensive management of the planning,\n"
+"                                            construction, and operation stages."
+msgstr ""
+"تنفيذ مشاريع سكنية، تجارية وسياحية وفق معايير التصميم المستدام.\n"
+"إدارة متكاملة لمراحل التخطيط والبناء والتشغيل العقاري بشكل متكامل."
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 msgid "Different Services"
 msgstr "خدمات مختلفة"
@@ -320,6 +420,18 @@ msgid "E-mail"
 msgstr "البريد الإلكتروني"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Efficient Construction &amp; Project Execution"
+msgstr "إدارة مراحل البناء والتشييد"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"Enhancing connections between Indonesia and the Gulf countries in the\n"
+"                                            construction, agricultural, and food sectors."
+msgstr "تسهيل الربط التجاري بين إندونيسيا ودول الخليج في القطاعات الإنشائية والزراعية والغذائية. "
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 msgid "Excellence"
 msgstr "التميز"
@@ -330,13 +442,20 @@ msgid ""
 "Explore the latest in sustainable development, technology, and social innovation.\n"
 "                                <br/>\n"
 "                                <br/>\n"
-"                                Discover inspiring success stories, Indoqat highlights, and expert-driven analysis on\n"
+"                                Discover inspiring success stories, Indoqat highlights, and expert-driven analysis "
+"on\n"
 "                                key global trends shaping today and tomorrow."
 msgstr ""
 "ابق على اطلاع على كل ما هو جديد في عالم التنمية المستدامة، التكنولوجيا والابتكار الاجتماعي.  \n"
 "نشارككم هنا قصص النجاح، أخر أخبار إندوقات، وتحليلات متكاملة من خبرائنا حول أبرز التوجهات العالمية الحالية والمستقبلية."
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Exporting Premium Indonesian Agricultural Goods"
+msgstr "تصدير منتجات زراعية بأعلى جودة "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
 msgid "Facebook"
 msgstr ""
@@ -349,8 +468,8 @@ msgid ""
 "your\n"
 "                                        business forward efficiently."
 msgstr ""
-"من الاستشارات التنموية والخدمات اللوجستية، وصولًا إلى التحول الرقمي وتمكين الاستثمار، نقدم حلولًا مُبدعة تساعد أعمالك على "
-"تحقيق النمو المرغوب بشكل فعال."
+"من الاستشارات التنموية والخدمات اللوجستية، وصولًا إلى التحول الرقمي وتمكين الاستثمار، نقدم حلولًا مُبدعة تساعد أعمالك "
+"على تحقيق النمو المرغوب بشكل فعال."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -383,6 +502,21 @@ msgstr ""
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
 msgid "Humanitarian Project Development"
 msgstr "تطوير المشاريع الإغاثية"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Import &amp; Export"
+msgstr "الاستيراد والتصدير"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Import and Export"
+msgstr "الاستيراد والتصدير"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Importing Reliable Construction &amp; Engineering Materials"
+msgstr "استيراد مواد بناء ومعدات هندسية "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -429,14 +563,25 @@ msgid "Innovation"
 msgstr "الابتكار"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
 msgid "Instagram"
 msgstr ""
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Integrated Energy Solutions for Facilities"
+msgstr "تطوير حلول متكاملة لتعزيز استهلاك الطاقة في المرافق"
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 msgid "Integrity"
 msgstr "النزاهة"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Investing in solar energy projects and innovative environmental solutions."
+msgstr "الاستثمار في مشاريع الطاقة الشمسية والحلول البيئية الذكية."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.details_jobs_ids
@@ -474,6 +619,13 @@ msgid "Map"
 msgstr ""
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid ""
+"Media\n"
+"                                            Center"
+msgstr ""
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Monday - Friday: 8:00 AM - 5:00 PM"
 msgstr "الإثنين - الجمعة: 8:00 ص - 5:00 م"
@@ -495,6 +647,11 @@ msgstr "النشرة البريدية"
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
 msgid "No Similar News"
 msgstr "لا يوجد أخبار مشابهة"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Organic Crop Production for Export Markets"
+msgstr "إنتاج محاصيل عضوية للأسواق التصديرية "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -558,6 +715,16 @@ msgid ""
 msgstr "روّاد   <span class=\"text-primary\">الاستثمار المستدام</span>  ودعم الإنسانية"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Professional Trade Brokerage Services"
+msgstr "تقديم خدمات الوساطة التجارية الفعالة "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Promoting Environmental Sustainability Across Operations"
+msgstr "الالتزام بالاستدامة والحفاظ على البيئة  "
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
@@ -567,9 +734,20 @@ msgid ""
 msgstr "جاهز للانطلاق؟ تعاون معنا الآن"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Real Estate Development &amp; Investment"
+msgstr "التطوير والاستثمار العقاري"
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Remote"
 msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Renewable and Sustainable Energy"
+msgstr "الطاقة البديلة والمستدامة"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -636,6 +814,31 @@ msgstr "أخبار مشابهة"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Smart Agriculture"
+msgstr "الزراعة التجارية الذكية"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Smart Commercial Agriculture"
+msgstr "الزراعة التجارية الذكية"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Smart Energy-Saving System Design"
+msgstr "تصميم أنظمة ذكية لتقليل استهلاك الكهرباء"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Smart Irrigation System Deployment"
+msgstr "استخدام أنظمة ري ذكية "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Social &amp; Environmental Responsibility"
+msgstr "المسؤولية المجتمعية والبيئية "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
 msgid "Social Project Development"
 msgstr "تطوير المشاريع الاجتماعية"
@@ -646,19 +849,38 @@ msgid "Social Responsibility"
 msgstr "المسؤولية الاجتماعية"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "Social and Environmental Responsibility"
+msgstr "المسؤولية المجتمعية والبيئية"
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 msgid "Subscribe"
 msgstr "إشترك الآن"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "Supporting Orphan Care &amp; Charitable Programs"
+msgstr "دعم برامج رعاية الأيتام والمبادرات الخيرية "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid ""
+"Supporting orphan care programs and charitable initiatives.\n"
+"                                            Implementing infrastructure projects to support humanitarian efforts in\n"
+"                                            developing regions.\n"
+"                                            Maintaining a strong commitment to sustainability and environmental\n"
+"                                            protection standards in all corporate operations to ensure long-term\n"
+"                                            success."
+msgstr ""
+"دعم برامج رعاية الأيتام والمبادرات الخيرية. \n"
+"تنفيذ مشاريع بنية تحتية إنسانية في المناطق النامية. \n"
+"الالتزام بالاستدامة والحفاظ على البيئة ضمن جميع عمليات الشركات لضمان استدامتها ونجاحها."
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 msgid "Terms &amp; Conditions"
 msgstr "شروط وأحكام"
-
-#. module: theme_indoqat
-#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_search_input
-msgid "Text here"
-msgstr "النص هنا"
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
@@ -696,6 +918,7 @@ msgid "Towards a More Sustainable and Human Future"
 msgstr "نحو مستقبل أكثر استدامة وإنسانية"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.cutome_blogs_details
 msgid "Twitter"
 msgstr ""
@@ -739,6 +962,20 @@ msgid ""
 msgstr "نتبع أعلى معايير النزاهة والشفافية في جميع خدماتنا ومشاريعنا."
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We apply advanced irrigation methods to conserve\n"
+"                                                    resources and ensure healthy crop growth."
+msgstr "نستعين بأكفأ نظم الري وأحدثها لضمان توفير ري فعال بأقل هدر للموارد.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We apply eco-conscious standards throughout all\n"
+"                                                    our business activities."
+msgstr "عبر دمج معايير الاستدامة في عمليات الشركة بشكل متكامل.  "
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 msgid ""
 "We are committed to executing humanitarian projects with the highest\n"
@@ -761,6 +998,51 @@ msgid ""
 "We build schools with advanced technologies and modern teaching\n"
 "                                                    methods to provide high quality education to children."
 msgstr "نتولى بناء مدارس مجهزة بأحدث التقنيات والمنهجيات، لتوفير فرص التعليم الحديث للأطفال."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We build vital facilities that enhance the quality\n"
+"                                                    of life in needful areas."
+msgstr "عبر إنشاء مرافق خدمية تحسّن جودة الحياة في المجتمعات. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We champion humanitarian and\n"
+"                                    environmental\n"
+"                                    efforts and embed sustainability into every aspect of our operations."
+msgstr ""
+"ندعم المبادرات الإنسانية والبيئية وندمجها في جوهر أعمالنا ونكرس جهودنا لتطبيق الاستدامة في كافة عملياتنا التشغيلية. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We conduct in-depth financial and technical\n"
+"                                                    analysis to identify\n"
+"                                                    profitable real estate opportunities in Indonesia."
+msgstr "نطور تحليل مالي وفني شامل لتقييم فرص الاستثمار العقاري في إندونيسيا."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We connect companies through seamless trade\n"
+"                                                    facilitation and expert commercial mediation."
+msgstr "نسهل نجاح الصفقات التجارية بين الشركات في إندونيسيا وشركائها الدوليين بشكل فعال.  "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We construct high-performance solar systems to\n"
+"                                                    generate clean energy."
+msgstr "نتولى بناء أنظمة طاقة شمسية فعالة لنساعد على توليد الكهرباء بشكل مستدام."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We contribute to impactful social programs that\n"
+"                                                    uplift underserved communities."
+msgstr "لتقديم الدعم المستدام للفئات الأكثر احتياجًا في المجتمع.  "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -786,6 +1068,14 @@ msgid ""
 msgstr "ننشئ مراكز صحية مجهزة بشكل فعال لتقديم الرعاية الصحية المتكاملة."
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We design and build diverse real estate projects\n"
+"                                                    that match client\n"
+"                                                    needs and investment goals."
+msgstr "نصمم وننفذ مشاريع عقارية متنوعة لتتناسب مع احتياجات عملائنا وتطلعاتهم الاستثمارية."
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
 msgid ""
@@ -809,6 +1099,39 @@ msgid ""
 msgstr "نطور مجموعة شاملة من الحلول المتكاملة التي تهدف لتمكين الأفراد والمؤسسات من تحقيق نمو مستدام في مجتمعاتهم."
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We develop high-tech farms to\n"
+"                                    enhance\n"
+"                                    productivity and promote sustainable export-driven agriculture."
+msgstr "نطور مزارع تجارية ذكية تعتمد على أحدث التقنيات لرفع الإنتاج وتطوير إمكانات التصدير."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We develop intelligent solutions to reduce\n"
+"                                                    electricity consumption and optimize energy efficiency."
+msgstr "نبتكر أنظمة موفرة للطاقة تعزز الكفاءة والاستخدام الذكي للكهرباء."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We grow high-quality organic produce that complies\n"
+"                                                    with international export standards."
+msgstr "نتولى زراعة محاصيل طبيعية بأعلى معايير الجودة لتلبية متطلبات التصدير. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We handle every stage of real estate\n"
+"                                    development\n"
+"                                    to ensure its alignment with sustainability standards and the evolving demands "
+"of\n"
+"                                    the market."
+msgstr ""
+"نتولى تنفيذ وإدارة جميع مراحل تطوير المشاريع العقارية بما يتوافق مع معايير الاستدامة ويلبي الاحتياجات المتغيرة للسوق."
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
 msgid ""
 "We handle the design and development of mosques to ensure they\n"
@@ -824,11 +1147,26 @@ msgid ""
 msgstr "نتولى تصميم وتطوير مشاريع بناء المساجد بما يتوافق مع أعلى معايير الجودة والاستدامة"
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We implement smart energy strategies to boost\n"
+"                                                    efficiency across facilities."
+msgstr "وتحسين كفاءة استخدامها بشكل متوازن."
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid ""
 "We invest in our people through continuous training and\n"
 "                                                    skill-building to keep them ahead of the curve."
 msgstr "نمنح موظفينا الأدوات والفرص التدريبية اللازمة لتعزيز مهاراتهم ومواكبة أحدث الاتجاهات في مجالاتهم."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We invest in solar energy projects\n"
+"                                    and smart\n"
+"                                    environmental solutions to drive energy efficiency and sustainable growth."
+msgstr "نستثمر في مشاريع الطاقة الشمسية والحلول البيئية الذكية لتطوير كفاءة استخدام الطاقة وتعزيز التنمية المستدامة."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
@@ -844,6 +1182,21 @@ msgid ""
 "We launch innovative relief projects to deliver immediate assistance\n"
 "                                                    to communities in crisis."
 msgstr "ننفذ مشاريع الإغاثة بشكل مُبتكر لتقديم الدعم العاجل للمجتمعات المتضررة."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We manage all construction phases to ensure timely\n"
+"                                                    delivery and\n"
+"                                                    top-quality results."
+msgstr "ننظم كافة عمليات ومراحل البناء بشكل فعال لنضمن التسليم عالي الجودة للمشاريع العقارية."
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We produce and supply premium agricultural crops,\n"
+"                                                    ensuring excellent quality for international markets."
+msgstr "إنتاج محاصيل زراعية متميزة بجودة ممتازة. "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -880,6 +1233,20 @@ msgstr ""
 "تحقيق أثر فعال ومستدام."
 
 #. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We provide digital tools and automation to\n"
+"                                                    maximize agricultural efficiency."
+msgstr "نطور أحدث التقنيات لتحسين كفاءة وإنتاجية الزراعة. "
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We provide trusted building supplies and equipment\n"
+"                                                    for development projects."
+msgstr "نستورد منتجات إنشائية وهندسية موثوقة تلبي احتياجات مشاريع الاستثمار العقاري. "
+
+#. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
 msgid ""
 "We rely on creativity and the latest technologies to provide advanced\n"
@@ -892,6 +1259,14 @@ msgid ""
 "We shape the future with innovative services that create a sustainable\n"
 "                                        impact"
 msgstr "نصنع المستقبل بخدمات مُبتكرة تُحدث أثرًا ملموسًا"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid ""
+"We streamline trade between\n"
+"                                    Indonesia and global\n"
+"                                    markets with a focus on construction materials, agriculture, and food products."
+msgstr "نسهل الربط التجاري بين إندونيسيا والأسواق العالمية في القطاعات الإنشائية، الزراعة، والمنتجات الغذائية. "
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.aboutus_template
@@ -962,12 +1337,18 @@ msgid ""
 "Whether you're looking for consultative or humanitarian\n"
 "                                    logistics solutions, we provide the capabilities and\n"
 "                                    expertise you need to succeed."
-msgstr "سواء كنت تبحث عن حلول لوجستية استشارية أو إنسانية، فإننا نقدم لك الإمكانيات والخبرة اللازمة لمساعدتك على النجاح."
+msgstr ""
+"سواء كنت تبحث عن حلول لوجستية استشارية أو إنسانية، فإننا نقدم لك الإمكانيات والخبرة اللازمة لمساعدتك على النجاح."
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
 msgid "Why Be Part of Indoqat?"
 msgstr "لماذا تنضم إلى إندوقات؟"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.custom_indoqat_footer
+msgid "YouTube"
+msgstr ""
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
@@ -978,6 +1359,31 @@ msgstr "البريد الإلكتروني"
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "Your Message"
 msgstr "الرسالة"
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "basic1"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "basic2"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "basic3"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "basic4"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.services_template
+msgid "basic5"
+msgstr ""
 
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.inherit_page_jobs
@@ -999,6 +1405,41 @@ msgstr ""
 #. module: theme_indoqat
 #: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_contact_us_page
 msgid "info@indoqat.com"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo01"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo02"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo03"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo04"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo05"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo06"
+msgstr ""
+
+#. module: theme_indoqat
+#: model_terms:theme.ir.ui.view,arch:theme_indoqat.indoqat_home_page
+msgid "logo07"
 msgstr ""
 
 #. module: theme_indoqat

@@ -254,6 +254,10 @@
 
 }
 
+.o_rtl .values-vector {
+  transform: rotateY(180deg);
+}
+
 .o_rtl .ready-section a span svg {
   transform: rotateY(180deg);
 }
