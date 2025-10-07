@@ -1,0 +1,88 @@
+<odoo>
+    <data noupdate="1">
+        <record id="theme_taqat.bootstrap_icons" model="ir.asset">
+            <field name="name">Lib bootstrap icons</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/lib/bootstrap-icons/bootstrap-icons.css</field>
+        </record>
+
+        <record id="theme_taqat._assets_primary_variables" model="ir.asset">
+            <field name="name">Assets Primary Variables</field>
+            <field name="bundle">web._assets_primary_variables</field>
+            <field name="path">theme_taqat/static/src/scss/primary_variables.scss</field>
+        </record>
+
+        <record id="theme_taqat.owl_carousel_css" model="ir.asset">
+            <field name="name">Owl Carousel CSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/lib/owl-carousel/css/owl.carousel.min.css</field>
+        </record>
+
+        <record id="theme_taqat.owl_carousel_theme_css" model="ir.asset">
+            <field name="name">Owl Carousel Theme CSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/lib/owl-carousel/css/owl.theme.default.min.css</field>
+        </record>
+
+        <record id="theme_taqat.owl_carousel_js" model="ir.asset">
+            <field name="name">Owl Carousel JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/lib/owl-carousel/js/owl.carousel.min.js</field>
+        </record>
+
+        <record id="theme_taqat.intl_tel_input_css" model="ir.asset">
+            <field name="name">International Telephone Input CSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/lib/intl-tel-input-25.2.1/build/css/intlTelInput.min.css</field>
+        </record>
+
+        <record id="theme_taqat.intl_tel_input_js" model="ir.asset">
+            <field name="name">International Telephone Input JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/lib/intl-tel-input-25.2.1/build/js/intlTelInputWithUtils.js</field>
+        </record>
+
+        <record id="theme_taqat.intl_tel_input_custom_js" model="ir.asset">
+            <field name="name">International Telephone Input Custom JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/js/intlTelInput.js</field>
+        </record>
+
+        <record id="theme_taqat.lib_call_js" model="ir.asset">
+            <field name="name">Library Call JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/js/lib-call.js</field>
+        </record>
+
+        <record id="theme_taqat.script_js" model="ir.asset">
+            <field name="name">Theme Script JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/js/script.js</field>
+        </record>
+
+        <record id="theme_taqat.styles_scss" model="ir.asset">
+            <field name="name">Theme Styles SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/scss/styles.scss</field>
+        </record>
+
+        <record id="theme_taqat.custom_scss" model="ir.asset">
+            <field name="name">Theme Custom SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/scss/custom.scss</field>
+        </record>
+
+        <record id="theme_taqat.style_scss" model="ir.asset">
+            <field name="name">Theme Style SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/scss/style.scss</field>
+        </record>
+
+        <record id="theme_taqat.custom_dev_scss" model="ir.asset">
+            <field name="name">Theme Custom Dev SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_taqat/static/src/scss/custom_dev.scss</field>
+        </record>
+
+    </data>
+</odoo>

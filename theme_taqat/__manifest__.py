@@ -27,40 +27,23 @@
         'views/jobs.xml',
 
         'data/pages/home_page.xml',
-        'data/pages/about_page.xml',
         'data/pages/contact_page.xml',
-        'data/pages/africat_page.xml',
-        'data/pages/tawridat_page.xml',
+        'data/pages/login_page.xml',
+
+        'data/pages/about_page.xml',
         'data/pages/programs_page.xml',
         'data/pages/projects_page.xml',
-        'data/pages/login_page.xml',
+        'data/pages/africat_page.xml',
+        'data/pages/tawridat_page.xml',
         'data/pages/avrasya_page.xml',
+
+        'data/menu.xml',
+        'data/assets.xml',
     ],
     'images': [
         'static/description/taqat_description.png',
         'static/description/taqat_screenshot.png',
     ],
-    'assets': {
-        'web.assets_frontend': [
-            'theme_taqat/static/src/lib/bootstrap-icons/bootstrap-icons.css',
-            'theme_taqat/static/src/lib/owl-carousel/css/owl.carousel.min.css',
-            'theme_taqat/static/src/lib/owl-carousel/css/owl.theme.default.min.css',
-            'theme_taqat/static/src/lib/owl-carousel/js/owl.carousel.min.js',
-            'theme_taqat/static/src/lib/intl-tel-input-25.2.1/build/css/intlTelInput.min.css',
-            'theme_taqat/static/src/lib/intl-tel-input-25.2.1/build/js/intlTelInputWithUtils.js',
-            'theme_taqat/static/src/js/intlTelInput.js',
-            'theme_taqat/static/src/js/lib-call.js',
-            'theme_taqat/static/src/js/script.js',
-            'theme_taqat/static/src/scss/styles.scss',
-            'theme_taqat/static/src/scss/custom.scss',
-            'theme_taqat/static/src/scss/style.scss',
-            'theme_taqat/static/src/scss/custom_dev.scss',
-        ],
-        'web._assets_primary_variables': [
-            'theme_taqat/static/src/scss/primary_variables.scss',
-        ],
-    },
     'application': False,
     'license': 'LGPL-3',
 }
-

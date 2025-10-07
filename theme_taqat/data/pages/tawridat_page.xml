@@ -519,12 +519,6 @@
             <field name="url">/tawridat</field>
         </record>
 
-        <!-- Menu Record -->
-        <record id="taqat_tawridat_page_menu_rec" model="theme.website.menu">
-            <field name="name">Tawridat</field>
-            <field name="url">/tawridat</field>
-            <field name="sequence" type="int">11</field>
-        </record>
 
     </data>
 </odoo>

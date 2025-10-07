@@ -4,476 +4,492 @@
         <template name="Taqat Programs page" id="taqat_programs_page_template">
             <t t-set="additional_title" t-valuef="Our Programs"/>
             <t t-set="nav_dark" t-value="True"/>
-            <div id="wrap" class="oe_structure">
-                <div role="main" class="main-content-area programs"
-                     aria-label="Main Content Area">
-                    <section class="programs_hero pt144">
-                        <div class="section-p">
-                            <div class="container">
-                                <div class="row d-flex text-center justify-content-center">
-                                    <div class="col-md-10">
-                                        <h1 class="text-primary fw-normal m-0">Our Programs</h1>
-                                        <p class="hero-description mt-4">
-                                            Enhance fundraising and distribution efficiency, driving sustainable
-                                            development in communities facing crises.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="bg-black dark-bg">
-                        <div class="section-p">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 image-wrapper mb-md-4">
-                                        <img
-                                                src="/theme_taqat/static/src/img/programs_page/hero-img.png"
-                                                alt="Programs Hero Image" loading="lazy"
-                                                class="w-100 h-100"/>
-                                    </div>
-                                    <div class="col-12 mt-md-4">
-                                        <div
-                                                class="row d-flex align-items-start justify-content-between">
-                                            <h2 class="col-md-5 mb-4 m-md-0 title">A step
-                                                Towards a Sustainable Future!
-                                            </h2>
-                                            <p class="col-md-7 description">
-                                                We deliver integrated solutions through diverse programs to support
-                                                effective humanitarian work. Leveraging advanced AI, we provide swift,
-                                                innovative solutions for crisis-affected communities.
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure">
+                    <div role="main" class="main-content-area programs"
+                         aria-label="Main Content Area">
+                        <section class="programs_hero pt144">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row d-flex text-center justify-content-center">
+                                        <div class="col-md-10">
+                                            <h1 class="text-primary fw-normal m-0">Our Programs</h1>
+                                            <p class="hero-description mt-4">
+                                                Enhance fundraising and distribution efficiency, driving sustainable
+                                                development in communities facing crises.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div
-                                        class="hero-brands justify-content-center justify-content-md-between">
-                                    <img
-                                            src="/theme_taqat/static/src/img/programs_page/brand-2.png"
-                                            alt="Emdad"
-                                            loading="lazy"/>
-                                    <img
-                                            src="/theme_taqat/static/src/img/programs_page/brand-3.png"
-                                            alt="Tayf"
-                                            loading="lazy"/>
-                                    <img
-                                            src="/theme_taqat/static/src/img/programs_page/brand-4.png"
-                                            alt="Edamah"
-                                            loading="lazy"/>
-                                    <img
-                                            src="/theme_taqat/static/src/img/programs_page/brand-1.png"
-                                            alt="Relief Center" loading="lazy"/>
-                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section class="emdad">
-                        <div class="section-p">
-                            <div class="container">
-                                <div>
-                                    <h3 class="fs-1 fw-bold text-center mb-5">Emdad</h3>
-                                    <div
-                                            class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
-                                        <img
-                                                src="/theme_taqat/static/src/img/programs_page/emdad-logo.png"
-                                                alt="Emdad" loading="lazy"/>
-                                        <p class="program-description text-center mt-3 mb-2">
-                                            EMDAD is a specialized platform providing products for humanitarian
-                                            organizations. As a "one-stop shop," we offer integrated aid solutions
-                                            developed with advanced AI.
-                                        </p>
-                                        <p class="program-details text-center w-75 m-0">
-                                            This ensures seamless, efficient solutions meeting customer needs and
-                                            enhancing relief operations.
-                                        </p>
-                                        <a href="https://www.emdadexpress.com/"
-                                           class="main-btn bg-primary text-white border border-primary"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                 height="24"
-                                                 viewBox="0 0 24 24" fill="none"
-                                                 stroke="currentColor"
-                                                 stroke-width="2"
-                                                 stroke-linecap="round" stroke-linejoin="round"
-                                                 class="lucide lucide-arrow-left">
-                                                <path d="m12 19-7-7 7-7"></path>
-                                                <path d="M19 12H5"></path>
-                                            </svg>
-                                            Emdad Website
-                                        </a>
-                                    </div>
-                                    <div class="website-image_wrapper">
-                                        <img
-                                                src="/theme_taqat/static/src/img/programs_page/emdad-website.png"
-                                                alt="Emdad" loading="lazy"
-                                                class="project-website_image w-100 h-100"/>
-                                    </div>
-                                    <div>
-                                        <h3 class="fs-1 fw-bold text-center mb-5 mt112">
-                                            What does EMDAD provide?
-                                        </h3>
-                                        <div class="row gap-3 gap-md-4 justify-content-center">
-                                            <div class="col-md-5">
-                                                <div class="card">
-                                                    <div class="icon">
-                                                        <img
-                                                                src="/theme_taqat/static/src/img/programs_page/Puzzle.png"
-                                                                alt="Innovative Technology"/>
-                                                    </div>
-                                                    <h4>Innovative Technology</h4>
-                                                    <p>
-                                                        We partner with local and international organizations to amplify
-                                                        relief efforts and provide comprehensive community support.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="card">
-                                                    <div class="icon">
-                                                        <img
-                                                                src="/theme_taqat/static/src/img/programs_page/Light.png"
-                                                                alt="Organizational Partnerships"/>
-                                                    </div>
-                                                    <h4>Organizational Partnerships</h4>
-                                                    <p>
-                                                        We partner with local and international organizations to amplify
-                                                        relief efforts and provide comprehensive community support.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="card">
-                                                    <div class="icon">
-                                                        <img
-                                                                src="/theme_taqat/static/src/img/programs_page/Package.png"
-                                                                alt="Customized Aid Packages"/>
-                                                    </div>
-                                                    <h4>Customized Aid Packages</h4>
-                                                    <p>
-                                                        Tailored aid packages efficiently provide essential items like
-                                                        water,
-                                                        food, and medicine based on specific needs.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="card">
-                                                    <div class="icon">
-                                                        <img
-                                                                src="/theme_taqat/static/src/img/programs_page/Car.png"
-                                                                alt="Comprehensive Logistics"/>
-                                                    </div>
-                                                    <h4>Comprehensive Logistics</h4>
-                                                    <p>
-                                                        Transportation, storage, and distribution services ensure
-                                                        timely,
-                                                        high-quality aid delivery to those in need.
-                                                    </p>
-                                                </div>
+                        </section>
+                        <section class="bg-black dark-bg">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 image-wrapper mb-md-4">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/hero-img.png"
+                                                    alt="Programs Hero Image" loading="lazy"
+                                                    class="w-100 h-100"/>
+                                        </div>
+                                        <div class="col-12 mt-md-4">
+                                            <div
+                                                    class="row d-flex align-items-start justify-content-between">
+                                                <h2 class="col-md-5 mb-4 m-md-0 title">A step
+                                                    Towards a Sustainable Future!
+                                                </h2>
+                                                <p class="col-md-7 description">
+                                                    We deliver integrated solutions through diverse programs to support
+                                                    effective humanitarian work. Leveraging advanced AI, we provide
+                                                    swift,
+                                                    innovative solutions for crisis-affected communities.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="tayf">
-                        <div class="section-p">
-                            <div class="container">
-                                <div class="">
-                                    <h3 class="fs-1 fw-bold text-center mb-5">Tayf</h3>
                                     <div
-                                            class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
+                                            class="hero-brands justify-content-center justify-content-md-between">
                                         <img
-                                                src="/theme_taqat/static/src/img/programs_page/tayf-logo.png"
-                                                alt="Tayf" loading="lazy"/>
-                                        <p class="program-description text-center mt-3 mb-2">
-                                            TAYF, a Qatar Charity initiative, improves in-kind donation collection and
-                                            distribution for greater relief impact.
-                                        </p>
-                                        <p class="program-details text-center w-75 m-0">
-                                            TAYF enhances living conditions in vulnerable communities by providing
-                                            solutions to alleviate crisis effects and promote sustainable development.
-                                        </p>
-                                        <a href="https://tayf.qa/"
-                                           class="main-btn bg-primary text-white border border-primary"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                 height="24"
-                                                 viewBox="0 0 24 24" fill="none"
-                                                 stroke="currentColor"
-                                                 stroke-width="2"
-                                                 stroke-linecap="round" stroke-linejoin="round"
-                                                 class="lucide lucide-arrow-left">
-                                                <path d="m12 19-7-7 7-7"></path>
-                                                <path d="M19 12H5"></path>
-                                            </svg>
-                                            Tayf Website
-                                        </a>
-                                    </div>
-                                    <div class="website-image_wrapper">
+                                                src="/theme_taqat/static/src/img/programs_page/brand-2.png"
+                                                alt="Emdad"
+                                                loading="lazy"/>
                                         <img
-                                                src="/theme_taqat/static/src/img/programs_page/tayf-website.png"
-                                                alt="Tayf" loading="lazy"
-                                                class="project-website_image w-100 h-100"/>
-                                    </div>
-                                    <div class="charities-wrapper">
-                                        <p class="text-center m-0 fw-bold desc">
-                                            At Qatar Charity, we always strive to make the
-                                            donation process easy and
-                                            convenient for everyone. We provide you with the new
-                                            donation box, which
-                                            allows you to donate clothes, shoes, toys, and books
-                                            effortlessly.
-                                        </p>
-                                        <div
-                                                class="chars-logos mt-4 d-flex align-items-center justify-content-center gap-4 row">
-                                            <img
-                                                    src="/theme_taqat/static/src/img/programs_page/chars/unicef.png"
-                                                    alt="unicef"/>
-                                            <img
-                                                    src="/theme_taqat/static/src/img/programs_page/chars/unhcr.png"
-                                                    alt="unhcr"/>
-                                            <img
-                                                    src="/theme_taqat/static/src/img/programs_page/chars/save_the_children.png"
-                                                    alt="Save the Children"/>
-                                            <img
-                                                    src="/theme_taqat/static/src/img/programs_page/chars/qatar-box.png"
-                                                    alt="Qatar Box Charity"/>
-                                            <img
-                                                    src="/theme_taqat/static/src/img/programs_page/chars/snoonu.png"
-                                                    alt="Snoonu"/>
-                                            <img
-                                                    src="/theme_taqat/static/src/img/programs_page/chars/rafeeq-seeklogo.png"
-                                                    alt="Rafeeq Seek"/>
-                                        </div>
-                                    </div>
-                                    <div class="our-mission">
-                                        <div>
-                                            <h2 class="fw-bold text-center mb-5">What does TAYF provide?</h2>
-                                        </div>
-                                        <div
-                                                class="row mt-4 gap-3 gap-md-4 justify-content-center">
-                                            <div class="col-md-5 mission-item">
-                                                <div class="mission-content">
-                                                    <h3 class="fw-bold">Sustainable Initiatives</h3>
-                                                    <p class="m-0">
-                                                        Supports initiatives like "It Holds Value" providing in-kind
-                                                        donations
-                                                        while promoting recycling and environmental sustainability.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5 mission-item">
-                                                <div class="mission-content">
-                                                    <h3 class="fw-bold">
-                                                        Easy Donation Process
-                                                    </h3>
-                                                    <p class="m-0">
-                                                        Extensive donation box network and integrated call service for
-                                                        convenient home donations.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5 mission-item">
-                                                <div class="mission-content">
-                                                    <h3 class="fw-bold">Transparent Donation Handling</h3>
-                                                    <p class="m-0">
-                                                        Operates with the highest transparency standards from collection
-                                                        to
-                                                        distribution, ensuring donations reach those in need.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-5"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="edamah">
-                        <div class="section-p">
-                            <div class="container">
-                                <div class="">
-                                    <h3 class="fs-1 fw-bold text-center mb-5">Edamah</h3>
-                                    <div
-                                            class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
+                                                src="/theme_taqat/static/src/img/programs_page/brand-3.png"
+                                                alt="Tayf"
+                                                loading="lazy"/>
                                         <img
-                                                src="/theme_taqat/static/src/img/programs_page/edamah-logo.png"
-                                                alt="Edamah" loading="lazy"/>
-                                        <p class="program-description text-center mt-3 mb-2">
-                                            Edamah is an integrated program blending investment strategies with
-                                            community needs for sustainable development.
-                                        </p>
-                                        <p class="program-details text-center m-0">
-                                            Our program develops profit-driven projects with a positive societal and
-                                            environmental impact.
-                                            Edamah focuses on renewable energy, agriculture, economic development,
-                                            fisheries, social projects, and more, ensuring a sustainable future.
-                                        </p>
-                                        <a href="https://www.edamapro.com/"
-                                           class="main-btn bg-primary text-white border border-primary"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                 height="24"
-                                                 viewBox="0 0 24 24" fill="none"
-                                                 stroke="currentColor"
-                                                 stroke-width="2"
-                                                 stroke-linecap="round" stroke-linejoin="round"
-                                                 class="lucide lucide-arrow-left">
-                                                <path d="m12 19-7-7 7-7"></path>
-                                                <path d="M19 12H5"></path>
-                                            </svg>
-                                            Edamah Website
-                                        </a>
-                                    </div>
-                                    <div class="website-image_wrapper">
+                                                src="/theme_taqat/static/src/img/programs_page/brand-4.png"
+                                                alt="Edamah"
+                                                loading="lazy"/>
                                         <img
-                                                src="/theme_taqat/static/src/img/programs_page/edamah-website.png"
-                                                alt="Edamah" loading="lazy"
-                                                class="project-website_image w-100 h-100"/>
-                                    </div>
-                                </div>
-                                <div class="edamah-goals">
-                                    <div class="text_info">
-                                        <h3 class="title mb-5 mt112">
-                                            What Edamah Provides:
-                                        </h3>
-                                    </div>
-                                    <ul class="goals-list justify-content-center m-0 p-0">
-                                        <li class="d-flex flex-column align-items-center">
-                                            <div class="bullet">
-                                                01
-                                            </div>
-                                            <h4 class="title">
-                                                Sustainable Investment
-                                            </h4>
-                                            <p class="desc">
-                                                Promotes investment in renewable energy and other sustainable projects
-                                                to
-                                                improve living conditions with clean energy.
-                                            </p>
-                                        </li>
-                                        <li class="d-flex flex-column align-items-center">
-                                            <div class="bullet">
-                                                02
-                                            </div>
-                                            <h4 class="title">
-                                                Integrated Profitability &amp; Impact
-                                            </h4>
-                                            <p class="desc">
-                                                Helps organizations align profit goals with positive environmental and
-                                                social impact through innovative projects and modern technologies.
-                                            </p>
-                                        </li>
-                                        <li class="d-flex flex-column align-items-center">
-                                            <div class="bullet">
-                                                03
-                                            </div>
-                                            <h4 class="title">
-                                                Enhanced Food Security
-                                            </h4>
-                                            <p class="desc">
-                                                Encourages sustainable economic projects, developing sustainable
-                                                agriculture and fisheries to improve food security.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="relief-center">
-                        <div class="section-p">
-                            <div class="container">
-                                <div class="">
-                                    <h3 class="fs-1 fw-bold text-center mb-5">Relief Center</h3>
-                                    <div
-                                            class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
-                                        <img
-                                                src="/theme_taqat/static/src/img/programs_page/reliefcenter-logo.png"
+                                                src="/theme_taqat/static/src/img/programs_page/brand-1.png"
                                                 alt="Relief Center" loading="lazy"/>
-                                        <p class="program-description text-center mt-3 mb-2">
-                                            Relief Center is a pioneering platform providing comprehensive humanitarian
-                                            support and early alerts services. We help governmental and non-governmental
-                                            organizations improve relief operations and rapid response efficiency.
-                                        </p>
-                                        <p class="program-details text-center w-75 m-0">
-                                            Relief Center uses the latest AI technologies to analyze data and deliver
-                                            innovative solutions. This enables humanitarian organizations to quickly
-                                            reach those in need and effectively reduce the negative impacts of crises.
-                                        </p>
-                                        <a href="https://tayf.qa/"
-                                           class="main-btn bg-primary text-white border border-primary"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                 height="24"
-                                                 viewBox="0 0 24 24" fill="none"
-                                                 stroke="currentColor"
-                                                 stroke-width="2"
-                                                 stroke-linecap="round" stroke-linejoin="round"
-                                                 class="lucide lucide-arrow-left">
-                                                <path d="m12 19-7-7 7-7"></path>
-                                                <path d="M19 12H5"></path>
-                                            </svg>
-                                            Relief Center
-                                        </a>
                                     </div>
-                                    <div class="website-image_wrapper">
-                                        <img
-                                                src="/theme_taqat/static/src/img/programs_page/reliefcenter-website.png"
-                                                alt="Relief Center" loading="lazy"
-                                                class="project-website_image w-100 h-100"/>
-                                    </div>
-                                    <div class="relief-center_programs">
-                                        <h3 class="text-center mb-5 mt112">What Relief Center Provides:</h3>
-                                        <div class="row justify-content-center gap-4">
-                                            <div
-                                                    class="program bg-white text-center col-11 col-md-5">
-                                                <h4>
-                                                    Emergency Food Security
-                                                </h4>
-                                                <p class="m-0">
-                                                    Combats hunger and malnutrition in disaster zones.
-                                                </p>
-                                            </div>
-                                            <div
-                                                    class="program bg-white text-center col-11 col-md-5">
-                                                <h4>
-                                                    Clean Water Initiatives
-                                                </h4>
-                                                <p class="m-0">
-                                                    Reduces waterborne diseases and ensures safe
-                                                    drinking water access.
-                                                </p>
-                                            </div>
-                                            <div
-                                                    class="program bg-white text-center col-11 col-md-5">
-                                                <h4>
-                                                    Rapid Shelter Solutions
-                                                </h4>
-                                                <p class="m-0">
-                                                    Provides quick, efficient shelter for displaced populations.
-                                                </p>
-                                            </div>
-                                            <div
-                                                    class="program bg-white text-center col-11 col-md-5">
-                                                <h4>
-                                                    Emergency Medical Response
-                                                </h4>
-                                                <p class="m-0">
-                                                    Delivers basic healthcare services in disaster zones.
-                                                </p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="emdad">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div>
+                                        <h3 class="fs-1 fw-bold text-center mb-5">Emdad</h3>
+                                        <div
+                                                class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/emdad-logo.png"
+                                                    alt="Emdad" loading="lazy"/>
+                                            <p class="program-description text-center mt-3 mb-2">
+                                                EMDAD is a specialized platform providing products for humanitarian
+                                                organizations. As a "one-stop shop," we offer integrated aid solutions
+                                                developed with advanced AI.
+                                            </p>
+                                            <p class="program-details text-center w-75 m-0">
+                                                This ensures seamless, efficient solutions meeting customer needs and
+                                                enhancing relief operations.
+                                            </p>
+                                            <a href="https://www.emdadexpress.com/"
+                                               class="main-btn bg-primary text-white border border-primary"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor"
+                                                     stroke-width="2"
+                                                     stroke-linecap="round" stroke-linejoin="round"
+                                                     class="lucide lucide-arrow-left">
+                                                    <path d="m12 19-7-7 7-7"></path>
+                                                    <path d="M19 12H5"></path>
+                                                </svg>
+                                                Emdad Website
+                                            </a>
+                                        </div>
+                                        <div class="website-image_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/emdad-website.png"
+                                                    alt="Emdad" loading="lazy"
+                                                    class="project-website_image w-100 h-100"/>
+                                        </div>
+                                        <div>
+                                            <h3 class="fs-1 fw-bold text-center mb-5 mt112">
+                                                What does EMDAD provide?
+                                            </h3>
+                                            <div class="row gap-3 gap-md-4 justify-content-center">
+                                                <div class="col-md-5">
+                                                    <div class="card">
+                                                        <div class="icon">
+                                                            <img
+                                                                    src="/theme_taqat/static/src/img/programs_page/Puzzle.png"
+                                                                    alt="Innovative Technology"/>
+                                                        </div>
+                                                        <h4>Innovative Technology</h4>
+                                                        <p>
+                                                            We partner with local and international organizations to
+                                                            amplify
+                                                            relief efforts and provide comprehensive community support.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="card">
+                                                        <div class="icon">
+                                                            <img
+                                                                    src="/theme_taqat/static/src/img/programs_page/Light.png"
+                                                                    alt="Organizational Partnerships"/>
+                                                        </div>
+                                                        <h4>Organizational Partnerships</h4>
+                                                        <p>
+                                                            We partner with local and international organizations to
+                                                            amplify
+                                                            relief efforts and provide comprehensive community support.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="card">
+                                                        <div class="icon">
+                                                            <img
+                                                                    src="/theme_taqat/static/src/img/programs_page/Package.png"
+                                                                    alt="Customized Aid Packages"/>
+                                                        </div>
+                                                        <h4>Customized Aid Packages</h4>
+                                                        <p>
+                                                            Tailored aid packages efficiently provide essential items
+                                                            like
+                                                            water,
+                                                            food, and medicine based on specific needs.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="card">
+                                                        <div class="icon">
+                                                            <img
+                                                                    src="/theme_taqat/static/src/img/programs_page/Car.png"
+                                                                    alt="Comprehensive Logistics"/>
+                                                        </div>
+                                                        <h4>Comprehensive Logistics</h4>
+                                                        <p>
+                                                            Transportation, storage, and distribution services ensure
+                                                            timely,
+                                                            high-quality aid delivery to those in need.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                        <section class="tayf">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="">
+                                        <h3 class="fs-1 fw-bold text-center mb-5">Tayf</h3>
+                                        <div
+                                                class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/tayf-logo.png"
+                                                    alt="Tayf" loading="lazy"/>
+                                            <p class="program-description text-center mt-3 mb-2">
+                                                TAYF, a Qatar Charity initiative, improves in-kind donation collection
+                                                and
+                                                distribution for greater relief impact.
+                                            </p>
+                                            <p class="program-details text-center w-75 m-0">
+                                                TAYF enhances living conditions in vulnerable communities by providing
+                                                solutions to alleviate crisis effects and promote sustainable
+                                                development.
+                                            </p>
+                                            <a href="https://tayf.qa/"
+                                               class="main-btn bg-primary text-white border border-primary"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor"
+                                                     stroke-width="2"
+                                                     stroke-linecap="round" stroke-linejoin="round"
+                                                     class="lucide lucide-arrow-left">
+                                                    <path d="m12 19-7-7 7-7"></path>
+                                                    <path d="M19 12H5"></path>
+                                                </svg>
+                                                Tayf Website
+                                            </a>
+                                        </div>
+                                        <div class="website-image_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/tayf-website.png"
+                                                    alt="Tayf" loading="lazy"
+                                                    class="project-website_image w-100 h-100"/>
+                                        </div>
+                                        <div class="charities-wrapper">
+                                            <p class="text-center m-0 fw-bold desc">
+                                                At Qatar Charity, we always strive to make the
+                                                donation process easy and
+                                                convenient for everyone. We provide you with the new
+                                                donation box, which
+                                                allows you to donate clothes, shoes, toys, and books
+                                                effortlessly.
+                                            </p>
+                                            <div
+                                                    class="chars-logos mt-4 d-flex align-items-center justify-content-center gap-4 row">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/programs_page/chars/unicef.png"
+                                                        alt="unicef"/>
+                                                <img
+                                                        src="/theme_taqat/static/src/img/programs_page/chars/unhcr.png"
+                                                        alt="unhcr"/>
+                                                <img
+                                                        src="/theme_taqat/static/src/img/programs_page/chars/save_the_children.png"
+                                                        alt="Save the Children"/>
+                                                <img
+                                                        src="/theme_taqat/static/src/img/programs_page/chars/qatar-box.png"
+                                                        alt="Qatar Box Charity"/>
+                                                <img
+                                                        src="/theme_taqat/static/src/img/programs_page/chars/snoonu.png"
+                                                        alt="Snoonu"/>
+                                                <img
+                                                        src="/theme_taqat/static/src/img/programs_page/chars/rafeeq-seeklogo.png"
+                                                        alt="Rafeeq Seek"/>
+                                            </div>
+                                        </div>
+                                        <div class="our-mission">
+                                            <div>
+                                                <h2 class="fw-bold text-center mb-5">What does TAYF provide?</h2>
+                                            </div>
+                                            <div
+                                                    class="row mt-4 gap-3 gap-md-4 justify-content-center">
+                                                <div class="col-md-5 mission-item">
+                                                    <div class="mission-content">
+                                                        <h3 class="fw-bold">Sustainable Initiatives</h3>
+                                                        <p class="m-0">
+                                                            Supports initiatives like "It Holds Value" providing in-kind
+                                                            donations
+                                                            while promoting recycling and environmental sustainability.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5 mission-item">
+                                                    <div class="mission-content">
+                                                        <h3 class="fw-bold">
+                                                            Easy Donation Process
+                                                        </h3>
+                                                        <p class="m-0">
+                                                            Extensive donation box network and integrated call service
+                                                            for
+                                                            convenient home donations.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5 mission-item">
+                                                    <div class="mission-content">
+                                                        <h3 class="fw-bold">Transparent Donation Handling</h3>
+                                                        <p class="m-0">
+                                                            Operates with the highest transparency standards from
+                                                            collection
+                                                            to
+                                                            distribution, ensuring donations reach those in need.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="edamah">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="">
+                                        <h3 class="fs-1 fw-bold text-center mb-5">Edamah</h3>
+                                        <div
+                                                class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/edamah-logo.png"
+                                                    alt="Edamah" loading="lazy"/>
+                                            <p class="program-description text-center mt-3 mb-2">
+                                                Edamah is an integrated program blending investment strategies with
+                                                community needs for sustainable development.
+                                            </p>
+                                            <p class="program-details text-center m-0">
+                                                Our program develops profit-driven projects with a positive societal and
+                                                environmental impact.
+                                                Edamah focuses on renewable energy, agriculture, economic development,
+                                                fisheries, social projects, and more, ensuring a sustainable future.
+                                            </p>
+                                            <a href="https://www.edamapro.com/"
+                                               class="main-btn bg-primary text-white border border-primary"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor"
+                                                     stroke-width="2"
+                                                     stroke-linecap="round" stroke-linejoin="round"
+                                                     class="lucide lucide-arrow-left">
+                                                    <path d="m12 19-7-7 7-7"></path>
+                                                    <path d="M19 12H5"></path>
+                                                </svg>
+                                                Edamah Website
+                                            </a>
+                                        </div>
+                                        <div class="website-image_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/edamah-website.png"
+                                                    alt="Edamah" loading="lazy"
+                                                    class="project-website_image w-100 h-100"/>
+                                        </div>
+                                    </div>
+                                    <div class="edamah-goals">
+                                        <div class="text_info">
+                                            <h3 class="title mb-5 mt112">
+                                                What Edamah Provides:
+                                            </h3>
+                                        </div>
+                                        <ul class="goals-list justify-content-center m-0 p-0">
+                                            <li class="d-flex flex-column align-items-center">
+                                                <div class="bullet">
+                                                    01
+                                                </div>
+                                                <h4 class="title">
+                                                    Sustainable Investment
+                                                </h4>
+                                                <p class="desc">
+                                                    Promotes investment in renewable energy and other sustainable
+                                                    projects
+                                                    to
+                                                    improve living conditions with clean energy.
+                                                </p>
+                                            </li>
+                                            <li class="d-flex flex-column align-items-center">
+                                                <div class="bullet">
+                                                    02
+                                                </div>
+                                                <h4 class="title">
+                                                    Integrated Profitability &amp; Impact
+                                                </h4>
+                                                <p class="desc">
+                                                    Helps organizations align profit goals with positive environmental
+                                                    and
+                                                    social impact through innovative projects and modern technologies.
+                                                </p>
+                                            </li>
+                                            <li class="d-flex flex-column align-items-center">
+                                                <div class="bullet">
+                                                    03
+                                                </div>
+                                                <h4 class="title">
+                                                    Enhanced Food Security
+                                                </h4>
+                                                <p class="desc">
+                                                    Encourages sustainable economic projects, developing sustainable
+                                                    agriculture and fisheries to improve food security.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="relief-center">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="">
+                                        <h3 class="fs-1 fw-bold text-center mb-5">Relief Center</h3>
+                                        <div
+                                                class="d-flex flex-column align-items-center mt-5 justify-content-center website-info_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/reliefcenter-logo.png"
+                                                    alt="Relief Center" loading="lazy"/>
+                                            <p class="program-description text-center mt-3 mb-2">
+                                                Relief Center is a pioneering platform providing comprehensive
+                                                humanitarian
+                                                support and early alerts services. We help governmental and
+                                                non-governmental
+                                                organizations improve relief operations and rapid response efficiency.
+                                            </p>
+                                            <p class="program-details text-center w-75 m-0">
+                                                Relief Center uses the latest AI technologies to analyze data and
+                                                deliver
+                                                innovative solutions. This enables humanitarian organizations to quickly
+                                                reach those in need and effectively reduce the negative impacts of
+                                                crises.
+                                            </p>
+                                            <a href="https://tayf.qa/"
+                                               class="main-btn bg-primary text-white border border-primary"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor"
+                                                     stroke-width="2"
+                                                     stroke-linecap="round" stroke-linejoin="round"
+                                                     class="lucide lucide-arrow-left">
+                                                    <path d="m12 19-7-7 7-7"></path>
+                                                    <path d="M19 12H5"></path>
+                                                </svg>
+                                                Relief Center
+                                            </a>
+                                        </div>
+                                        <div class="website-image_wrapper">
+                                            <img
+                                                    src="/theme_taqat/static/src/img/programs_page/reliefcenter-website.png"
+                                                    alt="Relief Center" loading="lazy"
+                                                    class="project-website_image w-100 h-100"/>
+                                        </div>
+                                        <div class="relief-center_programs">
+                                            <h3 class="text-center mb-5 mt112">What Relief Center Provides:</h3>
+                                            <div class="row justify-content-center gap-4">
+                                                <div
+                                                        class="program bg-white text-center col-11 col-md-5">
+                                                    <h4>
+                                                        Emergency Food Security
+                                                    </h4>
+                                                    <p class="m-0">
+                                                        Combats hunger and malnutrition in disaster zones.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                        class="program bg-white text-center col-11 col-md-5">
+                                                    <h4>
+                                                        Clean Water Initiatives
+                                                    </h4>
+                                                    <p class="m-0">
+                                                        Reduces waterborne diseases and ensures safe
+                                                        drinking water access.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                        class="program bg-white text-center col-11 col-md-5">
+                                                    <h4>
+                                                        Rapid Shelter Solutions
+                                                    </h4>
+                                                    <p class="m-0">
+                                                        Provides quick, efficient shelter for displaced populations.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                        class="program bg-white text-center col-11 col-md-5">
+                                                    <h4>
+                                                        Emergency Medical Response
+                                                    </h4>
+                                                    <p class="m-0">
+                                                        Delivers basic healthcare services in disaster zones.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
+            </t>
         </template>
         <!-- Page Record -->
         <record id="taqat_programs_page_rec" model="theme.website.page">
@@ -482,12 +498,6 @@
             <field name="url">/programs</field>
         </record>
 
-        <!-- Menu Record -->
-        <record id="taqat_programs_page_menu_rec" model="theme.website.menu">
-            <field name="name">Our Programs</field>
-            <field name="url">/programs</field>
-            <field name="sequence" type="int">11</field>
-        </record>
 
     </data>
 </odoo>

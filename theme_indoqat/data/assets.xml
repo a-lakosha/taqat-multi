@@ -1,0 +1,76 @@
+<odoo>
+    <data noupdate="1">
+        <record id="theme_indoqat.owl_carousel_css" model="ir.asset">
+            <field name="name">Owl Carousel CSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/lib/owl-carousel/css/owl.carousel.min.css</field>
+        </record>
+
+        <record id="theme_indoqat.owl_carousel_theme_default_css" model="ir.asset">
+            <field name="name">Owl Carousel Theme Default CSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/lib/owl-carousel/css/owl.theme.default.min.css</field>
+        </record>
+
+        <record id="theme_indoqat.owl_carousel_theme_green_css" model="ir.asset">
+            <field name="name">Owl Carousel Theme Green CSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/lib/owl-carousel/css/owl.theme.green.min.css</field>
+        </record>
+
+        <record id="theme_indoqat.owl_carousel_js" model="ir.asset">
+            <field name="name">Owl Carousel JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/lib/owl-carousel/js/owl.carousel.min.js</field>
+        </record>
+
+        <record id="theme_indoqat.bootstrap_icons" model="ir.asset">
+            <field name="name">Bootstrap Icons</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/lib/bootstrap-icons/bootstrap-icons.css</field>
+        </record>
+
+        <record id="theme_indoqat.custom_scss" model="ir.asset">
+            <field name="name">Theme Custom SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/scss/custom.scss</field>
+        </record>
+
+        <record id="theme_indoqat.style1_scss" model="ir.asset">
+            <field name="name">Theme Style 1 SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/scss/style1.scss</field>
+        </record>
+
+        <record id="theme_indoqat.style2_scss" model="ir.asset">
+            <field name="name">Theme Style 2 SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/scss/style2.scss</field>
+        </record>
+
+        <record id="theme_indoqat.style3_scss" model="ir.asset">
+            <field name="name">Theme Style 3 SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/scss/style3.scss</field>
+        </record>
+
+        <record id="theme_indoqat.project_snippet_js" model="ir.asset">
+            <field name="name">Project Snippet JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/js/project.snippet.js</field>
+        </record>
+
+        <record id="theme_indoqat.script_js" model="ir.asset">
+            <field name="name">Theme Script JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_indoqat/static/src/js/script.js</field>
+        </record>
+
+        <record id="theme_indoqat._assets_primary_variables" model="ir.asset">
+            <field name="name">Assets Primary Variables</field>
+            <field name="bundle">web._assets_primary_variables</field>
+            <field name="path">theme_indoqat/static/src/scss/primary_variables.scss</field>
+        </record>
+
+    </data>
+</odoo>

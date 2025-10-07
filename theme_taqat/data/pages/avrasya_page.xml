@@ -225,12 +225,6 @@
             <field name="url">/avrasya</field>
         </record>
 
-        <!-- Menu Record -->
-        <record id="taqat_avrasya_page_menu_rec" model="theme.website.menu">
-            <field name="name">About Us</field>
-            <field name="url">/avrasya</field>
-            <field name="sequence" type="int">11</field>
-        </record>
 
     </data>
 </odoo>

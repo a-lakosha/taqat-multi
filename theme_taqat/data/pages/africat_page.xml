@@ -375,12 +375,6 @@
             <field name="url">/africat</field>
         </record>
 
-        <!-- Menu Record -->
-        <record id="taqat_africat_page_menu_rec" model="theme.website.menu">
-            <field name="name">Africat</field>
-            <field name="url">/africat</field>
-            <field name="sequence" type="int">11</field>
-        </record>
 
     </data>
 </odoo>

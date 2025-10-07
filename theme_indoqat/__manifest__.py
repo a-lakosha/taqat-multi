@@ -31,28 +31,13 @@
         'data/pages/contact_page.xml',
         'data/pages/services_page.xml',
 
-        'data/menus/menu.xml'
+        'data/menus/menu.xml',
+        'data/assets.xml'
     ],
     'images': [
         'static/description/indoqat_description.png',
         'static/description/indoqat_screenshot.png',
     ],
-    'assets': {
-        'web.assets_frontend': [
-            'theme_indoqat/static/src/lib/owl-carousel/**/*',
-            'theme_indoqat/static/src/lib/bootstrap-icons/bootstrap-icons.css',
-            'theme_indoqat/static/src/scss/custom.scss',
-            'theme_indoqat/static/src/scss/style1.scss',
-            'theme_indoqat/static/src/scss/style2.scss',
-            'theme_indoqat/static/src/scss/style3.scss',
-            'theme_indoqat/static/src/js/project.snippet.js',
-            'theme_indoqat/static/src/js/script.js',
-
-        ],
-        'web._assets_primary_variables': [
-            'theme_indoqat/static/src/scss/primary_variables.scss',
-        ],
-    },
     'application': False,
     'license': 'LGPL-3',
 }
