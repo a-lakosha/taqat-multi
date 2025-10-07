@@ -66,9 +66,9 @@
                                 <p class="display-6 fw-medium m-0 pb64" t-field="first_post.teaser"/>
                             </div>
                             <div class="date_more p-0 d-flex flex-row align-items-center justify-content-between">
-                                <time t-if="first_post.post_date"
+                                <time t-field="first_post.post_date"
                                       class="display-6 fw-medium m-0 o_animate o_anim_slide_in  o_anim_from_right o_delay_250"
-                                      t-out="first_post.create_date.strftime('%d %B %Y')"/>
+                                      t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd MMMM y'}"/>
                                 <a t-attf-href="/blog/#{slug(first_post.blog_id)}/#{slug(first_post)}"
                                    class="btn btn-link d-flex flex-row gap-2 align-items-center text-black o_animate o_anim_slide_in  o_anim_from_right o_delay_250">
                                     More
