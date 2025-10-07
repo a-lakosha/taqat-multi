@@ -44,7 +44,6 @@
         <xpath expr="//nav[contains(@t-attf-class, 'navbar navbar-expand-lg navbar-light pt-4 pb-0 px-0')]"
                position="replace">
             <!-- Featured post section -->
-            <!--            <section class="latest_post" t-if="latest_post">-->
             <section class="lastest_news pb144" t-if="first_post">
                 <div class="container pt64">
                     <h2 class="pb64">Latest News</h2>
@@ -63,8 +62,8 @@
                             <div class="">
                                 <a t-attf-href="/blog/#{slug(first_post.blog_id)}/#{slug(first_post)}"
                                    class="text-black d-flex display-4 fw-bolder blog_title pb-3 m-0"
-                                   t-out="first_post.name"/>
-                                <p class="display-6 fw-medium m-0 pb64" t-out="first_post.teaser"/>
+                                   t-field="first_post.name"/>
+                                <p class="display-6 fw-medium m-0 pb64" t-field="first_post.teaser"/>
                             </div>
                             <div class="date_more p-0 d-flex flex-row align-items-center justify-content-between">
                                 <time t-if="first_post.post_date"
@@ -96,9 +95,9 @@
                                 </a>
                                 <a t-attf-href="/blog/#{slug(post.blog_id)}/#{slug(post)}"
                                    class="text-black d-flex display-5 fw-bold blog_title pt40  overflow-text"
-                                   t-out="post.name"/>
+                                   t-field="post.name"/>
                                 <p class="display-6 fw-medium overflow-text blog_desc pt-4"
-                                   t-out="post.teaser"/>
+                                   t-field="post.teaser"/>
                                 <div class="date_more p-0 pt64 d-flex flex-row align-items-center justify-content-between">
                                     <time t-if="post.post_date" class="fs-6 fw-medium m-0"
                                           t-out="post.create_date.strftime('%d %B %Y')"/>
@@ -140,7 +139,7 @@
                 </a>
                 <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/#{slug(blog_post)}"
                    class="text-black d-flex display-5 text-black fw-bold blog_title pt40 pb-4 overflow-text"
-                   t-out="blog_post.name"/>
+                   t-field="blog_post.name"/>
                 <div class="date_more pt-4 d-flex flex-row align-items-center justify-content-between">
                     <time t-if="blog_post.post_date" class="fs-6 fw-medium m-0"
                           t-out="blog_post.create_date.strftime('%d %B %Y')"/>
@@ -201,13 +200,13 @@
                 <div class="container pt144 o_animate o_anim_fade_in">
                     <div class="row max-width-details-task  ">
                         <div class="content mb40">
-                            <h3 t-esc="blog_post.name" class="display-4 fw-bolder pb-3 m-0"/>
+                            <h3 t-field="blog_post.name" class="display-4 fw-bolder pb-3 m-0"/>
                             <div>
                                 <time
                                         class="mb-5 d-block"
                                         style="color: #737373; font-size: 16px;"
                                         t-if="blog_post.post_date"
-                                        t-esc="blog_post.post_date.strftime('%b %Y %d')"
+                                        t-out="blog_post.post_date.strftime('%b %Y %d')"
                                 />
                                 <!-- record cover -->
                                 <t t-call="website.record_cover">
@@ -222,7 +221,7 @@
                                 class="mb40 mt-2 d-block"
                                 style="color: #737373; font-size: 16px;"
                                 t-if="blog_post.post_date"
-                                t-esc="blog_post.post_date.strftime('%b %d %Y')"
+                                t-out="blog_post.post_date.strftime('%b %d %Y')"
                         />
                     </div>
                 </div>
@@ -307,7 +306,7 @@
                                     </a>
                                     <a t-attf-href="/blog/#{slug(alternative_post_id.blog_id)}/#{slug(alternative_post_id)}"
                                        class="text-black d-flex display-5 text-black fw-bold blog_title pt40 pb-4 overflow-text"
-                                       t-out="alternative_post_id.name"/>
+                                       t-field="alternative_post_id.name"/>
                                     <div class="date_more pt-4 d-flex flex-row align-items-center justify-content-between">
                                         <time t-if="alternative_post_id.post_date" class="fs-6 fw-medium m-0"
                                               t-out="alternative_post_id.create_date.strftime('%d %B %Y')"/>

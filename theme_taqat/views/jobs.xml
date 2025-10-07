@@ -56,7 +56,7 @@
             <t t-set="no_of_active_job"
                t-value="request.env['hr.job'].search_count([('website_published', '=', True)])"/>
             <p class="mb-4">
-                <t t-esc="no_of_active_job"/>
+                <t t-out="no_of_active_job"/>
                 Job
             </p>
         </xpath>

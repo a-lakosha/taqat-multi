@@ -1,256 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <!--    Blogs page templates    -->
-  <template id="blog_post_short_customize" inherit_id="website_blog.blog_post_short" active="True">
-    <xpath expr="//div[@id='o_wblog_blog_top']" position="replace">
-      <div class="mt-4" t-if="top_posts" id="featured_posts">
-        <div class="container py-4 py-lg-5 border-bottom">
-          <h1 class="text-center pb-5">Latest News and Updates</h1>
-          <div class="row g-4 pb-4 pb-lg-5">
-            <!-- First Post Section (Big Featured Post) -->
-            <div class="col-lg-7 pe-lg-4">
-              <t t-set="first_post" t-value="top_posts and top_posts[0]" />
-              <t t-if="first_post">
-                <article class="o_wblog_post position-relative">
-                  <!-- Grid-View Design -->
-                  <t t-call="website.record_cover">
-                    <t t-set="_record" t-value="first_post" />
-                    <t t-set="additionnal_classes"
-                      t-value="'o_not_editable overflow-hidden shadow mb-3 post-rounded min-h-[400px]'" />
-                  </t>
-                  <div class="card-body px-2 py-0 mb-2">
-                    <h2 class="display-4 fw-bold pt-2" t-field="first_post.name">Untitled
-                      Post</h2>
-                    <time t-field="first_post.post_date"
-                      class="text-nowrap fw-bold pb-2 fs-7 fw-light d-block"
-                      t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}" />
-                    <p class="display-6 blog-description"
-                      t-field="first_post.teaser" />
-                  </div>
-                  <div class="o_wblog_normalize_font pb-2">
-                    <a
-                      t-attf-href="/blog/#{slug(first_post.blog_id)}/{{slug(first_post)}}"
-                      class="btn btn-primary"
-                      t-att-aria-label="'Read more about ' + first_post.name"
-                      t-att-title="'Read more about ' + first_post.name"
-                    > Read more <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="rotate-180deg" width="24" height="25"
-                        viewBox="0 0 24 25" fill="none">
-                        <path d="M15 19.8965L8 12.8965L15 5.89648"
-                          stroke="#fff" stroke-width="2"
-                          stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </a>
-                  </div>
-                  <!-- 'Unpublished' Badge -->
-                  <span t-if="not first_post.website_published"
-                    class="bg-danger small py-1 px-2 position-absolute o_not_editable"
-                    style="top:0; right:0">
-                    Unpublished
-                  </span>
-                </article>
-              </t>
-            </div>
+    <!--    Blogs page templates    -->
+    <template id="blog_post_short_customize" inherit_id="website_blog.blog_post_short" active="True">
+        <xpath expr="//div[@id='o_wblog_blog_top']" position="replace">
+            <t t-set="top_posts"
+               t-value="request.env['blog.post'].search([('post_date', '&lt;=', datetime.datetime.now())], order='visits desc', limit=6)"/>
+            <div class="mt-4" t-if="top_posts" id="featured_posts">
+                <div class="container py-4 py-lg-5 border-bottom">
+                    <h1 class="text-center pb-5">Latest News and Updates</h1>
+                    <div class="row g-4 pb-4 pb-lg-5">
+                        <!-- First Post Section (Big Featured Post) -->
+                        <div class="col-lg-7 pe-lg-4">
+                            <t t-set="first_post" t-value="top_posts and top_posts[0]"/>
+                            <t t-if="first_post">
+                                <article class="o_wblog_post position-relative">
+                                    <!-- Grid-View Design -->
+                                    <t t-call="website.record_cover">
+                                        <t t-set="_record" t-value="first_post"/>
+                                        <t t-set="additionnal_classes"
+                                           t-value="'o_not_editable overflow-hidden shadow mb-3 post-rounded min-h-[400px]'"/>
+                                    </t>
+                                    <div class="card-body px-2 py-0 mb-2">
+                                        <h2 class="display-4 fw-bold pt-2" t-field="first_post.name">Untitled
+                                            Post
+                                        </h2>
+                                        <time t-field="first_post.post_date"
+                                              class="text-nowrap fw-bold pb-2 fs-7 fw-light d-block"
+                                              t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}"/>
+                                        <p class="display-6 blog-description"
+                                           t-field="first_post.teaser"/>
+                                    </div>
+                                    <div class="o_wblog_normalize_font pb-2">
+                                        <a
+                                                t-attf-href="/blog/#{slug(first_post.blog_id)}/{{slug(first_post)}}"
+                                                class="btn btn-primary"
+                                                t-att-aria-label="'Read more about ' + first_post.name"
+                                                t-att-title="'Read more about ' + first_post.name"
+                                        >Read more
+                                            <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="rotate-180deg" width="24" height="25"
+                                                    viewBox="0 0 24 25" fill="none">
+                                                <path d="M15 19.8965L8 12.8965L15 5.89648"
+                                                      stroke="#fff" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <!-- 'Unpublished' Badge -->
+                                    <span t-if="not first_post.website_published"
+                                          class="bg-danger small py-1 px-2 position-absolute o_not_editable"
+                                          style="top:0; right:0">
+                                        Unpublished
+                                    </span>
+                                </article>
+                            </t>
+                        </div>
 
-            <!-- Remaining Posts Section -->
-            <div class="col-lg-5 ps-lg-4 ps-xl-5">
-              <div class="row g-3">
-                <t t-set="remaining_posts" t-value="top_posts[1:]" />
-                <t t-foreach="remaining_posts" t-as="blog_post">
-                  <article
-                    class="o_wblog_post position-relative border-bottom pb-4 mb-4">
-                    <a class="row g-3"
-                      t-attf-href="/blog/#{slug(blog_post.blog_id)}/{{slug(blog_post)}}">
-                      <div class="col featured-flex">
-                        <h3 class="display-6 fw-bold pt-2"
-                          t-field="blog_post.name">Untitled
-                          Post
+                        <!-- Remaining Posts Section -->
+                        <div class="col-lg-5 ps-lg-4 ps-xl-5">
+                            <div class="row g-3">
+                                <t t-set="remaining_posts" t-value="top_posts[1:]"/>
+                                <t t-foreach="remaining_posts" t-as="blog_post">
+                                    <article
+                                            class="o_wblog_post position-relative border-bottom pb-4 mb-4">
+                                        <a class="row g-3"
+                                           t-attf-href="/blog/#{slug(blog_post.blog_id)}/{{slug(blog_post)}}">
+                                            <div class="col featured-flex">
+                                                <h3 class="display-6 fw-bold pt-2"
+                                                    t-field="blog_post.name">Untitled
+                                                    Post
+                                                </h3>
+                                                <time t-field="blog_post.post_date"
+                                                      class="text-nowrap fw-bold fs-6 fw-light"
+                                                      t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}"/>
+                                            </div>
+                                            <div class="col-3">
+                                                <t t-call="website.record_cover">
+                                                    <t t-set="_record" t-value="blog_post"/>
+                                                    <t t-set="additionnal_classes"
+                                                       t-value="'o_not_editable post-rounded overflow-hidden shadow mb-3'"/>
+                                                </t>
+                                            </div>
+                                            <!-- 'Unpublished' Badge -->
+                                            <span t-if="not blog_post.website_published"
+                                                  class="bg-danger small py-1 px-2 position-absolute o_not_editable"
+                                                  style="top:0; right:0">
+                                                Unpublished
+                                            </span>
+                                        </a>
+                                    </article>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+
+        <xpath expr="//t[@t-call='website_blog.blogs_nav']" position="replace"/>
+    </template>
+    <template id="posts_loop_customize" inherit_id="website_blog.posts_loop" active="True">
+        <xpath expr="//t[@t-foreach='posts']" position="replace">
+            <h2 class="pt-5 pb-4">News</h2>
+            <t t-foreach="posts" t-as="blog_post">
+                <div class="pb-4 col-md-6 col-lg-3"
+                     t-cache="blog_post,opt_blog_list_view,opt_blog_readable,active_tag_ids">
+                    <article class="o_wblog_post position-relative h-100 d-flex flex-column"
+                             name="blog_post">
+                        <!-- Grid-View Design -->
+                        <t t-call="website.record_cover">
+                            <t t-set="_record" t-value="blog_post"/>
+                            <t t-set="additionnal_classes"
+                               t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"/>
+                        </t>
+                        <h3 class="display-6 fw-bold pt-2 mb-auto" t-field="blog_post.name">Untitled
+                            Post
                         </h3>
                         <time t-field="blog_post.post_date"
-                          class="text-nowrap fw-bold fs-6 fw-light"
-                          t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}" />
-                      </div>
-                      <div class="col-3">
-                        <t t-call="website.record_cover">
-                          <t t-set="_record" t-value="blog_post" />
-                          <t t-set="additionnal_classes"
-                            t-value="'o_not_editable post-rounded overflow-hidden shadow mb-3'" />
-                        </t>
-                      </div>
-                      <!-- 'Unpublished' Badge -->
-                      <span t-if="not blog_post.website_published"
-                        class="bg-danger small py-1 px-2 position-absolute o_not_editable"
-                        style="top:0; right:0">
-                        Unpublished
-                      </span>
-                    </a>
-                  </article>
-                </t>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </xpath>
-
-    <xpath expr="//t[@t-call='website_blog.blogs_nav']" position="replace" />
-  </template>
-  <template id="posts_loop_customize" inherit_id="website_blog.posts_loop" active="True">
-    <xpath expr="//t[@t-foreach='posts']" position="replace">
-      <h2 class="pt-5 pb-4">News</h2>
-      <t t-foreach="posts" t-as="blog_post">
-        <div class="pb-4 col-md-6 col-lg-3"
-          t-cache="blog_post,opt_blog_list_view,opt_blog_readable,active_tag_ids">
-          <article class="o_wblog_post position-relative h-100 d-flex flex-column"
-            name="blog_post">
-            <!-- Grid-View Design -->
-            <t t-call="website.record_cover">
-              <t t-set="_record" t-value="blog_post" />
-              <t t-set="additionnal_classes"
-                t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3" />
-            </t>
-            <h3 class="display-6 fw-bold pt-2 mb-auto" t-field="blog_post.name">Untitled
-              Post</h3>
-            <time t-field="blog_post.post_date"
-              class="text-nowrap fw-bold pb-2 d-block fs-7 fw-light"
-              t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}" />
-            <p class="fs-6 blog-description" t-field="blog_post.teaser" />
-            <div class="o_wblog_normalize_font pb-2 border-bottom">
-              <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/{{slug(blog_post)}}"
-                class="blog-link" t-att-aria-label="'Read more about ' + blog_post.name"
-                t-att-title="'Read more about ' + blog_post.name">Read more <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="rotate-180deg" width="24" height="25" viewBox="0 0 24 25"
-                  fill="none">
-                  <path d="M15 19.8965L8 12.8965L15 5.89648" stroke="#212020"
-                    stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-            <!-- Add 'unpublished' badge -->
-            <span t-if="not blog_post.website_published"
-              class="bg-danger small py-1 px-2 position-absolute o_not_editable"
-              style="top:0; right:0">
-              unpublished
-            </span>
-          </article>
-        </div>
-      </t>
-    </xpath>
-  </template>
-
-  <!--    Blog post page templates    -->
-  <template id="blog_single_post_complete_customize" inherit_id="website_blog.blog_post_complete"
-    active="True">
-    <xpath expr="//section[@id='o_wblog_post_top']" position="replace">
-
-      <section id="o_wblog_post_top" class="container">
-        <div id="title" class="blog_header"
-          t-attf-class=" #{opt_blog_post_readable and 'o_container_small w-100 blog_header' or 'blog_header'}"
-          t-ignore="True">
-          <h1 t-field="blog_post.name" id="o_wblog_post_name"
-            class="o_editable_no_shadow mt-5" data-oe-expression="blog_post.name"
-            t-att-data-blog-id="blog_post.id" placeholder="Blog Post Title" />
-          <time t-field="blog_post.post_date" class="text-nowrap pb-4 mb-3 d-block"
-            t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}" />
-          <t t-call="website.record_cover">
-            <t t-set="_record" t-value="blog_post" />
-            <t t-set="snippet_autofocus" t-value="True" />
-            <t t-set="use_filters" t-value="True" />
-            <t t-set="use_size" t-value="True" />
-            <t t-set="display_opt_name">Blog Post Cover</t>
-            <t t-set="additionnal_classes" t-value="'rounded-5 overflow-hidden'" />
-            <h3 t-field="blog_post.subtitle" id="o_wblog_post_subtitle"
-              class="o_editable_no_shadow" placeholder="Subtitle" />
-          </t>
-        </div>
-      </section>
-
-    </xpath>
-    <xpath expr="//section[@id='o_wblog_post_main']" position="replace">
-      <section id="o_wblog_post_main"
-        t-attf-class="container pt-4 pb-5 #{'anim' in request.params and 'o_wblog_post_main_transition'}">
-        <div t-if="not opt_blog_post_sidebar"
-          t-attf-class="#{opt_blog_post_readable and 'o_container_small'}">
-          <div class="d-flex flex-column flex-lg-row">
-            <div id="o_wblog_post_content"
-              t-attf-class=" #{opt_blog_post_readable and 'o_container_small w-100 flex-shrink-0'}">
-              <t t-call="website_blog.blog_post_content" />
-              <div class="py-5">
-
-                <div
-                  class="o_wblog_social_links d-flex flex-wrap mx-n1 o_not_editable">
-                  <t t-set="classes" t-translation="off">mx-1 mb-2 d-flex
-                    align-items-center justify-content-center
-                    text-decoration-none
-                  </t>
-                  <a href="#" aria-label="Facebook" title="Share on Facebook"
-                    t-attf-class="o_facebook #{classes}">
-                    <i class="fa fa-facebook-square" aria-label="Facebook"
-                      title="Facebook" />
-                  </a>
-                  <a href="#" aria-label="Twitter" title="Share on Twitter"
-                    t-attf-class="o_twitter #{classes}">
-                    <i class="fa fa-twitter" aria-label="Twitter"
-                      title="Twitter" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" title="Share on LinkedIn"
-                    t-attf-class="o_linkedin #{classes}">
-                    <i class="fa fa-linkedin" aria-label="LinkedIn"
-                      title="LinkedIn" />
-                  </a>
+                              class="text-nowrap fw-bold pb-2 d-block fs-7 fw-light"
+                              t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}"/>
+                        <p class="fs-6 blog-description" t-field="blog_post.teaser"/>
+                        <div class="o_wblog_normalize_font pb-2 border-bottom">
+                            <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/{{slug(blog_post)}}"
+                               class="blog-link" t-att-aria-label="'Read more about ' + blog_post.name"
+                               t-att-title="'Read more about ' + blog_post.name">Read more
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="rotate-180deg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none">
+                                    <path d="M15 19.8965L8 12.8965L15 5.89648" stroke="#212020"
+                                          stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <!-- Add 'unpublished' badge -->
+                        <span t-if="not blog_post.website_published"
+                              class="bg-danger small py-1 px-2 position-absolute o_not_editable"
+                              style="top:0; right:0">
+                            unpublished
+                        </span>
+                    </article>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </xpath>
-    <xpath expr="//section[@id='o_wblog_post_footer']" position="replace">
-      <section id="o_wblog_post_footer">
-        <div class="container py-lg-5 border-top">
-          <h2 class="py-4">Alternative Posts</h2>
-          <div class="row">
-            <t t-foreach="alternative_posts" t-as="blog_post">
-              <div class="pb-4 col-md-6 col-lg-3">
-                <article
-                  class="o_wblog_post position-relative h-100 d-flex flex-column"
-                  name="blog_post">
-                  <!-- Grid-View Design -->
-                  <t t-call="website.record_cover">
-                    <t t-set="_record" t-value="blog_post" />
-                    <t t-set="additionnal_classes"
-                      t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3" />
-                  </t>
-                  <h4 class="display-6 fw-bold pt-2 mb-auto"
-                    t-field="blog_post.name">Untitled Post
-                  </h4>
-                  <time t-field="blog_post.post_date"
-                    class="text-nowrap fw-bold pb-2 d-block fs-7 fw-light"
-                    t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}" />
-                  <p class="fs-6 blog-description" t-field="blog_post.teaser" />
-                  <div class="o_wblog_normalize_font pb-2 border-bottom">
-                    <a
-                      t-attf-href="/blog/#{slug(blog_post.blog_id)}/{{slug(blog_post)}}"
-                      class="blog-link"> Read more <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="rotate-180deg" width="24" height="25"
-                        viewBox="0 0 24 25" fill="none">
-                        <path d="M15 19.8965L8 12.8965L15 5.89648"
-                          stroke="#212020" stroke-width="2"
-                          stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </a>
-                  </div>
-                </article>
-              </div>
             </t>
+        </xpath>
+    </template>
 
-          </div>
-        </div>
-      </section>
-    </xpath>
-  </template>
+    <!--    Blog post page templates    -->
+    <template id="blog_single_post_complete_customize" inherit_id="website_blog.blog_post_complete"
+              active="True">
+        <xpath expr="//section[@id='o_wblog_post_top']" position="replace">
+
+            <section id="o_wblog_post_top" class="container">
+                <div id="title" class="blog_header"
+                     t-attf-class=" #{opt_blog_post_readable and 'o_container_small w-100 blog_header' or 'blog_header'}"
+                     t-ignore="True">
+                    <h1 t-field="blog_post.name" id="o_wblog_post_name"
+                        class="o_editable_no_shadow mt-5" data-oe-expression="blog_post.name"
+                        t-att-data-blog-id="blog_post.id" placeholder="Blog Post Title"/>
+                    <time t-field="blog_post.post_date" class="text-nowrap pb-4 mb-3 d-block"
+                          t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}"/>
+                    <t t-call="website.record_cover">
+                        <t t-set="_record" t-value="blog_post"/>
+                        <t t-set="snippet_autofocus" t-value="True"/>
+                        <t t-set="use_filters" t-value="True"/>
+                        <t t-set="use_size" t-value="True"/>
+                        <t t-set="display_opt_name">Blog Post Cover</t>
+                        <t t-set="additionnal_classes" t-value="'rounded-5 overflow-hidden'"/>
+                        <h3 t-field="blog_post.subtitle" id="o_wblog_post_subtitle"
+                            class="o_editable_no_shadow" placeholder="Subtitle"/>
+                    </t>
+                </div>
+            </section>
+
+        </xpath>
+        <xpath expr="//section[@id='o_wblog_post_main']" position="replace">
+            <section id="o_wblog_post_main"
+                     t-attf-class="container pt-4 pb-5 #{'anim' in request.params and 'o_wblog_post_main_transition'}">
+                <div t-if="not opt_blog_post_sidebar"
+                     t-attf-class="#{opt_blog_post_readable and 'o_container_small'}">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div id="o_wblog_post_content"
+                             t-attf-class=" #{opt_blog_post_readable and 'o_container_small w-100 flex-shrink-0'}">
+                            <t t-call="website_blog.blog_post_content"/>
+                            <div class="py-5">
+
+                                <div
+                                        class="o_wblog_social_links d-flex flex-wrap mx-n1 o_not_editable">
+                                    <t t-set="classes" t-translation="off">mx-1 mb-2 d-flex
+                                        align-items-center justify-content-center
+                                        text-decoration-none
+                                    </t>
+                                    <a href="#" aria-label="Facebook" title="Share on Facebook"
+                                       t-attf-class="o_facebook #{classes}">
+                                        <i class="fa fa-facebook-square" aria-label="Facebook"
+                                           title="Facebook"/>
+                                    </a>
+                                    <a href="#" aria-label="Twitter" title="Share on Twitter"
+                                       t-attf-class="o_twitter #{classes}">
+                                        <i class="fa fa-twitter" aria-label="Twitter"
+                                           title="Twitter"/>
+                                    </a>
+                                    <a href="#" aria-label="LinkedIn" title="Share on LinkedIn"
+                                       t-attf-class="o_linkedin #{classes}">
+                                        <i class="fa fa-linkedin" aria-label="LinkedIn"
+                                           title="LinkedIn"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+        <xpath expr="//section[@id='o_wblog_post_footer']" position="replace">
+            <section id="o_wblog_post_footer">
+                <t t-set="alternative_posts"
+                   t-value="request.env['blog.post'].search([ ('post_date', '&lt;=', datetime.datetime.now()), ('id', '!=', blog_post.id)], order='id desc', limit=4)"/>
+                <div class="container py-lg-5 border-top">
+                    <h2 class="py-4">Alternative Posts</h2>
+                    <div class="row">
+                        <t t-foreach="alternative_posts" t-as="blog_post">
+                            <div class="pb-4 col-md-6 col-lg-3">
+                                <article
+                                        class="o_wblog_post position-relative h-100 d-flex flex-column"
+                                        name="blog_post">
+                                    <!-- Grid-View Design -->
+                                    <t t-call="website.record_cover">
+                                        <t t-set="_record" t-value="blog_post"/>
+                                        <t t-set="additionnal_classes"
+                                           t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"/>
+                                    </t>
+                                    <h4 class="display-6 fw-bold pt-2 mb-auto"
+                                        t-field="blog_post.name">Untitled Post
+                                    </h4>
+                                    <time t-field="blog_post.post_date"
+                                          class="text-nowrap fw-bold pb-2 d-block fs-7 fw-light"
+                                          t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}"/>
+                                    <p class="fs-6 blog-description" t-field="blog_post.teaser"/>
+                                    <div class="o_wblog_normalize_font pb-2 border-bottom">
+                                        <a
+                                                t-attf-href="/blog/#{slug(blog_post.blog_id)}/{{slug(blog_post)}}"
+                                                class="blog-link">Read more
+                                            <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="rotate-180deg" width="24" height="25"
+                                                    viewBox="0 0 24 25" fill="none">
+                                                <path d="M15 19.8965L8 12.8965L15 5.89648"
+                                                      stroke="#212020" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </t>
+
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
 </odoo>

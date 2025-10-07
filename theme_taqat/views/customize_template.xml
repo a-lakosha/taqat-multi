@@ -1,437 +1,443 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <data noupdate="0">
+    <data noupdate="0">
 
-    <template id="custom_header" inherit_id="website.snippet_options">
-      <xpath expr="//div/we-select[@data-variable='header-template']" position="inside">
-        <we-button title="Custom Header" data-name="header_custom_opt"
-          data-customize-website-views="theme_taqat.header_custom"
-          data-customize-website-variable="'custom_header'"
-          data-img="/website/static/src/img/snippets_options/header_template_search.svg" />
-      </xpath>
-    </template>
+        <template id="custom_header" inherit_id="website.snippet_options">
+            <xpath expr="//div/we-select[@data-variable='header-template']" position="inside">
+                <we-button title="Custom Header" data-name="header_custom_opt"
+                           data-customize-website-views="theme_taqat.header_custom"
+                           data-customize-website-variable="'custom_header'"
+                           data-img="/website/static/src/img/snippets_options/header_template_search.svg"/>
+            </xpath>
+        </template>
 
-    <template id="custom_footer" inherit_id="website.snippet_options">
-      <xpath expr="//div/we-select[@data-variable='footer-template']" position="inside">
-        <we-button title="Custom Footer" data-name="footer_custom_opt"
-          data-customize-website-views="theme_taqat.footer_custom"
-          data-customize-website-variable="'custom_footer'"
-          data-img="/website/static/src/img/snippets_options/footer_template_contact.svg" />
-      </xpath>
-    </template>
+        <template id="custom_footer" inherit_id="website.snippet_options">
+            <xpath expr="//div/we-select[@data-variable='footer-template']" position="inside">
+                <we-button title="Custom Footer" data-name="footer_custom_opt"
+                           data-customize-website-views="theme_taqat.footer_custom"
+                           data-customize-website-variable="'custom_footer'"
+                           data-img="/website/static/src/img/snippets_options/footer_template_contact.svg"/>
+            </xpath>
+        </template>
 
-    <!-- Social Links  -->
-    <template id="custom_social_links" name="Header Social Links">
-      <div
-        t-attf-class="d-flex align-items-center #{_div_class} s_social_media o_not_editable oe_unmovable oe_unremovable gap-2">
-        <a t-if="website.company_id.social_facebook"
-          t-att-href="website.company_id.social_facebook"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Facebook">
-          <span class="fa fa-facebook-square" />
-        </a>
-        <a t-if="website.company_id.social_twitter"
-          t-att-href="website.company_id.social_twitter"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on X">
-          <span class="fa fa-twitter" />
-        </a>
-        <a t-if="website.company_id.social_linkedin"
-          t-att-href="website.company_id.social_linkedin"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Linkedin">
-          <span class="fa fa-linkedin" />
-        </a>
-        <a t-if="website.company_id.social_youtube"
-          t-att-href="website.company_id.social_youtube"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Youtube">
-          <span class="fa fa-youtube-play" />
-        </a>
-        <a t-if="website.company_id.social_github"
-          t-att-href="website.company_id.social_github"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on GitHub">
-          <span class="fa fa-github" />
-        </a>
-        <a t-if="website.company_id.social_instagram"
-          t-att-href="website.company_id.social_instagram"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Instagram">
-          <span class="fa fa-instagram" />
-        </a>
-        <a t-if="website.company_id.social_tiktok"
-          t-att-href="website.company_id.social_tiktok"
-          t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on TikTok">
-          <span class="fa fa-tiktok" />
-        </a>
-      </div>
-    </template>
-    <template id="header_social_links_inherit" inherit_id="website.header_social_links"
-      name="Header Social Links"
-      active="True">
-      <xpath expr="//li" position="replace">
-        <t t-call="theme_taqat.custom_social_links" />
-      </xpath>
-    </template>
-    <!-- Social Links  -->
-
-    <!-- Header  -->
-    <template id="header_custom" inherit_id="website.layout" name="Custom Nav Bar"
-      active="False">
-      <xpath expr="//header//nav" position="replace">
-        <t t-call="website.navbar">
-          <t t-set="_navbar_classes"
-            t-valuef="w-100 d-none d-lg-block p-0{{'' if nav_dark else ' shadow-sm'}} bg-transparent" />
-          <div id="o_main_nav" class="o_main_nav flex-wrap bg-transparent">
-            <div aria-label="Top"
-              class="border-bottom o_border_contrast bg-dark text-white">
-              <div
-                class="container-fluid d-grid align-items-center justify-content-between o_grid_header_3_cols w-100">
-                <ul class="navbar-nav flex-wrap">
-                  <li>
-                    <a href="/blog"
-                      class="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset">
-                      Blogs
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/jobs"
-                      class="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset">
-                      Jobs
-                    </a>
-                  </li>
-                </ul>
-                <div class="">
-                  <!-- Social Links -->
-                  <t t-call="website.placeholder_header_social_links">
-                    <t t-set="_div_class" t-valuef="o_header_social_links" />
-                    <t t-set="_link_class" t-valuef="link-light fs-6" />
-                  </t>
-                </div>
-                <ul class="o_header_search_left_col navbar-nav flex-wrap ms-auto">
-                  <!-- Search bar -->
-                  <t t-call="website.placeholder_header_search_box"
-                    t-nocache="The searchbox should not cache previous searches.">
-                    <t t-set="_layout" t-valuef="modal" />
-                    <t t-set="_input_classes" t-valuef="ps-3 text-bg-light" />
-                    <t t-set="_submit_classes" t-valuef="btn-primary p-3 lh-1" />
-                    <t t-set="_button_classes"
-                      t-valuef="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset" />
-                  </t>
-                  <!-- Language Selector -->
-                  <t t-call="website.placeholder_header_language_selector">
-                    <t t-set="no_text" t-value="True" />
-                    <t t-set="codes" t-value="True" />
-                    <t t-set="_div_classes"
-                      t-valuef="h-100 border-end o_border_contrast" />
-                    <t t-set="_btn_class"
-                      t-valuef="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset" />
-                    <t t-set="_dropdown_menu_class"
-                      t-valuef="dropdown-menu-end {{'dropdown-menu-dark' if nav_dark else ''}}" />
-                  </t>
-                  <!-- Sign In -->
-                  <t t-call="portal.placeholder_user_sign_in">
-                    <t t-set="_link_class"
-                      t-valuef="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 px-3 text-reset" />
-                  </t>
-                  <!-- User Dropdown -->
-                  <t t-call="portal.user_dropdown">
-                    <t t-set="_user_name" t-value="true" />
-                    <t t-set="_item_class"
-                      t-valuef="dropdown border-start o_border_contrast" />
-                    <t t-set="_link_class"
-                      t-valuef="o_navlink_background_hover btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset" />
-                    <t t-set="_dropdown_menu_class"
-                      t-valuef="dropdown-menu-end {{'dropdown-menu-dark' if nav_dark else ''}}" />
-                  </t>
-                </ul>
-              </div>
-            </div>
-            <t t-set="_link_text_color"
-              t-value="'text-white is_bg_dark' if nav_dark else 'text-dark is_bg_light'" />
-            <div aria-label="Bottom"
-              t-attf-class="{{'bg-dark text-white' if nav_dark else 'bg-white'}} container-fluid d-grid align-items-center justify-content-between w-100 py-3 o_grid_header_3_cols">
-              <!-- Brand -->
-              <t t-call="website.placeholder_header_brand">
-                <t t-set="_link_class" t-valuef="" />
-              </t>
-              <!-- Navbar -->
-              <t t-call="website.navbar_nav">
-                <t t-set="_nav_class" t-valuef="" />
-
-                <!-- Menu -->
-                <t t-foreach="website.menu_id.child_id" t-as="submenu">
-                  <t t-call="website.submenu">
-                    <t t-set="item_class" t-valuef="nav-item" />
-                    <!-- <t t-set="link_class" t-valuef="nav-link" /> -->
-                    <t t-set="link_class" t-valuef="nav-link {{_link_text_color}}" />
-                    <t t-set="dropdown_menu_classes"
-                      t-valuef="{{'dropdown-menu-dark' if nav_dark else ''}}" />
-                  </t>
-                </t>
-              </t>
-              <ul
-                class="o_header_search_right_col navbar-nav align-items-center gap-2 ms-auto ps-3">
-                <!-- Call To Action -->
-                <t t-call="website.placeholder_header_call_to_action" />
-              </ul>
-            </div>
-          </div>
-        </t>
-        <t t-call="website.navbar">
-          <t t-set="_txt_elt_content" t-valuef="sentence" />
-          <t t-set="_navbar_classes"
-            t-valuef="o_header_mobile d-block d-lg-none px-0 {{'bg-dark' if nav_dark else 'shadow-sm bg-light'}}" />
-          <t t-set="_navbar_expand_class" t-valuef="None" />
-          <t t-set="_navbar_name" t-valuef="Mobile" />
-
-          <div id="o_main_nav" t-att-id="None"
-            class="o_main_nav container flex-wrap justify-content-between">
-            <!-- Brand -->
-            <t t-call="website.placeholder_header_brand" />
-            <ul
-              class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
-              <li class="o_not_editable">
-                <button class="nav-link btn me-auto p-2 o_not_editable"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#top_menu_collapse_mobile"
-                  aria-controls="top_menu_collapse_mobile" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon" />
-                </button>
-              </li>
-            </ul>
+        <!-- Social Links  -->
+        <template id="custom_social_links" name="Header Social Links">
             <div
-              t-attf-class="offcanvas #{_side if _side else 'offcanvas-end'} o_navbar_mobile  {{'bg-dark' if nav_dark else ''}}"
-              id="top_menu_collapse_mobile">
-              <div class="offcanvas-header justify-content-end o_not_editable">
-                <button type="button" class="nav-link btn-close"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close" />
-              </div>
-              <div
-                class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
-                <ul class="navbar-nav h-100 border-bottom">
-                  <!-- Search bar -->
-                  <t t-call="website.placeholder_header_search_box"
-                    t-nocache="The searchbox should not cache previous searches.">
-                    <t t-set="_classes" t-valuef="mb-3" />
-                    <t t-set="_input_classes"
-                      t-valuef="rounded-start-pill text-bg-light ps-3" />
-                    <t t-set="_submit_classes"
-                      t-valuef="rounded-end-pill btn-primary pe-3" />
-                    <t t-set="limit" t-valuef="7" />
-                  </t>
-                  <!-- Navbar -->
-                  <t t-call="website.navbar_nav">
-                    <t t-set="_no_autohide_menu_mobile" t-valuef="True" />
-                    <t t-set="is_mobile" t-value="True" />
-
-                    <!-- Menu -->
-                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
-                      <t t-call="website.submenu">
-                        <t t-set="item_class" t-valuef="nav-item" />
-                        <t t-set="link_class" t-valuef="nav-link" />
-                        <t t-set="dropdown_toggler_classes"
-                          t-valuef="d-flex justify-content-between align-items-center" />
-                        <t t-set="dropdown_menu_classes"
-                          t-valuef="position-relative rounded-0 o_dropdown_without_offset {{'dropdown-menu-dark' if nav_dark else ''}}" />
-                      </t>
-                    </t>
-                  </t>
-                  <ul
-                    class="nav navbar-nav d-flex justify-content-between align-items-center mt-auto flex-row mb-2">
-                    <li class="nav-item">
-                      <a href="/blog" class="nav-link">
-                        Blogs
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/jobs" class="nav-link">
-                        Jobs
-                      </a>
-                    </li>
-                  </ul>
-                  <!-- Social -->
-                  <t t-call="website.placeholder_header_social_links">
-                    <t t-set="_div_class"
-                      t-valuef="o_header_social_links border-top justify-content-center py-3" />
-                    <t t-set="_link_class"
-                      t-valuef="{{'link-light' if nav_dark else 'link-dark'}} fs-6" />
-                  </t>
-                </ul>
-                <ul class="navbar-nav gap-2 mt-3 w-100">
-                  <!-- Sign In -->
-                  <t t-call="portal.placeholder_user_sign_in">
-                    <t t-set="_link_class"
-                      t-valuef="btn btn-outline-primary w-100" />
-                  </t>
-                  <!-- User Dropdown -->
-                  <t t-call="portal.user_dropdown">
-                    <t t-set="_icon" t-value="true" />
-                    <t t-set="_user_name" t-value="true" />
-                    <t t-set="_user_name_class" t-valuef="me-auto small" />
-                    <t t-set="_link_class"
-                      t-valuef="btn-outline-primary d-flex align-items-center border-0" />
-                    <t t-set="_icon_class" t-valuef="me-2" />
-                    <t t-set="_item_class" t-valuef="dropdown dropup" />
-                    <t t-set="_dropdown_menu_class"
-                      t-valuef="w-100 {{'dropdown-menu-dark' if nav_dark else ''}}" />
-                  </t>
-                  <!-- Language Selector -->
-                  <t t-call="website.placeholder_header_language_selector">
-                    <t t-set="_btn_class"
-                      t-valuef="btn-outline-primary d-flex align-items-center w-100" />
-                    <t t-set="_txt_class" t-valuef="me-auto small" />
-                    <t t-set="_flag_class" t-valuef="me-2" />
-                    <t t-set="_div_classes" t-valuef="dropup" />
-                    <t t-set="_dropdown_menu_class"
-                      t-valuef="w-100 {{'dropdown-menu-dark' if nav_dark else ''}}" />
-                  </t>
-                  <!-- Call To Action -->
-                  <t t-call="website.header_call_to_action_sidebar">
-                    <t t-set="_div_class" t-valuef="contact-sm" />
-                  </t>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </t>
-      </xpath>
-    </template>
-    <!-- Header  -->
-
-    <!-- Footer  -->
-    <template id="footer_custom" inherit_id="website.layout" name="Custom Footer" active="False">
-      <xpath expr="//footer" position="replace">
-        <footer class="bg-dark text-white pt-4 pt-lg-5 main-footer">
-          <div id="footer" class="oe_structure oe_structure_solo pt-4 pt-lg-5"
-            t-ignore="true"
-            t-if="not no_footer">
-            <div class="section-p pt-0 pb-0">
-              <div class="container">
-                <a href="/" class="o_footer_logo logo">
-                  <img src="/theme_taqat/static/src/img/globals/white-logo.png"
-                    class="img-fluid"
-                    aria-label="Logo of MyCompany" title="MyCompany" role="img" />
+                    t-attf-class="d-flex align-items-center #{_div_class} s_social_media o_not_editable oe_unmovable oe_unremovable gap-2">
+                <a t-if="website.company_id.social_facebook"
+                   t-att-href="website.company_id.social_facebook"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Facebook">
+                    <span class="fa fa-facebook-square"/>
                 </a>
-                <div
-                  class="d-flex flex-wrap flex-lg-nowrap justify-content-between my-4  my-lg-5">
-                  <div class="">
-                    <!-- Footer Links -->
-                    <div class="s_text_block mb-3" data-snippet="s_text_block"
-                      data-name="Text">
-                      <ul class="list-inline mb-0 fs-4">
-                        <li class="list-inline-item">
-                          <a href="/avrasya">Our partners</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="/aboutus">About us</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="/programs">Our programs</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="/projects">Our projects</a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="/contactus">Contact us</a>
-                        </li>
-                        <t t-set="configurator_footer_links" t-value="[]" />
-                        <t t-foreach="configurator_footer_links" t-as="link"
-                          class="list-inline-item">
-                          <li class="list-inline-item">
-                            <a t-att-href="link['href']"
-                              t-esc="link['text']" />
-                          </li>
-                        </t>
-                      </ul>
-                    </div>
-                    <div class="s_text_block fs-6 mb-4"
-                      data-snippet="s_text_block"
-                      data-name="Text">
-                      <p class="mb-2 pb-1">Modern Supplies for <br /> Trade and Services </p>
-                      <p class="mb-2 pb-1">Africates</p>
-                      <p class="mb-2 pb-1">Eurasia International for Trade <br /> and Business
-                        Solutions </p>
-                    </div>
-                    <div class="s_text_block mb-4" data-snippet="s_text_block"
-                      data-name="Text">
-                      <h3>Get in Touch</h3>
-                      <a t-att-href="'tel: %s' %website.company_id.phone">
-                        <span t-field="website.company_id.phone" />
-                      </a>
-                      <p class="mb-0">Street: 901 - Ring Road - Al Sadd</p>
-                      <p class="mb-0">Area: 38, Doha – Qatar</p>
-                      <a t-att-href="'mailto: %s' %website.company_id.email">
-                        <span t-field="website.company_id.email" />
-                      </a>
-                    </div>
-                  </div>
-                  <div
-                    class="align-items-lg-end d-flex flex-column justify-content-between w-100 w-lg-auto">
-                    <!-- Newsletter Form -->
-                    <form
-                      class="s_newsletter_block s_newsletter_list o_colored_level form order-lg-last mb-4"
-                      data-list-id="1" data-snippet="s_newsletter_block"
-                      data-name="Newsletter Block"
-                      style="background-image: none;">
-                      <div class=" o_colored_level">
-                        <h4 class="">Newsletter</h4>
-                        <div
-                          class="s_newsletter_subscribe_form s_newsletter_list js_subscribe"
-                          data-vxml="001" data-list-id="0"
-                          data-name="Newsletter Form"
-                          data-snippet="s_newsletter_subscribe_form">
-                          <div class="input-group">
-                            <input type="email" name="email"
-                              class="js_subscribe_value rounded-start-pill text-bg-light pe-1 ps-3 py-2"
-                              placeholder="Your e-mail address" />
-                            <a role="button" href="#"
-                              class="main-btn js_subscribe_btn o_submit o_default_snippet_text rounded-end-pill btn-primary ps-1 lh-lg pe-3 py-2">
-                              Subscribe
-                            </a>
-                            <a role="button" href="#"
-                              class="main-btn js_subscribed_btn d-none o_submit o_default_snippet_text rounded-end-pill btn-success ps-1 lh-lg pe-3 py-2"
-                              disabled="disabled">Thanks
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                    <!-- Social Links -->
-                    <t t-call="theme_taqat.custom_social_links">
-                      <t t-set="_div_class" t-valuef="justify-content-between" />
-                      <t t-set="_link_class" t-valuef="link-light fs-3" />
-                    </t>
-                  </div>
-                </div>
-                <div
-                  class="copyrights d-flex flex-wrap align-items-center justify-content-between border-top fs-6 py-2">
-                  <p class="copy-text m-0">
-                    Copyright © 2024 All rights reserved to Taqat
-                  </p>
-                  <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                      <a href="/privacy-policy">Privacy Policy</a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="/cookies">Cookies</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+                <a t-if="website.company_id.social_twitter"
+                   t-att-href="website.company_id.social_twitter"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on X">
+                    <span class="fa fa-twitter"/>
+                </a>
+                <a t-if="website.company_id.social_linkedin"
+                   t-att-href="website.company_id.social_linkedin"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Linkedin">
+                    <span class="fa fa-linkedin"/>
+                </a>
+                <a t-if="website.company_id.social_youtube"
+                   t-att-href="website.company_id.social_youtube"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Youtube">
+                    <span class="fa fa-youtube-play"/>
+                </a>
+                <a t-if="website.company_id.social_github"
+                   t-att-href="website.company_id.social_github"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on GitHub">
+                    <span class="fa fa-github"/>
+                </a>
+                <a t-if="website.company_id.social_instagram"
+                   t-att-href="website.company_id.social_instagram"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Instagram">
+                    <span class="fa fa-instagram"/>
+                </a>
+                <a t-if="website.company_id.social_tiktok"
+                   t-att-href="website.company_id.social_tiktok"
+                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on TikTok">
+                    <span class="fa fa-tiktok"/>
+                </a>
             </div>
-          </div>
-        </footer>
-      </xpath>
-    </template>
-    <!-- Footer  -->
+        </template>
+        <template id="header_social_links_inherit" inherit_id="website.header_social_links"
+                  name="Header Social Links"
+                  active="True">
+            <xpath expr="//li" position="replace">
+                <t t-call="theme_taqat.custom_social_links"/>
+            </xpath>
+        </template>
+        <!-- Social Links  -->
 
-    <!-- Layout  -->
-    <template id="layout_custom" inherit_id="website.layout" name="Custom layout" active="True">
-      <xpath expr="//main" position="attributes">
-        <attribute name="t-att-class">'nav_dark_m' if nav_dark else ''</attribute>
-      </xpath>
-    </template>
-    <!-- Layout  -->
+        <!-- Header  -->
+        <template id="header_custom" inherit_id="website.layout" name="Custom Nav Bar"
+                  active="False">
+            <xpath expr="//header//nav" position="replace">
+                <t t-call="website.navbar">
+                    <t t-set="_navbar_classes"
+                       t-valuef="w-100 d-none d-lg-block p-0{{'' if nav_dark else ' shadow-sm'}} bg-transparent"/>
+                    <div id="o_main_nav" class="o_main_nav flex-wrap bg-transparent">
+                        <div aria-label="Top"
+                             class="border-bottom o_border_contrast bg-dark text-white">
+                            <div
+                                    class="container-fluid d-grid align-items-center justify-content-between o_grid_header_3_cols w-100">
+                                <ul class="navbar-nav flex-wrap">
+                                    <li>
+                                        <a href="/blog"
+                                           class="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset">
+                                            Blogs
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/jobs"
+                                           class="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset">
+                                            Jobs
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="">
+                                    <!-- Social Links -->
+                                    <t t-call="website.placeholder_header_social_links">
+                                        <t t-set="_div_class" t-valuef="o_header_social_links"/>
+                                        <t t-set="_link_class" t-valuef="link-light fs-6"/>
+                                    </t>
+                                </div>
+                                <ul class="o_header_search_left_col navbar-nav flex-wrap ms-auto">
+                                    <!-- Search bar -->
+                                    <t t-call="website.placeholder_header_search_box"
+                                       t-nocache="The searchbox should not cache previous searches.">
+                                        <t t-set="_layout" t-valuef="modal"/>
+                                        <t t-set="_input_classes" t-valuef="ps-3 text-bg-light"/>
+                                        <t t-set="_submit_classes" t-valuef="btn-primary p-3 lh-1"/>
+                                        <t t-set="_button_classes"
+                                           t-valuef="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset"/>
+                                    </t>
+                                    <!-- Language Selector -->
+                                    <t t-call="website.placeholder_header_language_selector">
+                                        <t t-set="no_text" t-value="True"/>
+                                        <t t-set="codes" t-value="True"/>
+                                        <t t-set="_div_classes"
+                                           t-valuef="h-100 border-end o_border_contrast"/>
+                                        <t t-set="_btn_class"
+                                           t-valuef="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset"/>
+                                        <t t-set="_dropdown_menu_class"
+                                           t-valuef="dropdown-menu-end {{'dropdown-menu-dark' if nav_dark else ''}}"/>
+                                    </t>
+                                    <!-- Sign In -->
+                                    <t t-call="portal.placeholder_user_sign_in">
+                                        <t t-set="_link_class"
+                                           t-valuef="o_navlink_background_hover btn btn-sm d-flex align-items-center h-100 rounded-0 px-3 text-reset"/>
+                                    </t>
+                                    <!-- User Dropdown -->
+                                    <t t-call="portal.user_dropdown">
+                                        <t t-set="_user_name" t-value="true"/>
+                                        <t t-set="_item_class"
+                                           t-valuef="dropdown border-start o_border_contrast"/>
+                                        <t t-set="_link_class"
+                                           t-valuef="o_navlink_background_hover btn-sm d-flex align-items-center h-100 rounded-0 p-2 text-reset"/>
+                                        <t t-set="_dropdown_menu_class"
+                                           t-valuef="dropdown-menu-end {{'dropdown-menu-dark' if nav_dark else ''}}"/>
+                                    </t>
+                                </ul>
+                            </div>
+                        </div>
+                        <t t-set="_link_text_color"
+                           t-value="'text-white is_bg_dark' if nav_dark else 'text-dark is_bg_light'"/>
+                        <div aria-label="Bottom"
+                             t-attf-class="{{'bg-dark text-white' if nav_dark else 'bg-white'}} container-fluid d-grid align-items-center justify-content-between w-100 py-3 o_grid_header_3_cols">
+                            <!-- Brand -->
+                            <t t-call="website.placeholder_header_brand">
+                                <t t-set="_link_class" t-valuef=""/>
+                            </t>
+                            <!-- Navbar -->
+                            <t t-call="website.navbar_nav">
+                                <t t-set="_nav_class" t-valuef=""/>
+
+                                <!-- Menu -->
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <!-- <t t-set="link_class" t-valuef="nav-link" /> -->
+                                        <t t-set="link_class" t-valuef="nav-link {{_link_text_color}}"/>
+                                        <t t-set="dropdown_menu_classes"
+                                           t-valuef="{{'dropdown-menu-dark' if nav_dark else ''}}"/>
+                                    </t>
+                                </t>
+                            </t>
+                            <ul
+                                    class="o_header_search_right_col navbar-nav align-items-center gap-2 ms-auto ps-3">
+                                <!-- Call To Action -->
+                                <t t-call="website.placeholder_header_call_to_action"/>
+                            </ul>
+                        </div>
+                    </div>
+                </t>
+                <t t-call="website.navbar">
+                    <t t-set="_txt_elt_content" t-valuef="sentence"/>
+                    <t t-set="_navbar_classes"
+                       t-valuef="o_header_mobile d-block d-lg-none px-0 {{'bg-dark' if nav_dark else 'shadow-sm bg-light'}}"/>
+                    <t t-set="_navbar_expand_class" t-valuef="None"/>
+                    <t t-set="_navbar_name" t-valuef="Mobile"/>
+
+                    <div id="o_main_nav" t-att-id="None"
+                         class="o_main_nav container flex-wrap justify-content-between">
+                        <!-- Brand -->
+                        <t t-call="website.placeholder_header_brand"/>
+                        <ul
+                                class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+                            <li class="o_not_editable">
+                                <button class="nav-link btn me-auto p-2 o_not_editable"
+                                        type="button"
+                                        data-bs-toggle="offcanvas"
+                                        data-bs-target="#top_menu_collapse_mobile"
+                                        aria-controls="top_menu_collapse_mobile" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"/>
+                                </button>
+                            </li>
+                        </ul>
+                        <div
+                                t-attf-class="offcanvas #{_side if _side else 'offcanvas-end'} o_navbar_mobile  {{'bg-dark' if nav_dark else ''}}"
+                                id="top_menu_collapse_mobile">
+                            <div class="offcanvas-header justify-content-end o_not_editable">
+                                <button type="button" class="nav-link btn-close"
+                                        data-bs-dismiss="offcanvas"
+                                        aria-label="Close"/>
+                            </div>
+                            <div
+                                    class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                                <ul class="navbar-nav h-100 border-bottom">
+                                    <!-- Search bar -->
+                                    <t t-call="website.placeholder_header_search_box"
+                                       t-nocache="The searchbox should not cache previous searches.">
+                                        <t t-set="_classes" t-valuef="mb-3"/>
+                                        <t t-set="_input_classes"
+                                           t-valuef="rounded-start-pill text-bg-light ps-3"/>
+                                        <t t-set="_submit_classes"
+                                           t-valuef="rounded-end-pill btn-primary pe-3"/>
+                                        <t t-set="limit" t-valuef="7"/>
+                                    </t>
+                                    <!-- Navbar -->
+                                    <t t-call="website.navbar_nav">
+                                        <t t-set="_no_autohide_menu_mobile" t-valuef="True"/>
+                                        <t t-set="is_mobile" t-value="True"/>
+
+                                        <!-- Menu -->
+                                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                            <t t-call="website.submenu">
+                                                <t t-set="item_class" t-valuef="nav-item"/>
+                                                <t t-set="link_class" t-valuef="nav-link"/>
+                                                <t t-set="dropdown_toggler_classes"
+                                                   t-valuef="d-flex justify-content-between align-items-center"/>
+                                                <t t-set="dropdown_menu_classes"
+                                                   t-valuef="position-relative rounded-0 o_dropdown_without_offset {{'dropdown-menu-dark' if nav_dark else ''}}"/>
+                                            </t>
+                                        </t>
+                                    </t>
+                                    <ul
+                                            class="nav navbar-nav d-flex justify-content-between align-items-center mt-auto flex-row mb-2">
+                                        <li class="nav-item">
+                                            <a href="/blog" class="nav-link">
+                                                Blogs
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/jobs" class="nav-link">
+                                                Jobs
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- Social -->
+                                    <t t-call="website.placeholder_header_social_links">
+                                        <t t-set="_div_class"
+                                           t-valuef="o_header_social_links border-top justify-content-center py-3"/>
+                                        <t t-set="_link_class"
+                                           t-valuef="{{'link-light' if nav_dark else 'link-dark'}} fs-6"/>
+                                    </t>
+                                </ul>
+                                <ul class="navbar-nav gap-2 mt-3 w-100">
+                                    <!-- Sign In -->
+                                    <t t-call="portal.placeholder_user_sign_in">
+                                        <t t-set="_link_class"
+                                           t-valuef="btn btn-outline-primary w-100"/>
+                                    </t>
+                                    <!-- User Dropdown -->
+                                    <t t-call="portal.user_dropdown">
+                                        <t t-set="_icon" t-value="true"/>
+                                        <t t-set="_user_name" t-value="true"/>
+                                        <t t-set="_user_name_class" t-valuef="me-auto small"/>
+                                        <t t-set="_link_class"
+                                           t-valuef="btn-outline-primary d-flex align-items-center border-0"/>
+                                        <t t-set="_icon_class" t-valuef="me-2"/>
+                                        <t t-set="_item_class" t-valuef="dropdown dropup"/>
+                                        <t t-set="_dropdown_menu_class"
+                                           t-valuef="w-100 {{'dropdown-menu-dark' if nav_dark else ''}}"/>
+                                    </t>
+                                    <!-- Language Selector -->
+                                    <t t-call="website.placeholder_header_language_selector">
+                                        <t t-set="_btn_class"
+                                           t-valuef="btn-outline-primary d-flex align-items-center w-100"/>
+                                        <t t-set="_txt_class" t-valuef="me-auto small"/>
+                                        <t t-set="_flag_class" t-valuef="me-2"/>
+                                        <t t-set="_div_classes" t-valuef="dropup"/>
+                                        <t t-set="_dropdown_menu_class"
+                                           t-valuef="w-100 {{'dropdown-menu-dark' if nav_dark else ''}}"/>
+                                    </t>
+                                    <!-- Call To Action -->
+                                    <t t-call="website.header_call_to_action_sidebar">
+                                        <t t-set="_div_class" t-valuef="contact-sm"/>
+                                    </t>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </xpath>
+        </template>
+        <!-- Header  -->
+
+        <!-- Footer  -->
+        <template id="footer_custom" inherit_id="website.layout" name="Custom Footer" active="False">
+            <xpath expr="//footer" position="replace">
+                <footer class="bg-dark text-white pt-4 pt-lg-5 main-footer">
+                    <div id="footer" class="oe_structure oe_structure_solo pt-4 pt-lg-5"
+                         t-ignore="true"
+                         t-if="not no_footer">
+                        <div class="section-p pt-0 pb-0">
+                            <div class="container">
+                                <a href="/" class="o_footer_logo logo">
+                                    <img src="/theme_taqat/static/src/img/globals/white-logo.png"
+                                         class="img-fluid"
+                                         aria-label="Logo of MyCompany" title="MyCompany" role="img"/>
+                                </a>
+                                <div
+                                        class="d-flex flex-wrap flex-lg-nowrap justify-content-between my-4  my-lg-5">
+                                    <div class="">
+                                        <!-- Footer Links -->
+                                        <div class="s_text_block mb-3" data-snippet="s_text_block"
+                                             data-name="Text">
+                                            <ul class="list-inline mb-0 fs-4">
+                                                <li class="list-inline-item">
+                                                    <a href="/avrasya">Our partners</a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="/aboutus">About us</a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="/programs">Our programs</a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="/projects">Our projects</a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="/contactus">Contact us</a>
+                                                </li>
+                                                <t t-set="configurator_footer_links" t-value="[]"/>
+                                                <t t-foreach="configurator_footer_links" t-as="link"
+                                                   class="list-inline-item">
+                                                    <li class="list-inline-item">
+                                                        <a t-att-href="link['href']"
+                                                           t-out="link['text']"/>
+                                                    </li>
+                                                </t>
+                                            </ul>
+                                        </div>
+                                        <div class="s_text_block fs-6 mb-4"
+                                             data-snippet="s_text_block"
+                                             data-name="Text">
+                                            <p class="mb-2 pb-1">Modern Supplies for
+                                                <br/>
+                                                Trade and Services
+                                            </p>
+                                            <p class="mb-2 pb-1">Africates</p>
+                                            <p class="mb-2 pb-1">Eurasia International for Trade
+                                                <br/>
+                                                and Business
+                                                Solutions
+                                            </p>
+                                        </div>
+                                        <div class="s_text_block mb-4" data-snippet="s_text_block"
+                                             data-name="Text">
+                                            <h3>Get in Touch</h3>
+                                            <a t-att-href="'tel: %s' %website.company_id.phone">
+                                                <span t-field="website.company_id.phone"/>
+                                            </a>
+                                            <p class="mb-0">Street: 901 - Ring Road - Al Sadd</p>
+                                            <p class="mb-0">Area: 38, Doha – Qatar</p>
+                                            <a t-att-href="'mailto: %s' %website.company_id.email">
+                                                <span t-field="website.company_id.email"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="align-items-lg-end d-flex flex-column justify-content-between w-100 w-lg-auto">
+                                        <!-- Newsletter Form -->
+                                        <form
+                                                class="s_newsletter_block s_newsletter_list o_colored_level form order-lg-last mb-4"
+                                                data-list-id="1" data-snippet="s_newsletter_block"
+                                                data-name="Newsletter Block"
+                                                style="background-image: none;">
+                                            <div class=" o_colored_level">
+                                                <h4 class="">Newsletter</h4>
+                                                <div
+                                                        class="s_newsletter_subscribe_form s_newsletter_list js_subscribe"
+                                                        data-vxml="001" data-list-id="0"
+                                                        data-name="Newsletter Form"
+                                                        data-snippet="s_newsletter_subscribe_form">
+                                                    <div class="input-group">
+                                                        <input type="email" name="email"
+                                                               class="js_subscribe_value rounded-start-pill text-bg-light pe-1 ps-3 py-2"
+                                                               placeholder="Your e-mail address"/>
+                                                        <a role="button" href="#"
+                                                           class="main-btn js_subscribe_btn o_submit o_default_snippet_text rounded-end-pill btn-primary ps-1 lh-lg pe-3 py-2">
+                                                            Subscribe
+                                                        </a>
+                                                        <a role="button" href="#"
+                                                           class="main-btn js_subscribed_btn d-none o_submit o_default_snippet_text rounded-end-pill btn-success ps-1 lh-lg pe-3 py-2"
+                                                           disabled="disabled">Thanks
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <!-- Social Links -->
+                                        <t t-call="theme_taqat.custom_social_links">
+                                            <t t-set="_div_class" t-valuef="justify-content-between"/>
+                                            <t t-set="_link_class" t-valuef="link-light fs-3"/>
+                                        </t>
+                                    </div>
+                                </div>
+                                <div
+                                        class="copyrights d-flex flex-wrap align-items-center justify-content-between border-top fs-6 py-2">
+                                    <p class="copy-text m-0">
+                                        Copyright © 2024 All rights reserved to Taqat
+                                    </p>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="/privacy-policy">Privacy Policy</a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="/cookies">Cookies</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </xpath>
+        </template>
+        <!-- Footer  -->
+
+        <!-- Layout  -->
+        <template id="layout_custom" inherit_id="website.layout" name="Custom layout" active="True">
+            <xpath expr="//main" position="attributes">
+                <attribute name="t-att-class">'nav_dark_m' if nav_dark else ''</attribute>
+            </xpath>
+        </template>
+        <!-- Layout  -->
 
 
-  </data>
+    </data>
 </odoo>

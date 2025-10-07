@@ -121,7 +121,7 @@
                             <div class="content py-4 o_animate o_anim_fade_in">
                                 <h2 class="fw-bolder pb-1 m-0">Search among Available Jobs</h2>
                                 <p class="pb32">
-                                    <t t-esc="len(jobs)"/>
+                                    <t t-out="len(jobs)"/>
                                     Jobs
                                 </p>
                             </div>

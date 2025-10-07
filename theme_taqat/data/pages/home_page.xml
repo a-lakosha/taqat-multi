@@ -1,985 +1,1059 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <data noupdate="1">
-    <template name="Taqat Home" id="taqat_home_page" inherit_id="website.homepage" active="True">
-      <xpath expr="//div[@id='wrap']" position="replace">
-        <t t-set="nav_dark" t-value="True" />
-        <div id="wrap" class="oe_structure oe_empty">
-          <div role="main" class="main-content-area home">
-            <section class="home-hero text-white bg-dark">
-              <div class="section-p">
-                <div class="container">
-                  <div
-                    class="d-flex flex-column justify-content-center align-items-center text-center max-w-[970px]">
-                    <p class="subheading text-primary font-bold">
-                      Taqat
-                    </p>
-                    <h1 class="section-title">
-                      Pioneering Sustainable Solutions and Humanitarian Initiatives!
-                    </h1>
-                    <p class="description mb-0 text-balance">
-                      In 2014, Taqat embarked on its journey with a clear objective: to provide
-                      innovative support to entrepreneurs, governmental organizations,
-                      non-governmental organizations, and humanitarian organizations. Our aim is to
-                      enable them to thrive and succeed globally, fostering excellence and
-                      efficiently enhancing local economies.
-                    </p>
-                    <div class="call-to-action">
-                      <a href="/aboutus"
-                        class="border border-white bg-transparent text-white fw-bold">
-                        About Taqat
-                      </a>
-                      <a href="/contactus"
-                        class="text-white border-0 fw-bold goldy">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="large-container overflow-hidden">
-                <div class="d-none d-lg-flex justify-content-center image-gallery">
-                  <div>
-                    <img
-                      src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle1.png"
-                      alt="Rectangle 1" loading="lazy" />
-                  </div>
-                  <div>
-                    <img
-                      src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle2.png"
-                      alt="Rectangle 2" loading="lazy" />
-                  </div>
-                  <div>
-                    <img
-                      src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle3.png"
-                      alt="Rectangle 3" loading="lazy" />
-                  </div>
-                  <div class="d-flex flex-column gap-[16px]">
-                    <img
-                      src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle4.png"
-                      alt="Rectangle 4" loading="lazy" />
-                    <img
-                      src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle5.png"
-                      alt="Rectangle 5" loading="lazy" />
-                  </div>
-                  <div>
-                    <img
-                      src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle6.png"
-                      alt="Rectangle 6" loading="lazy" />
-                  </div>
-                </div>
-                <div
-                  class="position-relative d-flex align-items-center overflow-hidden d-lg-none image-gallery">
-                  <div
-                    class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-1.png"
-                        alt="Rectangle 1" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-2.png"
-                        alt="Rectangle 2" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-3.png"
-                        alt="Rectangle 3" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-4.png"
-                        alt="Rectangle 4" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-5.png"
-                        alt="Rectangle 5" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-6.png"
-                        alt="Rectangle 6" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                  </div>
-                  <div
-                    class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-1.png"
-                        alt="Rectangle 1" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-2.png"
-                        alt="Rectangle 2" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-3.png"
-                        alt="Rectangle 3" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-4.png"
-                        alt="Rectangle 4" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-5.png"
-                        alt="Rectangle 5" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                    <div>
-                      <img
-                        src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-6.png"
-                        alt="Rectangle 6" class="object-cover"
-                        loading="lazy" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="partners large-container overflow-hidden">
-                <div class="section-p pt-0 pb-0 max-w-[910px]">
-                  <div class="text-center">
-                    <p class="details m-0">
-                      We strive for effective change and deliver integrated solutions to make a
-                      tangible impact on society!
-                    </p>
-                    <h2 class="title mx-auto">
-                      Our Change Partners
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  class="partenrs-slider position-relative d-flex align-items-center overflow-hidden"
-                  id="partners" t-if="partner_ids">
-                  <div
-                    class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
-                    <t t-foreach="partner_ids" t-as="partner">
-                      <div class="item o_not_editable">
-                        <img
-                          t-attf-src="/web/image/website.partners/#{partner.id}/image"
-                          t-att-alt="partner.name" />
-                      </div>
-                    </t>
-                  </div>
-                  <div
-                    class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
-                    <t t-foreach="partner_ids" t-as="partner">
-                      <div class="item o_not_editable">
-                        <img
-                          t-attf-src="/web/image/website.partners/#{partner.id}/image"
-                          t-attf-alt="partner.name" />
-                      </div>
-                    </t>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="values">
-              <div class="section-p">
-                <div class="container">
-                  <div
-                    class="row flex-col flex-md-row justify-content-between align-items-start">
-                    <div class="col-12 col-lg-6">
-                      <div class="h-100">
-                        <img loading="lazy"
-                          src="/theme_taqat/static/src/img/about_page/values-img.png"
-                          alt="Representation of Taqat's core values"
-                          class="w-100 h-100"
-                          style="max-width: calc(100% - 20px)" />
-                      </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pt-5 pt-lg-0">
-                      <div>
-                        <h2 class="dark_section-title">Our Values</h2>
-                        <p class="desc">
-                          At Taqat, a core set of values guides our decisions across all operations:
-                        </p>
-                        <div class="accordion" id="accordionExample">
-                          <div class="accordion-item border-0">
-                            <h2 class="accordion-header"
-                              id="headingIntegrity">
-                              <button
-                                class="accordion-button d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseIntegrity"
-                                aria-expanded="true"
-                                aria-controls="collapseIntegrity">
-                                <span
-                                  style="font-size: 18px; color: #0A0A0A;">
-                                  01</span>
-                                <span class="fs-3 fw-bold">Integrity</span>
-                              </button>
-                            </h2>
-                            <div id="collapseIntegrity"
-                              class="accordion-collapse collapse show"
-                              aria-labelledby="headingIntegrity"
-                              data-bs-parent="#accordionExample">
-                              <div
-                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
-                                Adherence to ethical principles and high transparency in all
-                                operations.
-                              </div>
+    <data noupdate="1">
+        <template name="Taqat Home" id="taqat_home_page" inherit_id="website.homepage" active="True">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <t t-set="nav_dark" t-value="True"/>
+                <div id="wrap" class="oe_structure oe_empty">
+                    <div role="main" class="main-content-area home">
+                        <section class="home-hero text-white bg-dark">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div
+                                            class="d-flex flex-column justify-content-center align-items-center text-center max-w-[970px]">
+                                        <p class="subheading text-primary font-bold">
+                                            Taqat
+                                        </p>
+                                        <h1 class="section-title">
+                                            Pioneering Sustainable Solutions and Humanitarian Initiatives!
+                                        </h1>
+                                        <p class="description mb-0 text-balance">
+                                            In 2014, Taqat embarked on its journey with a clear objective: to provide
+                                            innovative support to entrepreneurs, governmental organizations,
+                                            non-governmental organizations, and humanitarian organizations. Our aim is
+                                            to
+                                            enable them to thrive and succeed globally, fostering excellence and
+                                            efficiently enhancing local economies.
+                                        </p>
+                                        <div class="call-to-action">
+                                            <a href="/aboutus"
+                                               class="border border-white bg-transparent text-white fw-bold">
+                                                About Taqat
+                                            </a>
+                                            <a href="/contactus"
+                                               class="text-white border-0 fw-bold goldy">
+                                                Contact Us
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="accordion-item border-0">
-                            <h2 class="accordion-header"
-                              id="headingInnovation">
-                              <button
-                                class="accordion-button collapsed fw-bold d-flex align-content-center gap-4 p-0 pt-4 pb-4 border-bottom"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseInnovation"
-                                aria-expanded="false"
-                                aria-controls="collapseInnovation">
-                                <span
-                                  style="font-size: 18px; color: #0A0A0A;">
-                                  02</span>
-                                <span
-                                  class="d-flex align-items-center gap-4 fs-3 fw-bold">
-                                  Innovation
-                                </span>
-                              </button>
-                            </h2>
-                            <div id="collapseInnovation"
-                              class="accordion-collapse collapse"
-                              aria-labelledby="headingInnovation"
-                              data-bs-parent="#accordionExample">
-                              <div
-                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
-                                Innovative solutions to enhance client effectiveness and operational
-                                efficiency.
-                              </div>
+                            <div class="large-container overflow-hidden">
+                                <div class="d-none d-lg-flex justify-content-center image-gallery">
+                                    <div>
+                                        <img
+                                                src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle1.png"
+                                                alt="Rectangle 1" loading="lazy"/>
+                                    </div>
+                                    <div>
+                                        <img
+                                                src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle2.png"
+                                                alt="Rectangle 2" loading="lazy"/>
+                                    </div>
+                                    <div>
+                                        <img
+                                                src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle3.png"
+                                                alt="Rectangle 3" loading="lazy"/>
+                                    </div>
+                                    <div class="d-flex flex-column gap-[16px]">
+                                        <img
+                                                src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle4.png"
+                                                alt="Rectangle 4" loading="lazy"/>
+                                        <img
+                                                src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle5.png"
+                                                alt="Rectangle 5" loading="lazy"/>
+                                    </div>
+                                    <div>
+                                        <img
+                                                src="/theme_taqat/static/src/img/home_page/hero/gallery/Rectangle6.png"
+                                                alt="Rectangle 6" loading="lazy"/>
+                                    </div>
+                                </div>
+                                <div
+                                        class="position-relative d-flex align-items-center overflow-hidden d-lg-none image-gallery">
+                                    <div
+                                            class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-1.png"
+                                                    alt="Rectangle 1" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-2.png"
+                                                    alt="Rectangle 2" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-3.png"
+                                                    alt="Rectangle 3" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-4.png"
+                                                    alt="Rectangle 4" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-5.png"
+                                                    alt="Rectangle 5" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-6.png"
+                                                    alt="Rectangle 6" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-1.png"
+                                                    alt="Rectangle 1" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-2.png"
+                                                    alt="Rectangle 2" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-3.png"
+                                                    alt="Rectangle 3" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-4.png"
+                                                    alt="Rectangle 4" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-5.png"
+                                                    alt="Rectangle 5" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                        <div>
+                                            <img
+                                                    src="/theme_taqat/static/src/img/home_page/hero/mobile/Rectangle-6.png"
+                                                    alt="Rectangle 6" class="object-cover"
+                                                    loading="lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="accordion-item border-0">
-                            <h2 class="accordion-header"
-                              id="headingExcellence">
-                              <button
-                                class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseExcellence"
-                                aria-expanded="false"
-                                aria-controls="collapseExcellence">
-                                <span
-                                  style="font-size: 18px; color: #0A0A0A;">
-                                  03</span>
-                                <span
-                                  class="d-flex align-items-center gap-4 fs-3 fw-bold">
-                                  Excellence
-                                </span>
-                              </button>
-                            </h2>
-                            <div id="collapseExcellence"
-                              class="accordion-collapse collapse"
-                              aria-labelledby="headingExcellence"
-                              data-bs-parent="#accordionExample">
-                              <div
-                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
-                                Commitment to the highest quality standards in all
-                                services and solutions.
-                              </div>
+                            <div class="partners large-container overflow-hidden">
+                                <div class="section-p pt-0 pb-0 max-w-[910px]">
+                                    <div class="text-center">
+                                        <p class="details m-0">
+                                            We strive for effective change and deliver integrated solutions to make a
+                                            tangible impact on society!
+                                        </p>
+                                        <h2 class="title mx-auto">
+                                            Our Change Partners
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div
+                                        class="partenrs-slider position-relative d-flex align-items-center overflow-hidden"
+                                        id="partners" t-if="partner_ids">
+                                    <div
+                                            class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
+                                        <t t-foreach="partner_ids" t-as="partner">
+                                            <div class="item o_not_editable">
+                                                <img
+                                                        t-attf-src="/web/image/website.partners/#{partner.id}/image"
+                                                        t-att-alt="partner.name"/>
+                                            </div>
+                                        </t>
+                                    </div>
+                                    <div
+                                            class="animate-marquee d-flex min-w-full flex-shrink-0 align-items-center justify-content-around">
+                                        <t t-foreach="partner_ids" t-as="partner">
+                                            <div class="item o_not_editable">
+                                                <img
+                                                        t-attf-src="/web/image/website.partners/#{partner.id}/image"
+                                                        t-attf-alt="partner.name"/>
+                                            </div>
+                                        </t>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="accordion-item border-0">
-                            <h2 class="accordion-header"
-                              id="headingCollaboration">
-                              <button
-                                class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseCollaboration"
-                                aria-expanded="false"
-                                aria-controls="collapseCollaboration">
-                                <span
-                                  style="font-size: 18px; color: #0A0A0A;">
-                                  04</span>
-                                <span
-                                  class="d-flex align-items-center gap-4 fs-3 fw-bold">
-                                  Collaboration
-                                </span>
-                              </button>
-                            </h2>
-                            <div id="collapseCollaboration"
-                              class="accordion-collapse collapse"
-                              aria-labelledby="headingCollaboration"
-                              data-bs-parent="#accordionExample">
-                              <div
-                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
-                                Long-term strategic partnerships with clients to
-                                achieve shared sustainability goals.
-                              </div>
+                        </section>
+                        <section class="values">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div
+                                            class="row flex-col flex-md-row justify-content-between align-items-start">
+                                        <div class="col-12 col-lg-6">
+                                            <div class="h-100">
+                                                <img loading="lazy"
+                                                     src="/theme_taqat/static/src/img/about_page/values-img.png"
+                                                     alt="Representation of Taqat's core values"
+                                                     class="w-100 h-100"
+                                                     style="max-width: calc(100% - 20px)"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 pt-5 pt-lg-0">
+                                            <div>
+                                                <h2 class="dark_section-title">Our Values</h2>
+                                                <p class="desc">
+                                                    At Taqat, a core set of values guides our decisions across all
+                                                    operations:
+                                                </p>
+                                                <div class="accordion" id="accordionExample">
+                                                    <div class="accordion-item border-0">
+                                                        <h2 class="accordion-header"
+                                                            id="headingIntegrity">
+                                                            <button
+                                                                    class="accordion-button d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                    type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapseIntegrity"
+                                                                    aria-expanded="true"
+                                                                    aria-controls="collapseIntegrity">
+                                                                <span
+                                                                        style="font-size: 18px; color: #0A0A0A;">
+                                                                    01
+                                                                </span>
+                                                                <span class="fs-3 fw-bold">Integrity</span>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseIntegrity"
+                                                             class="accordion-collapse collapse show"
+                                                             aria-labelledby="headingIntegrity"
+                                                             data-bs-parent="#accordionExample">
+                                                            <div
+                                                                    class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                                Adherence to ethical principles and high transparency in
+                                                                all
+                                                                operations.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item border-0">
+                                                        <h2 class="accordion-header"
+                                                            id="headingInnovation">
+                                                            <button
+                                                                    class="accordion-button collapsed fw-bold d-flex align-content-center gap-4 p-0 pt-4 pb-4 border-bottom"
+                                                                    type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapseInnovation"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="collapseInnovation">
+                                                                <span
+                                                                        style="font-size: 18px; color: #0A0A0A;">
+                                                                    02
+                                                                </span>
+                                                                <span
+                                                                        class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                    Innovation
+                                                                </span>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseInnovation"
+                                                             class="accordion-collapse collapse"
+                                                             aria-labelledby="headingInnovation"
+                                                             data-bs-parent="#accordionExample">
+                                                            <div
+                                                                    class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                                Innovative solutions to enhance client effectiveness and
+                                                                operational
+                                                                efficiency.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item border-0">
+                                                        <h2 class="accordion-header"
+                                                            id="headingExcellence">
+                                                            <button
+                                                                    class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                    type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapseExcellence"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="collapseExcellence">
+                                                                <span
+                                                                        style="font-size: 18px; color: #0A0A0A;">
+                                                                    03
+                                                                </span>
+                                                                <span
+                                                                        class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                    Excellence
+                                                                </span>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseExcellence"
+                                                             class="accordion-collapse collapse"
+                                                             aria-labelledby="headingExcellence"
+                                                             data-bs-parent="#accordionExample">
+                                                            <div
+                                                                    class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                                Commitment to the highest quality standards in all
+                                                                services and solutions.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item border-0">
+                                                        <h2 class="accordion-header"
+                                                            id="headingCollaboration">
+                                                            <button
+                                                                    class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                    type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapseCollaboration"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="collapseCollaboration">
+                                                                <span
+                                                                        style="font-size: 18px; color: #0A0A0A;">
+                                                                    04
+                                                                </span>
+                                                                <span
+                                                                        class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                    Collaboration
+                                                                </span>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseCollaboration"
+                                                             class="accordion-collapse collapse"
+                                                             aria-labelledby="headingCollaboration"
+                                                             data-bs-parent="#accordionExample">
+                                                            <div
+                                                                    class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                                Long-term strategic partnerships with clients to
+                                                                achieve shared sustainability goals.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item border-0">
+                                                        <h2 class="accordion-header"
+                                                            id="headingSocialResponsibility">
+                                                            <button
+                                                                    class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
+                                                                    type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapseSocialResponsibility"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="collapseSocialResponsibility">
+                                                                <span
+                                                                        style="font-size: 18px; color: #0A0A0A;">
+                                                                    05
+                                                                </span>
+                                                                <span
+                                                                        class="d-flex align-items-center gap-4 fs-3 fw-bold">
+                                                                    Social Responsibility
+                                                                </span>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseSocialResponsibility"
+                                                             class="accordion-collapse collapse"
+                                                             aria-labelledby="headingSocialResponsibility"
+                                                             data-bs-parent="#accordionExample">
+                                                            <div
+                                                                    class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
+                                                                Positive engagement with communities and efficient
+                                                                support for
+                                                                humanitarian initiatives.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="accordion-item border-0">
-                            <h2 class="accordion-header"
-                              id="headingSocialResponsibility">
-                              <button
-                                class="accordion-button collapsed d-flex align-items-center gap-4 fs-3 fw-bold p-0 pt-4 pb-4 border-bottom"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseSocialResponsibility"
-                                aria-expanded="false"
-                                aria-controls="collapseSocialResponsibility">
-                                <span
-                                  style="font-size: 18px; color: #0A0A0A;">
-                                  05</span>
-                                <span
-                                  class="d-flex align-items-center gap-4 fs-3 fw-bold">
-                                  Social Responsibility
-                                </span>
-                              </button>
-                            </h2>
-                            <div id="collapseSocialResponsibility"
-                              class="accordion-collapse collapse"
-                              aria-labelledby="headingSocialResponsibility"
-                              data-bs-parent="#accordionExample">
-                              <div
-                                class="accordion-body fs-4 ps-5 pt-4 pb-4 border-bottom">
-                                Positive engagement with communities and efficient support for
-                                humanitarian initiatives.
-                              </div>
+                        </section>
+                        <section class="partner-network">
+                            <div class="container">
+                                <div class="section-p">
+                                    <div class="text-center max-w-[910px]">
+                                        <h2 class="section-title">
+                                            Our Companies
+                                        </h2>
+                                        <p class="description">
+                                            Taqat is home to a diverse group of companies that all share a unified
+                                            vision:
+                                            provide innovative and comprehensive solutions that serve the aspirations of
+                                            clients and the community while effectively achieving sustainable
+                                            development
+                                            goals.
+                                        </p>
+                                    </div>
+                                    <div class="partners_network-container">
+                                        <div
+                                                class="partner-item d-flex flex-column justify-content-between">
+                                            <div>
+                                                <div class="logo-holder bg-white">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/home_page/AVRASYA.png"
+                                                            alt="Avrasya International" loading="lazy"/>
+                                                </div>
+                                                <div>
+                                                    <h3 class="title fw-bold">Avrasya International</h3>
+                                                    <p class="mb-0">
+                                                        "Avrasya" is one of the leading global companies in providing
+                                                        integrated
+                                                        business solutions… It views every challenge as a new
+                                                        opportunity for
+                                                        innovation and works to help clients achieve effective strategic
+                                                        growth
+                                                        in the Balkans and Africa, enhancing their capacity for
+                                                        sustainable
+                                                        success.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <a class="position-relative href"
+                                               data-oe-model="ir.ui.view"
+                                               data-oe-id="2268"
+                                               data-oe-field="arch"
+                                               data-oe-xpath="/data/xpath/div/div[1]/section[3]/div[1]/div[1]/div[2]/t[1]/div[1]/a[1]"
+                                               href="/avrasya"
+                                               title="Avrasya International"
+                                               aria-label="Learn more about Avrasya International"
+                                            >
+                                                <span class="fw-bold">More</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="25"
+                                                     viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                            d="M19.5 20.3965L4.5 5.39649M4.5 5.39649L4.5 16.6465M4.5 5.39649L15.75 5.39648"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div
+                                                class="partner-item d-flex flex-column justify-content-between">
+                                            <div>
+                                                <div class="logo-holder bg-white">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/home_page/Tawridat.png"
+                                                            alt="Tawridat"
+                                                            loading="lazy"/>
+                                                </div>
+                                                <div>
+                                                    <h3 class="title fw-bold">Tawridat
+                                                    </h3>
+                                                    <p class="mb-0">
+                                                        Tawridat helps entrepreneurships and organizations establish and
+                                                        streamline their supply chains by providing the latest solutions
+                                                        in
+                                                        procurement, logistics, customs clearance, and digital
+                                                        technology to
+                                                        enable them to achieve the desired growth in their businesses.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <a class="position-relative href"
+                                               data-oe-model="ir.ui.view"
+                                               data-oe-id="2268"
+                                               data-oe-field="arch"
+                                               data-oe-xpath="/data/xpath/div/div[1]/section[3]/div[1]/div[1]/div[2]/t[1]/div[1]/a[1]"
+                                               href="/tawridat"
+                                               title="Tawridat Haditha for Trade &amp; Services"
+                                               aria-label="Learn more about Tawridat Haditha for Trade &amp; Services"
+                                            >
+                                                <span class="fw-bold">More</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="25"
+                                                     viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                            d="M19.5 20.3965L4.5 5.39649M4.5 5.39649L4.5 16.6465M4.5 5.39649L15.75 5.39648"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div
+                                                class="partner-item d-flex flex-column justify-content-between">
+                                            <div>
+                                                <div class="logo-holder bg-white">
+                                                    <img
+                                                            src="/theme_taqat/static/src/img/home_page/Africat.png"
+                                                            alt="Africat"
+                                                            loading="lazy"/>
+                                                </div>
+                                                <div>
+                                                    <h3 class="title fw-bold">Africat</h3>
+                                                    <p class="mb-0">
+                                                        Africat aims to achieve sustainable growth for future
+                                                        generations in
+                                                        Africa by supporting investment, developing trade, and creating
+                                                        job
+                                                        opportunities.
+                                                        This enables companies and individuals to expand their
+                                                        businesses in
+                                                        Africa, enhance their investments, and create a fertile
+                                                        environment for
+                                                        economic development and prosperity across various sectors.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <a class="position-relative href"
+                                               data-oe-model="ir.ui.view"
+                                               data-oe-id="2268"
+                                               data-oe-field="arch"
+                                               data-oe-xpath="/data/xpath/div/div[1]/section[3]/div[1]/div[1]/div[2]/t[1]/div[1]/a[1]"
+                                               href="/africat"
+                                               title="Africat"
+                                               aria-label="Learn more about Africat"
+                                            >
+                                                <span class="fw-bold">More</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                     height="25"
+                                                     viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                            d="M19.5 20.3965L4.5 5.39649M4.5 5.39649L4.5 16.6465M4.5 5.39649L15.75 5.39648"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="partner-network">
-              <div class="container">
-                <div class="section-p">
-                  <div class="text-center max-w-[910px]">
-                    <h2 class="section-title">
-                      Our Companies
-                    </h2>
-                    <p class="description">
-                      Taqat is home to a diverse group of companies that all share a unified vision:
-                      provide innovative and comprehensive solutions that serve the aspirations of
-                      clients and the community while effectively achieving sustainable development
-                      goals.
-                    </p>
-                  </div>
-                  <div class="partners_network-container">
-                    <div
-                      class="partner-item d-flex flex-column justify-content-between">
-                      <div>
-                        <div class="logo-holder bg-white">
-                          <img
-                            src="/theme_taqat/static/src/img/home_page/AVRASYA.png"
-                            alt="Avrasya International" loading="lazy" />
-                        </div>
-                        <div>
-                          <h3 class="title fw-bold">Avrasya International</h3>
-                          <p class="mb-0">
-                            "Avrasya" is one of the leading global companies in providing integrated
-                            business solutions… It views every challenge as a new opportunity for
-                            innovation and works to help clients achieve effective strategic growth
-                            in the Balkans and Africa, enhancing their capacity for sustainable
-                            success.
-                          </p>
-                        </div>
-                      </div>
-                      <a class="position-relative href"
-                        data-oe-model="ir.ui.view"
-                        data-oe-id="2268"
-                        data-oe-field="arch"
-                        data-oe-xpath="/data/xpath/div/div[1]/section[3]/div[1]/div[1]/div[2]/t[1]/div[1]/a[1]"
-                        href="/avrasya"
-                        title="Avrasya International"
-                        aria-label="Learn more about Avrasya International"
-                      >
-                        <span class="fw-bold">More</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                          height="25"
-                          viewBox="0 0 24 25" fill="none">
-                          <path
-                            d="M19.5 20.3965L4.5 5.39649M4.5 5.39649L4.5 16.6465M4.5 5.39649L15.75 5.39648"
-                            stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                        </svg>
-                      </a>
-                    </div>
-                    <div
-                      class="partner-item d-flex flex-column justify-content-between">
-                      <div>
-                        <div class="logo-holder bg-white">
-                          <img
-                            src="/theme_taqat/static/src/img/home_page/Tawridat.png"
-                            alt="Tawridat"
-                            loading="lazy" />
-                        </div>
-                        <div>
-                          <h3 class="title fw-bold">Tawridat
-                          </h3>
-                          <p class="mb-0">
-                            Tawridat helps entrepreneurships and organizations establish and
-                            streamline their supply chains by providing the latest solutions in
-                            procurement, logistics, customs clearance, and digital technology to
-                            enable them to achieve the desired growth in their businesses.
-                          </p>
-                        </div>
-                      </div>
-                      <a class="position-relative href"
-                        data-oe-model="ir.ui.view"
-                        data-oe-id="2268"
-                        data-oe-field="arch"
-                        data-oe-xpath="/data/xpath/div/div[1]/section[3]/div[1]/div[1]/div[2]/t[1]/div[1]/a[1]"
-                        href="/tawridat"
-                        title="Tawridat Haditha for Trade &amp; Services"
-                        aria-label="Learn more about Tawridat Haditha for Trade &amp; Services"
-                      >
-                        <span class="fw-bold">More</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                          height="25"
-                          viewBox="0 0 24 25" fill="none">
-                          <path
-                            d="M19.5 20.3965L4.5 5.39649M4.5 5.39649L4.5 16.6465M4.5 5.39649L15.75 5.39648"
-                            stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                        </svg>
-                      </a>
-                    </div>
-                    <div
-                      class="partner-item d-flex flex-column justify-content-between">
-                      <div>
-                        <div class="logo-holder bg-white">
-                          <img
-                            src="/theme_taqat/static/src/img/home_page/Africat.png"
-                            alt="Africat"
-                            loading="lazy" />
-                        </div>
-                        <div>
-                          <h3 class="title fw-bold">Africat</h3>
-                          <p class="mb-0">
-                            Africat aims to achieve sustainable growth for future generations in
-                            Africa by supporting investment, developing trade, and creating job
-                            opportunities.
-                            This enables companies and individuals to expand their businesses in
-                            Africa, enhance their investments, and create a fertile environment for
-                            economic development and prosperity across various sectors.
-                          </p>
-                        </div>
-                      </div>
-                      <a class="position-relative href"
-                        data-oe-model="ir.ui.view"
-                        data-oe-id="2268"
-                        data-oe-field="arch"
-                        data-oe-xpath="/data/xpath/div/div[1]/section[3]/div[1]/div[1]/div[2]/t[1]/div[1]/a[1]"
-                        href="/africat"
-                        title="Africat"
-                        aria-label="Learn more about Africat"
-                      >
-                        <span class="fw-bold">More</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                          height="25"
-                          viewBox="0 0 24 25" fill="none">
-                          <path
-                            d="M19.5 20.3965L4.5 5.39649M4.5 5.39649L4.5 16.6465M4.5 5.39649L15.75 5.39648"
-                            stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="programs bg-white" id="programs">
-              <div class="section-p">
-                <div class="container">
-                  <h3 class="title text-secondary">
-                    Our Programs
-                  </h3>
-                  <div
-                    class="d-flex row justify-content-between align-items-center-center">
-                    <div class="col-lg-4">
-                      <p class="description fw-bold mb-0">
-                        Towards a Sustainable Future
-                      </p>
-                    </div>
-                    <div class="col-lg-8">
-                      <p class="details">
-                        Through our diverse programs, we offer a range of integrated services
-                        designed to support organizations in effective humanitarian efforts.
-                        We utilize advanced artificial intelligence technologies to provide
-                        innovative and rapid solutions that address the needs of those affected by
-                        crises. Our goal is to enhance the efficiency of fundraising and
-                        distribution efforts to achieve sustainable development in communities
-                        facing challenges.
-                      </p>
-                      <a
-                        href="/programs"
-                        class="btn bg-dark text-white d-flex align-items-center justify-content-between justify-content-md-center"
-                        title="Explore our programs"
-                        aria-label="Explore our programs"
-                      > More <svg width="24" height="25"
-                          viewBox="0 0 24 25"
-                          fill="none"
-                          class="rotate-180deg"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M19.5 12.8965L4.5 12.8965M4.5 12.8965L11.25 19.6465M4.5 12.8965L11.25 6.14648"
-                            stroke="#FEFDF9" stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="programs-wrapper">
-                    <ul class="programs-container owl-carousel" t-if="programs">
-                      <t t-foreach="programs" t-as="program">
-                        <li class="o_not_editable">
-                          <img
-                            t-attf-src="/web/image/website.programs/#{program.id}/website_image"
-                            t-att-alt="program.title" />
-                          <div class="program_content-wrapper">
-                            <img
-                              t-attf-src="/web/image/website.programs/#{program.id}/logo"
-                              t-att-alt="program.title" class="item_logo" />
-                            <div>
-                              <h4 class="item_title"
-                                t-esc="program.title" />
-                              <p class="item_description"
-                                t-esc="program.desc" />
-                              <p class="item_details"
-                                t-esc="program.desc" />
+                        </section>
+                        <section class="programs bg-white" id="programs">
+                            <div class="section-p">
+                                <div class="container">
+                                    <h3 class="title text-secondary">
+                                        Our Programs
+                                    </h3>
+                                    <div
+                                            class="d-flex row justify-content-between align-items-center-center">
+                                        <div class="col-lg-4">
+                                            <p class="description fw-bold mb-0">
+                                                Towards a Sustainable Future
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <p class="details">
+                                                Through our diverse programs, we offer a range of integrated services
+                                                designed to support organizations in effective humanitarian efforts.
+                                                We utilize advanced artificial intelligence technologies to provide
+                                                innovative and rapid solutions that address the needs of those affected
+                                                by
+                                                crises. Our goal is to enhance the efficiency of fundraising and
+                                                distribution efforts to achieve sustainable development in communities
+                                                facing challenges.
+                                            </p>
+                                            <a
+                                                    href="/programs"
+                                                    class="btn bg-dark text-white d-flex align-items-center justify-content-between justify-content-md-center"
+                                                    title="Explore our programs"
+                                                    aria-label="Explore our programs"
+                                            >More
+                                                <svg width="24" height="25"
+                                                     viewBox="0 0 24 25"
+                                                     fill="none"
+                                                     class="rotate-180deg"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                            d="M19.5 12.8965L4.5 12.8965M4.5 12.8965L11.25 19.6465M4.5 12.8965L11.25 6.14648"
+                                                            stroke="#FEFDF9" stroke-width="1.5"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="programs-wrapper">
+                                        <ul class="programs-container owl-carousel" t-if="programs">
+                                            <t t-foreach="programs" t-as="program">
+                                                <li class="o_not_editable">
+                                                    <img
+                                                            t-attf-src="/web/image/website.programs/#{program.id}/website_image"
+                                                            t-att-alt="program.title"/>
+                                                    <div class="program_content-wrapper">
+                                                        <img
+                                                                t-attf-src="/web/image/website.programs/#{program.id}/logo"
+                                                                t-att-alt="program.title" class="item_logo"/>
+                                                        <div>
+                                                            <h4 class="item_title"
+                                                                t-field="program.title"/>
+                                                            <p class="item_description"
+                                                               t-field="program.desc"/>
+                                                            <p class="item_details"
+                                                               t-field="program.desc"/>
+                                                        </div>
+                                                        <a t-att-href="program.href"
+                                                           class="item_href text-primary"
+                                                           target="_blank"
+                                                           rel="noopener noreferrer">
+                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                 width="24"
+                                                                 height="24"
+                                                                 viewBox="0 0 24 24" fill="none"
+                                                                 stroke="currentColor"
+                                                                 stroke-width="2"
+                                                                 stroke-linecap="round"
+                                                                 stroke-linejoin="round"
+                                                                 class="lucide lucide-arrow-left">
+                                                                <path d="m12 19-7-7 7-7"></path>
+                                                                <path d="M19 12H5"></path>
+                                                            </svg>
+                                                            Website
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </t>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <a t-att-href="program.href"
-                              class="item_href text-primary"
-                              target="_blank"
-                              rel="noopener noreferrer">
-                              <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="lucide lucide-arrow-left">
-                                <path d="m12 19-7-7 7-7"></path>
-                                <path d="M19 12H5"></path>
-                              </svg>
-                              Website </a>
-                          </div>
-                        </li>
-                      </t>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="our-goals text-white">
-              <div class="d-md-none" style="margin-bottom: -2px;">
-                <img
-                  src="/theme_taqat/static/src/img/home_page/mobile/our-goals-img.png"
-                  alt="Our Goals for Vision 2030:" class="w-100" />
-              </div>
-              <div class="section-p">
-                <div class="container">
-                  <div>
-                    <div class="goals-wrapper">
-                      <div class="image-2030">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/2030.png"
-                          alt="Our Goals for Vision 2030:" />
-                      </div>
-                      <div>
-                        <h3 class="title fw-bold">Our Goals for Vision 2030:</h3>
-                        <p class="description fw-bold">
-                          To build a sustainable future, we support
-                          investments and projects that drive economic growth by:
-                        </p>
-                        <p class="details">We achieve all this by supporting
-                          investment and
-                          projects that enhance economic growth in the
-                          fields of agriculture,
-                          industry, and trade. We aim to raise living
-                          standards and
-                          self-reliance rates.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="our-projects">
-              <div class="section-p">
-                <div class="container">
-                  <div
-                    class="d-flex flex-column flex-md-row justify-content-between text_wrapper">
-                    <h3 class="section-title">Our Projects</h3>
-                    <p class="description">
-                      We focus on implementing innovative and sustainable
-                      projects that aim to improve the lives of individuals
-                      aQnd promote community
-                      development. We endeavour to achieve a tangible positive
-                      impact that
-                      reflects our values and vision to support humanity.
-                    </p>
-                    <div
-                      class="d-flex flex-column w-100 align-items-start align-items-md-center">
-                      <span class="text-7xl fw-bold">8</span>
-                      <span>Projects</span>
-                    </div>
-                  </div>
-                  <ul class="projects-container">
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/pp.png"
-                          alt="Pearl Pixels" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Pearl Pixels</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">Pearl Pixels is a creative marketing agency
-                            that helps businesses and organizations improve their marketing
-                            operations and reach their audience more effectively. To achieve this,
-                            Pearl Pixels provides innovative marketing solutions, including
-                            developing successful strategies for advertising campaigns, event
-                            management, and digital marketing.</p>
-                          <a
-                            href="/projects/#pearl-pixels" aria-label="Pearl Pixels:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/Oksouq.png"
-                          alt="OKSOUQ" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">OKSOUQ</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">To provide an innovative and convenient
-                            e-commerce experience, the OKSOUQ platform was developed as an
-                            extraordinary online marketplace. It aims to empower individuals to
-                            access a wide variety of high-quality products at the best prices, such
-                            as electronics, perfumes, watches, furniture, and more.</p>
-                          <a
-                            href="/projects/#oksouq" aria-label="OKSOUQ:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-1.png"
-                          alt="Taqat for Technology" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Taqat for Technology</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">Taqat for Technology was established as a
-                            leading center that designs the latest technologies and solutions,
-                            including software development, automation, and artificial intelligence.
-                            Its mission is clear: enhance the effectiveness and efficiency of
-                            digital transformation processes across various sectors!</p>
-                          <a
-                            href="/projects/#taqat-for-technology"
-                            aria-label="Taqat for Technology:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-2.png"
-                          alt="Taqat for Real Estate Development" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Taqat for Real Estate Development</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">To ensure effective sustainability in
-                            developing local and global real estate markets, Taqat for Real Estate
-                            Development focuses on innovatively developing residential and
-                            commercial properties. We provide creative designs that meet market
-                            needs and achieve the highest quality standards.</p>
-                          <a
-                            href="/projects/#taqat-for-real-estate-development"
-                            aria-label="Taqat for Real Estate Development:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-3.png"
-                          alt="Taqat for Real Estate Brokerage" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Taqat for Real Estate Brokerage</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">Recognizing that buying, selling, and
-                            renting properties can be complex, Taqat for Real Estate Brokerage
-                            simplifies this process effectively. We provide professional services
-                            that help clients smoothly access the best available options and offer
-                            expert real estate consultancy to assist clients in making informed
-                            investment decisions.</p>
-                          <a
-                            href="/projects/#taqat-for-real-estate-brokerage"
-                            aria-label="Taqat for Real Estate Brokerage:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-4.png"
-                          alt="Taqat for Facility Management" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Taqat for Facility Management</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">Maintenance, repairs, and renovations of
-                            the highest quality... all of this and more is provided by Taqat for
-                            Facility Management to ensure the safety of all types of properties by
-                            providing integrated preventative maintenance services that align with
-                            the nature and type of your property, to ensure that your investment
-                            remains in optimal condition.</p>
-                          <a
-                            href="/projects/#taqat-facility-management"
-                            aria-label="Taqat for Facility Management:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-5.png"
-                          alt="Taqat for HR Services" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Taqat for HR Services</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">Taqat for HR Services specializes in
-                            providing a wide range of human resources services and consulting. We
-                            help organizations enhance their hiring processes, manage talent and
-                            teams, and develop operational efficiency, leading to seamless, high
-                            performance.</p>
-                          <a
-                            href="/projects/#taqat-for-hr-services"
-                            aria-label="Taqat for HR Services:">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-card bg-white">
-                      <div class="project-logo">
-                        <img
-                          src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-6.png"
-                          alt="Taqat for Customer Service Solutions" loading="lazy" />
-                      </div>
-                      <hr />
-                      <div class="d-flex flex-column justify-content-between">
-                        <h3 class="project-title">Taqat for Customer Service Solutions</h3>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <p class="project-description">Taqat for Customer Service Solutions
-                            focuses on empowering you to provide exceptional customer service by
-                            helping you develop and implement a comprehensive call center management
-                            strategy. We also aid in creatively enhancing your customer experience
-                            and effectively improving the skills of your customer service team.</p>
-                          <a
-                            href="/projects/#taqat-for-customer-service-solutions"
-                            aria-label="Taqat for Customer Service Solutions">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                              viewBox="0 0 26 26" fill="none" class="rotate-180deg">
-                              <path
-                                d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
-                                stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                stroke-linejoin="round"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <a
-                    href="/projects"
-                    class="bg-primary text-white btn"
-                    title="Explore our projects"
-                    aria-label="Explore our projects"
-                  >More <svg
-                      width="24"
-                      height="25" viewBox="0 0 24 25" fill="none"
-                      class="rotate-180deg"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M19.5 12.8965L4.5 12.8965M4.5 12.8965L11.25 19.6465M4.5 12.8965L11.25 6.14648"
-                        stroke="#FEFDF9" stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </section>
-            <section class="blog-post bg-white" t-if="latest_posts" id="blog_post">
-              <div class="container">
-                <div class="section-p">
-                  <h3 class="section-title mb-md-2 position-relative w-fit">Latest
-                    News and Updates
-                  </h3>
-                  <div class="owl-carousel owl-theme o_not_editable">
-                    <t t-foreach="latest_posts" t-as="post">
-                      <div class="item o_not_editable">
-                        <article class="row">
-                          <div
-                            class="col-md-7 mb-4 mb-md-0 blog_cover-wrapper">
-                            <t t-call="website.record_cover">
-                              <t t-set="_record" t-value="post" />
-                              <t t-set="additionnal_classes"
-                                t-valuef="o_not_editable rounded-4 overflow-hidden h-100" />
-                            </t>
-                          </div>
-                          <div class="col-md-5">
-                            <div
-                              class="d-flex flex-column justify-content-between h-100">
-                              <div>
-                                <h3 class="post_title"
-                                  t-esc="post.name" />
-                                <time t-field="post.post_date"
-                                  class="fw-bold fs-6 post_date"
-                                  t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}" />
-                                <p class="post_teaser"
-                                  t-esc="post.teaser" />
-                              </div>
-                              <div>
-                                <a
-                                  t-attf-href="/blog/#{slug(post.blog_id)}/{{slug(post)}}"
-                                  class="btn bg-white text-primary border-primary d-flex align-items-center fw-bold">
-                                  More <svg width="24" height="25"
-                                    viewBox="0 0 24 25"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                      d="M15 19.8965L8 12.8965L15 5.89648"
-                                      stroke="currentColor"
-                                      stroke-width="2"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round" />
-                                  </svg>
-                                </a>
-                              </div>
+                        </section>
+                        <section class="our-goals text-white">
+                            <div class="d-md-none" style="margin-bottom: -2px;">
+                                <img
+                                        src="/theme_taqat/static/src/img/home_page/mobile/our-goals-img.png"
+                                        alt="Our Goals for Vision 2030:" class="w-100"/>
                             </div>
-                          </div>
-                        </article>
-                      </div>
-                    </t>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="contact-details">
-              <div class="section-p">
-                <div class="container">
-                  <div class="row">
-                    <div
-                      class="col-12 col-md-8 d-flex flex-column align-items-center mx-auto">
-                      <h3 class="text-[40px] fw-bold _mb-4 text-center">
-                        Request Your Free Consultation:  Let's Discuss Your Needs 
-                      </h3>
-                      <p class="text-2xl text-center mb-16"> Turn your vision into reality... Make
-                        your business more <br /> successful with Taqat! </p>
-                      <a href="/contactus"
-                        class="call-t-action border-0 bg-primary text-white text-center">
-                        Contact Us Today!
-                      </a>
+                            <div class="section-p">
+                                <div class="container">
+                                    <div>
+                                        <div class="goals-wrapper">
+                                            <div class="image-2030">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/2030.png"
+                                                        alt="Our Goals for Vision 2030:"/>
+                                            </div>
+                                            <div>
+                                                <h3 class="title fw-bold">Our Goals for Vision 2030:</h3>
+                                                <p class="description fw-bold">
+                                                    To build a sustainable future, we support
+                                                    investments and projects that drive economic growth by:
+                                                </p>
+                                                <p class="details">We achieve all this by supporting
+                                                    investment and
+                                                    projects that enhance economic growth in the
+                                                    fields of agriculture,
+                                                    industry, and trade. We aim to raise living
+                                                    standards and
+                                                    self-reliance rates.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="our-projects">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div
+                                            class="d-flex flex-column flex-md-row justify-content-between text_wrapper">
+                                        <h3 class="section-title">Our Projects</h3>
+                                        <p class="description">
+                                            We focus on implementing innovative and sustainable
+                                            projects that aim to improve the lives of individuals
+                                            aQnd promote community
+                                            development. We endeavour to achieve a tangible positive
+                                            impact that
+                                            reflects our values and vision to support humanity.
+                                        </p>
+                                        <div
+                                                class="d-flex flex-column w-100 align-items-start align-items-md-center">
+                                            <span class="text-7xl fw-bold">8</span>
+                                            <span>Projects</span>
+                                        </div>
+                                    </div>
+                                    <ul class="projects-container">
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/pp.png"
+                                                        alt="Pearl Pixels" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Pearl Pixels</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">Pearl Pixels is a creative marketing
+                                                        agency
+                                                        that helps businesses and organizations improve their marketing
+                                                        operations and reach their audience more effectively. To achieve
+                                                        this,
+                                                        Pearl Pixels provides innovative marketing solutions, including
+                                                        developing successful strategies for advertising campaigns,
+                                                        event
+                                                        management, and digital marketing.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#pearl-pixels" aria-label="Pearl Pixels:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/Oksouq.png"
+                                                        alt="OKSOUQ" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">OKSOUQ</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">To provide an innovative and
+                                                        convenient
+                                                        e-commerce experience, the OKSOUQ platform was developed as an
+                                                        extraordinary online marketplace. It aims to empower individuals
+                                                        to
+                                                        access a wide variety of high-quality products at the best
+                                                        prices, such
+                                                        as electronics, perfumes, watches, furniture, and more.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#oksouq" aria-label="OKSOUQ:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-1.png"
+                                                        alt="Taqat for Technology" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Taqat for Technology</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">Taqat for Technology was established
+                                                        as a
+                                                        leading center that designs the latest technologies and
+                                                        solutions,
+                                                        including software development, automation, and artificial
+                                                        intelligence.
+                                                        Its mission is clear: enhance the effectiveness and efficiency
+                                                        of
+                                                        digital transformation processes across various sectors!
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#taqat-for-technology"
+                                                            aria-label="Taqat for Technology:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-2.png"
+                                                        alt="Taqat for Real Estate Development" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Taqat for Real Estate Development</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">To ensure effective sustainability in
+                                                        developing local and global real estate markets, Taqat for Real
+                                                        Estate
+                                                        Development focuses on innovatively developing residential and
+                                                        commercial properties. We provide creative designs that meet
+                                                        market
+                                                        needs and achieve the highest quality standards.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#taqat-for-real-estate-development"
+                                                            aria-label="Taqat for Real Estate Development:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-3.png"
+                                                        alt="Taqat for Real Estate Brokerage" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Taqat for Real Estate Brokerage</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">Recognizing that buying, selling, and
+                                                        renting properties can be complex, Taqat for Real Estate
+                                                        Brokerage
+                                                        simplifies this process effectively. We provide professional
+                                                        services
+                                                        that help clients smoothly access the best available options and
+                                                        offer
+                                                        expert real estate consultancy to assist clients in making
+                                                        informed
+                                                        investment decisions.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#taqat-for-real-estate-brokerage"
+                                                            aria-label="Taqat for Real Estate Brokerage:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-4.png"
+                                                        alt="Taqat for Facility Management" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Taqat for Facility Management</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">Maintenance, repairs, and renovations
+                                                        of
+                                                        the highest quality... all of this and more is provided by Taqat
+                                                        for
+                                                        Facility Management to ensure the safety of all types of
+                                                        properties by
+                                                        providing integrated preventative maintenance services that
+                                                        align with
+                                                        the nature and type of your property, to ensure that your
+                                                        investment
+                                                        remains in optimal condition.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#taqat-facility-management"
+                                                            aria-label="Taqat for Facility Management:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-5.png"
+                                                        alt="Taqat for HR Services" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Taqat for HR Services</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">Taqat for HR Services specializes in
+                                                        providing a wide range of human resources services and
+                                                        consulting. We
+                                                        help organizations enhance their hiring processes, manage talent
+                                                        and
+                                                        teams, and develop operational efficiency, leading to seamless,
+                                                        high
+                                                        performance.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#taqat-for-hr-services"
+                                                            aria-label="Taqat for HR Services:">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="project-card bg-white">
+                                            <div class="project-logo">
+                                                <img
+                                                        src="/theme_taqat/static/src/img/home_page/projects/logos/taqat-6.png"
+                                                        alt="Taqat for Customer Service Solutions" loading="lazy"/>
+                                            </div>
+                                            <hr/>
+                                            <div class="d-flex flex-column justify-content-between">
+                                                <h3 class="project-title">Taqat for Customer Service Solutions</h3>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="project-description">Taqat for Customer Service Solutions
+                                                        focuses on empowering you to provide exceptional customer
+                                                        service by
+                                                        helping you develop and implement a comprehensive call center
+                                                        management
+                                                        strategy. We also aid in creatively enhancing your customer
+                                                        experience
+                                                        and effectively improving the skills of your customer service
+                                                        team.
+                                                    </p>
+                                                    <a
+                                                            href="/projects/#taqat-for-customer-service-solutions"
+                                                            aria-label="Taqat for Customer Service Solutions">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                                             viewBox="0 0 26 26" fill="none" class="rotate-180deg">
+                                                            <path
+                                                                    d="M12 8.89649L8 12.8965M8 12.8965L12 16.8965M8 12.8965H18M25 12.8965C25 19.5239 19.6274 24.8965 13 24.8965C6.37258 24.8965 1 19.5239 1 12.8965C1 6.26907 6.37258 0.896484 13 0.896484C19.6274 0.896484 25 6.26907 25 12.8965Z"
+                                                                    stroke="#0F172A" stroke-width="1.33333"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a
+                                            href="/projects"
+                                            class="bg-primary text-white btn"
+                                            title="Explore our projects"
+                                            aria-label="Explore our projects"
+                                    >More
+                                        <svg
+                                                width="24"
+                                                height="25" viewBox="0 0 24 25" fill="none"
+                                                class="rotate-180deg"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                    d="M19.5 12.8965L4.5 12.8965M4.5 12.8965L11.25 19.6465M4.5 12.8965L11.25 6.14648"
+                                                    stroke="#FEFDF9" stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="blog-post bg-white" t-if="latest_posts" id="blog_post">
+                            <div class="container">
+                                <div class="section-p">
+                                    <h3 class="section-title mb-md-2 position-relative w-fit">Latest
+                                        News and Updates
+                                    </h3>
+                                    <div class="owl-carousel owl-theme o_not_editable">
+                                        <t t-foreach="latest_posts" t-as="post">
+                                            <div class="item o_not_editable">
+                                                <article class="row">
+                                                    <div
+                                                            class="col-md-7 mb-4 mb-md-0 blog_cover-wrapper">
+                                                        <t t-call="website.record_cover">
+                                                            <t t-set="_record" t-value="post"/>
+                                                            <t t-set="additionnal_classes"
+                                                               t-valuef="o_not_editable rounded-4 overflow-hidden h-100"/>
+                                                        </t>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div
+                                                                class="d-flex flex-column justify-content-between h-100">
+                                                            <div>
+                                                                <h3 class="post_title"
+                                                                    t-field="post.name"/>
+                                                                <time t-field="post.post_date"
+                                                                      class="fw-bold fs-6 post_date"
+                                                                      t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'd-MM-YYYY'}"/>
+                                                                <p class="post_teaser"
+                                                                   t-field="post.teaser"/>
+                                                            </div>
+                                                            <div>
+                                                                <a
+                                                                        t-attf-href="/blog/#{slug(post.blog_id)}/{{slug(post)}}"
+                                                                        class="btn bg-white text-primary border-primary d-flex align-items-center fw-bold">
+                                                                    More
+                                                                    <svg width="24" height="25"
+                                                                         viewBox="0 0 24 25"
+                                                                         fill="none"
+                                                                         xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                                d="M15 19.8965L8 12.8965L15 5.89648"
+                                                                                stroke="currentColor"
+                                                                                stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </t>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contact-details">
+                            <div class="section-p">
+                                <div class="container">
+                                    <div class="row">
+                                        <div
+                                                class="col-12 col-md-8 d-flex flex-column align-items-center mx-auto">
+                                            <h3 class="text-[40px] fw-bold _mb-4 text-center">
+                                                Request Your Free Consultation:  Let's Discuss Your Needs 
+                                            </h3>
+                                            <p class="text-2xl text-center mb-16">Turn your vision into reality... Make
+                                                your business more
+                                                <br/>
+                                                successful with Taqat!
+                                            </p>
+                                            <a href="/contactus"
+                                               class="call-t-action border-0 bg-primary text-white text-center">
+                                                Contact Us Today!
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </xpath>
-    </template>
-  </data>
+            </xpath>
+        </template>
+    </data>
 </odoo>
