@@ -20,56 +20,6 @@
             </xpath>
         </template>
 
-        <!-- Social Links  -->
-        <template id="custom_social_links" name="Header Social Links">
-            <div
-                    t-attf-class="d-flex align-items-center #{_div_class} s_social_media o_not_editable oe_unmovable oe_unremovable gap-2">
-                <a t-if="website.company_id.social_facebook"
-                   t-att-href="website.company_id.social_facebook"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Facebook">
-                    <span class="fa fa-facebook-square"/>
-                </a>
-                <a t-if="website.company_id.social_twitter"
-                   t-att-href="website.company_id.social_twitter"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on X">
-                    <span class="fa fa-twitter"/>
-                </a>
-                <a t-if="website.company_id.social_linkedin"
-                   t-att-href="website.company_id.social_linkedin"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Linkedin">
-                    <span class="fa fa-linkedin"/>
-                </a>
-                <a t-if="website.company_id.social_youtube"
-                   t-att-href="website.company_id.social_youtube"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Youtube">
-                    <span class="fa fa-youtube-play"/>
-                </a>
-                <a t-if="website.company_id.social_github"
-                   t-att-href="website.company_id.social_github"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on GitHub">
-                    <span class="fa fa-github"/>
-                </a>
-                <a t-if="website.company_id.social_instagram"
-                   t-att-href="website.company_id.social_instagram"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on Instagram">
-                    <span class="fa fa-instagram"/>
-                </a>
-                <a t-if="website.company_id.social_tiktok"
-                   t-att-href="website.company_id.social_tiktok"
-                   t-attf-class="btn p-0 {{_link_class}}" target="_blank" aria-label="Follow us on TikTok">
-                    <span class="fa fa-tiktok"/>
-                </a>
-            </div>
-        </template>
-        <template id="header_social_links_inherit" inherit_id="website.header_social_links"
-                  name="Header Social Links"
-                  active="True">
-            <xpath expr="//li" position="replace">
-                <t t-call="theme_taqat.custom_social_links"/>
-            </xpath>
-        </template>
-        <!-- Social Links  -->
-
         <!-- Header  -->
         <template id="header_custom" inherit_id="website.layout" name="Custom Nav Bar"
                   active="False">
@@ -186,8 +136,8 @@
                         <t t-call="website.placeholder_header_brand"/>
                         <ul
                                 class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
-                            <li class="o_not_editable">
-                                <button class="nav-link btn me-auto p-2 o_not_editable"
+                            <li class="">
+                                <button class="nav-link btn me-auto p-2 "
                                         type="button"
                                         data-bs-toggle="offcanvas"
                                         data-bs-target="#top_menu_collapse_mobile"
@@ -200,7 +150,7 @@
                         <div
                                 t-attf-class="offcanvas #{_side if _side else 'offcanvas-end'} o_navbar_mobile  {{'bg-dark' if nav_dark else ''}}"
                                 id="top_menu_collapse_mobile">
-                            <div class="offcanvas-header justify-content-end o_not_editable">
+                            <div class="offcanvas-header justify-content-end ">
                                 <button type="button" class="nav-link btn-close"
                                         data-bs-dismiss="offcanvas"
                                         aria-label="Close"/>
@@ -401,11 +351,32 @@
                                                 </div>
                                             </div>
                                         </form>
+                                        <!-- TODO some thing wrong in the footer the social links is not edited with the editor -->
                                         <!-- Social Links -->
-                                        <t t-call="theme_taqat.custom_social_links">
-                                            <t t-set="_div_class" t-valuef="justify-content-between"/>
-                                            <t t-set="_link_class" t-valuef="link-light fs-3"/>
-                                        </t>
+                                        <div class="s_social_media o_not_editable text-end no_icon_color"
+                                             contenteditable="false"
+                                             data-snippet="s_social_media" data-name="Social Media">
+                                            <a href="/website/social/facebook" class="s_social_media_facebook"
+                                               target="_blank"
+                                               aria-label="Facebook">
+                                                <i class="fa fa-facebook o_editable_media fa-stack"/>
+                                            </a>
+                                            <a href="/website/social/youtube" class="s_social_media_youtube"
+                                               target="_blank"
+                                               aria-label="YouTube">
+                                                <i class="fa fa-youtube-play o_editable_media fa-stack"/>
+                                            </a>
+                                            <a href="/website/social/twitter" class="s_social_media_twitter"
+                                               target="_blank"
+                                               aria-label="Twitter">
+                                                <i class="fa fa-twitter o_editable_media fa-stack"/>
+                                            </a>
+                                            <a href="/website/social/instagram" class="s_social_media_instagram"
+                                               target="_blank"
+                                               aria-label="Instagram">
+                                                <i class="fa o_editable_media fa-instagram fa-stack"/>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div
